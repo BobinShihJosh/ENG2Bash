@@ -3,16 +3,15 @@ ENG2Bash generates 25 of the most common bash commands from english text input w
 
 ### Demo(Hugging Face): https://huggingface.co/Josh98/t5-large-t5large-English-to-BASH
 
-## Custom Data + Data Processing
+## Custom Data + Data Processing 
 
-### Dataset composition (2 Datasets)
-
-####(12k pairs)
-1. The first model was trained using a custom iteration of [NL2Bash]([http://www.example.com](https://github.com/TellinaTool/nl2bash/tree/master/data) which contained 12k one-line Linux shell commands used in practice and their natural language descriptions provided by experts.
-2. Solved class imbalance of this dataset. 
-
-####(3.6k pairs)
-2. After training on that dataset, A second model, using pretrained weights (tokenizer and model) from the custom NL2BASH model, was trained on a smaller training dataset consisting of 25 most commonly used BASH commands. The list of commands consists of:
+ 
+1. (12k Pairs) The first model was trained using a custom iteration of [NL2Bash]([http://www.example.com](https://github.com/TellinaTool/nl2bash/tree/master/data) which contained 12k one-line Linux shell commands used in practice and their natural language descriptions provided by experts.
+Solved class imbalance of this dataset. 
+![alt text](pics/imb_before.png)
+![alt text](pics/imb_after.png)
+ 
+2. (3.6k pairs) After training on that dataset, A second model, using pretrained weights (tokenizer and model) from the custom NL2BASH model, was trained on a smaller training dataset consisting of 25 most commonly used BASH commands. The list of commands consists of:
 - `ping`: Test network connectivity.
 - `SSH`: Secure Shell, used for remote access.
 - `apt-get`: Package management tool on Debian-based systems.
@@ -47,7 +46,8 @@ This generated datasets include custom-v1 with 389 command-description pairs gen
 We use 2 metrics to evaluate our model. The first metric is a custom metric that we created for the specific purpose of measuring how good our model is at different aspects of the prediction. A general bash command has three parts, command, options/flags, and argument.  
 
 [𝑐𝑜𝑚𝑚𝑎𝑛𝑑] [−𝑓𝑙𝑎𝑔(𝑠)/−𝑜𝑝𝑡𝑖𝑜𝑛(𝑠)] [𝑎𝑟𝑔𝑢𝑚𝑒𝑛𝑡(𝑠)] 
- 
+ ![alt text](pics/c_metric.png)
+
 The importance of each part is different, so it makes sense to give them a weight that corresponds to their importance. The following steps are taken to accomplish custom metric calculation: 
 1. Break down output/ref commands to unigrams (individual words)  
 2. Group unigrams into 3 categories [commands], [Arguments], [Options]  
@@ -59,7 +59,8 @@ The importance of each part is different, so it makes sense to give them a weigh
 The increase in the score of Nl2bash_m after training on the custom-v3 dataset is one of the most important observations shown in Table 1. This shows that the model's ability to understand the description is getting better, since the command and options contribute the most weight to the final score. 
 Additionally, we see a significant increase in performance on all metrics when we switch from T5-small to T5-large. 
 
- 
+  ![alt text](pics/results.png)
+
 
 However, we are not able to get a high exact match score due to the variety of Linux bash commands. This could be improved by including a larger amount of training data and having a more diverse set of inputs.   
 ## Model Training
