@@ -99,7 +99,9 @@ The following hyperparameters were used during training:
 | 0.6031        | 8.0   | 4488  | 0.6476           | 0.7165    | 14.1793  |
 | 0.5536        | 9.0   | 5049  | 0.6465           | 0.7164    | 14.1989  |
 | 0.5443        | 10.0  | 5610  | 0.6448           | 0.7181    | 14.2079  |
- 
+
+### Authors
+Josh Shih, Kevin Um, Alex Sha
 
 ## Acknowledgments
 
