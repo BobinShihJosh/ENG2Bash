@@ -1,0 +1,67 @@
+1. cd /home/user -> Change the current working directory to the user's home directory.
+2. cd .. -> Move up one directory level.
+3. cd Documents -> Change the current working directory to the Documents folder.
+4. cd ~ -> Change the current working directory to the user's home directory.
+5. cd /usr/local/bin -> Change the current working directory to the local bin directory.
+6. cd -> Change the current working directory to the previous directory.
+7. cd /etc -> Change the current working directory to the etc directory.
+8. cd /var/log -> Change the current working directory to the log directory.
+9. cd /opt -> Change the current working directory to the opt directory.
+10. cd /tmp -> Change the current working directory to the tmp directory.
+11. cd /usr/share -> Change the current working directory to the share directory.
+12. cd /dev -> Change the current working directory to the dev directory.
+13. cd /sbin -> Change the current working directory to the sbin directory.
+14. cd /lib -> Change the current working directory to the lib directory.
+15. cd /mnt -> Change the current working directory to the mnt directory.
+16. cd /media -> Change the current working directory to the media directory.
+17. cd /srv -> Change the current working directory to the srv directory.
+18. cd /boot -> Change the current working directory to the boot directory.
+19. cd /root -> Change the current working directory to the root directory.
+20. cd /usr/local -> Change the current working directory to the local directory.
+21. cd /usr/bin -> Change the current working directory to the bin directory.
+22. cd /usr/sbin -> Change the current working directory to the sbin directory.
+23. cd /usr/lib -> Change the current working directory to the lib directory.
+24. cd /usr/include -> Change the current working directory to the include directory.
+25. cd /usr/src -> Change the current working directory to the src directory.
+26. cd /usr/games -> Change the current working directory to the games directory.
+27. cd /usr/local/games -> Change the current working directory to the local games directory.
+28. cd /usr/local/lib -> Change the current working directory to the local lib directory.
+29. cd /usr/local/include -> Change the current working directory to the local include directory.
+30. cd /usr/local/src -> Change the current working directory to the local src directory.
+31. cd /usr/local/share -> Change the current working directory to the local share directory.
+32. cd /usr/local/bin/scripts -> Change the current working directory to the local bin scripts directory.
+33. cd /usr/local/sbin/scripts -> Change the current working directory to the local sbin scripts directory.
+34. cd /usr/local/lib/scripts -> Change the current working directory to the local lib scripts directory.
+35. cd /usr/local/include/scripts -> Change the current working directory to the local include scripts directory.
+36. cd /usr/local/src/scripts -> Change the current working directory to the local src scripts directory.
+37. cd /usr/local/share/scripts -> Change the current working directory to the local share scripts directory.
+38. cd /usr/local/bin/programs -> Change the current working directory to the local bin programs directory.
+39. cd /usr/local/sbin/programs -> Change the current working directory to the local sbin programs directory.
+40. cd /usr/local/lib/programs -> Change the current working directory to the local lib programs directory.
+41. cd /usr/local/include/programs -> Change the current working directory to the local include programs directory.
+42. cd /usr/local/src/programs -> Change the current working directory to the local src programs directory.
+43. cd /usr/local/share/programs -> Change the current working directory to the local share programs directory.
+44. cd /usr/local/bin/data -> Change the current working directory to the local bin data directory.
+45. cd /usr/local/sbin/data -> Change the current working directory to the local sbin data directory.
+46. cd /usr/local/lib/data -> Change the current working directory to the local lib data directory.
+47. cd /usr/local/include/data -> Change the current working directory to the local include data directory.
+48. cd /usr/local/src/data -> Change the current working directory to the local src data directory.
+49. cd /usr/local/share/data -> Change the current working directory to the local share data directory.
+50. cd /usr/local/bin/config -> Change the current working directory to the local bin config directory.
+51. cd /usr/local/sbin/config -> Change the current working directory to the local sbin config directory.
+52. cd /usr/local/lib/config -> Change the current working directory to the local lib config directory.
+53. cd /usr/local/include/config -> Change the current working directory to the local include config directory.
+54. cd /usr/local/src/config -> Change the current working directory to the local src config directory.
+55. cd /usr/local/share/config -> Change the current working directory to the local share config directory.
+56. cd /usr/local/bin/logs -> Change the current working directory to the local bin logs directory.
+57. cd /usr/local/sbin/logs -> Change the current working directory to the local sbin logs directory.
+58. cd /usr/local/lib/logs -> Change the current working directory to the local lib logs directory.
+59. cd /usr/local/include/logs -> Change the current working directory to the local include logs directory.
+60. cd /usr/local/src/logs -> Change the current working directory to the local src logs directory.
+61. cd /usr/local/share/logs -> Change the current working directory to the local share logs directory.
+62. cd /usr/local/bin/cache -> Change the current working directory to the local bin cache directory.
+63. cd /usr/local/sbin/cache -> Change the current working directory to the local sbin cache directory.
+64. cd /usr/local/lib/cache -> Change the current working directory to the local lib cache directory.
+65. cd /usr/local/include/cache -> Change the current working directory to the local include cache directory.
+66. cd /usr/local/src/cache -> Change the current working directory to the local src cache directory.
+67. cd /usr/local/share/cache -> Change the current working directory to the local share cache directory.

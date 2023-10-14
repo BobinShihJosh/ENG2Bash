@@ -1,0 +1,100 @@
+1. rm file.txt -> remove a file.
+2. rm -r directory -> remove a directory and its contents recursively.
+3. rm -f file.txt -> remove a file forcefully.
+4. rm -rf directory -> remove a directory and its contents recursively forcefully.
+5. rm *.txt -> remove all files with the .txt extension.
+6. rm -i file.txt -> prompt for confirmation before removing a file.
+7. rm -ir directory -> prompt for confirmation before removing a directory and its contents recursively.
+8. rm -d directory -> remove an empty directory.
+9. rm -v file.txt -> display a message for each file removed.
+10. rm -rv directory -> display a message for each file and directory removed recursively.
+11. rm -I file.txt -> prompt for confirmation before removing more than three files at once.
+12. rm -R directory -> remove a directory and its contents recursively.
+13. rm file*.txt -> remove all files starting with "file" and ending with ".txt".
+14. rm -rf / -> completely remove all files and directories from the root directory (DO NOT RUN THIS COMMAND).
+15. rm -P file.txt -> securely remove a file by overwriting it before deleting.
+16. rm --help -> display the help menu for the rm command.
+17. rm -A file.txt -> remove a file even if it is read-only.
+18. rm -f directory/file.txt -> forcefully remove a specific file from a directory.
+19. rm -Rf directory1 directory2 directory3 -> remove multiple directories and their contents recursively.
+20. rm -r directory/ -> remove a directory and its contents recursively.
+21. rm -r /home/user/Downloads/* -> remove all files and directories in the Downloads folder.
+22. rm -v *.txt -> display a message for each file removed with the .txt extension.
+23. rm *~ -> remove all temporary files ending with "~".
+24. rm -rf ../directory -> remove a directory and its contents recursively from the parent directory.
+25. rm /dev/null -> remove all data sent to the "null" device, discarding it.
+26. rm -rf directory1/* directory2/* directory3/* -> remove all contents from multiple directories recursively.
+27. rm -rf ./* -> remove all files and directories in the current directory and its subdirectories.
+28. rm -ri directory/* -> prompt for confirmation before removing all files in a directory.
+29. rm -df ~/directory -> remove a directory even if it contains read-only files.
+30. rm -r /home/user/Downloads/*.txt -> remove all files with the .txt extension in the Downloads folder.
+31. rm -vrf directory -> display a message for each file and directory removed recursively forcefully.
+32. rm -rf /home/user/Downloads/* -> remove all files and directories in the Downloads folder recursively.
+33. rm -v -- *.txt -> display a message for each file removed with the .txt extension.
+34. rm -fr directory1 directory2 directory3 -> remove multiple directories and their contents recursively forcefully.
+35. rm -r /var/log/* -> remove all files and directories in the log directory.
+36. rm -f /var/log/messages -> forcefully remove a specific file in the log directory.
+37. rm -rvf directory1 directory2 directory3 -> display a message for each file and directory removed recursively forcefully.
+38. rm -d /home/user/emptydir -> remove an empty directory.
+39. rm -i *.txt -> prompt for confirmation before removing all files with the .txt extension.
+40. rm -fr / -> completely remove all files and directories from the root directory (DO NOT RUN THIS COMMAND).
+41. rm -r --force directory -> remove a directory and its contents recursively forcefully.
+42. rm -rf directory/. -> remove all files and directories in a directory including hidden files.
+43. rm -i ~/directory/* -> prompt for confirmation before removing all files in a directory.
+44. rm -fr /var/log/* -> remove all files and directories in the log directory recursively forcefully.
+45. rm -d dir1 dir2 dir3 -> remove multiple empty directories.
+46. rm -r -p directory1/directory2 -> remove a nested directory and its contents recursively.
+47. rm -f /var/log/messages* -> forcefully remove all files starting with "messages" in the log directory.
+48. rm -rf --no-preserve-root / -> completely remove all files and directories from the root directory without preserving file ownership (DO NOT RUN THIS COMMAND).
+49. rm -r directory/[abc]* -> remove all files starting with "a", "b" or "c" in a directory.
+50. rm -i -r directory/ -> prompt for confirmation before removing a directory and its contents recursively.
+51. rm -d /home/user/dir1 /home/user/dir2 /home/user/dir3 -> remove multiple empty directories.
+52. rm -fr --no-preserve-root / -> completely remove all files and directories from the root directory without preserving file ownership (DO NOT RUN THIS COMMAND).
+53. rm -r directory/**/*.txt -> remove all files with the .txt extension in a directory and its subdirectories.
+54. rm -rf /var/*/*/* -> remove all files and directories in a three-level directory structure under the /var directory.
+55. rm -I file1.txt file2.txt file3.txt -> prompt for confirmation before removing more than three files at once.
+56. rm -r -p directory1/directory2/directory3 -> remove a deeply nested directory and its contents recursively.
+57. rm -d -v directory1 directory2 directory3 -> remove multiple empty directories and display a message for each one.
+58. rm -rf directory/*.txt -> remove all files with the .txt extension in a directory.
+59. rm -rf directory/!(file1.txt|file2.txt|file3.txt) -> remove all files in a directory except for specific ones.
+60. rm -i -R directory -> prompt for confirmation before removing a directory and its contents recursively.
+61. rm -d -rf directory1 directory2 directory3 -> remove multiple empty directories forcefully.
+62. rm -ri file*.txt -> prompt for confirmation before removing all files starting with "file" and ending with ".txt".
+63. rm -fr -v --no-preserve-root / -> display a message for each file and directory removed from the root directory recursively without preserving file ownership (DO NOT RUN THIS COMMAND).
+64. rm -vf directory/*.txt -> forcefully remove all files with the .txt extension in a directory.
+65. rm -r -p -v directory1/directory2/directory3 -> remove a deeply nested directory and its contents recursively and display a message for each directory.
+66. rm -f -r directory/!(file1.txt|file2.txt|file3.txt) -> forcefully remove all files in a directory except for specific ones.
+67. rm -ri directory/*/*.txt -> prompt for confirmation before removing all .txt files in subdirectories of a directory.
+68. rm -d -ir directory1 directory2 directory3 -> prompt for confirmation before removing multiple empty directories.
+69. rm -r -P directory -> securely remove a directory and its contents recursively by overwriting them before deleting.
+70. rm -rvf /data/* -> display a message for each file and directory removed from the /data directory recursively forcefully.
+71. rm -f -r -v directory* -> forcefully remove all directories starting with "directory" and display a message for each one.
+72. rm -ri {*.txt,*.pdf} -> prompt for confirmation before removing all .txt and .pdf files in the current directory.
+73. rm -d -irv directory1 directory2 directory3 -> prompt for confirmation before removing multiple empty directories and display a message for each one.
+74. rm -rfv ../backup/*.tar.gz -> remove all .tar.gz files in the backup directory from the parent directory and display a message for each one.
+75. rm -r directory1/directory2/[ab]* -> remove all files starting with "a" or "b" in a nested directory.
+76. rm -rf --no-preserve-root /* -> completely remove all files and directories from the root directory without preserving file ownership (DO NOT RUN THIS COMMAND).
+77. rm -v -f -r directory* -> display a message for each file and directory removed forcefully starting with "directory".
+78. rm -irv directory/*/*.txt -> prompt for confirmation before removing all .txt files in subdirectories of a directory and display a message for each one.
+79. rm -r -p -v directory1/directory2/directory3/directory4 -> remove a deeply nested directory and its contents recursively and display a message for each directory removed.
+80. rm -iv $(find . -type f -name '*.log' -mtime +7) -> prompt for confirmation before removing all .log files modified more than 7 days ago in the current directory and its subdirectories.
+81. rm -fv /dev/sdc -> forcefully remove a specific device file.
+82. rm -ri --no-preserve-root / -> prompt for confirmation before removing all files and directories from the root directory without preserving file ownership (DO NOT RUN THIS COMMAND).
+83. rm -r -f -v directory1 directory2 directory3 -> forcefully remove multiple directories and display a message for each one.
+84. rm -r -f --include="*.txt" --include="*.pdf" directory -> forcefully remove all .txt and .pdf files in a directory.
+85. rm -r -f --exclude="*.txt" --exclude="*.pdf" directory -> forcefully remove all files in a directory except for .txt and .pdf files.
+86. rm -r -p -v directory1/*/directory2 -> remove a nested directory and its contents recursively and display a message for each directory removed.
+87. rm -rfv / --no-preserve-root -> display a message for each file and directory removed from the root directory recursively without preserving file ownership (DO NOT RUN THIS COMMAND).
+88. rm -irv --exclude="*.pdf" directory/* -> prompt for confirmation before removing all files in a directory except for .pdf files and display a message for each file removed.
+89. rm -fi file*.txt -> prompt for confirmation before removing all files starting with "file" and ending with ".txt".
+90. rm -d -irf directory1 directory2 directory3 -> prompt for confirmation before forcefully removing multiple empty directories.
+91. rm -r -f -v directory/{file1.txt,file2.txt,file3.txt} -> forcefully remove specific files in a directory and display a message for each file removed.
+92. rm -r -f --exclude-directory={dir1,dir2,dir3} directory -> forcefully remove all files in a directory excluding specific ones.
+93. rm -r -f --include='{*.txt,*.pdf}' directory -> forcefully remove all .txt and .pdf files in a directory.
+94. rm -r -f --exclude='{*.txt,*.pdf}' directory -> forcefully remove all files in a directory excluding .txt and .pdf files.
+95. rm -r -p -v directory1/*/{directory2,directory3} -> remove nested directories and display a message for each directory removed.
+96. rm -rfv --no-preserve-root / --exclude={"/home/*","/var/*"} -> forcefully remove all files and directories from the root directory recursively without preserving file ownership excluding specific ones (DO NOT RUN THIS COMMAND).
+97. rm -irv --include='{*.txt,*.pdf}' directory/* -> prompt for confirmation before removing all .txt and .pdf files in a directory and display a message for each one.
+98. rm -r -f -v directory1 directory2 directory3 -> forcefully remove multiple directories and display a message for each one removed.
+99. rm -r -f --exclude-directory={dir1,dir2,dir3} --exclude='{*.txt,*.pdf}' directory -> forcefully remove all files in a directory excluding specific directories and file types.
+100. rm -r -f --include='{*.txt,*.pdf}' --exclude-directory={directory1,directory2} directory -> forcefully remove all .txt and .pdf files in a directory excluding specific directories.

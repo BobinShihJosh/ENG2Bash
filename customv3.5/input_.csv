@@ -1,0 +1,2419 @@
+print file contents
+print with line numbers
+print with $ at end
+combine files
+redirect output to file
+append to file
+print file in directory
+output random characters
+show non-printing characters
+squeeze blank lines
+display CPU information
+show buffered output
+show user information
+show tabs as ^I
+show mounted file systems
+wildcard for multiple files
+show tabs and $
+same as -vE
+number non-blank lines
+discard output
+suppress repeated newlines
+display specified file
+reverse output
+display compressed file
+display word count
+display byte count
+show group information
+show symlink information
+interactive mode
+show null characters
+set tab width to #
+set wrap bytes to #
+show password information
+show help
+display hexadecimal output
+same as -A except $
+show system information
+join consecutive lines
+create null file
+pipe output to less
+same as -vET
+same as -s
+disable output buffering
+number non-blank output
+show operating system information
+ignore binary files
+same as -vTB
+same as -vTe
+show host information
+show version information
+redirect byte count
+display selinux context information
+same as -vT
+same as -vT
+number all lines
+same as -A
+output to file
+display network service information
+show octal escapes
+generate null characters
+quote non-printing characters
+pipe output to grep
+show non-printable characters
+sort output
+same as -y
+show newline count
+output random bytes
+"show decimal, octal, and binary escapes"
+pipe output to less
+show user login information
+same as -vET
+pipe unbuffered output to less
+same as -b -n
+show memory information
+show selinux information and same as -A
+show PAM configuration information
+reverse output and pipe to tr
+show DNS resolver information
+same as -s and pipe to head
+show Ethernet MAC address
+same as -vT and pipe to sed
+number output and pipe to awk
+show active TTY information
+same as -s and pipe to tail
+show system language settings
+show non-printing characters and pipe to sed
+same as -t -v
+show kernel version information
+same as -s and pipe to sed and less
+show mounted file systems and pipe to grep
+show mounted file systems
+number output and reverse
+same as -vT
+show Apache configuration information
+show compressed file and pipe to gunzip
+same as -vAE
+same as -s and pipe to nl
+show system hostname
+show line count
+"number output and pipe to sort, reversed numerically"
+Change directory to /home.
+Go up one level.
+Change directory to Documents.
+Return to the previous directory.
+Change directory to /usr/share/.
+Change directory to Downloads.
+Change directory to home directory.
+Change directory to /etc/init.d/.
+Change directory to Music.
+Change directory to /var/log/.
+Change directory to Pictures.
+Go up two levels.
+Change directory to /usr/local/bin.
+Change directory to Videos.
+Change directory to /usr/lib/.
+Change directory to Desktop.
+Change directory to /usr/sbin/.
+Change directory to /var/cache.
+Change directory to /usr/games/.
+Change directory to /var/run.
+Change directory to /usr/share/doc/.
+Change directory to /var/spool.
+Change directory to linux-headers of current kernel.
+Change directory to /sys/.
+Change directory to /var/tmp.
+Change directory to /usr/local/etc.
+Change directory to /proc/.
+Change directory to Downloads inside home directory.
+Change directory to /usr/share/icons.
+Change directory to root directory.
+Change directory to /usr/share/man/.
+Change directory to /usr/share/fonts/.
+Change directory to /var/lib.
+Change directory to /usr/local/share.
+Change directory to /tmp/.
+Change directory to /usr/share/gnome.
+Change directory to /var/opt.
+Change directory to /usr/include/.
+Change directory to /var/backups.
+Change directory to /usr/local/bin/.
+Change directory to /var/crash.
+Change directory to /boot/.
+Change directory to /usr/share/icons/hicolor.
+Change directory to /opt/.
+Change directory to /usr/kerberos.
+Change directory to /var/mail.
+Change directory to /usr/share/X11.
+Change directory to log folder of Apache2.
+Change directory to /usr/X11R6/.
+Change directory to /var/run/saslauthd/.
+Change directory to /usr/share/kde4/.
+Change directory to /var/spool/mail.
+Change directory to /usr/local/games/bin.
+Change directory to /usr/local/etc/apache2/.
+Change directory to /var/run/screen/.
+Change directory to /usr/share/qt4/.
+Change directory to /var/spool/cron/crontabs.
+Change directory to /usr/local/lib/.
+Change directory to /var/spool/samba/.
+Change directory to /usr/share/texmf.
+Change directory to /var/spool/squid/.
+Change directory to /usr/local/src/.
+Change directory to /var/spool/exim4/.
+Change directory to /usr/share/vim/.
+Change directory to /var/spool/mqueue.
+Change directory to /usr/lib64/.
+Change directory to /var/tmp/kdecache-user/.
+Change directory to /usr/share/man/man1/.
+Change directory to /var/lib/bind/.
+Change directory to /usr/local/mysql/bin/.
+Change directory to /var/lib/etckeeper/.
+Change directory to /usr/share/doc/HTML/en/.
+Change directory to /var/log/cups/.
+Change directory to /usr/local/nagios/bin/.
+Change directory to /var/lib/mysql/.
+Change directory to /usr/share/doc/git-core/api/.
+Change directory to /var/log/squid/.
+Change directory to /usr/local/rvm/.
+Change directory to /var/lib/samba/.
+Change directory to /usr/share/polkit-1/.
+Change directory to /var/lib/nfs/.
+Change directory to /usr/lib/i386-linux-gnu/.
+Change directory to /var/log/exim4/.
+Change directory to /usr/share/doc/libssl-doc/.
+Change directory to /var/lib/hsqldb/.
+Change directory to /usr/share/doc/binutils/.
+Change directory to /var/cache/fontconfig/.
+Change directory to /usr/local/apache2/bin/.
+Change directory to /var/lib/amavis/.
+Change directory to /usr/share/doc/coreutils/.
+Change directory to /var/log/proftpd/.
+Change directory to /usr/local/var/.
+Change directory to /var/run/nscd/.
+Change directory to /usr/share/doc/prelink/.
+Change directory to /var/log/apache2/.
+Change directory to /usr/local/var/db/.
+Change directory to /var/lock/.
+Change directory to /usr/share/doc/libc6/.
+Change directory to /var/spool/postfix/.
+Change directory to /usr/share/doc/libpq5/.
+Give everyone full access to file.txt.
+"Give the owner read and execute permissions, and others read-only permissions to directory/."
+Give the owner read and write permissions to file.pdf.
+"Give the owner read, write, and execute permissions to file.png."
+Remove execute permissions for all users from directory/.
+Remove read permission for others from file.txt.
+Give the group write permission to directory/.
+"Give the owner read and write permissions, and others read-only permissions to file.pdf."
+Give everyone full access to dir1/ and dir2/.
+Give the owner read-only permission to file.txt.
+Give the owner execute permission to dir1/.
+Give read permission to all users to file.png.
+"Give the owner read, write, and execute permissions, and others read and execute permissions to directory/."
+Give write permission to others to file.txt.
+"Give the group read, write, and execute permissions to file.png."
+Give everyone read-only permission to file.txt.
+Give everyone full access to dir/ and all of its contents recursively.
+"Verbosely give the owner read and write permissions, and others read-only permissions to file.pdf."
+Verbosely give the owner read-only permission to file.txt.
+Verbosely remove write and execute permissions for all users from file.png.
+Add execute permission for the script.sh script to the current user.
+Remove read permission for the current user from dir/.
+Remove execute permission for others from file.txt.
+"Remove read, write, and execute permissions for the group from file.png."
+Give everyone full access and change the owner and group for dir/.
+"Give the owner read, write, and execute permissions, and others read and execute permissions to file.txt."
+Give the owner read-only permission and change the owner for file.txt.
+Give the group read permission and change the group for file.png.
+"Remove read, write, and execute permissions for others, and change the owner and group for file.txt."
+"Give the owner read and write permissions, and others read-only permissions, and make file.pdf immutable."
+Give everyone full access and change the security context for dir/.
+Give the owner read-only permission and change the root directory for /bin/bash.
+"Give the owner read, write, and execute permissions, and others read and execute permissions to directory/, and change the root directory for /bin/bash."
+Give everyone full access and set an access control list for dir/.
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and set an access control list for file.pdf."
+Give everyone full access and set capabilities for /sbin/ping.
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and set compression for file.pdf."
+Give everyone full access and set extended attributes for dir/.
+"Give the owner read, write, and execute permissions, and others read-only permission to script.sh, and run script.sh as root."
+"Give the owner read-only permission to file.txt, and open file.txt using vim editor with root privileges."
+"Give the owner read and write permissions to file.pem, and connect to host using ssh with file.pem as the identity file."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and copy file.pdf to /directory/ on host using scp."
+Give everyone full access and create a compressed tar archive of dir/.
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and extract file.zip."
+"Give the owner read-only permission to key.pem, and generate a new certificate request using key.pem."
+"Give the owner read and write permissions to config.yml, and run playbook.yml using ansible."
+"Give the owner read, write, and execute permissions, and others read and execute permissions to script.sh, and execute script.sh using bash."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and search for search string within file.pdf using grep."
+"Give the owner read-only permissions to file.txt, and make a copy of file.txt to /backup/."
+"Give everyone full access, and create a 1MB test file named file.bin in dir/ using dd."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and show the difference between file.pdf and file2.pdf using diff."
+"Give the owner read, write, and execute permissions to dir/, and find files or directories within dir/ that match pattern."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and display information about user using finger."
+"Give everyone full access to dir/, and search for pattern in all files within dir/ using grep."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and display the first 10 lines of file.pdf using head."
+"Give the owner read-only permission to file.txt, and display the command history using history."
+"Give the owner read, write, and execute permissions, and others read and execute permissions to script.sh, and kill all running instances of script.sh using killall."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and create a symbolic link named file2.pdf that points to file.pdf using ln."
+"Give the owner read, write, and execute permissions to dir/, and list the contents of dir/ using ls."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and calculate and show the MD5 sum of file.pdf using md5sum."
+"Give the owner read-only permission to file.txt, and create a new directory named dir/."
+"Give everyone full access to dir/, and move file.pdf to dir/."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and open file.pdf using nano editor."
+"Give everyone full access to dir/, and listen for connections on port 8080 and send file.pdf as output using nc."
+"Give the owner read and write permissions to file.pem, and sign a certificate request using file.pem."
+"Give the owner read, write, and execute permissions to dir/, and change the password for the current user using passwd."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and send 5 ICMP echo requests to host using ping."
+"Give the owner read-only permission to file.txt, and display a list of running processes using ps."
+"Give everyone full access to dir/, and show the current working directory using pwd."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and delete file.pdf."
+"Give the owner read-only permission to file.txt, and replace all instances of search with replace in file.txt using sed."
+"Give the owner read and write permissions to file.key, and generate a new 4096-bit RSA key using ssh-keygen."
+"Give everyone full access to dir/, and extract a tar archive named archive.tar to dir/ using tar."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and show the contents of file.zip using unzip."
+"Give the owner read-only permission to file.pem, and download a file from URL using wget with file.pem as the SSL client certificate file."
+"Give everyone full access to dir/, and read a list of file names from dir/files.txt and delete each file using xargs and rm."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and create a zip archive named file.zip that contains file.pdf using zip."
+"Give everyone full access to dir/, and generate a random 32-character length password and save it to dir/password.txt using cat, tr, fold, and head commands."
+"Give the owner read-only permission to file.txt, and make a backup copy of file.txt to /tmp/."
+"Give everyone full access to dir/, and create a 1GB file system image named file.img, format it with ext4 file system, and mount it to dir/."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and write Hello, World! to file.pdf using echo."
+"Give the owner read, write, and execute permissions to dir/ and display properties of all files in the current directory using file command."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and display the groups to which the current user belongs."
+"Give everyone full access to dir/, and reboot the system using init."
+"Give the owner read-only permission to file.txt, and display the last logged in users using last."
+"Give everyone full access to dir/, and display the list of files and processes that are accessing dir/ using lsof and grep commands."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and display the manual page for ls using man."
+"Give the owner read, write, and execute permissions to dir/, and mount the /dev/sdb1 hard drive partition to dir/."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and perform a TCP SYN scan on host using nmap."
+"Give the owner read-only permission to file.txt, and encrypt file.txt using AES-256 with key stored in file:key.txt using openssl."
+"Give everyone full access to dir/, and display the process ID of the running process named process using pidof."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and remove the empty directory named dir/."
+"Give the owner read-only permission to file.pem, and mount the /remote/dir/ directory on host to /local/dir/ on the local machine using sshfs."
+"Give everyone full access to dir/, and start a new screen session named session."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and split file.pdf into 1MB sized parts named part00, part01, etc. using split command."
+"Give the owner read-only permission to file.txt, and display the last 10 lines of file.txt and continue to follow the file as it is updated using tail command."
+"Give everyone full access to dir/, and capture network traffic on interface eth0 and write it to dir/capture.pcap using tcpdump."
+"Give the owner read and write permissions, and others read-only permissions to file.pdf, and change the modification date of file.pdf to 3 days ago and display the file information using touch and ls commands."
+"Give the owner read, write, and execute permissions to dir/, and unmount the file system mounted on dir/."
+"Give everyone full access to dir/, and display the hexadecimal dump of file.pdf using xxd command."
+clears screen
+clears contents of file1
+clears contents of folder1 and file1
+clears scrollback buffer
+prints version information
+clears contents of mydir
+clears contents of all files in mydir
+does not clear screen
+clears contents of file1 and scrollback buffer
+clears contents of mydir/file1
+does not clear screen or show message
+sets timeout to 3 seconds
+shows help message
+prints number of lines in screen
+tries to clear screen with termcap/terminfo
+clears contents of all files in folder1 and folder2
+shows help message
+clears screen and scrollback buffer
+clears contents of all text files in mydir
+clears scrollback buffer and does not clear screen
+sets timeout to 5 seconds
+clears contents of all files starting with 'file'
+clears contents of all files starting with 'file' in mydir
+does not clear screen or show message
+clears contents of all files in folder in mydir
+clears screen while retaining current background color
+shows terminal type
+clears contents of all folders and files starting with 'folder' and 'file'
+clears contents of file1 and scrollback buffer
+shows timeout value
+clears contents of all files in folder1 and folder2 in mydir
+prints version information and does not clear screen or show message
+clears screen while retaining current background color and scrollback buffer
+sets terminal type to xterm-256color
+does not clear contents of root directory
+clears contents of all files in all nested directories in mydir
+clears scrollback buffer and does not clear screen or prompt for confirmation
+clears contents of all files with one character after 'file'
+"does not clear screen or show message, prints number of lines in screen"
+clears contents of all folders and files starting with 'folder' and 'file' with one character after them
+sets timeout to 10 seconds
+clears scrollback buffer and sets timeout to 5 seconds
+sets terminal type to vt100
+clears contents of all files in folder2 in folder1 in mydir
+clears screen while retaining current background color and does not clear screen
+clears contents of all files with numbers 1 to 10 after 'file'
+prints number of lines in screen and clears scrollback buffer
+prints version information
+tries to clear screen with termcap/terminfo and clears scrollback buffer
+clears contents of all files starting with 'file' in all folders starting with 'folder' in mydir
+clears screen and contents of all files starting with 'file'
+sets timeout to infinity
+clears contents of all files not starting with 'file1'
+"clears scrollback buffer and does not clear screen or show message, prints number of lines in screen"
+clears contents of /dev/null
+clears screen while retaining current background color and does not clear screen or show message
+clears contents of all files in folder1 and folder2 in mydir
+sets timeout to 0 seconds
+clears contents of all files not with one character after 'file'
+clears screen and contents of all folders starting with 'folder'
+"does not clear screen or prompt for confirmation, prints number of lines in screen and clears scrollback buffer"
+does not clear contents of /dev/urandom
+clears contents of all text and doc files in mydir
+sets terminal type to ansi
+tries to clear screen with termcap/terminfo and does not clear screen or show message
+clears contents of all files starting with 'file' in all nested directories in mydir
+sets timeout to -5 seconds
+clears contents of all files not with any characters after 'file'
+clears contents of all text and doc files in mydir and all files in folder in mydir
+clears screen and contents of file1 and file2
+clears scrollback buffer and does not clear screen or show message
+sets terminal type to ansi-m
+clears contents of all files starting with 'file' in all doubly-nested directories in mydir
+clears contents of all files with one non-newline character after 'file'
+"clears scrollback buffer and prints number of lines in screen, does not clear screen"
+clears contents of /dev/zero
+clears contents of all files in all folders starting with 'folder' in mydir
+clears screen and contents of all files starting with 'file' and all folders starting with 'folder'
+"tries to clear screen with termcap/terminfo and clears scrollback buffer, does not clear screen or show message"
+sets terminal type to linux
+clears contents of all files with any non-newline characters after 'file'
+"prints number of lines in screen and does not clear screen or prompt for confirmation, clears scrollback buffer"
+does not clear contents of /dev/tty1
+clears contents of all files in folder1 and folder2 in mydir with the same filename
+clears screen and contents of all folders starting with 'folder' and all files starting with 'file'
+tries to clear screen with termcap/terminfo and prints number of lines in screen
+clears contents of all files in folder in all nested directories in mydir
+clears contents of all files starting with 'file' with any number of characters after them
+sets terminal type to xterm-r5
+"clears scrollback buffer and does not clear screen or prompt for confirmation, prints number of lines in screen and clears contents of all files"
+clears contents of /dev/full
+clears contents of all files in folder2 in folder1 and all files in folder3 in mydir with the same filename
+clears screen and contents of all files starting with 'file' and scrollback buffer
+"does not clear screen or prompt for confirmation, sets timeout to 5 seconds"
+clears contents of all folders starting with 'folder' and ending with 1 or 2 in mydir
+"tries to clear screen with termcap/terminfo and does not clear screen or show message, does not prompt for confirmation"
+sets terminal type to dumb
+does not clear contents of /dev/pts/0
+clears contents of all files ending with 2 in all nested directories in mydir
+"clears screen and scrollback buffer, does not clear screen or show message, clears contents of all folders starting with 'folder'"
+copies file1 to file2
+copies dir1 to dir2 recursively
+copies file1 to file2 and shows verbose output
+copies file1 to file2 and prompts before overwriting
+copies file1 to file2 only if it's newer
+copies file1 to file2 and creates hard link
+copies file1 to file2 and preserves file attributes
+copies file1 to file2 and overwrites file2 if exists
+copies file1 to file2 if file2 does not exist
+copies file1 to /home/user1
+copies file1 to dir1/
+copies all files that start with file and ends with .txt to dir/
+copies dir to dir2 preserving all attributes and recursively
+copies dir to dir2 and prompts before overwriting
+copies dir1 to dir2/backup recursively
+copies dir1 to dir2/backup and shows verbose output
+copies dir1 to dir2/backup only if it's newer
+copies dir1 to dir2/backup and creates hard link
+copies dir1 to dir2/backup and preserves file attributes
+copies dir1 to dir2/backup and overwrites if exists
+copies dir1 to dir2/backup if it doesn't exist
+copy dir1 to /mnt/backup preserving all attributes
+copies dir1 to dir2/backup and shows verbose & recursive output
+copies all files in dir1/ to file.txt if it's newer
+copies all files with .txt extension and overwrites if exists
+copies all files with .txt extension to dir/backup if it doesn't exist
+copies all files and directories in dir1 to dir2/backup
+copies all files that start with file and ends with .txt to dir/ and shows verbose output
+copies dir1 to dir2/backup and preserves attributes recursively
+copies all files that start with file and ends with .txt to dir/backup/
+copies all files and directories in dir1 to dir2/backup and overwrites if exists
+copies dir1 to dir2/backup and preserves attributes and recursively
+copies file1 to backup/ directory as file1.txt
+copies all files with .txt extension to backup/ directory
+copies dir to /mnt/backup/ preserving attributes
+copies file1 to /mnt/backup directory as file2.txt
+copies dir1 to dir2/backup and overwrites if exists
+copies dir1 to dir2 only if it's newer
+copies dir1 to dir2 and preserves attributes recursively
+copies dir1 to dir2 and prompts before overwriting recursively
+copies dir1 to dir2 only if it's newer recursively
+copies dir1 to dir2 and creates hard link recursively
+copies dir1 to dir2 and shows verbose output recursively
+copies dir1 to dir2 and preserves attributes recursively
+copies dir1 to dir2/backup and doesn't preserve timestamp recursively
+copies all files and directories to dir2/ recursively
+copies /mnt/data/ to /mnt/backup/ preserving attributes and doesn't copy if exists
+copies dir1 to dir2/backup recursively
+copies all files with .txt extension to dir2/
+copies file1 to dir1/ directory as file1.txt
+copies all files and directories in dir1 to dir2/backup/
+copies dir1 to dir2/backup/ only if it's newer recursively
+copies dir to /mnt/backup/ preserving attributes and permissions recursively
+copies file1 to file2 and prompts before overwriting and preserves file attributes
+copies file1 to file2 and overwrites existing file2 and preserves file attributes
+copies file1 to file2 only if it's newer and preserves file attributes
+copies file1 to file2 and shows verbose output and preserves file attributes
+copies file1 to file2 and creates hard link and preserves file attributes
+"copies dir1 to dir2/backup/ preserving attributes and recursively, and preserves file attributes"
+copies file.txt to /mnt/backup/ and creates missing directories
+copies dir1 to dir2/backup/ preserving file attributes and recursively
+copies all files in dir1/ to dir2/backup/ if it's newer and show verbose output
+copies dir1 to dir2/backup preserving attributes and recursively
+copies dir1 to dir2/backup/ only if it's newer and preserves file attributes recursively
+copies /mnt/data/ to /mnt/backup/ preserving attributes and recursively
+copies all files with .txt extension to backup/ and shows verbose output recursively
+copies file1.txt to backup/ directory
+copies dir1/ to dir2/ preserving attributes and permissions recursively
+copies file1.txt to dir1/ and preserves file attributes
+copies file1.txt to file2.txt as hard link
+copies file1.txt to dir1/ and prompts before overwriting
+copies file1.txt to backup/ only if it's newer and preserves file attributes
+copies dir1 to dir2/ and overwrites if exists
+copies dir1 to dir2/backup/ and preserves mode and timestamp attributes recursively
+copies dir1 to dir2/backup/ only if it's newer and preserves file attributes recursively
+copies file1.txt to file2.txt as hard link and shows verbose output
+copies /mnt/data/ to /mnt/backup/ preserving attributes and recursively and shows verbose output
+copies dir1 to dir2/backup/ preserving file attributes and recursively and shows verbose output
+copies /mnt/data/ to /mnt/backup/ preserving attributes and doesn't overwrite if exists
+copies dir1/ to dir2/backup/ only if it's newer and preserves file attributes and shows verbose output
+copies dir1/ to dir2/backup/ only if it's newer and preserves file attributes recursively and shows verbose output
+copies dir1/ to dir2/backup/ only if it's newer and preserves file attributes recursively and shows verbose output
+copies file1 to file2 if file2 doesn't exist and shows verbose output
+copies file1 to file2 and overwrites if exists and shows verbose output
+copies dir1 to dir2/backup/ and overwrites if exists and preserves file attributes recursively
+copies file1 to file2 only if file2 is missing or it's newer
+copies dir1 to dir2/backup/ and overwrites if exists and preserves file attributes recursively
+copies dir1 to dir2/backup/ and creates missing directories and preserves attributes recursively
+copies dir1 to dir2/backup/file1.txt and overwrites if exists
+copies dir1 to dir2/backup/ and preserves file attributes and shows verbose output recursively
+copies dir1 to dir2/backup/ if it doesn't exist recursively
+copies dir1/ to dir2/backup/ only if it's newer and preserves file attributes and shows verbose output recursively
+copies dir1/ to dir2/backup/ and overwrites if exists and preserves file attributes and shows verbose output recursively
+copies dir1/ to dir2/backup/ and overwrites if exists and preserves file attributes and shows verbose output recursively
+copies file1 to file2 and answers yes to all prompts
+copies /mnt/data/ to /mnt/backup/ only if it's newer and preserves file attributes and shows verbose output recursively
+copies dir1/ to dir2/backup/ only if it's newer and overwrites if exists and preserves file attributes and shows verbose output recursively
+copies file1 to file2 preserving all file attributes
+copies dir1/ to dir2/backup/ only if it's newer and overwrites if exists and preserves file attributes and shows verbose output recursively
+copies dir1/ to dir2/backup/ and overwrites if exists and preserves file attributes and shows verbose output recursively
+List files in current directory
+List including hidden files
+List in long format
+List files by time modified
+List files by size
+List recursively
+List in one column
+List root directory contents
+List contents of /home directory
+List long format for /etc directory
+List all .txt files one level down
+List in human-readable format
+List files with color coding
+List recursively in reverse order
+List files by time modified in reverse order
+List files by size in long format
+List including hidden files in /usr directory
+List directories only
+List long format for /var/log directory
+List file inode number
+List files by creation time
+List in human-readable format for /home/user1 directory
+List all .txt files in current directory using grep
+List files by time modified and access time
+List long format for /home/user2/Desktop directory
+List long format for /tmp directory with pagination using less
+List recursively including hidden files
+List files by size in long format in /var/www directory
+List long format for ~/.ssh directory
+List all files in /etc directory excluding folders
+List files with full timestamps
+List files in /usr/local/bin directory excluding .sh files
+List files in reverse order
+List in human-readable format recursively
+List in long format including hidden files
+List in one column for /var/log directory
+List all .txt files in /home/user1 directory
+List recursively in /usr/local directory
+List files by time modified and access time in reverse order
+List files by time modified in long format for /var/log directory
+List long format for /mnt/cdrom directory
+List including hidden files in /usr/bin directory
+List files by size in long format in human-readable format
+List files by size in long human-readable format for current directory
+List including hidden files in long format for /etc directory with pagination using less
+List long format for /etc/passwd and /etc/group files
+List root directories only
+List last 10 lines of long format for /var/log directory
+List files with authors
+List long format for /home/user1 and /home/user2 directories
+List including hidden files in long format
+List long format with ISO-style timestamps
+List with / at the end of directories
+List long format for /etc/passwd file
+List files by size in long format for /tmp directory
+List directories starting with /etc/grub
+List files with size in KB
+List files in long format by time modified in reverse order
+List including hidden files with inode number and device number
+List long format for /var/spool/mail directory
+List /usr/bin directory contents with executable files only
+List files sorted by size
+List in one column in human-readable format
+List including hidden files by time modified
+List with version control
+List long format with full ISO-style timestamp
+List long format for /dev/null file
+List with 50 character width
+Count number of files in /home/user1 directory
+List files by size in reverse order
+List long format including hidden files for directories starting with /etc/
+List in human-readable format in reverse order
+List files sorted by time
+List long format for /dev directory
+List with / at the end of directories recursively
+List only directories in /var/log directory
+List long format for /usr/local/sbin directory
+List files sorted by extension
+List with symbols indicating file type
+List files by time modified in reverse order in human-readable format
+List long format for 2nd level directories in /var/
+List including hidden files in long human-readable format
+Count number of files in /usr/bin directory
+List all .txt contents recursively using grep
+List files without sorting
+List file inode number for /etc/passwd file
+List files by time modified sorted by access time
+List long format for 2nd level directories in /dev/
+List long format for /usr/share/doc directory
+List in long format with color coding
+List files by size in long human-readable format for /var/log directory
+List long format with full timestamps
+List long format for /dev/shm directory
+List files by creation time in long format
+List files with full timestamps without seconds
+List long format for /bin and /usr/bin directories
+List including hidden files in long human-readable format recursively
+List files by status change time
+List recursively by time modified
+List files by size in long human-readable format for /etc directory.
+Writes Hello World to a file named greetings.txt.
+Writes Welcome to Linux to a file at the specified directory.
+Appends HELLO to the end of greetings.txt.
+Writes My name is John to a file named name.txt without a trailing newline.
+Creates a new file named myfile.txt with the content This is a file.
+Writes Hello and World on separate lines in a file named hello.txt.
+Writes Welcome Linux to a file at the specified directory.
+Creates a new file named sample.txt with content This is a sample file.
+Appends Hello World to the end of greetings.txt.
+Creates a new file named testfile.txt with content This is just a file.
+"Writes Line 1, Line 2 and Line 3 to a file named file.txt on separate lines."
+Creates a file named mydir with content This is a directory.
+Writes Hello World to a file at the specified directory.
+Creates a new file named file.txt with the content This is a test.
+Writes John Doe to a file named name.txt without a trailing newline.
+Creates a new file named test.txt with the content Testing 123....
+"Writes This is a file and with two lines to a file named file.txt on separate lines, with a blank line in between."
+Writes This is a directory to a file named mydir at the specified directory.
+Writes Alice to a file named name.txt without a trailing newline.
+Creates a new file named hello.txt with the content Hello world at the specified directory.
+Creates a new file named textfile.txt with the content This is a text file.
+"Appends Line 1, Line 2 and Line 3 to a file named file.txt on separate lines."
+Creates a new file named directory.txt with the content This is a directory.
+Writes Hello World to a file named greetings.txt on the user's Desktop.
+Writes Bob to a file named name.txt without a trailing newline.
+Creates a new file named file.txt with the content This is a test file.
+"Writes This file and has blank lines to a file named file.txt on separate lines, with a blank line in between."
+Creates a new file named filename with the content This is a directory in a directory named mydir.
+Writes Hello to a file named hello.txt at the specified directory.
+Creates a new file named sample.txt with content This is a sample file at the specified directory.
+Writes Hello World to a file named helloworld.txt without a trailing newline.
+Creates a new file named testfile.txt with the content This is a test....
+"Writes Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Writes This is a directory to a file named file.txt in a directory named mydir at the specified directory.
+Writes Mary to a file named name.txt without a trailing newline.
+Writes Hello World to a file named greetings.txt in the user's Documents folder.
+Creates a new file named textfile.txt with the content This is a text file at the specified directory.
+"Appends Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Creates a new file named dir.txt with the content This is a directory.
+Writes Hello to a file named hello.txt on the user's Desktop.
+Writes Paul to a file named name.txt without a trailing newline.
+Creates a new file named testfile.txt with the content This is a test file at the specified directory.
+"Writes Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Creates a new file named newfile with the content This is a directory in a directory named mydir.
+Writes Hello World to a file named greetings.txt at the specified directory.
+Creates a new file named sample.txt with content This is a sample file at the specified directory.
+"Writes Greetings, Earthling! to a file named greetings.txt without a trailing newline."
+Creates a new file named testfile.txt with the content This is a test file in the user's home directory.
+"Appends Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Writes This is a directory to a file named filename in a directory named mydir at the specified directory.
+Writes Hello to a file named hello.txt in the user's Downloads folder.
+Writes Lucy to a file named name.txt without a trailing newline.
+Creates a new file named testfile.txt with the content This is a test file at the specified directory.
+"Writes Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Creates a new file named directory.txt with the content This is a directory.
+Writes Hello World to a file named greetings.txt in the user's Pictures folder.
+Creates a new file named textfile.txt with the content This is a text file at the specified directory.
+"Appends Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Creates a new file named newfilename with the content This is a directory in a directory named mydir.
+Writes Hello World to a file named greetings.txt at the specified directory.
+Creates a new file named sample.txt with content This is a sample file at the specified directory.
+Writes World to a file named hello.txt without a trailing newline.
+Creates a new file named testfile.txt with the content This is a test file in the user's Documents folder.
+"Writes Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Creates a new file named filename with the content This is a directory in a subdirectory named subdir within a directory named mydir.
+Writes Hello to a file named hello.txt in the user's Pictures folder.
+Writes Jane to a file named name.txt without a trailing newline.
+Creates a new file named testfile.txt with the content This is a test file in the user's Downloads folder.
+"Appends Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Writes This is a directory to a file named file.txt in a subdirectory named subdir within a directory named mydir at the specified directory.
+Writes Hello World to a file named greetings.txt at the specified directory.
+Creates a new file named sample.txt with content This is a sample file at the specified directory.
+Writes Sarah to a file named name.txt without a trailing newline.
+Creates a new file named testfile.txt with the content This is a test file in the user's Pictures folder.
+"Writes Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Creates a new file named newfile with the content This is a directory in a subdirectory named subdir within a directory named mydir.
+Writes Hello to a file named hello.txt in the user's Downloads folder.
+Creates a new file named testfile.txt with the content This is a test file in the user's Pictures folder.
+Writes Peter to a file named name.txt without a trailing newline.
+Writes This is a directory to a file named file.txt in a directory named mydir at the specified directory.
+Writes Hello World to a file named greetings.txt at the specified directory.
+Creates a new file named sample.txt with content This is a sample file in the user's Downloads folder.
+Writes Tom to a file named name.txt without a trailing newline.
+Creates a new file named testfile.txt with the content This is a test file in the user's Pictures folder.
+"Writes Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Creates a new file named filename with the content This is a directory in a subdirectory named subdir2 within a subdirectory named subdir within a directory named mydir.
+Writes Hello to a file named hello.txt in the user's Downloads folder.
+Creates a new file named testfile.txt with the content This is a test file in the user's Documents folder.
+Writes Maria to a file named name.txt without a trailing newline.
+Creates a new file named newfilename with the content This is a directory in a subdirectory named subdir within a directory named mydir.
+Writes Hello World to a file named greetings.txt in the user's Videos folder.
+Creates a new file named sample.txt with content This is a sample file in the user's Documents folder.
+Writes David to a file named name.txt without a trailing newline.
+Creates a new file named testfile.txt with the content This is a test file at the specified directory.
+"Writes Line 1, Line 2 and Line 3 to a file named myfile.txt on separate lines."
+Creates a new file named filename2 with the content This is a directory in a subdirectory named subdir2 within a subdirectory named subdir within a directory named mydir.
+Writes 
+Display environment variables
+Start a clean environment
+Start a shell with USER variable unset
+Edit your crontab file with nano as editor
+Run the ls command with a changed PATH
+Start a clean login shell
+Run the ls command with a specific PATH
+Pass null-terminated arguments to the script
+Run a command with a specific terminal type
+Run a command with HOME variable unset
+Start a bash shell with a specific shell executable
+Set the PATH for a command without clearing the environment
+Set a variable only for the command
+Start a bash shell with a specific variable set
+Start a shell with a custom PATH
+Login with a custom password
+Run a program with a dumb terminal
+Run a command with PATH variable unset
+Remove a specific variable before running a command
+Pass a specific environment variable to a command
+Set an environment variable for a command
+Run a Perl script with a variable unset
+Pass an environment variable to a command
+Start a bash shell with a custom HOME directory
+Remove a variable from the environment before running the command
+Start a bash shell with a specific terminal type
+Start a bash shell as the root user
+Edit the crontab with vim editor
+Set a variable only for the command
+Start a bash shell with root's home directory
+Set the editor for a command
+SSH without using SSH agent
+Start a bash shell with a predefined variable
+Start xterm on display 0
+Run whoami with the USER variable unset
+Start a bash shell with a specific environment variable set
+Run ls with PATH variable unset
+Start a shell with a specific terminal type
+Pass a specific variable to a command
+Set the editor for a command without affecting the environment
+Set the environment variable for a command
+Start a bash shell with a specific bashrc file
+Run a command with a specific language setting
+Ping Google with HOME variable unset
+Start a bash shell with a custom home directory
+Run a Perl script with a custom environment variable
+Invokes some_script.sh with SOMEVAR variable unset
+Start xeyes on display 0
+Remove a specific variable from the environment
+Disable colors in ls command
+Set the env var MYVAR for the command bar.sh
+Set MYVAR only for the python script
+Edit crontab with vi editor
+Run cat command with MYVAR variable unset
+Start a bash shell with multiple variables set
+Copy file to remote host without using SSH agent
+Start a bash shell with home directory set to /home/root
+Start a bash shell with vt220 terminal type
+Run myscript with ONE_VAR and SECOND_VAR variables unset
+Start a bash shell with a specific PATH
+Get the current directory minus the last component
+Start a bash shell with a custom home directory
+Start a bash shell with xterm-16color terminal type
+Pass VAR variable to script.sh
+Set MYVAR1 and MYVAR2 variables for script.sh only
+Copy file to remote host without using SSH agent
+Run ls with xterm-88color terminal type
+Launch rhythmbox on the local X server
+Remove PATH and LD_LIBRARY_PATH variables before running command
+Run ls with specific character encoding
+Run script.sh with MYVAR1 and MYVAR2 variables unset
+Run pwd with /root as HOME directory
+Pass a string variable to script.sh
+Start the GNU Screen terminal multiplexer with an ANSI terminal
+Remove VAR1 and VAR2 environment variables before running script.sh
+Start a shell with specific language settings
+Copy file to remote host without using SSH agent
+Pass a variable with the home directory path to script.sh
+Run xterm with a linux terminal type
+Run command with LD_PRELOAD variable unset
+Set MYVAR to the value of 'foo' for a bash shell only
+Get locale without LC_ALL variable
+Start a bash shell with a custom home directory
+Pass a complex value to a command
+Set VAR variable for script.sh only
+Start the GNU Screen terminal multiplexer with a dumb terminal
+Clears screen while TERMCAP variable is unset
+Start a ksh shell with the /bin/ksh executable
+Pass the contents of /etc/passwd to a command
+Run xterm with XAUTHORITY variable unset
+Set a variable with a command substitution
+Run the date command without the LANG variable
+Start a bash shell with a custom home directory
+Run the ls command without the LC_COLLATE variable
+Start a tcsh shell with the /bin/tcsh executable
+Pass a directory path to a command
+Run whoami without the LOGNAME variable
+Set MYVAR to 'hello world' using printf command
+Use the read command with IFS variable unset
+Start a bash shell with the variable MYVAR set to a directory path
+Display system memory.
+Display memory in megabytes.
+Display memory in gigabytes.
+Display total and used memory.
+Display human-readable memory usage.
+Display memory usage every 5 seconds.
+Do memory usage measurement for 3 times.
+Display memory in bytes.
+Same as -o.
+Display wide output.
+Same as -o.
+Display detailed low level memory.
+Display version information.
+Display free space on file system /home/user/file1.
+Display free space on file system /home/user.
+Display free space on current directory.
+Display memory in powers of 1000.
+Drop caches before free memory measurement.
+Display help information of command free.
+Display version information of command free.
+"Same as free /home/user/file2, but with human-readable output."
+"Same as free /home/user, but with total and used memory displayed."
+Display memory usage every 10 seconds for 5 times.
+"Same as free /home/user/file3, but with memory displayed in bytes."
+"Same as free /home/user, but with detailed low level memory information."
+"Same as free -m, but with memory displayed in gigabytes."
+"Same as free ., but with human-readable output."
+"Same as free ., but with total and used memory displayed."
+"Same as free -g /home/user, but with memory displayed in human-readable format."
+Display memory usage every 30 seconds for 10 times on file system /home/user/file4.
+"Same as free -o /home/user, but with human-readable output."
+"Same as free /home/user/file5, but with memory displayed in megabytes."
+"Same as free -tg /home/user, but with total and used memory displayed in human-readable format."
+"Same as free ., but with memory displayed in bytes."
+"Same as free /home/user/file6 /home/user/file7, but with human-readable output."
+Display memory usage every 20 seconds on file systems /home/user/file8 and /home/user/file9.
+"Same as free /home/user/file10 /home/user/file11, but with total and used memory displayed."
+"Same as free -o /home/user/file12 /home/user/file13, but with human-readable output."
+"Same as free -lg /home/user, but with detailed low level memory information along with human-readable memory."
+"Same as free /home/user/file14 /home/user/file15, but with memory displayed in bytes."
+"Same as free -t, but with memory displayed in megabytes."
+"Same as free -t, but with memory displayed in gigabytes."
+"Display memory usage every 15 seconds on file systems /home/user/file16, /home/user/file17, and /home/user/file18."
+"Same as free -o /home/user/file19 /home/user/file20 /home/user/file21, but with human-readable output."
+"Same as free -lg ., but for the current directory."
+"Same as free /home/user/file22 /home/user/file23 /home/user/file24, but with human-readable output."
+"Same as free -tg /home/user/file25 /home/user/file26, but with total and used memory displayed in human-readable format."
+"Same as free -o /home/user/file27 /home/user/file28 /home/user/file29 /home/user/file30, but with human-readable output."
+"Display memory usage every 25 seconds on file systems /home/user/file31, /home/user/file32, /home/user/file33, and /home/user/file34."
+"Same as free /home/user/file35 /home/user/file36 /home/user/file37 /home/user/file38, but with human-readable output."
+"Same as free -tg /home/user/file39 /home/user/file40 /home/user/file41, but with total and used memory displayed in human-readable format."
+"Same as free -o /home/user/file42 /home/user/file43 /home/user/file44 /home/user/file45, but with human-readable output."
+"Display memory usage every 30 seconds on file systems /home/user/file46, /home/user/file47, /home/user/file48, /home/user/file49, and /home/user/file50."
+"Same as free /home/user/file51 /home/user/file52 /home/user/file53 /home/user/file54 /home/user/file55, but with human-readable output."
+"Same as free -tg /home/user/file56 /home/user/file57 /home/user/file58 /home/user/file59, but with total and used memory displayed in human-readable format."
+"Same as free -o /home/user/file60 /home/user/file61 /home/user/file62 /home/user/file63 /home/user/file64, but with human-readable output."
+"Display memory usage every 35 seconds on file systems /home/user/file65, /home/user/file66, /home/user/file67, /home/user/file68, /home/user/file69, and /home/user/file70."
+"Same as free /home/user/file71 /home/user/file72 /home/user/file73 /home/user/file74 /home/user/file75 /home/user/file76, but with human-readable output."
+"Same as free -tg /home/user/file77 /home/user/file78 /home/user/file79 /home/user/file80 /home/user/file81, but with total and used memory displayed in human-readable format."
+"Same as free -o /home/user/file82 /home/user/file83 /home/user/file84 /home/user/file85 /home/user/file86 /home/user/file87, but with human-readable output."
+"Display memory usage every 40 seconds on file systems /home/user/file88, /home/user/file89, /home/user/file90, /home/user/file91, /home/user/file92, /home/user/file93, and /home/user/file94."
+"Same as free /home/user/file95 /home/user/file96 /home/user/file97 /home/user/file98 /home/user/file99 /home/user/file100, but with human-readable output."
+Download file from URL.
+Clone repository.
+Copy file to remote server.
+Retrieve data from API.
+Sync local file to remote server.
+Connect to FTP server.
+Create archive of directory.
+Retrieve user information.
+Check out SVN repository.
+Install package using yum.
+List files installed by package.
+Update packages using DNF.
+Upgrade packages using APT.
+List all installed packages using rpm.
+Find file in filesystem.
+Find file in directory.
+Search for pattern in file.
+Print lines matching pattern.
+Replace text in file.
+Extract first field in file.
+Search for pattern in file.
+Display last 100 lines of file.
+Display first 10 lines of file.
+Display file content page by page.
+Display file content page by page.
+Count lines in file.
+Show size of directory.
+Show detailed list of files.
+Change file permissions to 755.
+Change file ownership.
+Kill process with given PID.
+Show list of running processes.
+Show resource usage of processes.
+Show system uptime.
+Show disk space usage.
+Show free memory in MB.
+Show network interfaces.
+Show network connections.
+Show routing table.
+Ping host to test connectivity.
+Trace route to host.
+Combine ping and traceroute.
+SSH into remote server.
+SFTP into remote server.
+Copy file to remote server.
+Sync local file to remote server.
+Create archive of directory.
+Download file from URL.
+Retrieve data from API.
+Connect to FTP server.
+Retrieve user information.
+Check out SVN repository.
+Install package using yum.
+List files installed by package.
+Update packages using DNF.
+Upgrade packages using APT.
+List all installed packages using rpm.
+Find file in filesystem.
+Find file in directory.
+Search for pattern in file.
+Print lines matching pattern.
+Replace text in file.
+Extract first field in file.
+Search for pattern in file.
+Display last 100 lines of file.
+Display first 10 lines of file.
+Display file content page by page.
+Display file content page by page.
+Count lines in file.
+Show size of directory.
+Show detailed list of files.
+Change file permissions to 755.
+Change file ownership.
+Kill process with given PID.
+Show list of running processes.
+Show resource usage of processes.
+Show system uptime.
+Show disk space usage.
+Show free memory in MB.
+Show network interfaces.
+Show network connections.
+Show routing table.
+Ping host to test connectivity.
+Trace route to host.
+Combine ping and traceroute.
+SSH into remote server.
+SFTP into remote server.
+Copy file to remote server.
+Sync local file to remote server.
+Create archive of directory.
+Download file from URL.
+Retrieve data from API.
+Connect to FTP server.
+Retrieve user information.
+Check out SVN repository.
+Install package using yum.
+List files installed by package.
+Update packages using DNF.
+Upgrade packages using APT.
+List all installed packages using rpm.
+Terminate process 53245
+Send SIGTERM signal to the process named myapp
+Forcefully kill the process using the file at /tmp/file as input
+Send SIGTERM signal to all processes in mydir directory
+Terminate the server process
+Send SIGHUP signal to the process using the file as input
+Send SIGQUIT signal to the process with PID
+Send SIGKILL signal to the process named app
+Terminate the process using /var/run/haproxy.pid file as input
+Send SIGINT signal to all processes in the directory directory
+Forcefully terminate the process with program as input
+Send SIGTERM signal to all processes in /mnt/data/logs directory
+Terminate the process using /var/run/nginx.pid file as input
+Send SIGQUIT signal to all processes in /etc/myapp directory
+Terminate the process with program as input
+Forcefully kill the process using the /var/app/name.pid file as input
+Send SIGTERM signal to all processes in /home/user directory
+Send SIGHUP signal to the process with program as input
+Send SIGKILL signal to all processes in /var/www directory
+Terminate the process using /etc/myapp.pid file as input
+Forcefully kill all processes in the /usr/local/bin directory
+Send SIGTERM signal to the process with name as input
+Send SIGTERM signal to all processes in the /tmp directory
+Terminate the process using /var/log/app.pid file as input
+Send SIGHUP signal to all processes in the /opt directory
+Forcefully kill the process using /var/run/myapp.pid file as input
+Send SIGTERM signal to all processes in the /usr/local directory
+Send SIGKILL signal to the process named myapp
+Terminate the process using /var/app.pid file as input
+Forcefully kill all processes in the /tmp directory
+Send SIGTERM signal to all processes in the /var directory
+Send SIGTERM signal to all processes in the /usr/local/bin directory
+Terminate the process using /etc/nginx.pid file as input
+Send SIGHUP signal to all processes in the /var/log directory
+Forcefully kill the process using /var/run/httpd.pid file as input
+Send SIGTERM signal to all processes in the /usr/local/sbin directory
+Send SIGKILL signal to the process using /var/log/myapp.log file as input
+Terminate the process with name as input
+Forcefully kill all processes in the /usr/bin directory
+Send SIGTERM signal to all processes in the /var/log/myapp directory
+Send SIGHUP signal to all processes in the /usr/local directory
+Terminate the process using /var/run/myserver.pid file as input
+Send SIGTERM signal to all processes in the /etc/nginx directory
+Forcefully kill all processes in the /var/log/httpd directory
+Send SIGTERM signal to all processes in the /etc directory
+Send SIGHUP signal to the process named myserver
+Terminate all processes in the /var/app/logs directory
+Forcefully kill all processes in the /usr/local/bin directory
+Send SIGTERM signal to all processes in the /var/app/conf directory
+Send SIGTERM signal to all processes in the /usr/bin directory
+Terminate the process using /var/log/httpd.pid file as input
+Send SIGHUP signal to all processes in the /var/app directory
+Forcefully kill all processes in the /usr/local/sbin directory
+Send SIGTERM signal to all processes in the /run directory
+Send SIGKILL signal to all processes in the /var directory
+Terminate the process using /var/app/logs/file.log file as input
+Forcefully kill all processes in the /var/log/myapp directory
+Send SIGTERM signal to all processes in the /usr/bin directory
+Send SIGHUP signal to the process using /etc/nginx/nginx.conf file as input
+Terminate all processes in the /var/app/logs directory
+Forcefully kill all processes in the /usr/bin directory
+Send SIGTERM signal to all processes in the /var/app/conf directory
+Send SIGTERM signal to all processes in the /usr/local/sbin directory
+Terminate the process using /var/log/nginx.pid file as input
+Send SIGHUP signal to the process using /var/log/myapp.log file as input
+Forcefully kill all processes in the /etc/nginx directory
+Send SIGTERM signal to all processes in the /usr/local/bin directory
+Send SIGKILL signal to all processes in the /var/app directory
+Terminate the process using /var/app/logs/file.log file as input
+Forcefully kill all processes in the /usr/bin directory
+Send SIGTERM signal to all processes in the /var/app/conf directory
+Send SIGHUP signal to all processes in the /usr/local/sbin directory
+Terminate all processes in the /var/log/httpd directory
+Forcefully kill all processes in the /usr/local/bin directory
+Send SIGTERM signal to all processes in the /run directory
+Send SIGTERM signal to all processes in the /var directory
+Terminate the process using /var/log/myapp.log file as input
+Send SIGHUP signal to all processes in the /etc/nginx directory
+Forcefully kill all processes in the /var/app directory
+Send SIGTERM signal to all processes in the /usr/local/sbin directory
+Send SIGKILL signal to all processes in the /etc directory
+Terminate all processes in the /var/app/logs directory
+Forcefully kill all processes in the /usr/local/bin directory
+Send SIGTERM signal to all processes in the /run directory
+Send SIGTERM signal to all processes in the /var directory
+Terminate all processes in the /var/app directory
+Send SIGHUP signal to the process using /etc/nginx/sites-available/default file as input
+Forcefully kill all processes in the /var/app directory
+Send SIGTERM signal to all processes in the /usr/local/bin directory
+Send SIGKILL signal to all processes in the /usr/bin directory
+Terminate the process using /var/run/myapp.pid file as input
+Forcefully kill the process using /var/app/logs/file.log file as input
+Send SIGTERM signal to all processes in the /etc/nginx directory
+Send SIGHUP signal to all processes in the /etc/myapp directory
+Terminate all processes in the /var/log/myapp directory
+Forcefully kill all processes in the /usr/bin directory
+Send SIGTERM signal to all processes in the /run directory
+Send SIGTERM signal to all processes in the /var/log directory
+Terminate all processes in the /var/app/logs directory
+Forcefully kill all processes in the /usr/local/sbin directory
+List all files.
+List files with details.
+List all files including hidden ones.
+List files sorted by modification time.
+List files in reverse order.
+List all files recursively.
+List all files with a human-readable format.
+List files sorted by size.
+List files in the /etc directory.
+List files in the /home directory.
+List files in the /var directory.
+List files in the /usr directory.
+List files in the /tmp directory.
+List files in the /root directory.
+List files in the /sbin directory.
+List files in the /bin directory.
+List files in the /lib directory.
+List files in the /var/log directory.
+"List files with indicators (directories with a slash, executables with a *)."
+List files with colorized output.
+List files with inode numbers.
+List files separated by commas.
+List files with one file per line.
+List files with a slash after directory names.
+List files sorted by creation time.
+List files sorted by access time.
+List only directories.
+"List files with long format (similar to -l, but without owner information)."
+List files with size information.
+List files with a tab-separated format.
+List files in the /dev directory.
+List files in the /proc directory.
+List files in the /sys directory.
+List files in the /boot directory.
+List files in the /mnt directory.
+List files in the /media directory.
+List files in the /srv directory.
+List files in the /opt directory.
+List files in the /lib64 directory.
+List files in the /usr/local directory.
+List files in the /usr/share directory.
+List files in the /usr/lib directory.
+List files in the /usr/bin directory.
+List files in the /usr/sbin directory.
+List all files except . and ..
+List files sorted by creation time with the exact time and date.
+"List files with a colorful, human-readable format with size in powers of 1000."
+List files with details and human-readable file sizes.
+List symbolic links as files.
+List files with numerical user and group IDs.
+List files with long format without group information.
+List files with ? instead of non-printable characters.
+List files sorted by modification time with directories listed first.
+List files sorted by extension.
+List files with security context.
+List files in the my_directory directory.
+List files in the my_files directory in the current user's home directory.
+List files in reverse order sorted by modification time.
+List files in the root directory with colorized output.
+List files with details in the important_files directory of the user's home directory.
+List the files that symbolic links point to.
+List files with colorized output and a slash after directory names.
+List files with one file per line sorted by modification time.
+List files with size information in a human-readable format.
+List only directories in the current directory.
+List files sorted by creation time and modification time.
+List files with details with directories listed first.
+List files with indicators and a slash after directory names.
+List all files with a human-readable format sorted by size.
+List files with long format and ISO-style dates without owner information.
+List all files with a human-readable format with size in kilobytes.
+List files with inode numbers and long format.
+List files separated by commas with indicators.
+List only directories in the root directory.
+List files sorted by modification time in reverse order with details.
+List files sorted by access time in reverse order with details.
+List files with long format and full ISO-style dates.
+List files in columns.
+List all files with a slash after directory names.
+List files with size information in a human-readable format sorted by size.
+List all files with hidden files and excluding files with .txt extension.
+List files with a slash after directory names and including hidden files.
+List files in the /usr/bin directory sorted by modification time in reverse order with details.
+List files in the my_directory directory with one file per line.
+List files with a human-readable format and colorized output.
+List files in reverse order sorted by size.
+List files with details with size in powers of 1000.
+List files with one file per line in reverse order.
+Show the version of ls command.
+Show the help of ls command.
+"List files with details, exact time and date, and file sizes in a human-readable format."
+List files with one file per line with directories listed first.
+List all files with indicators.
+List files with a human-readable format and colorized output even when piped to another command.
+List files with details sorted by access time with file sizes in a human-readable format.
+List files with long format and modification time in seconds since the UNIX epoch.
+List files with details and file sizes in a human-readable format sorted by modification time.
+List files hiding files with a specified pattern.
+List all files with one file per line excluding . and .. directories.
+List all files with details and a human-readable format.
+Create directory named mydir
+Create directory named dir1 inside current directory
+Create directory dir1 with subdirectory dir2
+Create directory mydir with permissions set to 775
+Create directories mydir1 and mydir2
+Create directory mydir with verbose output
+Create directory dir1 with subdirectories dir2 and dir3
+Create directory mydir with permissions set to 777
+"Create directories dir1, dir2, and dir3 with verbose output"
+Create directory mydir and change to it
+Create directory dir1 with subdirectories dir2 and dir3
+Create directory mydir with permissions set to 600
+"Create directories dir1, dir2, and dir3 with verbose output"
+Create directory dir1 with subdirectory dir2 and its subdirectories dir3 and dir4
+Create directory mydir with permissions set to 644
+"Create directories mydir1, mydir2, and mydir3 with verbose output"
+"Create directory dir1 with subdirectories dir2, dir3, and dir4"
+Create directory mydir with permissions set to 400
+"Create directories dira, dirb, and dirc with verbose output"
+"Create directory dir1 with subdirectories dir2, dir3, dir4, and dir5"
+Create directory mydir with permissions set to 666
+Create directories dir1 and dir2 inside mydir with verbose output
+"Create directories mydir1, mydir2, and mydir3"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, and its subdirectories dir4 and dir5"
+Create directory mydir with permissions set to 744
+"Create directories dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, and its subdirectories dir4, dir5, and dir6"
+Create directory mydir with permissions set to 700
+"Create directories dir1, dir2, and dir3 inside mydir with verbose output"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, and its subdirectories dir4, dir5, and dir6"
+Create directory mydir with permissions set to 755
+"Create directory dir1 inside mydir1, mydir2, and mydir3 with verbose output"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, and its subdirectories dir4, dir5, dir6, dir7, and dir8"
+Create directories mydir1 and mydir2 with permissions set to 600
+"Create subdirectory subdir inside dir1, dir2, and dir3 inside mydir with verbose output"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, and subdirectory dir5 with its subdirectory dir6"
+"Create directories mydir1, mydir2, and mydir3 with permissions set to 700"
+"Create subdirectory subdir inside dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectories dir4 and dir5, its subdirectory dir6, and subdirectory dir7 with its subdirectory dir8"
+"Create directories mydir1, mydir2, and mydir3 with permissions set to 644"
+"Create subdirectories subdir1 and subdir2 inside dir1, dir2, and dir3 inside mydir with verbose output"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, its subdirectory dir5, its subdirectory dir6, its subdirectory dir7, its subdirectories dir8 and dir9, and subdirectory dir10"
+"Create directories mydir1, mydir2, and mydir3 with permissions set to 750"
+"Create subdirectories subdir1 and subdir2 inside dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, its subdirectory dir5, its subdirectory dir6, its subdirectory dir7, its subdirectories dir8, dir9, dir10, and dir11, and subdirectory dir12"
+"Create directories mydir1, mydir2, mydir3, and mydir4 with permissions set to 755"
+"Create subdirectories subdir1, subdir2, and subdir3 inside dir1, dir2, and dir3 inside mydir with verbose output"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, its subdirectory dir5, its subdirectory dir6, its subdirectory dir7, its subdirectories dir8, dir9, dir10, dir11, dir12, and dir13, and subdirectory dir14"
+"Create directories mydir1, mydir2, mydir3, and mydir4 with permissions set to 700"
+"Create subdirectories subdir1, subdir2, and subdir3 inside dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output"
+"Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, its subdirectory dir5, its subdirectory dir6, its subdirectory dir7, its subdirectories dir8, dir9, dir10, dir11, dir12, dir13, dir14, and dir15, and subdirectory dir16"
+"Create directories mydir1, mydir2, mydir3, and mydir4 with permissions set to 600"
+"Create subdirectories subdir1, subdir2, subdir3, and subdir4 inside dir1, dir2, and dir3 inside mydir with verbose output"
+"Create directory dir1 with its subdirectory dir2 and its subdirectory dir3, its subdirectories dir4, dir5, dir6, dir7, dir8, dir9, dir10, dir11, dir12, dir13, dir14, dir15, dir16, and dir17, and their subdirectories dir18 and dir19"
+"Create directories mydir1, mydir2, mydir3, mydir4, and mydir5 with permissions set to 644"
+"Create subdirectories subdir1, subdir2, subdir3, and subdir4 inside dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output"
+"Create directory dir1 with its subdirectory dir2 and its subdirectory dir3, its subdirectories dir4, dir5, dir6, dir7, dir8, dir9, dir10, dir11, dir12, dir13, dir14, dir15, dir16, dir17, dir18, and dir19"
+"Create directories mydir1, mydir2, mydir3, mydir4, and mydir5 with permissions set to 700"
+"Create subdirectories subdir1, subdir2, subdir3, subdir4, and subdir5 inside dir1, dir2, and dir3 inside mydir with verbose output"
+"Create directory dir1 with its subdirectory dir2 and its subdirectory dir3, its subdirectories dir4, dir5, dir6, dir7, dir8, dir9, dir10, dir11, dir12, dir13, dir14, dir15, dir16, dir17, dir18, dir19, dir20, and dir21"
+"Create directories mydir1, mydir2, mydir3, mydir4, and mydir5 with permissions set to 750"
+"Create subdirectories subdir1, subdir2, subdir3, subdir4, subdir5, and subdir6 inside dir1, dir2, and dir3 inside mydir with verbose output"
+"Create directory dir1 with its subdirectory dir2 and its subdirectory dir3, its subdirectories dir4, dir5, dir6, dir7, dir8, dir9, dir10, dir11, dir12, dir13, dir14, dir15, dir16, dir17, dir18, dir19, dir20, dir21, dir22, and dir23"
+"Create directories mydir1, mydir2, mydir3, mydir4, mydir5, and mydir6 with permissions set to 644"
+"Create subdirectories subdir1, subdir2, subdir3, subdir4, subdir5, subdir6, and subdir7 inside dir1, dir2, and dir3 inside mydir with verbose output"
+Creates a new temporary file with newfile prefix.
+Creates a temporary directory with test-dir prefix.
+Creates a new temporary file with file prefix in the /tmp/ directory.
+Creates a new temporary directory in the /var/tmp/ directory.
+Creates a new temporary file with test prefix in the /home/user/ directory.
+Creates a new temporary file with newfile prefix and displays the file name without creating it.
+Displays the file name that will be created with newfile prefix without creating it.
+Creates a new temporary file in the system temporary directory with a random name.
+Creates a new temporary file with test prefix and .txt suffix.
+Creates a new temporary file with newfile prefix and suppresses output messages.
+Creates a new temporary file with temp prefix in the ~/test-dir/ directory.
+Creates a new temporary file in the /mnt/data-dir/ directory.
+Creates a new temporary file in the /var/tmp/ directory with a random name.
+Creates a new temporary file with test- prefix and a unique suffix.
+Creates a new temporary directory with testdir- prefix and a unique suffix.
+Creates a new temporary file with a unique name and displays its name without creating it.
+Creates a new temporary file with backup prefix and .bak suffix.
+Creates a new temporary directory in the /mnt/data-dir/ directory.
+Creates a new temporary directory with tempdir- prefix and a unique suffix in the ~/test/ directory.
+Creates a new temporary file with archive- prefix and a unique suffix with .tar.gz extension in the /tmp/ directory.
+Creates a new temporary file in the system temporary directory with a random name and .log suffix.
+Creates a new temporary file with backup- prefix and a unique suffix in the ~/test/backup/ directory.
+Creates a new temporary file with backup prefix and .bak suffix and displays the file name without creating it.
+Creates a new temporary directory in the system temporary directory with a random name.
+"Creates a new temporary file with progname_ prefix, a unique suffix and displays the file name without creating it in the /var/tmp/ directory."
+Creates a new temporary directory with newdir- prefix and a unique suffix in the /tmp/ directory.
+Creates a new temporary directory in the current directory with a random name.
+Creates a new temporary directory in the /var/tmp/ directory with a random name.
+Creates a new temporary directory in the /tmp/ directory with a random name.
+Creates a new temporary directory in the current directory with _temp suffix.
+Creates a new temporary file with temp_ prefix and a unique suffix and suppresses output messages in the ~/test/ directory.
+Creates a new temporary directory with archive- prefix and a unique suffix in the /mnt/dir/ directory.
+Creates a new temporary file with a unique name and displays its name without creating it in the /mnt/ directory.
+Creates a new temporary file with test- prefix and a unique suffix in the /mnt/tmp/ directory.
+"Creates a new temporary file with testfile prefix, a unique suffix and displays the file name without creating it in the /var/tmp/ directory."
+Creates a new temporary directory with a random name and .txt suffix in the /mnt/tempdir/ directory.
+Creates a new temporary file with back- prefix and a unique suffix and displays the file name without creating it in the /mnt/backup/ directory.
+Creates a new temporary directory with test- prefix and a unique suffix with -d suffix in the /tmp/ directory.
+Displays the file name that will be created with filename prefix and a unique suffix without creating it in the /var/tmp/ directory.
+Creates a new temporary directory in the /mnt/logs/ directory with a random name.
+Creates a new temporary file with .config_ prefix and a unique suffix and displays the file name without creating it in the /home/user/ directory.
+Creates a new temporary directory with tempdir- prefix and a unique suffix with .txt suffix in the /mnt/temp-data/ directory.
+Creates a new temporary directory in the system temporary directory with a random name.
+Creates a new temporary directory with a random name and _test suffix in the /tmp/ directory.
+"Creates a new temporary file with appfile prefix, .log suffix and displays the file name without creating it in the /var/tmp/ directory."
+Creates a new temporary directory with a unique name and displays its name without creating it in the ~/ directory.
+Creates a new temporary directory in the /mnt/temp/ directory with __data suffix.
+Creates a new temporary file with app- prefix and a unique suffix and displays the file name without creating it in the /var/tmp/ directory.
+Creates a new temporary directory with temp prefix and .txt suffix in the ~/test/ directory with a random name.
+Creates a new temporary directory in the /mnt/ directory with a random name.
+Creates a new temporary directory in the current directory with _log suffix.
+Creates a new temporary file with data_ prefix and a unique suffix and displays the file name without creating it in the ~/test/ directory.
+Creates a new temporary file with testfile prefix and .txt suffix in the /mnt/ directory.
+Creates a new temporary file with logfile_ prefix and a unique suffix in the /home/user/ directory.
+"Creates a new temporary directory with tempdata- prefix, a unique suffix and -d suffix in the /mnt/tempdata/ directory."
+Creates a new temporary directory with backup prefix and a unique suffix and displays the directory name without creating it in the /mnt/backup/ directory.
+Displays the file name that will be created with testdata prefix and .txt suffix without creating it in the system temporary directory.
+Creates a new temporary directory with a random name and _logs suffix in the /mnt/logs/ directory.
+Creates a new temporary directory with /mnt/data_ prefix and a unique suffix and displays the directory name without creating it.
+Creates a new temporary file with datafile_ prefix and a unique suffix and displays the file name without creating it in the ~/test/ directory.
+"Creates a new temporary file with testfile prefix, .txt suffix and displays the file name without creating it in the /mnt/ directory."
+"Creates a new temporary directory with backup_ prefix, a unique suffix and -d suffix in the /mnt/ directory."
+Creates a new temporary directory with a random name and _logs suffix in the /mnt/logs/ directory.
+Creates a new temporary file with data prefix and _data suffix in the ~/test/ directory with a random name.
+Creates a new temporary directory with backupdir_ prefix and a unique suffix and displays the directory name without creating it in the /mnt/ directory.
+Creates a new temporary directory with tempdir_ prefix and a unique suffix in the /mnt/data/ directory with a random name.
+Creates a new temporary directory with /mnt/backup_ prefix and a unique suffix and displays the directory name without creating it.
+Creates a new temporary file with a random name and __logs suffix in the /mnt/ directory.
+Displays the file name that will be created with logs_ prefix and a unique suffix without creating it in the /mnt/logs/ directory.
+Creates a new temporary directory with a random name and __data suffix in the /tmp/ directory.
+Creates a new temporary file with log_ prefix and a unique suffix and displays the file name without creating it in the ~/test/ directory.
+"Creates a new temporary directory with backupdata- prefix, a unique suffix and -d suffix in the /mnt/datafiles/ directory."
+Creates a new temporary directory with backup__ prefix and a random name in the /mnt/ directory.
+Creates a new temporary file with datafile prefix and _logs suffix in the /mnt/logs/ directory with a random name.
+Creates a new temporary file with app_ prefix and a unique suffix and displays the file name without creating it in the ~/test-dir/ directory.
+Displays the directory name that will be created with a random name without creating it in the /mnt/data/ directory.
+Creates a new temporary directory with datafiles prefix and __data suffix in the /mnt/ directory.
+Displays the file name that will be created with testlog prefix and _log suffix without creating it in the /mnt/ directory.
+Displays the directory name that will be created with temp prefix and _data suffix without creating it in the ~/test/ directory.
+Creates a new temporary directory with backupdata_ prefix and a unique suffix in the /mnt/datafiles/ directory with a random name.
+Creates a new temporary directory with applog_ prefix and a unique suffix and displays the directory name without creating it in the /mnt/logs/ directory.
+Creates a new temporary directory with testdir- prefix and a unique suffix in the /mnt/datafiles/ directory with a random name.
+Creates a new temporary file with appfile prefix and _app suffix and displays the file name without creating it in the ~/test/ directory.
+Creates a new temporary file with backup prefix and a random name in the /mnt/datafiles/ directory.
+Displays the file name that will be created with test prefix and _testfile suffix without creating it in the /mnt/ directory.
+Creates a new temporary directory with logs prefix and _logs suffix in the /mnt/ directory with a random name.
+"Creates a new temporary directory with backupdir_ prefix, a unique suffix and -d suffix and displays the directory name without creating it in the /mnt/datafiles/ directory."
+Displays the directory name that will be created with tmpfile prefix and _log suffix without creating it in the /mnt/ directory.
+Creates a new temporary file with data_ prefix and a unique suffix and displays the file name without creating it in the /mnt/ directory.
+Creates a new temporary directory with app prefix and a unique suffix and displays the directory name without creating it in the ~/test-dir/ directory.
+Creates a new temporary file with backup_ prefix and a unique suffix in the /mnt/logs/ directory with a random name.
+Creates a new temporary directory with backup prefix and _backup suffix in the /mnt/datafiles/ directory with a random name.
+Creates a new temporary directory with applog prefix and a unique suffix and displays the directory name without creating it in the /mnt/logs/ directory.
+"Creates a new temporary file with /mnt/datafile- prefix, a unique suffix and _data suffix in the /mnt/ directory."
+"Creates a new temporary directory with backupdata- prefix, a unique suffix and a random name in the /mnt/datafiles/ directory."
+Rename file1 as file2.
+Move file1 to folder.
+Rename folder1 as folder2.
+Move file1 from folder1 to folder2.
+Move all files and directories from folder to folder2.
+Merge folder1 into folder2.
+Create a backup of file when overwriting in folder.
+Force overwrite of file in folder.
+Prompt before overwrite of file in folder.
+Do not overwrite existing file in folder.
+Update file only when source is newer than destination in folder.
+Display verbose output of file moved to folder.
+Create a numbered backup of file when overwriting in folder.
+Create a timestamped backup of file when overwriting in folder.
+Do not overwrite existing file in folder.
+Force overwrite of file in folder.
+Prompt before overwrite of file in folder.
+Update file only when source is newer than destination in folder.
+Display verbose output of file moved to folder.
+Create a backup of file with a specified suffix when overwriting in folder.
+Move file1 and file2 to folder.
+Do not overwrite existing file in folder.
+Preserves original attributes of file in folder.
+Move all files in current directory to folder.
+Move all PNG files in current directory to folder.
+Move file to folder with fully qualified path.
+Move file to folder in home directory.
+Move file to folder in home directory.
+Rename folder1 as folder2 and all its contents.
+Move all files and directories from folder to folder2 with prompt before overwrite.
+Create backups of file1 and file2 with a specified suffix when overwriting.
+Update file in folder2 only when source is newer.
+Display verbose output of file moved from folder1 to folder2.
+Create backups of all files and directories being overwritten in folder2.
+Do not overwrite existing file in folder2.
+Move all files and directories from folder1 to folder2.
+Move all files and directories from folder1 to folder2 and retain their original names.
+Update files and directories in folder2 only when source is newer.
+Display verbose output of all files and directories moved from folder1 to folder2.
+Prompt before overwriting existing files and directories in folder2.
+Create backups of all files and directories being overwritten and retain their original names.
+Display verbose output of all files and directories moved from folder1 to folder2 and retain their original names.
+Update files and directories in folder2 only when source is newer with prompt before overwrite.
+Create backups of all files and directories being overwritten with a specified suffix.
+Display verbose output of all files and directories moved from folder1 to folder2 and retain their original names.
+Update files and directories in folder2 only when source is newer and create backups of all overwritten files.
+Prompt before overwriting existing files and directories in folder2 and retain their original names.
+Do not overwrite existing files and directories in folder2 and retain their original names.
+Force overwrite existing files and directories in folder2 and retain their original names.
+Create backups of all files and directories being overwritten with a specified suffix and retain their original names.
+Preserves original attributes of all files and directories moved from folder1 to folder2.
+Update file in folder2 only when source is newer and create backups of all overwritten files.
+Display verbose output of file moved from folder1 to folder2 without overwriting an existing file.
+Prompt before overwriting and create backups of all overwritten files in folder2.
+Move all files and directories from folder1 to folder2 and retain their original names.
+Display verbose output of file moved from folder1 to folder2 and force overwrite of existing file.
+Update files and directories in folder2 only when source is newer and retain their original names.
+Prompt before overwriting existing files and directories with a specified backup suffix in folder2.
+Rename all files and directories in folder1 as folder2 and create backups of all overwritten files.
+Display verbose output of file moved from folder1 to folder2 and create backups of all overwritten files with a specified suffix.
+Prompt before overwriting existing files and directories in folder2 and retain their original names.
+Force overwrite existing files and directories in folder2 and retain their original names.
+Preserves original attributes of all files and directories moved from folder1 to folder2 with prompt before overwrite.
+Update files and directories in folder2 only when source is newer with prompt before overwrite and retain their original names.
+"Do not overwrite existing files and directories in folder2 and retain their original names, but create backups of all overwritten files with a specified suffix."
+Force overwrite existing files and directories in folder2 with a specified suffix and retain their original names.
+Display verbose output of all files and directories moved from folder1 to folder2 with backups of all overwritten files with a specified suffix and retain their original names.
+Update files and directories in folder2 only when source is newer with prompt before overwrite and create backups of all overwritten files.
+Do not overwrite existing files and directories in folder2 and retain their original names.
+Do not overwrite existing files and directories in folder2 with backups of all overwritten files with a specified suffix and retain their original names.
+Display verbose output of all files and directories moved from folder1 to folder2 without overwriting existing files and directories in folder2.
+Preserves original attributes of all files and directories moved from folder1 to folder2 and display verbose output while retaining their original names.
+Do not overwrite existing files and directories in folder2 with prompt before overwrite and retain their original names.
+Update file in folder2 only when source is newer and display verbose output without overwriting an existing file.
+Force overwrite existing files and directories and create backups of all overwritten files in folder2.
+Prompt before overwriting and create backups of all files and directories with a specified suffix in folder2.
+Display verbose output of all files and directories moved from folder1 to folder2 with backups of all overwritten files with a specified suffix and prompt before overwrite.
+Do not overwrite existing files and directories in folder2 and update files and directories only when source is newer.
+Move all files and directories from folder1 to folder2 and retain their original names with prompt before overwrite.
+"Update files and directories in folder2 only when source is newer and do not overwrite existing files and directories, but retain their original names."
+Force overwrite existing files and directories with a specified backup suffix in folder2.
+Display verbose output of all files and directories moved from folder1 to folder2 without overwriting existing files and directories in folder2 with prompt before overwrite.
+Do not overwrite existing files and directories in folder2 with backups of all files and directories with a specified suffix in folder1 and prompt before overwrite.
+Display verbose output of all files and directories moved from folder1 to folder2 while preserving their original attributes and retaining their original names.
+Do not overwrite existing files and directories in folder2 with prompt before overwrite and retain their original names.
+Force overwrite existing files and directories in folder2 and display verbose output while retaining their original names.
+Do not overwrite existing files and directories in folder2 with backups of all files and directories with a specified suffix in folder1 and prompt before overwrite.
+Display verbose output of all files and directories moved from folder1 to folder2 with force overwrite and prompt before overwrite.
+Update file in folder2 only when source is newer and create backups of all overwritten files with a specified suffix.
+Display verbose output of all files and directories moved from folder1 to folder2 with backups of all overwritten files with a specified suffix and retain their original names.
+Update files and directories in folder2 only when source is newer with prompt before overwrite and retain their original names.
+Create backups of all files and directories being overwritten with prompt before overwrite and retain their original names in folder2.
+Display verbose output of file moved from folder1 to folder2 with force overwrite and create backups of all overwritten files with a specified suffix.
+Update file in folder2 only when source is newer and do not overwrite existing file but retain its original name.
+Force overwrite existing files and directories in folder2 with prompt before overwrite and retain their original names.
+Move all files and directories from folder1 to folder2 with backups of all files and directories with a specified suffix and prompt before overwrite.
+Display verbose output of all files and directories moved from folder1 to folder2 without overwriting existing files and directories in folder2 but create backups of all overwritten files with a specified suffix.
+"Do not overwrite existing files and directories in folder2 while preserving the original attributes of all files and directories moved from folder1 to folder2, and retain their original names."
+"Update files and directories in folder2 only when source is newer with prompt before overwrite and do not overwrite existing files and directories, but retain their original names."
+Display verbose output of all files and directories moved from folder1 to folder2 with update of files and directories only when source is newer with retention of their original names.
+Ping Google.com 5 times
+Ping server.local indefinitely
+Ping 8.8.8.8 through eth0 interface
+Ping 192.168.0.1 10 times
+Ping server.local with 1000 byte packet size
+Quiet mode: don't display statistics
+Ping 192.168.1.1 every 2 seconds
+Ping 192.168.1.1 2 times
+Don't fragment packet
+Ping Google.com with 10 second deadline
+Ping server.local with 50 byte packet size
+Record route (IPv6)
+Verbose mode: show packets
+Ping local machine 10 times
+Ping example.com 5 times
+Ping server.local through eth0 interface
+Ping Google.com forever
+Debug mode: show packets in hexdump format
+Flood ping to 192.168.1.1
+Set source IP to 192.168.0.2 and ping Google.com
+Ping Google.com with 1 second timeout
+Ping local machine 3 times
+Ping server.local with 50 byte packet size
+Ping Google.com and retransmit 5 times
+Audible mode: beep on successful ping
+Ping 192.168.0.1 with 10 byte data size
+Flood ping with 1000 byte packet size
+Broadcast ping on local network
+Ping 192.168.1.1 and resolve hostname
+Ping server.local with 2 packets of 1000 byte size
+Ping Google.com through eth1 interface and 3 times
+Ping 8.8.8.8 3 times and display only summary
+"Ping 192.168.0.1 every 1 second, 10 times"
+Set want fragmentation bit
+Ping 192.168.0.1 with 5 second timeout
+Ping server.local with 3 packets of 50 byte size
+Record route to Google.com (one-hop)
+Ping server.local with 500 byte packet size
+Ping server.local and show packet in hexdump format
+Flood ping with 50 byte packet size
+Ping Google.com with source IP 192.168.0.2 and 2 packets
+Ping Google.com with 2 second timeout and 5 times
+Ping server.local indefinitely and 3 times
+Record route to Google.com (5 hops)
+Ping local machine 5 times and display only summary
+"Ping 192.168.1.1 every 5 seconds, 5 times"
+Set don't fragment bit
+Ping Google.com with 3 second timeout and 2 times
+Ping server.local with 2 packets of 500 byte size
+Record route to server.local (3 hops)
+Ping local machine with 1 second timeout and 3 times
+Ping 192.168.0.1 and display retransmission count
+Ping Google.com with 50 byte data size
+Flood ping to server.local with 500 byte packet size
+Ping 192.168.0.1 through eth0 interface and 5 times
+Ping 192.168.1.1 5 times and display only summary
+Ping Google.com every 10 seconds and 2 times
+Ping server.local with 100 byte packet size
+Ping Google.com twice and show packet in hexdump format
+Flood ping with 100 byte packet size
+Ping server.local with source IP 192.168.0.2 and 3 packets
+Ping Google.com with 3 second timeout and 3 times
+Ping server.local indefinitely and 5 times
+Record route to Google.com (2 hops)
+Ping local machine 2 times and display only summary
+"Ping 192.168.1.1 every 2 seconds, 10 times"
+Set want fragmentation bit
+Ping 192.168.0.1 with 2 second timeout and 5 times
+Ping server.local with 2 packets of 100 byte size
+Record route to server.local (one-hop)
+Ping local machine with 1 second timeout and 2 times
+Ping 192.168.0.1 and display retransmission count
+Ping Google.com with 100 byte data size
+Flood ping to server.local with 1000 byte packet size
+Ping 192.168.0.1 through eth0 interface and 3 times
+Ping 192.168.1.1 2 times and display only summary
+Ping Google.com every 5 seconds and 3 times
+Ping server.local with 200 byte packet size
+Ping local machine and show packet in hexdump format
+Flood ping with 200 byte packet size
+Ping Google.com with source IP 192.168.0.2 and 2 packets
+Ping Google.com with 2 second timeout and 2 times
+Ping server.local indefinitely and 2 times
+Record route to Google.com (4 hops)
+Ping local machine 4 times and display only summary
+"Ping 192.168.0.1 every 4 seconds, 4 times"
+Set want fragmentation bit
+Ping Google.com with 4 second timeout and 4 times
+Ping server.local with 4 packets of 200 byte size
+Record route to server.local (2 hops)
+Ping local machine with 1 second timeout and 1 time
+Ping 192.168.0.1 and display retransmission count
+Ping Google.com with 200 byte data size
+Flood ping to server.local with 2000 byte packet size
+Ping 192.168.0.1 through eth0 interface and 4 times
+Ping 192.168.1.1 1 time and display only summary
+Ping Google.com every 3 seconds and 2 times
+Ping server.local with 300 byte packet size
+Ping Google.com thrice and show packet in hexdump format
+Flood ping with 300 byte packet size
+Move file1 to dir1
+Recursively copy dir1 to dir2
+Copy file1 to /home/user/dir1
+Copy file1 with preserve mode
+Verbose copy file1 to dir1
+Interactively copy file1 to dir1
+Copy file1 only if it is newer than dir1
+Copy file1 to dir1 with 10 seconds timeout
+Do not overwrite existing file in dir1
+Preserve file extension when copying file1 to dir1
+Move all files in current directory to dir1
+Preserve mode and recursively copy dir1 to dir2
+Force copy of file1 to dir1
+Copy file1 to dir1 with new name file2
+Copy file1 and strip leading directory components
+Copy file1 with executable mode to dir1
+Copy file1 and make a backup of existing file in dir1
+Follow symbolic links when copying file1 to dir1
+Copy file1 with context to dir1
+Copy file1 and keep source file ownership to dir1
+Copy file1 only if it differs from dir1
+Copy file1 and preserve the timestamp of the source file
+Copy file1 with compression level 9 to dir1
+Move dir1 to dir2
+Copy all files in dir1 to dir2
+Copy file1 with sparse support to dir1
+Copy file1 with permission mask to dir1
+Copy file1 with date preservation to dir1
+Follow symbolic links and copy file1 to dir1
+Copy file1 and preserve group ownership to dir1
+Do not overwrite existing file and show verbose output when copying file1 to dir1
+Recursively copy dir1 to dir2 with verbose output
+Preserve mode and show verbose output when copying file1 to dir1
+Copy file1 only if it is newer than dir1 and show output only when copying differs
+Show verbose output and timeout in 5 seconds when copying file1 to dir1
+Preserve mode and recursively copy dir1 to dir2 with verbose output
+Interactively and show verbose output when copying file1 to dir1
+Force copy and show verbose output when copying file1 to dir1
+Copy file1 and strip leading directory components with verbose output
+Copy file1 with executable mode and show verbose output to dir1
+Copy file1 and make a backup of existing file in dir1 with verbose output
+Follow symbolic links and show verbose output when copying file1 to dir1
+Copy file1 with context and show verbose output to dir1
+Copy file1 and keep source file ownership with verbose output to dir1
+Copy file1 only if it differs from dir1 with verbose output
+Copy file1 and preserve the timestamp of the source file with verbose output
+Copy file1 with compression level 9 and show verbose output to dir1
+Copy all files in dir1 with verbose output to dir2
+Copy file1 with sparse support and show verbose output to dir1
+Copy file1 with permission mask and show verbose output to dir1
+Copy file1 with date preservation and show verbose output to dir1
+Follow symbolic links and show verbose output when copying file1 to dir1
+Copy file1 and preserve group ownership with verbose output to dir1
+Do not overwrite existing file and copy only if it is newer than dir1
+Recursively copy dir1 to dir2 and force copy
+Preserve mode and interactively copy file1 to dir1
+Timeout in 5 seconds and copy file1 only if it differs from dir1
+Copy file1 and strip leading directory components with executable mode to dir1
+Copy file1 and make a backup of existing file in dir1 and follow symbolic links
+Copy file1 and keep source file ownership and force copy to dir1
+Copy file1 only if it differs from dir1 and preserve the timestamp of the source file
+Copy dir1 to dir2 with compression level 9 and preserve mode
+Copy all files in dir1 to dir2 and copy only if it is newer than dir2
+Copy file1 with sparse support and executable mode to dir1
+Copy file1 with permission mask and date preservation to dir1
+Follow symbolic links and make a backup of existing file in dir1 when copying file1
+Copy file1 and preserve group ownership only if it differs from dir1
+Do not overwrite existing file and copy file1 with compression level 9 to dir1
+Recursively copy dir1 to dir2 with 5 seconds timeout
+Copy file1 only if it is newer than dir1 and force copy to dir1
+Preserve mode and copy file1 without leading directory components to dir1
+Follow symbolic links and preserve the timestamp of the source file when copying file1 to dir1
+Copy file1 only if it differs from dir1 and force copy to dir1
+Copy file1 with executable mode and compression level 9 to dir1
+Copy file1 and preserve group ownership only if it is newer than dir1
+Copy dir1 to dir2 with preserve mode and 5 seconds timeout
+Copy file1 with date preservation and make a backup of existing file in dir1
+Verbose copy with preserve mode of dir1 to dir2
+Interactively copy file1 only if it is newer than dir1
+Copy file1 with compression level 9 and preserve mode to dir1
+Copy file1 and preserve the timestamp of the source file and do not overwrite existing file in dir1
+Timeout in 5 seconds and copy file1 only if it is newer than dir1
+Follow symbolic links and copy file1 to dir1 without overwriting existing file
+Copy file1 with executable mode and preserve mode to dir1
+Copy file1 and preserve group ownership and strip leading directory components to dir1
+Copy file1 only if it differs from dir1 with compression level 9 to dir1
+Copy file1 with sparse support and make a backup of existing file in dir1
+Timeout in 5 seconds and force copy file1 to dir1
+Verbose copy all files in dir1 to dir2
+Recursively copy dir1 to dir2 without overwriting existing files in dir2
+Preserve mode and make a backup of existing file in dir1 when copying file1
+Copy file1 only if it is newer than dir1 with compression level 9 to dir1
+Preserve mode and copy file1 with sparse support to dir1
+Follow symbolic links and copy file1 only if it differs from dir1
+Timeout in 5 seconds and copy file1 only if it differs from dir1 with verbose output
+Copy file1 and preserve the timestamp of the source file with sparse support to dir1
+Do not overwrite existing files and recursively copy dir1 to dir2
+Copy file1 with compression level 9 to dir1 and make a backup of existing file in dir1
+Preserve mode and do not overwrite existing file in dir1 when copying file1
+Copy file1 only if it is newer than dir1 with compression level 9 and copy only if it differs from dir1.
+Print current directory.
+Print symbolic path.
+Print physical path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+Print directory path.
+remove a file.
+remove a directory and its contents recursively.
+remove a file forcefully.
+remove a directory and its contents recursively forcefully.
+remove all files with the .txt extension.
+prompt for confirmation before removing a file.
+prompt for confirmation before removing a directory and its contents recursively.
+remove an empty directory.
+display a message for each file removed.
+display a message for each file and directory removed recursively.
+prompt for confirmation before removing more than three files at once.
+remove a directory and its contents recursively.
+remove all files starting with file and ending with .txt.
+completely remove all files and directories from the root directory (DO NOT RUN THIS COMMAND).
+securely remove a file by overwriting it before deleting.
+display the help menu for the rm command.
+remove a file even if it is read-only.
+forcefully remove a specific file from a directory.
+remove multiple directories and their contents recursively.
+remove a directory and its contents recursively.
+remove all files and directories in the Downloads folder.
+display a message for each file removed with the .txt extension.
+remove all temporary files ending with ~.
+remove a directory and its contents recursively from the parent directory.
+"remove all data sent to the null device, discarding it."
+remove all contents from multiple directories recursively.
+remove all files and directories in the current directory and its subdirectories.
+prompt for confirmation before removing all files in a directory.
+remove a directory even if it contains read-only files.
+remove all files with the .txt extension in the Downloads folder.
+display a message for each file and directory removed recursively forcefully.
+remove all files and directories in the Downloads folder recursively.
+display a message for each file removed with the .txt extension.
+remove multiple directories and their contents recursively forcefully.
+remove all files and directories in the log directory.
+forcefully remove a specific file in the log directory.
+display a message for each file and directory removed recursively forcefully.
+remove an empty directory.
+prompt for confirmation before removing all files with the .txt extension.
+completely remove all files and directories from the root directory (DO NOT RUN THIS COMMAND).
+remove a directory and its contents recursively forcefully.
+remove all files and directories in a directory including hidden files.
+prompt for confirmation before removing all files in a directory.
+remove all files and directories in the log directory recursively forcefully.
+remove multiple empty directories.
+remove a nested directory and its contents recursively.
+forcefully remove all files starting with messages in the log directory.
+completely remove all files and directories from the root directory without preserving file ownership (DO NOT RUN THIS COMMAND).
+"remove all files starting with a, b or c in a directory."
+prompt for confirmation before removing a directory and its contents recursively.
+remove multiple empty directories.
+completely remove all files and directories from the root directory without preserving file ownership (DO NOT RUN THIS COMMAND).
+remove all files with the .txt extension in a directory and its subdirectories.
+remove all files and directories in a three-level directory structure under the /var directory.
+prompt for confirmation before removing more than three files at once.
+remove a deeply nested directory and its contents recursively.
+remove multiple empty directories and display a message for each one.
+remove all files with the .txt extension in a directory.
+remove all files in a directory except for specific ones.
+prompt for confirmation before removing a directory and its contents recursively.
+remove multiple empty directories forcefully.
+prompt for confirmation before removing all files starting with file and ending with .txt.
+display a message for each file and directory removed from the root directory recursively without preserving file ownership (DO NOT RUN THIS COMMAND).
+forcefully remove all files with the .txt extension in a directory.
+remove a deeply nested directory and its contents recursively and display a message for each directory.
+forcefully remove all files in a directory except for specific ones.
+prompt for confirmation before removing all .txt files in subdirectories of a directory.
+prompt for confirmation before removing multiple empty directories.
+securely remove a directory and its contents recursively by overwriting them before deleting.
+display a message for each file and directory removed from the /data directory recursively forcefully.
+forcefully remove all directories starting with directory and display a message for each one.
+prompt for confirmation before removing all .txt and .pdf files in the current directory.
+prompt for confirmation before removing multiple empty directories and display a message for each one.
+remove all .tar.gz files in the backup directory from the parent directory and display a message for each one.
+remove all files starting with a or b in a nested directory.
+completely remove all files and directories from the root directory without preserving file ownership (DO NOT RUN THIS COMMAND).
+display a message for each file and directory removed forcefully starting with directory.
+prompt for confirmation before removing all .txt files in subdirectories of a directory and display a message for each one.
+remove a deeply nested directory and its contents recursively and display a message for each directory removed.
+prompt for confirmation before removing all .log files modified more than 7 days ago in the current directory and its subdirectories.
+forcefully remove a specific device file.
+prompt for confirmation before removing all files and directories from the root directory without preserving file ownership (DO NOT RUN THIS COMMAND).
+forcefully remove multiple directories and display a message for each one.
+forcefully remove all .txt and .pdf files in a directory.
+forcefully remove all files in a directory except for .txt and .pdf files.
+remove a nested directory and its contents recursively and display a message for each directory removed.
+display a message for each file and directory removed from the root directory recursively without preserving file ownership (DO NOT RUN THIS COMMAND).
+prompt for confirmation before removing all files in a directory except for .pdf files and display a message for each file removed.
+prompt for confirmation before removing all files starting with file and ending with .txt.
+prompt for confirmation before forcefully removing multiple empty directories.
+forcefully remove specific files in a directory and display a message for each file removed.
+forcefully remove all files in a directory excluding specific ones.
+forcefully remove all .txt and .pdf files in a directory.
+forcefully remove all files in a directory excluding .txt and .pdf files.
+remove nested directories and display a message for each directory removed.
+forcefully remove all files and directories from the root directory recursively without preserving file ownership excluding specific ones (DO NOT RUN THIS COMMAND).
+prompt for confirmation before removing all .txt and .pdf files in a directory and display a message for each one.
+forcefully remove multiple directories and display a message for each one removed.
+forcefully remove all files in a directory excluding specific directories and file types.
+forcefully remove all .txt and .pdf files in a directory excluding specific directories.
+Remove directory foo.
+Remove directory bar.
+Remove directory dir1 verbosely.
+Remove directory proj1.
+Remove directory a/b/c/ with parents.
+Remove folder named folder.
+Force remove directory dir2/.
+Remove docs directory.
+Ignore non-empty directory and remove dir3/.
+Remove directory named source.
+Remove directory archive/2020/dec/ with parents.
+Remove music directory.
+Remove /home/user/temp/ directory verbosely with parents.
+Remove videos directory.
+Remove directory a/b/c/d/e/f/ with parents.
+Remove images directory.
+Remove /var/log/2020/oct/ directory verbosely with parents.
+Remove tmp directory.
+Recursively force remove directory dir4/.
+Remove software directory.
+Remove directory code/2020/jan/ with parents.
+Remove docs directory.
+Remove /var/www/html/ directory verbosely with parents.
+Remove music-videos directory.
+Remove directory a/b/c/d/e/f/g/h/ with parents.
+Remove log directory.
+Remove /usr/bin/ directory verbosely with parents.
+Remove workdocs directory.
+Force remove directory dir5/ verbosely.
+Remove books directory.
+Remove directory downloads/2020/nov/ with parents.
+Remove docs directory.
+Remove /usr/local/bin/ directory verbosely with parents.
+Remove pictures directory.
+Remove directory a/b/c/d/e/f/g/h/i/j/ with parents.
+Remove downloads directory.
+Remove /etc/sysconfig/ directory verbosely with parents.
+Remove data directory.
+Force remove directory dir6/ verbosely.
+Remove images directory.
+Remove directory library/2020/nov/ with parents.
+Remove docs directory.
+Remove /etc/nginx/ directory verbosely with parents.
+Remove movies directory.
+Remove directory a/b/c/d/e/f/g/h/i/j/k/ with parents.
+Remove public directory.
+Remove /usr/share/ directory verbosely with parents.
+Remove backlogs directory.
+Force remove directory dir7/ verbosely.
+Remove directory library/2020/dec/ with parents.
+Remove docs directory.
+Remove /etc/httpd/ directory verbosely with parents.
+Remove reports directory.
+Remove directory a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/ with parents.
+Remove backups directory.
+Remove /var/www/ directory verbosely with parents.
+Remove oldfiles directory.
+Force remove directory dir8/ verbosely.
+Remove directory archives/2020/nov/ with parents.
+Remove docs directory.
+Remove /etc/ssh/ directory verbosely with parents.
+Remove backups directory.
+Remove directory a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/ with parents.
+Remove archives directory.
+Remove /var/log/nginx/ directory verbosely with parents.
+Remove test directory.
+Force remove directory dir9/ verbosely.
+Remove directory uploads/2020/nov/ with parents.
+Remove docs directory.
+Remove /opt/lampp/ directory verbosely with parents.
+Remove temp directory.
+Remove directory a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/ with parents.
+Remove scripts directory.
+Remove /var/lib/mysql/ directory verbosely with parents.
+Remove backup directory.
+Force remove directory dir10/ verbosely.
+Remove directory backups/2020/nov/ with parents.
+Remove docs directory.
+Remove /var/www/html/sample/ directory verbosely with parents.
+Remove git directory.
+Remove directory a1/b2/c3/ with parents.
+Remove files directory.
+Remove /var/named/ directory verbosely with parents.
+Remove logs directory.
+Force remove directory dir11/ verbosely.
+Remove directory backups/2020/dec/ with parents.
+Remove docs directory.
+Remove /var/www/html/test/ directory verbosely with parents.
+Remove backup1 directory.
+Remove directory a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/1/2/3/4/5/6/7/8/9 with parents.
+Remove downloads directory.
+Remove /var/lib/pgsql/ directory verbosely with parents.
+Remove archives directory.
+Remove directory backups/2020/dec/ recursively.
+Remove tmp directory.
+Remove /var/www/html/demo/ directory verbosely with parents.
+Remove backup2 directory.
+Remove directory a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15 recursively.
+Remove archives directory.
+Remove /usr/tmp/ directory verbosely with parents.
+Connect to host1 with user1
+Generate RSA key pair
+Copy public key to host
+Enable X11 forwarding
+Copy file.txt to /directory on host
+Mount remote directory to local
+Add identity (private key) to SSH agent
+Start interactive sftp session
+Connect to host on port 2222
+Sync remote directory to local
+Add host key to known_hosts
+Forward port 8080 to localhost:80
+Mount remote directory with specific user and group
+Generate ed25519 key pair
+Enable X11 forwarding with compression
+Copy folder and its contents to /directory on host
+Mount remote directory with specific identity file
+List identities (private keys) in SSH agent
+Change directory in sftp session
+Connect to host with specific identity file
+Sync remote directory with compression
+Add host key on port 2222 to known_hosts
+Mount remote directory as superuser
+Forward port 8080 to localhost:80 in background
+Automatically reconnect when connection is lost
+Generate DSA key pair
+Set connection timeout to 10 seconds
+Copy file.txt from host to current directory
+Mount remote directory with specific umask
+Close multiplexed SSH connections
+Remove all identities (private keys) from SSH agent
+Download file.txt from remote sftp session
+Copy specific public key to host
+Sync remote directory with compression and exclude *.bak files
+Add RSA host key to known_hosts
+Mount remote directory with specific user and group names
+Set log level to VERBOSE
+Copy file.txt to /directory on host on port 2222
+Start dynamic port forwarding on port 8080
+Mount remote directory with specific ssh command
+Convert ed25519 public key to PEM format
+Send keepalive packets every 30 seconds
+Upload file.txt to remote sftp session
+Copy specific public key to host for DSA authentication
+Sync remote directory with compression and exclude files listed in exclude-list.txt
+Add ECDSA host key to known_hosts
+Mount remote directory with specific group ID file
+"Connect to destination via jumphost with user1, using netcat"
+Copy folder and its contents from host to current directory
+Start multiplexed SSH connections with control socket
+Check RSA public key fingerprint with SHA-256
+Enable TCP keepalive
+Change local directory in sftp session
+Copy ed25519 public key to host on port 2222
+Sync remote directory with compression and delete extraneous files in local directory
+Generate ECDSA key pair
+Disable known hosts checking
+Copy folder and its contents from host on port 2222 to current directory
+Mount remote directory with specific identity file and allow other users
+Set maximum number of keepalive packets before connection is terminated
+Print local working directory in sftp session
+Add all identities (private keys) matching '*key*' to SSH agent
+"Sync remote directory with compression, using only file size for changes"
+Check ed25519 public key fingerprint with SHA-512
+Start SSH connection multiplexing with specific parameters
+Copy file using specific identity file to /directory on host
+Forward ports 8080 and 3306 to localhost:80 and localhost:3306 on host
+"Mount remote directory with specific user and group ownership, as well as allowing access to other users"
+Connect to host with specific user and identity file
+Print local working directory in sftp session (alias for pwd command)
+Copy ECDSA public key to host on port 2222
+"Sync remote directory with compression, exclude CVS directories and delete extraneous files after sync"
+Generate RSA key pair with 4096-bit key length
+Set log level to QUIET
+Copy folder and its contents from host using specific identity file to current directory
+Mount remote directory with specific user ownership and allow other users access
+Disable known hosts checking and connect as root user with specific identity file
+List files in remote directory and save to local files.txt
+Lock SSH agent with passphrase
+Sync remote directory with time stamps preserved and compression
+Check RSA public key fingerprint with MD5 hash
+Disable password authentication and enable public key authentication
+Copy file.txt using specific identity file and on port 2222 to /directory on host
+"Connect to destination via jumphost with user1, using nested SSH commands and forward ports 8080 and 3306"
+Mount remote directory and follow symbolic links
+Start SSH connection multiplexing and forward port 1234 to host2:5678 via host1 in background
+Upload all .txt files in local directory to remote directory
+Enable agent forwarding
+Sync remote directory with compression and delete files excluded in exclude-list.txt
+Generate ed25519 key pair with comment my@email.com
+Set log level to DEBUG3
+Copy folder and its contents from host using specific identity file and on port 2222 to current directory
+"Mount remote directory with specific user ownership, allow other users access, and specific identity file"
+"Disable known hosts checking, connect to destination via jumphost with user1 using netcat, and connect as user2"
+Print remote working directory in sftp session
+Add all identities (private keys) matching '*key*' to SSH agent with 1 hour lifetime
+Sync remote directory with compression and use previous backup from /backup/2022-01-01 as source for unchanged files
+Set preferred authentications to publickey only
+Copy folder using specific identity file to /directory on host
+"Mount remote directory with specific user and group ownership, allow other users access, and set specific user and group names."
+Display status of Documents directory
+Display status of passwd file
+Display status of syslog file
+Display custom status format of file.txt in tmp directory
+Follow symbolic links to display status of syslog file
+Display status of all files in log directory in a terse format
+Display file system status of sda1 device
+"Display name, permissions, and owner/group of home directory"
+Display time of last access for the syslog file
+Display time of last write for the syslog file
+Display SELinux security context of the syslog file
+"Display name, permissions, owner, group, and number of hard links of user's home directory"
+"Display name, block size, and number of blocks used by Documents directory"
+Display name and inode number of the syslog file
+Display name and file type (directory) of the var directory
+"Display time of last access, modification, and status change of the passwd file"
+"Display name, file system type, and mount point of the sda device"
+Display name and year of last status change of the syslog file
+"Display name, permissions, and octal representation of permissions of the passwd file"
+Display name and size of sda1 device
+"Display name, owner, and group of the passwd file"
+Display name and number of CPUs on the system
+Display name and time of last modification for the passwd file
+Display name and size in bytes of the passwd file
+"Display name, permissions, owner, and group of the etc directory"
+Display status of notes file in user's Desktop directory
+"Display name, permissions, owner, and group of the group file"
+Display name and time of last file write for the syslog file
+Display name and time of last file write for the passwd file
+"Display name, permissions, owner, and group of the bin directory"
+"Display name, owner, group, and size of the Documents directory"
+"Display name, permissions, and inode number of the sdb device"
+"Display name, permissions, owner, and group of the shadow file"
+"Display name, file system type, and mount point of the usr directory"
+"Display name, permissions, owner, and group of the share directory"
+"Display name, permissions, owner, and group of the bin directory"
+"Display name, permissions, owner, and group of the sbin directory"
+"Display name, permissions, owner, group, and number of hard links of the include directory"
+"Display name, permissions, owner, and group of the local include directory"
+Display name and owner/group of the Documents directory
+"Display name, time of last modification, and size of the bin directory"
+"Display name, permissions, owner, and group of the lib directory"
+"Display name, permissions, owner, and group of the local lib directory"
+"Display name, owner, group, and permissions of the log directory"
+Display name and time of last access for the Desktop directory
+"Display name, permissions, owner, and group of the var directory"
+Display name and file type (directory) of the local directory
+"Display name, file system type, and mount point of the var directory"
+"Display name, permissions, owner, and group of the run directory"
+"Display name, time of last modification, and size of the log directory"
+"Display name, permissions, owner, and group of the cache directory"
+"Display name, permissions, owner, group, and number of hard links of the spool directory"
+Display name and time of last file write for the cache directory
+"Display name, permissions, owner, and group of the local share directory"
+Display name and time of last write for the log directory
+"Display name, permissions, owner, group, and number of hard links of the local directory"
+Display name and time of last file write for the bin directory
+"Display name, permissions, owner, and group of the local sbin directory"
+"Display name, inode number, and permissions of the local man directory"
+"Display name, time of last access, modification, and status change for the sudoers file"
+"Display name, time of last modification, and size of the tmp directory in var"
+"Display name, permissions, owner, and group of the mail directory in var/spool"
+"Display name, permissions, owner, and group of the local man directory"
+"Display name, permissions, owner, and group of the lib directory in var"
+"Display name, permissions, owner, and group of the tmp directory in var"
+"Display name, permissions, owner, and group of the backups directory in var"
+"Display name, time of last modification, and size of the group file"
+"Display name, permissions, owner, and group of the cron directory in var/spool"
+Display name and time of last file write for the postfix directory in var/spool
+"Display name, permissions, owner, and group of the ldconfig directory in var/cache"
+"Display name, permissions, owner, group, and number of hard links of the apt directory in var/log"
+"Display name, time of last modification, and size of the null device"
+"Display name, permissions, owner, and group of the lock directory in var/run"
+"Display name, permissions, owner, and group of the screen directory in var/run"
+"Display name, permissions, owner, and group of the etc directory in local"
+"Display name, permissions, owner, and group of the mount directory"
+"Display name, permissions, owner, and group of the squid directory in var/spool"
+"Display name, owner, and group of the boot directory"
+"Display name, time of last modification, and size of the shm directory in run"
+"Display name, permissions, owner, and group of the apt directory in var/log"
+"Display name, permissions, owner, and group of the mail directory in var"
+"Display name, permissions, owner, and group of the screens directory in run"
+"Display name, permissions, owner, and group of the sbin directory in usr"
+Display name and year of last status change for the ls command in bin
+Display name and file capabilities of the libc library
+"Display name, time of last modification, and size of the crontabs directory in var/spool/cron"
+"Display name, permissions, owner, and group of the lock directory in run"
+"Display name, permissions, owner, and group of the screen directory in run"
+"Display name, permissions, owner, and group of the netinet directory in include"
+"Display name, permissions, owner, and group of the apt directory in backups"
+"Display name, time of last modification, and size of the man directory in share"
+"Display name, permissions, owner, and group of the active directory in postfix/spool"
+"Display name, permissions, owner, group, and number of hard links of the dpkg directory in var/lib"
+"Display name, permissions, owner, and group of the apache2 directory in local/etc"
+"Display name, permissions, owner, and group of the doc directory in share"
+"Display name, permissions, owner, and group of the man1 directory in local/man"
+Display name and time of last file write for the opt directory
+"Display name, permissions, owner, and group of the opt directory in etc"
+"Display name, permissions, owner, and group of the srv directory"
+Display status of sample directory named a_directory
+Display system information.
+"Batch mode, keep updating."
+Command line show.
+Delay between updates.
+Show threads.
+Don't show idle tasks.
+Show memory in MB.
+Number of iterations.
+Specific process ID.
+Cumulative time view.
+Sort by field.
+Specific user’s processes.
+Specific user's processes.
+Show version.
+Wide output.
+Security context.
+Monitor processes in /root.
+Monitor processes in /home/user.
+Monitor processes in /var/log.
+Update every 3 seconds.
+Monitor process ID 123.
+Delay by 10 seconds.
+Sort by CPU usage.
+Sort by memory usage.
+Monitor user’s processes.
+Monitor user's processes.
+Show version 8.0.
+Output width of 160.
+Show root's security context.
+Batch mode with delay of 5 seconds.
+Command line show with updates every 2 seconds.
+Delay by 10 seconds and monitor user's processes.
+Show threads for process ID 123.
+Update every 3 seconds and sort by CPU usage.
+Show top 10 memory consuming processes.
+Show top 5 processes.
+Monitor process IDs 123 and 345.
+Cumulative time view for process ID 123.
+Monitor user's and root's processes.
+Output width of 200 and show root's security context.
+Monitor processes in /etc directory.
+Monitor processes in /usr/bin directory.
+Monitor processes in /var/tmp directory.
+Batch mode and updates every 5 seconds.
+Delay by 15 seconds and sort by memory usage.
+Show threads for user’s processes.
+Update every 3 seconds and output width of 120.
+Show memory in MB for user's processes.
+Show top 10 processes with updates every 2 seconds.
+Cumulative time view for process ID 123.
+Sort by CPU usage and monitor user’s processes.
+Monitor user’s processes and show version 8.0.
+Output width of 180 and show apache's security context.
+Monitor processes in /usr/sbin directory.
+Monitor processes in /home/user1/public_html directory.
+Monitor processes in /var/lib/mysql directory.
+Batch mode with 5 iterations.
+Delay by 20 seconds and sort by CPU usage.
+Show threads for root's processes.
+Update every 3 seconds and monitor user's processes.
+Show memory in MB for process ID 123.
+Show top 15 processes sorted by memory usage.
+"Monitor process IDs 123, 345 and 678."
+Sort by CPU usage and output width of 160.
+Monitor user's processes and show apache's security context.
+Show version 7.5 and output width of 200.
+Output width of 180 and monitor processes in /etc directory.
+Monitor processes in /usr/share directory.
+Monitor processes in /home/user2 directory.
+Monitor processes in /var/named directory.
+Batch mode with 10 second delay and updates every 3 seconds.
+"Delay by 15 seconds, sort by memory usage and monitor user's processes."
+Show threads for process IDs 123 and 345.
+"Update every 3 seconds, sort by CPU usage and monitor user's processes."
+Show memory in MB for root's processes.
+Show top 20 processes sorted by CPU usage.
+"Cumulative time view for process IDs 123, 345 and 678."
+"Sort by CPU usage, output width of 180 and monitor processes in /usr/sbin directory."
+Monitor user's processes and show version 8.2.
+Show version 7.5 and show apache's security context.
+Output width of 160 and monitor processes in /var/tmp directory.
+Monitor processes in /usr/lib directory.
+Monitor processes in /home/user3 directory.
+Monitor processes in /var/log/apache2 directory.
+Batch mode with 10 second delay and 3 iterations.
+"Delay by 20 seconds, sort by CPU usage and monitor user's processes."
+Show threads for user's process with ID 123.
+"Update every 3 seconds, sort by memory usage and monitor root's processes."
+"Show memory in MB, output width of 180 and monitor processes in /etc directory."
+Show top 25 processes sorted by CPU usage.
+"Monitor process IDs 123, 345 and 678 and sort by CPU usage."
+"Sort by CPU usage, output width of 160 and monitor processes in /usr/share directory."
+Monitor user's processes and show nginx's security context.
+Show version 8.2 and output width of 200.
+Output width of 180 and monitor processes in /var/lib/mysql directory.
+Monitor processes in /usr/include directory.
+Monitor processes in /home/user4 directory.
+Monitor processes in /var/log/nginx directory.
+"5 seconds delay, 5 iterations and sort by memory usage."
+Show threads for root's process with ID 123.
+create empty file
+create empty directory
+change file access time
+change file modification time
+do not create file
+"create new file, copy modification time from another file"
+create file with specified timestamp
+create file with spaces in the name
+create file with quotes in the name
+create file in home directory
+create file in specified directory
+create multiple files with common prefix and numeric suffixes
+create multiple files with common suffix and alpha suffixes
+create multiple files using wildcard
+change file timestamp to one day ago
+change file timestamp to two weeks ago
+change file timestamp to next Monday
+create file with current timestamp
+create file in current directory
+create file with lock suffix
+create file with bak suffix
+create file with tilde suffix
+create file with swp suffix
+create file with orig suffix
+create file with save suffix
+create file with old suffix
+create file with new suffix
+create file with tmp suffix
+create file with log suffix
+create file with err suffix
+create file with out suffix
+create file with pid suffix
+create file with lockfile suffix
+create file with stats suffix
+create file with conf suffix
+create file with cfg suffix
+create file with crt suffix
+create file with key suffix
+create file with pem suffix
+create file with pub suffix
+create file with priv suffix
+create file with rsa suffix
+create file with dsa suffix
+create file with ssh suffix
+create file with tar suffix
+create file with zip suffix
+create file with rar suffix
+create file with gz suffix
+create file with bz2 suffix
+create file with xz suffix
+create file with sha suffix
+create file with md5 suffix
+create file with asc suffix
+create file with gpg suffix
+create file with sig suffix
+create file with pubkey suffix
+create file with privkey suffix
+create file with backup suffix
+create file with db suffix
+create file with sqlite suffix
+create file with mysql suffix
+create file with postgres suffix
+create file with mongo suffix
+create file with redis suffix
+create file with cache suffix
+create file with locking suffix
+create file with swapping suffix
+create file with logging suffix
+create file with monitoring suffix
+create file with troubleshooting suffix
+treat symbolic link as regular file
+do not update timestamp if file does not exist
+only update access time
+show file updates
+do not create file if it already exists
+change file timestamp to current time
+do not create file if it does not exist
+copy timestamp from another file
+only update access time
+only update modification time
+only update creation time
+change file timestamp to current time
+create file with specified timestamp
+show touch help menu
+show touch version information
+set file size to zero
+create file in default temporary directory
+treat symbolic link as symbolic link
+do not show file updates
+create directory recursively
+create directory hierarchy and file
+copy timestamp from another file
+change file timestamp to one day ago
+change file timestamp to two weeks ago
+change file timestamp to next Monday
+create file with specified timestamp
+create file with specified timestamp
+create file with specified timestamp
+create file with specified timestamp
+create file with specified timestamp
+Display directory tree
+Display hidden files
+Display directories only
+Display one level of directories
+Display full paths
+Don't highlight directories
+Print the file type
+Print the size of files
+Colorize output
+Output in JSON format
+Print sizes in human readable format
+Display only files matching pattern
+Don't display files matching pattern
+Print version information
+Use UTF-8 encoding
+Display home directory tree
+Display tree of /var directory
+Display tree of /var/www directory
+Display tree of /var/log directory
+Display tree of /etc directory
+Display tree of /usr directory
+Display tree of /home directory
+Display tree of /bin directory
+Display tree of /sbin directory
+Display tree of /lib directory
+Display tree of /lib64 directory
+Display tree of /boot directory
+Display tree of /proc directory
+Display tree of /sys directory
+Display tree of /usr/local directory
+Display tree of /usr/share directory
+Display tree of /usr/bin directory
+Display tree of /usr/sbin directory
+Display tree of /usr/lib directory
+Display tree of /usr/lib64 directory
+Display tree of /usr/include directory
+Display tree of /var/run directory
+Display tree of /var/lock directory
+Display tree of /var/mail directory
+Display tree of /var/spool directory
+Display tree of /var/cache directory
+Display tree of /var/tmp directory
+Display tree of /var/lib directory
+Display tree of /var/log/audit directory
+Display tree of /var/log/journal directory
+Display tree of /var/log/samba directory
+Display tree of /var/www/html directory
+Display tree of /etc/systemd directory
+Display tree of /etc/ssh directory
+Display tree of /etc/httpd directory
+Display tree of /etc/nginx directory
+Display tree of /etc/sysconfig directory
+Display tree of /etc/init.d directory
+Display tree of /etc/rc.d directory
+Display tree of /etc/sysctl.d directory
+Display tree of /etc/pki directory
+Display tree of /etc/ssl directory
+Display tree of /etc/modprobe.d directory
+Display tree of /etc/grub.d directory
+Display tree of /etc/skel directory
+Display tree of /run/user/1000 directory
+Display tree of /run/user/1000/gvfs directory
+Display tree of /run/lock directory
+Display tree of /run/shm directory
+Display tree of /tmp directory
+Display tree of /dev directory
+Display tree of /sys/kernel/security directory
+Display tree of /sys/fs directory
+Display tree of /sys/devices directory
+Display tree of /proc/irq directory
+Display tree of /proc/sys directory
+Display tree of /proc/scsi directory
+Display tree of /proc/bus directory
+Display tree of /proc/net directory
+Display tree of /proc/tty directory
+Display tree of /proc/sysvipc directory
+Display tree of a specific process
+Display tree of /proc/sys/kernel directory
+Display tree of /proc/sys/net directory
+Display tree of /sys/firmware directory
+Display tree of /sys/power directory
+Display tree of /sys/devices/platform directory
+Display tree of /sys/class directory
+Display tree of /var/ftp directory
+Display tree of /usr/local/bin directory
+Display tree of /usr/local/sbin directory
+Display tree of /usr/local/lib directory
+Display tree of /usr/local/include directory
+Display tree of /usr/local/share directory
+Display tree of /usr/local/man directory
+Display tree of /usr/local/games directory
+Display tree of /usr/local/mysql directory
+Display tree of /usr/X11R6 directory
+Display tree of /usr/games directory
+Display tree of /usr/include/linux directory
+Display tree of /usr/share/man directory
+Display tree of /usr/share/doc directory
+Display tree of /usr/share/locale directory
+Display tree of /usr/share/fonts directory
+Display tree of /usr/share/zoneinfo directory

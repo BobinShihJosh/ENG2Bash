@@ -1,0 +1,50 @@
+1. ls -l /home/user -> List the contents of the user's home directory in long format
+2. ls -a /etc -> List all files, including hidden ones, in the etc directory
+3. ls -R /usr/bin -> Recursively list all files and subdirectories in the usr/bin directory
+4. ls -t /var/log -> List the contents of the log directory sorted by modification time
+5. ls -S /opt -> List the contents of the opt directory sorted by file size
+6. ls -F /dev -> List the contents of the dev directory with indicators for types of files
+7. ls -h /tmp -> List the contents of the tmp directory with human-readable file sizes
+8. ls -d /var/lib -> List only the directories in the lib directory
+9. ls -1 /var/spool -> List the contents of the spool directory in a single column
+10. ls -R /usr/local -> Recursively list all files and subdirectories in the usr/local directory
+11. ls -ltr /bin -> List the contents of the bin directory in long format sorted by modification time
+12. ls -R /sbin -> Recursively list all files and subdirectories in the sbin directory
+13. ls -F /var/cache -> List the contents of the cache directory with indicators for types of files
+14. ls -h /usr/share -> List the contents of the share directory with human-readable file sizes
+15. ls -1 /etc/init.d -> List the contents of the init.d directory in a single column
+16. ls -lS /usr/lib -> List the contents of the lib directory in long format sorted by file size
+17. ls -d /var/log/apache2 -> List only the directories in the apache2 log directory
+18. ls -R /usr/sbin -> Recursively list all files and subdirectories in the usr/sbin directory
+19. ls -F /etc/cron.d -> List the contents of the cron.d directory with indicators for types of files
+20. ls -h /var/lib/mysql -> List the contents of the mysql directory with human-readable file sizes
+21. ls -1 /usr/local/bin -> List the contents of the bin directory in a single column
+22. ls -ltr /etc/apache2 -> List the contents of the apache2 directory in long format sorted by modification time
+23. ls -R /var/spool/mail -> Recursively list all files and subdirectories in the mail spool directory
+24. ls -F /usr/share/man -> List the contents of the man directory with indicators for types of files
+25. ls -h /usr/lib64 -> List the contents of the lib64 directory with human-readable file sizes
+26. ls -1 /var/cache/apt -> List the contents of the apt cache directory in a single column
+27. ls -lS /usr/local/lib -> List the contents of the lib directory in long format sorted by file size
+28. ls -d /etc/cron.daily -> List only the directories in the cron.daily directory
+29. ls -R /usr/include -> Recursively list all files and subdirectories in the usr/include directory
+30. ls -F /var/log/syslog -> List the contents of the syslog log directory with indicators for types of files
+31. ls -h /usr/bin -> List the contents of the bin directory with human-readable file sizes
+32. ls -1 /var/lib/dpkg -> List the contents of the dpkg directory in a single column
+33. ls -ltr /etc/init.d -> List the contents of the init.d directory in long format sorted by modification time
+34. ls -R /usr/sbin/apache2 -> Recursively list all files and subdirectories in the apache2 sbin directory
+35. ls -F /usr/local/share -> List the contents of the share directory with indicators for types of files
+36. ls -h /var/log/cron -> List the contents of the cron log directory with human-readable file sizes
+37. ls -1 /usr/lib/x86_64-linux-gnu -> List the contents of the x86_64-linux-gnu directory in a single column
+38. ls -lS /etc/apache2 -> List the contents of the apache2 directory in long format sorted by file size
+39. ls -d /var/cache/man -> List only the directories in the man cache directory
+40. ls -R /usr/lib/python2.7 -> Recursively list all files and subdirectories in the python2.7 lib directory
+41. ls -F /usr/local/bin -> List the contents of the bin directory with indicators for types of files
+42. ls -h /var/spool/cron -> List the contents of the cron spool directory with human-readable file sizes
+43. ls -1 /etc/apache2/mods-enabled -> List the contents of the mods-enabled directory in a single column
+44. ls -ltr /usr/include -> List the contents of the include directory in long format sorted by modification time
+45. ls -R /usr/lib/systemd -> Recursively list all files and subdirectories in the systemd lib directory
+46. ls -F /var/lib/dpkg -> List the contents of the dpkg directory with indicators for types of files
+47. ls -h /usr/local/lib -> List the contents of the lib directory with human-readable file sizes
+48. ls -1 /var/cache/apt/archives -> List the contents of the apt archives cache directory in a single column
+49. ls -lS /usr/share/man -> List the contents of the man directory in long format sorted by file size
+50. ls -d /etc/cron.hourly -> List only the directories in the cron.hourly directory

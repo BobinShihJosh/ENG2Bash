@@ -1,0 +1,109 @@
+1. cat file.txt -> print file contents
+2. cat -n file.txt -> print with line numbers
+3. cat -E file.txt -> print with $ at end
+4. cat file.txt file2.txt -> combine files
+5. cat file1.txt > file2.txt -> redirect output to file
+6. cat file1.txt >> file2.txt -> append to file
+7. cat dir/file.txt -> print file in directory
+8. cat /dev/urandom -> output random characters
+9. cat -v file.txt -> show non-printing characters
+10. cat -s file.txt -> squeeze blank lines
+
+11. cat /proc/cpuinfo -> display CPU information
+12. cat -u file.txt -> show buffered output
+13. cat /etc/passwd -> show user information
+14. cat -T file.txt -> show tabs as ^I
+15. cat /etc/fstab -> show mounted file systems
+16. cat file*txt -> wildcard for multiple files
+17. cat -A file.txt -> show tabs and $
+18. cat -e file.txt -> same as -vE
+19. cat -b file.txt -> number non-blank lines
+20. cat -u file.txt > /dev/null -> discard output
+
+21. cat -q file.txt -> suppress repeated newlines
+22. cat -k file.txt -> display specified file
+23. cat -r file.txt -> reverse output
+24. cat -z file.txt -> display compressed file
+25. cat -w file.txt -> display word count
+26. cat -l file.txt -> display byte count
+27. cat /etc/group -> show group information
+28. cat -H file.txt -> show symlink information
+29. cat -i file.txt -> interactive mode
+30. cat -0 file.txt -> show null characters
+
+31. cat -# file.txt -> set tab width to #
+32. cat -y file.txt -> set wrap bytes to #
+33. cat /etc/shadow -> show password information
+34. cat -h file.txt -> show help
+35. cat -x file.txt -> display hexadecimal output
+36. cat -g file.txt -> same as -A except $
+37. cat /etc/issue -> show system information
+38. cat -j file.txt -> join consecutive lines
+39. cat /dev/null -> create null file
+40. cat -u file.txt | less -> pipe output to less
+
+41. cat -a file.txt -> same as -vET
+42. cat -f file.txt -> same as -s
+43. cat -U file.txt -> disable output buffering
+44. cat -B file.txt -> number non-blank output
+45. cat /etc/os-release -> show operating system information
+46. cat -I file.txt -> ignore binary files
+47. cat -P file.txt -> same as -vTB
+48. cat -p file.txt -> same as -vTe
+49. cat /etc/hosts -> show host information
+50. cat -V file.txt -> show version information
+
+51. cat -l file.txt > file2.txt -> redirect byte count
+52. cat -Z file.txt -> display selinux context information
+53. cat -G file.txt -> same as -vT
+54. cat -R file.txt -> same as -vT
+55. cat -N file.txt -> number all lines
+56. cat -d file.txt -> same as -A
+57. cat -o file.txt -> output to file
+58. cat /etc/services -> display network service information
+59. cat -O file.txt -> show octal escapes
+60. cat /dev/zero -> generate null characters
+
+61. cat -Q file.txt -> quote non-printing characters
+62. cat -u file.txt | grep "example" -> pipe output to grep
+63. cat -t file.txt -> show non-printable characters
+64. cat -S file.txt -> sort output
+65. cat -W file.txt -> same as -y
+66. cat -L file.txt -> show newline count
+67. cat /dev/random -> output random bytes
+68. cat -cdb file.txt -> show decimal, octal, and binary escapes
+69. cat -E file.txt | less -> pipe output to less
+70. cat /etc/login.defs -> show user login information
+
+71. cat -a file.txt > file2.txt -> same as -vET
+72. cat -U file.txt | less -> pipe unbuffered output to less
+73. cat -n -b file.txt -> same as -b -n
+74. cat /proc/meminfo -> show memory information
+75. cat -Zd file.txt -> show selinux information and same as -A
+76. cat /etc/pam.d -> show PAM configuration information
+77. cat -r file.txt | tr 'aeiou' 'AEIOU' -> reverse output and pipe to tr
+78. cat /etc/resolv.conf -> show DNS resolver information
+79. cat -f file.txt | head -n 10 -> same as -s and pipe to head
+80. cat /sys/class/net/eth0/address -> show Ethernet MAC address
+
+81. cat -T file.txt | sed 's/\t/ /g' -> same as -vT and pipe to sed
+82. cat -n file.txt | awk '{print $2}' -> number output and pipe to awk
+83. cat /sys/devices/virtual/tty/tty1/active -> show active TTY information
+84. cat -f file.txt | tail -n 5 -> same as -s and pipe to tail
+85. cat /etc/locale.conf -> show system language settings
+86. cat -v file.txt | sed 's/^/#/' -> show non-printing characters and pipe to sed
+87. cat -t -v file.txt -> same as -t -v
+88. cat /proc/version -> show kernel version information
+89. cat -f file.txt | sed -e 's/word/example/g' | less -> same as -s and pipe to sed and less
+90. cat /etc/fstab | grep "ext4" -> show mounted file systems and pipe to grep
+
+91. cat /proc/mounts -> show mounted file systems
+92. cat -n file.txt | tac -> number output and reverse
+93. cat -v -t file.txt -> same as -vT
+94. cat /etc/httpd/conf/httpd.conf -> show Apache configuration information
+95. cat -z file.txt | gunzip -> show compressed file and pipe to gunzip
+96. cat -v -A file.txt -> same as -vAE
+97. cat -f file.txt | nl -> same as -s and pipe to nl
+98. cat /proc/sys/kernel/hostname -> show system hostname
+99. cat -u file.txt | wc -l -> show line count
+100. cat -n file.txt | sort -rn -> number output and pipe to sort, reversed numerically

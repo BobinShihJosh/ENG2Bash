@@ -1,0 +1,100 @@
+1. ssh user1@host1 -> Connect to host1 with user1
+2. ssh-keygen -t rsa -> Generate RSA key pair
+3. ssh-copy-id user@host -> Copy public key to host
+4. ssh -X user@host -> Enable X11 forwarding
+5. scp file.txt user@host:/directory -> Copy file.txt to /directory on host
+6. sshfs user@host:/remote /local -> Mount remote directory to local
+7. ssh-add id_rsa -> Add identity (private key) to SSH agent
+8. sftp user@host -> Start interactive sftp session
+9. ssh -p 2222 user@host -> Connect to host on port 2222
+10. rsync -r user@host:/remote /local -> Sync remote directory to local
+11. ssh-keyscan host >> ~/.ssh/known_hosts -> Add host key to known_hosts
+12. ssh -L 8080:localhost:80 user@host -> Forward port 8080 to localhost:80
+13. sshfs -o allow_other,uid=1000,gid=1000 user@host:/remote /local -> Mount remote directory with specific user and group
+14. ssh-keygen -t ed25519 -> Generate ed25519 key pair
+15. ssh -X -C user@host -> Enable X11 forwarding with compression
+16. scp -r folder/ user@host:/directory/ -> Copy folder and its contents to /directory on host
+17. sshfs -o IdentityFile=~/.ssh/id_rsa user@host:/remote /local -> Mount remote directory with specific identity file
+18. ssh-add -l -> List identities (private keys) in SSH agent
+19. sftp> cd /directory -> Change directory in sftp session
+20. ssh -o IdentityFile=~/.ssh/id_rsa2 user@host -> Connect to host with specific identity file
+21. rsync -avz user@host:/remote /local -> Sync remote directory with compression
+22. ssh-keyscan -p 2222 host >> ~/.ssh/known_hosts -> Add host key on port 2222 to known_hosts
+23. sudo sshfs user@host:/remote /local -> Mount remote directory as superuser
+24. ssh -fNT -L 8080:localhost:80 user@host -> Forward port 8080 to localhost:80 in background
+25. sshfs -o reconnect user@host:/remote /local -> Automatically reconnect when connection is lost
+26. ssh-keygen -t dsa -> Generate DSA key pair
+27. ssh -o ConnectTimeout=10 user@host -> Set connection timeout to 10 seconds
+28. scp user@host:/remote/file.txt . -> Copy file.txt from host to current directory
+29. sshfs -o umask=022 user@host:/remote /local -> Mount remote directory with specific umask
+30. ssh -O exit user@host -> Close multiplexed SSH connections
+31. ssh-add -D -> Remove all identities (private keys) from SSH agent
+32. sftp> get file.txt -> Download file.txt from remote sftp session
+33. ssh-copy-id -i id_rsa.pub user@host -> Copy specific public key to host
+34. rsync -az user@host:/remote /local --exclude '*.bak' -> Sync remote directory with compression and exclude *.bak files
+35. ssh-keyscan -t rsa host >> ~/.ssh/known_hosts -> Add RSA host key to known_hosts
+36. sshfs -o uid=username,gid=groupname user@host:/remote /local -> Mount remote directory with specific user and group names
+37. ssh -o LogLevel=VERBOSE user@host -> Set log level to VERBOSE
+38. scp -P 2222 file.txt user@host:/directory/ -> Copy file.txt to /directory on host on port 2222
+39. ssh -D 8080 user@host -> Start dynamic port forwarding on port 8080
+40. sshfs -o ssh_command='ssh -v' user@host:/remote /local -> Mount remote directory with specific ssh command
+41. ssh-keygen -f ~/.ssh/id_ed25519.pub -e -m pem -> Convert ed25519 public key to PEM format
+42. ssh -o ServerAliveInterval=30 user@host -> Send keepalive packets every 30 seconds
+43. sftp> put file.txt -> Upload file.txt to remote sftp session
+44. ssh-copy-id -i id_dsa.pub user@host -> Copy specific public key to host for DSA authentication
+45. rsync -avz --exclude-from 'exclude-list.txt' user@host:/remote /local -> Sync remote directory with compression and exclude files listed in exclude-list.txt
+46. ssh-keyscan -t ecdsa host >> ~/.ssh/known_hosts -> Add ECDSA host key to known_hosts
+47. sshfs -o gidfile=/etc/group user@host:/remote /local -> Mount remote directory with specific group ID file
+48. ssh -o ProxyCommand='ssh user1@jumphost nc %h %p' user2@destination -> Connect to destination via jumphost with user1, using netcat
+49. scp -r user@host:/remote/folder/ . -> Copy folder and its contents from host to current directory
+50. ssh -M -S ~/.ssh/control_socket user@host -> Start multiplexed SSH connections with control socket
+51. ssh-keygen -E sha256 -lf ~/.ssh/id_rsa.pub -> Check RSA public key fingerprint with SHA-256
+52. ssh -o TCPKeepAlive=yes user@host -> Enable TCP keepalive
+53. sftp> lcd /local -> Change local directory in sftp session
+54. ssh-copy-id -i ~/.ssh/id_ed25519.pub -p 2222 user@host -> Copy ed25519 public key to host on port 2222
+55. rsync -az --delete user@host:/remote /local -> Sync remote directory with compression and delete extraneous files in local directory
+56. ssh-keygen -t ecdsa -> Generate ECDSA key pair
+57. ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no user@host -> Disable known hosts checking
+58. scp -P 2222 -r user@host:/remote/folder/ . -> Copy folder and its contents from host on port 2222 to current directory
+59. sshfs -o allow_other,IdentityFile=~/.ssh/id_rsa user@host:/remote /local -> Mount remote directory with specific identity file and allow other users
+60. ssh -o ServerAliveCountMax=3 user@host -> Set maximum number of keepalive packets before connection is terminated
+61. sftp> lpwd -> Print local working directory in sftp session
+62. ssh-add ~/.ssh/*key* -> Add all identities (private keys) matching '*key*' to SSH agent
+63. rsync -az --size-only user@host:/remote /local -> Sync remote directory with compression, using only file size for changes
+64. ssh-keygen -E sha512 -lf ~/.ssh/id_ed25519.pub -> Check ed25519 public key fingerprint with SHA-512
+65. ssh -o ControlMaster=yes -o ControlPath='/tmp/ssh-%r@%h:%p' -o ControlPersist=600 user@host -> Start SSH connection multiplexing with specific parameters
+66. scp -i id_rsa file user@host:/directory -> Copy file using specific identity file to /directory on host
+67. ssh -L 8080:localhost:80 -L 3306:localhost:3306 user@host -> Forward ports 8080 and 3306 to localhost:80 and localhost:3306 on host
+68. sshfs -o slave,user=user1,group=group1,user_allow_other host2:/remote /local -> Mount remote directory with specific user and group ownership, as well as allowing access to other users
+69. ssh -o User=user1 -o IdentityFile=~/.ssh/user1.key user@host -> Connect to host with specific user and identity file
+70. sftp> lpwd -> Print local working directory in sftp session (alias for "pwd" command)
+71. ssh-copy-id -i ~/.ssh/id_ecdsa.pub -p 2222 user@host -> Copy ECDSA public key to host on port 2222
+72. rsync -az --exclude=CVS --delete-after user@host:/remote /local -> Sync remote directory with compression, exclude CVS directories and delete extraneous files after sync
+73. ssh-keygen -t rsa -b 4096 -> Generate RSA key pair with 4096-bit key length
+74. ssh -o LogLevel=QUIET user@host -> Set log level to QUIET
+75. scp -r -i ~/.ssh/mykey user@host:/remote/folder/ . -> Copy folder and its contents from host using specific identity file to current directory
+76. sshfs -o slave,allow_other user@host:/remote /local -> Mount remote directory with specific user ownership and allow other users access
+77. ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o IdentityFile=~/.ssh/root.key root@host -> Disable known hosts checking and connect as root user with specific identity file
+78. sftp> ls > files.txt -> List files in remote directory and save to local files.txt
+79. ssh-add -x -> Lock SSH agent with passphrase
+80. rsync -rtz user@host:/remote /local -> Sync remote directory with time stamps preserved and compression
+81. ssh-keygen -E md5 -lf ~/.ssh/id_rsa.pub -> Check RSA public key fingerprint with MD5 hash
+82. ssh -o PasswordAuthentication=no -o PubkeyAuthentication=yes user@host -> Disable password authentication and enable public key authentication
+83. scp -P 2222 -i id_rsa2 file.txt user@host:/directory/ -> Copy file.txt using specific identity file and on port 2222 to /directory on host
+84. ssh -L 8080:localhost:80 -L 3306:localhost:3306 user1@jumphost ssh user2@destination -> Connect to destination via jumphost with user1, using nested SSH commands and forward ports 8080 and 3306
+85. sshfs -o follow_symlinks user@host:/remote /local -> Mount remote directory and follow symbolic links
+86. ssh -o ControlMaster=yes -o ControlPath='/tmp/ssh-%r@%h:%p' -o ControlPersist=600 -fNL 1234:host2:5678 user1@host1 -> Start SSH connection multiplexing and forward port 1234 to host2:5678 via host1 in background
+87. sftp> mput *.txt -> Upload all .txt files in local directory to remote directory
+88. ssh-add -X -> Enable agent forwarding
+89. rsync -az --delete-excluded user@host:/remote /local --exclude-from 'exclude-list.txt' -> Sync remote directory with compression and delete files excluded in exclude-list.txt
+90. ssh-keygen -t ed25519 -C "my@email.com" -> Generate ed25519 key pair with comment "my@email.com"
+91. ssh -o LogLevel=DEBUG3 user@host -> Set log level to DEBUG3
+92. scp -r -i ~/.ssh/mykey -P 2222 user@host:/remote/folder/ . -> Copy folder and its contents from host using specific identity file and on port 2222 to current directory
+93. sshfs -o slave,allow_other,IdentityFile=~/.ssh/user.key user@host:/remote /local -> Mount remote directory with specific user ownership, allow other users access, and specific identity file
+94. ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o ProxyCommand='ssh user1@jumphost -W %h:%p' user2@destination -> Disable known hosts checking, connect to destination via jumphost with user1 using netcat, and connect as user2
+95. sftp> pwd -> Print remote working directory in sftp session
+96. ssh-add -t 3600 ~/.ssh/*key* -> Add all identities (private keys) matching '*key*' to SSH agent with 1 hour lifetime
+97. rsync -az --link-dest=/backup/2022-01-01 user@host:/remote /local -> Sync remote directory with compression and use previous backup from /backup/2022-01-01 as source for unchanged files
+98. ssh -o PreferredAuthentications=publickey user@host -> Set preferred authentications to publickey only
+99. scp -i id_rsa -r folder/ user@host:/directory/ -> Copy folder using specific identity file to /directory on host
+100. sshfs -o slave,allow_other,uid=username,gid=groupname user@host:/remote /local -> Mount remote directory with specific user and group ownership, allow other users access, and set specific user and group names.

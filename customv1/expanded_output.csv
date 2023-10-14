@@ -1,0 +1,3704 @@
+ls -l
+ls -la
+ls -lah
+ls -lahi
+ls -lahiF
+ls -a
+ls -al
+ls -alt
+ls -altr
+ls -altru
+ls -l
+ls -la
+ls -lah
+ls -laht
+ls -lahtu
+ls -l
+ls -la
+ls -lah
+ls -laht
+ls -lahtr
+ls -lahtr | head -10
+ls -a
+ls -al
+ls -alt
+ls -alt -r
+ls -a
+ls -al
+ls -alt
+ls -altr
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R | grep ":$"
+ls -R | grep -v ":$"
+ls -R | grep -v ":$" | grep ".txt$"
+ls -R | grep -v ":$" | grep ".txt$" | grep ".doc$"
+ls
+ls -l
+ls -la
+ls -lah
+ls -lahS
+tree
+tree
+tree
+tree
+tree
+tree
+tree
+cat file1
+more file1
+less file1
+head file1
+tail file1
+wc file1
+grep file1
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -al
+ls -altr
+ls -altr | tail -10
+ls -al
+ls -alh
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -al
+ls -alS
+ls -alSs
+ls -al
+ls -alt
+ls -altr
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+cat myfile.txt
+more myfile.txt
+less myfile.txt
+less myfile.txt
+less myfile.txt
+ls
+ls -l
+ls -la
+ls -lar
+ls -lahr
+ls -lahrs
+ls -lahrsd
+cd/
+cd-
+cd/usr/local/bin
+cd/usr/local/bin; ls
+cd/usr/local/bin; ls
+cd/usr/local/bin; ls
+cd/usr/local/bin; ls
+cd
+cd $HOME
+cd $HOME
+cd $HOME
+cd $HOME
+cd $HOME
+cd $HOME
+cd $HOME
+cd $HOME
+cd $HOME
+cd $HOME
+cd $HOME
+cd/
+cd
+cd/home/user
+cd/home/user/
+cd/home/user/Desktop
+cd/home/user/Desktop/
+cd/home/user/Desktop/
+cd/home/user/Desktop/
+cd/
+cd..
+cd Documents
+cd ~/Documents
+cd /Documents
+cd ../Documents
+cd Downloads/Documents
+cd ~/Downloads/Documents
+cd
+cd/home/user
+cd/home/user/
+cd/home/user/
+cd/home/user/
+cd/home/user/
+cd/home/user/
+cd/home/user/
+cd /
+cd ~
+cd /var/log
+cd /var/log/apache2
+cd /var/log/apache2/access.log
+cd /var/log/apache2/access.log/../../
+cd /var/log/apache2/access.log/../../../
+cd -
+pwd
+whoami
+date
+who
+ls
+ls -a
+ls -al
+ls -alh
+cd /home/user/Documents
+cd /home/user/Documents/School
+cd /home/user/Documents/School/Classes
+cd /home/user/Documents/School/Classes/CSCI
+cd /home/user/Documents/School/Classes/CSCI/CSCI-1300
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+ls
+ls -a
+ls -al
+ls -alt
+ls -altr
+ls -altrh
+cd <directory name>
+cd
+cd /
+cd ../<directory name>
+cd ../../<directory name>
+cd ../../../<directory name>
+cd ../../../../<directory name>
+cd ../../../../../<directory name>
+cd ../../../../../../<directory name>
+mkdir folder2
+rmdir folder3
+ls
+cat file1
+cp file1 file2
+mv file1 file2
+rm file1
+chmod 777 file1
+chown user1 file1
+chgrp group1 file1
+pwd
+date
+whoami
+cd folder2
+cd folder3
+cd folder4
+cd folder5
+cd folder6
+cd folder7
+cd folder8
+cd folder9
+cd folder10
+cd folder11
+cd folder12
+mkdir folder2
+touch file1
+cp file1 folder2
+mv file1 folder2
+rm file1
+rmdir folder2
+ls
+ls -l
+cd folder2
+cd folder3
+cd folder4
+cd folder5
+cd folder6
+cd folder7
+cd folder8
+cd folder9
+cd folder10
+cd folder11
+cd folder12
+ls folder1
+ls -l folder1
+ls -la folder1
+ls -lar folder1
+ls -lart folder1
+mkdir folder2
+touch file1
+cp file1 folder2
+mv file1 folder2
+rm file1
+rmdir folder2
+cat file1
+more file1
+ls
+ls -a
+ls -al
+ls -alt
+ls -altr
+ls -altr | head
+ls
+ls -l
+ls -la
+ls -lah
+ls -lahS
+cd ~
+cd -
+cd /
+cd ..
+cd Documents
+cd ~/Documents
+cd /Documents
+cd ./Documents
+cd ../Documents
+cd -/Documents
+cd ~
+cd /
+cd -
+cd Documents
+cd ~/Documents
+cd /Documents
+cd ./Documents
+cd ../Documents
+cd -/Documents
+cd Downloads/Documents
+ls
+ls -a
+ls -al
+cd ~
+cd ~
+cd ~
+cd ~
+cd ~
+cd ~
+cd ~
+cd ~
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+cat >> filename
+cat < filename
+cat << filename
+cat << filename
+cat << filename
+cat << filename
+cat << filename
+cat << filename
+cat << filename
+cat << filename
+cat >> filename
+cat > filename
+cat > filename
+cat > filename
+cat > filename
+cat > filename
+cat > filename
+cat > filename
+cat > filename
+cat > filename
+cat >> filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat >> filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+tail -f filename
+tail -n filename
+tail -r filename
+tail -c filename
+tail -q filename
+tail -s filename
+cat >> filename
+tee filename
+tee -a filename
+cp /dev/stdin filename
+cp /dev/stdin filename
+cat > filename
+cat >> filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+more filename
+less filename
+pg filename
+head filename
+tail filename
+wc filename
+cut filename
+paste filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+cat -n filename
+cat -v filename
+cat -vE filename
+cat -vET filename
+cat file1
+tac file1
+tac file1
+tac file1
+tac file1
+tac file1
+tac file1
+tac file1
+tac file1
+cat file1
+cat file1 file2 file3
+cat file1 file2 file3 | more
+cat file1 file2 file3 | pg
+cat file1 file2 file3 | pg -q
+cat file1
+cat file1 file2
+cat file1 file2 | tac
+cat file1 file2 | tac
+cat file1 file2 | tac
+cat file1 file2 | tac
+cat file1 file2 | tac
+cat file1 file2 | tac
+cat file1 file2 file3
+cat file1 file2 file3 | more
+cat file1 file2 file3 | less
+cat file1 file2 file3 | less
+cat file1 file2 file3
+cat file1 file2 file3 | more
+cat file1 file2 file3 | pg
+cat file1 file2 file3 | pg
+cat file1 file2 file3 | pg
+cat file1 file2 file3
+cat file1 file2 | more
+cat file1 file2 | pg
+cat file1 file2 | pg
+cat file1 file2 | pg
+cat file1 file2 | pg
+cp file "new file path"
+rm file
+mkdir directory
+rmdir directory
+cd directory
+ls
+ls -l
+ls -la
+ls -l -a
+ls -l -a -R
+cp file "new file path"
+rm file
+rmdir directory
+mkdir directory
+cat file
+ls directory
+ls -l directory
+ls -la directory
+ls -laR directory
+mkdir "directory name"
+rm "file name"
+rmdir "directory name"
+cp file "new file path"
+cp -r directory "new directory path"
+cd "directory name"
+cat "file name"
+ls "directory name"
+pwd
+less "file name"
+ls -l "directory name"
+mkdir directory
+rmdir directory
+rm file
+cp file "new file path"
+cat file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+mkdir "new directory name"
+rm "file name"
+rmdir "directory name"
+cp "file name" "new file path"
+ls
+cd "directory name"
+cat "file name"
+more "file name"
+less "file name"
+head "file name"
+tail "file name"
+mkdir "new directory"
+rm "file"
+rmdir "directory"
+cd "directory"
+cat "file"
+less "file"
+more "file"
+head "file"
+tail "file"
+grep "file"
+wc "file"
+sort "file"
+cp filename new_file_name
+rm filename
+mkdir directory_name
+rmdir directory_name
+cd directory_name
+ls
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+wc filename
+mv filename new_file_name
+mv filename new_file_name
+mv filename new_file_name
+mv filename new_file_name
+mv filename new_file_name
+mv filename new_file_name
+mv filename new_file_name
+cp filename new_file_name
+rm filename
+mkdir directory_name
+rmdir directory_name
+cd directory_name
+cat filename
+more filename
+less filename
+head filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+find filename
+locate filename
+whereis filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+find filename
+locate filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+mv
+mkdir
+chmod
+chown
+chgrp
+rm
+cp
+mv
+mv
+mv
+mv
+cat
+more
+less
+less -p
+less -p
+less -p
+less -p
+cat
+more
+less
+head
+tail
+grep
+find
+locate
+whereis
+which
+cat
+more
+less
+less -p
+less -p
+less -p
+less -p
+cat
+more
+less
+head
+tail
+grep
+find
+locate
+which
+whereis
+cat
+more
+less
+pg
+head
+tail
+grep
+find
+locate
+which
+rmdir directoryname
+cp filename
+cp -r directoryname
+mv filename
+mv directoryname
+touch filename
+mkdir directoryname
+ls directoryname
+ls -l directoryname
+ls -la directoryname
+ls -lh directoryname
+rm -f filename
+rm -r filename
+rm -rf filename
+rm -rf filename 2> /dev/null
+rm -rf filename 2> /dev/null
+rm -rf filename 2> /dev/null
+rmdir dirname
+rm -r dirname
+mkdir dirname
+touch filename
+cp filename newfilename
+cp -r dirname newdirname
+mv filename newlocation
+mv dirname newlocation
+mkdir dirname
+cd dirname
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+wc filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+wc filename
+sort filename
+rm -f filename
+rm -rf filename
+rm -rf filename
+rm -rf filename
+rm -rf filename
+rm -rf filename
+help
+info
+whatis
+apropos
+man -k
+man -f
+man -w
+man -K
+man -S
+man -a
+man -d
+man -t
+man -H
+cat
+more
+less
+pg
+nl
+nl -p
+nl -p
+nl -p
+man
+man
+man
+man
+man
+man
+man
+man
+man
+man
+man
+cat
+more
+less
+less -N
+less -N
+less -N
+less -N
+cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+cat
+more
+less
+pg
+head
+tail
+wc
+grep
+sort
+uniq
+history
+history
+history
+history
+history
+history
+history
+history
+history
+cat
+more
+less
+less -p
+less -p
+less -p
+less -p
+pwd
+ls
+ls -a
+ls -la
+history
+history
+history
+history
+history
+history
+history
+history
+history
+history
+history
+ls
+ls -a
+ls -al
+ls -alS
+ls -altr
+ls -altr
+cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+pwd
+ls
+ls -l
+ls -la
+ls -lah
+ls -lahF
+ls -lahF
+cat
+more
+less
+head
+tail
+grep
+wc
+sort
+uniq
+cut
+paste
+tr
+sed
+awk
+pwd
+ls
+ls -l
+ls -la
+ls -lah
+ls -lahS
+pwd
+ls
+ls -l
+ls -la
+ls -lah
+ls -lahS
+cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+cat
+more
+less
+less -p
+less -p
+less -p
+less -p
+touch filename
+cp source destination
+mv source destination
+rm filename
+rmdir directoryname
+cd path
+ls
+pwd
+cat filename
+tac filename
+touch filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+touch filename
+cp filename directoryname
+mv filename directoryname
+rm filename
+rmdir directoryname
+cd directoryname
+cd ..
+cd ~
+ls
+ls -l
+touch filename
+cat filename
+more filename
+less filename
+pg filename
+head filename
+tail filename
+grep filename
+wc filename
+touch filename
+touch filename.extension
+touch directoryname/filename.extension
+touch directoryname/subdirectoryname/filename.extension
+cp filename directoryname
+mv filename directoryname
+rm filename
+rmdir directoryname
+ls directoryname
+ls -l directoryname
+ls -la directoryname
+cd directoryname
+cd ..
+cd ~
+rm filename
+cp filename
+mv filename
+cd directoryname
+ls directoryname
+mkdir directoryname
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+wc filename
+sort filename
+rm filename
+mkdir directoryname
+touch filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+rm filename
+mkdir directoryname
+touch filename
+cp filename newfilename
+cp -r directoryname newdirectoryname
+mv filename directoryname
+mv directoryname newdirectoryname
+mv filename newfilename
+mv directoryname newdirectoryname
+rm filename
+rm -r filename
+rm -ri filename
+rm -ri filename
+rm -ri filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+rm -r directoryname
+rm filename
+rm -r filename
+rm -r filename
+rm -r filename
+rm -r filename
+rm -r filename
+rm -r filename
+rm -r filename
+ls
+ls -l
+ls -la
+ls -lat
+ls -latr
+ls -latr | head -10
+cat
+more
+less
+head
+tail
+grep
+find
+locate
+which
+whereis
+type
+man
+info
+apropos
+cat
+more
+less
+head
+tail
+grep
+find
+locate
+which
+whereis
+man
+info
+apropos
+whatis
+cat
+more
+less
+head
+tail
+grep
+find
+locate
+which
+whereis
+type
+man
+info
+apropos
+cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+cat
+more
+less
+head
+tail
+grep
+find
+locate
+which
+whereis
+man
+info
+apropos
+whatis
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+pr -v
+pr -vn
+pr -vn
+pr -vn
+pr -vn
+pr -vn
+pr -vn
+pr -vn
+pr -vn
+pr -x
+cat
+more
+less
+head
+tail
+tac
+nl
+od
+pg
+wc
+fmt
+fold
+cut
+paste
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h -n
+pr -h -n
+pr -h -n
+pr -h -n
+pr -h -n
+pr -h -n
+pr -h -n
+pr -h -n
+pr -h -n
+pr -h -n
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+cat -n
+nl
+more -p
+less -N
+cat -b
+cat -E
+cat -T
+cat -s
+cat -v
+cat -A
+cat -n
+nl
+cat -b
+cat -E
+cat -T
+cat -v
+cat -A
+cat -s
+cat -t
+cat -vE
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+cat -n
+nl
+cat -b
+cat -E
+cat -T
+cat -v
+cat -A
+cat -e
+cat -t
+cat -s
+pr -l
+pr -l
+pr -l
+pr -l
+pr -l
+pr -l
+pr -l
+pr -l
+pr -l
+lp -n
+lp -c
+lp -d
+lp -o
+lp -s
+lp -t
+lp -n
+lp -n
+lp -n
+lp -n
+cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+cat
+more
+less
+head
+tail
+tac
+nl
+od
+wc
+cut
+lp -n
+lp -c
+lp -d
+lp -o
+lp -s
+lp -t
+lp -w
+lp -h
+lp -i
+lp -m
+cat
+more
+less
+less
+less
+less
+less
+lp c
+lp c
+lp c
+lp c
+lp c
+lp c
+lp c
+lp c
+lp c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+cat c
+more c
+less c
+more -r c
+less -r c
+less -r c
+cat c
+more c
+less c
+head c
+tail c
+grep c
+wc c
+sort c
+apt-get remove package_name
+apt-get update
+apt-get upgrade
+dpkg -i package_name.deb
+dpkg -r package_name.deb
+dpkg -l
+dpkg -L package_name
+apt-cache rdepends package_name
+apt-cache depends package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+pip install package_name
+conda install package_name
+easy_install package_name
+yum install package_name
+dnf install package_name
+zypper install package_name
+pacman -S package_name
+apt-get remove package_name
+apt-get update package_name
+apt-get upgrade package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -la
+ls -laS
+ls -laSr
+ls -laSr | head -10
+pwd
+cat file.txt
+more file.txt
+less file.txt
+tac file.txt
+tail file.txt
+head file.txt
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod g+rw filename
+chmod u+rw filename
+chmod o+rw filename
+chmod a+rw filename
+chmod 777 filename
+chmod 666 filename
+chmod 644 filename
+cat filename
+more filename
+less filename
+pg filename
+head filename
+tail filename
+grep filename
+find filename
+locate filename
+whereis filename
+cat filename
+more filename
+less filename
+pg filename
+head filename
+tail filename
+wc filename
+grep filename
+sort filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+find filename
+chmod rw filename
+chmod rwx filename
+chmod u+rwx filename
+chmod g+rwx filename
+chmod o+rwx filename
+chmod u=rwx filename
+chmod g=rwx filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+cat filename
+more filename
+less filename
+more -d filename
+less -d filename
+chmod rw filename
+chmod u+rw filename
+chmod g+rw filename
+chmod a+rw filename
+chmod u+rw,a+r filename
+chmod u=rw,a=r filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+chmod r filename
+chmod x filename
+chmod wx filename
+chmod rx filename
+chmod rw filename
+chmod rwx filename
+chmod u+rwx filename
+chmod g+rwx filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+chmod r filename
+chmod x filename
+chmod wr filename
+chmod wx filename
+chmod rx filename
+chmod wrx filename
+chmod -w filename
+chmod -r filename
+chmod -x filename
+chmod uw filename
+chmod gw filename
+chmod ow filename
+chmod r filename
+chmod ur filename
+chmod gr filename
+chmod or filename
+chmod x filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+find filename
+chmod u+rw filename
+chmod g+rw filename
+chmod o+rw filename
+chmod u+rwx filename
+chmod g+rwx filename
+chmod o+rwx filename
+chmod +x filename
+chmod a+x filename
+chmod u+x filename
+chmod g+x filename
+chmod o+x filename
+chmod ugo+x filename
+chmod ug+x filename
+chmod ugo+x filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+find filename
+locate filename
+whereis filename
+chmod u-w filename
+chmod a-w filename
+chmod o-w filename
+chmod g-w filename
+chmod ugo-w filename
+chmod ugo-w filename
+chmod ugo-w filename
+chmod ugo-w filename
+chmod ugo-w filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+chown username filename
+chgrp groupname filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+wc filename
+sort filename
+uniq filename
+cut filename
+paste filename
+Chgrp group
+Chmod
+Mv
+Rename
+Cp
+Ln
+Rm
+Rmdir
+Mkdir
+Cat
+More
+Chgrp group
+Chmod mode
+Cat file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+Chgrp group
+Chmod mode file
+Chmod mode file
+Chmod mode file
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Chgrp group filename
+Chown user filename
+Chmod permission filename
+Chown owner filename
+Chgrp group filename
+Chown user filename
+Chmod permission filename
+Chown owner filename
+Chgrp group filename
+Chown user filename
+Chmod permission filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Echo filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Grep filename
+Find filename
+Locate filename
+Whereis filename
+Which filename
+Man filename
+Info filename
+Apropos filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Grep filename
+Find filename
+Locate filename
+Whereis filename
+Which filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Grep filename
+Find filename
+Locate filename
+Whereis filename
+Which filename
+Man filename
+Info filename
+Apropos filename
+chmod uw filename
+chmod gw filename
+chmod ow filename
+chmod r filename
+chmod ur filename
+chmod gr filename
+chmod or filename
+chmod x filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+find filename
+chmod u+rw filename
+chmod g+rw filename
+chmod o+rw filename
+chmod u+rwx filename
+chmod g+rwx filename
+chmod o+rwx filename
+chmod +x filename
+chmod a+x filename
+chmod u+x filename
+chmod g+x filename
+chmod o+x filename
+chmod ug+x filename
+chmod ugo+x filename
+chmod a-x filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+grep filename
+find filename
+locate filename
+whereis filename
+chmod u-w filename
+chmod a-w filename
+chmod o-w filename
+chmod g-w filename
+chmod ugo-w filename
+chmod ugo-w filename
+chmod ugo-w filename
+chmod ugo-w filename
+chmod ugo-w filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+chown username filename
+chgrp groupname filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+chmod mode filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+cat filename
+more filename
+less filename
+head filename
+tail filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+Chgrp group
+Chmod
+Mv
+Rename
+Cp
+Ln
+Rm
+Rmdir
+Mkdir
+Cat
+More
+Chgrp group
+Chmod mode
+Cat file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+Chgrp group
+Chmod mode file
+Chmod mode file
+Chmod mode file
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Chgrp group filename
+Chown user filename
+Chmod permission filename
+Chown owner filename
+Chgrp group filename
+Chown user filename
+Chmod permission filename
+Chown owner filename
+Chgrp group filename
+Chown user filename
+Chmod permission filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Grep filename
+Find filename
+Locate filename
+Whereis filename
+Which filename
+Man filename
+Info filename
+Apropos filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Grep filename
+Find filename
+Locate filename
+Whereis filename
+Which filename
+Man filename
+Info filename
+Apropos filename
+Cat filename
+More filename
+Less filename
+Head filename
+Tail filename
+Grep filename
+Find filename
+Locate filename
+Whereis filename
+Which filename
+echo ${VARIABLE}
+echo "$VARIABLE"
+echo "${VARIABLE}"
+echo '$VARIABLE'
+echo '${VARIABLE}'
+echo \$VARIABLE
+echo \${VARIABLE}
+echo "\$VARIABLE"
+echo "\${VARIABLE}"
+echo '\$VARIABLE'
+echo ${VARIABLE}
+echo "$VARIABLE"
+echo "${VARIABLE}"
+echo '$VARIABLE'
+echo '${VARIABLE}'
+echo \$VARIABLE
+echo \${VARIABLE}
+echo "\$VARIABLE"
+echo "\${VARIABLE}"
+echo '\$VARIABLE'
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo ${VARIABLE}
+echo "$VARIABLE"
+echo "${VARIABLE}"
+echo '$VARIABLE'
+echo '${VARIABLE}'
+echo \$VARIABLE
+echo \${VARIABLE}
+echo "\$VARIABLE"
+echo "\${VARIABLE}"
+echo '\$VARIABLE'
+cat FILE
+tac FILE
+tac FILE
+tac FILE
+tac FILE
+tac FILE
+tac FILE
+tac FILE
+tac FILE
+echo $VARIABLE
+cat FILE
+echo ${VARIABLE}
+echo "$VARIABLE"
+echo "${VARIABLE}"
+echo '$VARIABLE'
+echo '${VARIABLE}'
+echo \$VARIABLE
+echo \${VARIABLE}
+echo \$\{VARIABLE\}
+echo \$\{VARIABLE\}
+pwd
+whoami
+date
+ls
+ls -l
+ls -la
+ls -lar
+ls -lart
+ls -larth
+set
+printenv
+export
+unset
+alias
+unalias
+source
+.
+exec
+trap
+getopts
+shift
+readonly
+declare
+typeset
+pwd
+whoami
+date
+echo $HOME
+echo $LOGNAME
+echo $SHELL
+echo $TERM
+echo $PATH
+echo $PWD
+echo $PWD
+echo $PWD
+echo $PWD
+pwd
+whoami
+date
+ls
+ls -l
+ls -la
+ls -la --format=long
+ls -la --format=long --sort=size
+ls -la --format=long --sort=size --reverse
+pwd
+ls
+ls -l
+ls -la
+ls -lah
+ls -lahS
+ls -lahSr
+pwd
+whoami
+date
+echo $SHELL
+bash --version
+uname -r
+hostname
+uptime
+w
+free -m
+df -h
+netstat -tulpn
+who
+echo $VARIABLE_NAME
+echo ${VARIABLE_NAME}
+echo "$VARIABLE_NAME"
+echo "${VARIABLE_NAME}"
+echo '$VARIABLE_NAME'
+echo '${VARIABLE_NAME}'
+echo "${VARIABLE_NAME}_${VARIABLE_NAME}"
+echo "${VARIABLE_NAME}_${VARIABLE_NAME}_${VARIABLE_NAME}"
+echo $VARIABLE_NAME
+echo ${VARIABLE_NAME}
+echo "$VARIABLE_NAME"
+echo "${VARIABLE_NAME}"
+echo '$VARIABLE_NAME'
+echo '${VARIABLE_NAME}'
+echo "${VARIABLE_NAME}_${VARIABLE_NAME}"
+echo '${VARIABLE_NAME}_${VARIABLE_NAME}'
+echo $VARIABLE_NAME
+echo ${VARIABLE_NAME}
+echo "$VARIABLE_NAME"
+echo "${VARIABLE_NAME}"
+echo '$VARIABLE_NAME'
+echo '${VARIABLE_NAME}'
+echo "${VARIABLE_NAME}_${VARIABLE_NAME}"
+echo '${VARIABLE_NAME}_${VARIABLE_NAME}'
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+echo $VARIABLE_NAME
+echo ${VARIABLE_NAME}
+echo "$VARIABLE_NAME"
+echo "${VARIABLE_NAME}"
+echo '$VARIABLE_NAME'
+echo '${VARIABLE_NAME}'
+echo \$VARIABLE_NAME
+echo \${VARIABLE_NAME}
+printf "%s
+Pwd
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Cat
+Pwd
+Pwd
+Pwd
+Pwd
+Pwd
+Pwd
+Pwd
+Pwd
+Date
+Pwd
+Cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+Pwd
+Cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+Pwd
+Cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+Pwd
+Cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+Cat
+More
+Less
+Head
+Tail
+Echo
+Grep
+Sort
+Wc
+Cut
+Paste
+Join
+Split
+Tr
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+echo $Variable
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+echo $Variable
+echo ${Variable}
+echo "$Variable"
+echo "${Variable}"
+echo '$Variable'
+echo '${Variable}'
+echo \$Variable
+echo \${Variable}
+echo '\$Variable'
+echo '\${Variable}'
+echo "\\$Variable"
+echo "\\${Variable}"
+Variable=value
+set Variable=value
+setenv Variable value
+setenv Variable=value
+env Variable=value
+env Variable value
+export Variable value
+export Variable=value
+set Variable value
+set Variable=value
+setenv Variable value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo passwd username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+passwd username
+passwd username
+passwd username
+passwd username
+passwd username
+passwd username
+passwd username
+passwd username
+touch filename
+mkdir dirname
+cd dirname
+ls
+cat filename
+tac filename
+tac filename
+tac filename
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -u 'username'
+sudo passwd -d 'username'
+sudo passwd -S 'username'
+sudo passwd -s 'username'
+sudo passwd -n 'username'
+sudo passwd -w 'username'
+sudo passwd -x 'username'
+sudo passwd -i 'username'
+sudo passwd -u 'username'
+sudo passwd -d 'username'
+sudo passwd -S 'username'
+sudo passwd -e 'username'
+sudo passwd -n 'username'
+sudo passwd -w 'username'
+sudo passwd -x 'username'
+sudo passwd -i 'username'
+sudo passwd -u 'username'
+sudo passwd -d 'username'
+sudo passwd -S 'username'
+sudo passwd -e 'username'
+sudo passwd -n 'username'
+sudo passwd -w 'username'
+sudo passwd -x 'username'
+sudo passwd -i 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo groupdel 'groupname'
+rm 'filename'
+rm -r 'dirname'
+rm 'linkname'
+rm -i 'filename'
+rm -ri 'dirname'
+rm -i 'linkname'
+rm -i 'filename'
+rm -ri 'dirname'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo passwd 'username'
+sudo useradd -m -p 'password' 'username'
+sudo passwd 'username' 'password'
+sudo passwd 'username' 'password'
+sudo passwd 'username' 'password'
+sudo passwd 'username' 'password'
+sudo passwd 'username' 'password'
+sudo passwd 'username' 'password'
+date
+pwd
+cat FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+date
+pwd
+cat FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+sudo passwd USERNAME
+date
+pwd
+cat FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+date
+pwd
+cat FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+date
+pwd
+cat FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+date
+pwd
+cat FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+tac FILENAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+date
+pwd
+cat FILENAME
+less FILENAME
+more FILENAME
+pg FILENAME
+head FILENAME
+tail FILENAME
+zcat FILENAME
+date
+date -u
+date +"%Y-%m-%d %H:%M:%S"
+date +"%Y-%m-%d %H:%M:%S"
+date +"%Y-%m-%d %H:%M:%S"
+date +"%Y-%m-%d %H:%M:%S"
+date +"%Y-%m-%d %H:%M:%S"
+date
+pwd
+ls
+ls -l
+ls -la
+ls -lah
+ls -lahS
+date
+date -u
+date -d 'TZ="America/New_York"
+date -d 'TZ="America/New_York"
+date -d 'TZ="America/New_York"
+date -d 'TZ="America/New_York"
+date -d 'TZ="America/New_York"
+date
+pwd
+whoami
+echo $HOME
+echo $SHELL
+echo $PATH
+echo $TERM
+echo $LANG
+echo $HOSTNAME
+history
+env
+pwd
+pwd
+finger
+finger
+finger
+finger
+finger
+finger
+finger
+finger
+finger
+finger
+date
+pwd
+ls
+cd
+mkdir
+rmdir
+rm
+cp
+mv
+cat
+more
+less
+cat
+more
+less
+grep
+grep
+grep
+grep
+cat
+more
+less
+head
+tail
+wc
+sort
+uniq
+grep
+find
+cat
+more
+less
+head
+tail
+wc
+grep
+sort
+finger
+finger -l
+finger -i
+finger -i -m
+finger -i -m -h
+finger -i -m -h -l
+cat filename
+more filename
+less filename
+pg filename
+head filename
+tail filename
+wc filename
+grep filename
+sort filename
+uniq filename
+date
+pwd
+ls
+cd
+cat
+more
+less
+head
+tail
+grep
+find
+cat filename
+more filename
+less filename
+less -p string filename
+less -p string filename
+less -p string filename
+finger username
+finger username
+finger username
+finger username
+finger username
+finger username
+finger username
+finger username
+finger username
+finger username
+finger username
+cat filename
+more filename
+less filename
+head filename
+tail filename
+wc filename
+sort filename
+uniq filename
+grep filename
+cut filename
+date
+pwd
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+cat filename
+more filename
+less filename
+less -N filename
+less -N filename
+less -N filename
+less -N filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+cp /path/to/file /path/to/destination
+mkdir /path/to/directory
+rm /path/to/file
+rmdir /path/to/directory
+cat /path/to/file
+ls /path/to/directory
+tree /path/to/directory
+tree -a /path/to/directory
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+ls
+dir
+dir
+dir
+dir
+dir
+dir
+dir
+dir
+dir
+dir
+dir /w
+dir /w /s
+dir /w /s /tc
+dir /w /s /tc /t
+dir /w /s /tc /t /a
+dir /a
+dir /a /s
+dir /a /s /t
+ls
+ls -l
+ls -a
+ls -la
+ls -al
+ls -l -a
+ls -a -l
+ls -l -a
+ls
+ls -l
+ls -a
+ls -la
+ls -al
+ls -l -a
+ls -a -l
+ls -l -a
+ls -a -l
+scp "username@remotehost:filename" "filename"
+scp "filename" "username@remotehost:filename"
+rsync -avz "username@remotehost:filename" "filename"
+rsync -avz "filename" "username@remotehost:filename"
+rcp "username@remotehost:filename" "filename"
+rcp "filename" "username@remotehost:filename"
+cat "filename"
+more "filename"
+less "filename"
+head "filename"
+tail "filename"
+grep "filename"
+wc "filename"
+sort "filename"
+ls
+ls -a
+ls -al
+ls -alt
+ls -alt | tac
+ls
+ls -a
+ls -al
+ls "dirname"
+ls -l "dirname"
+ls -la "dirname"
+ls -lat "dirname"
+ls -latr "dirname"
+cat "filename"
+more "filename"
+less "filename"
+head "filename"
+tail "filename"
+grep "filename"
+wc "filename"
+sort "filename"
+get file
+ls
+ls -l
+ls -la
+cd dir
+cd ..
+cd ~
+mkdir dir
+rmdir dir
+rm file
+rm -f file
+rm -rf dir
+get file
+delete file
+mkdir directory
+cd directory
+ls
+ls -l
+ls -la
+ls -laS
+ls -lat
+ls -latr
+send file
+send file
+send file
+send file
+send file
+send file
+send file
+send file
+send file
+send file
+send file
+send file
+get file
+send file
+receive file
+copy file
+move file
+transfer file
+send file
+receive file
+copy file
+move file
+transfer file
+cat file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+tac file
+put file
+put file
+put file
+put file
+put file
+put file
+put file
+put file
+put file
+put file
+put file
+get file
+get file
+get file
+get file
+get file
+get file
+get file
+get file
+get file
+get file
+get url
+get url file
+get url file
+get url file
+get url file
+get url file
+get url file
+get url file
+get file server
+get file server local_directory
+get file server local_directory new_name
+get file server local_directory new_name new_extension
+get file server local_directory new_name new_extension new_file_type
+get file newfile
+get file newfile /home/user/newfile
+get file newfile /home/user/newfile -o
+get file newfile /home/user/newfile -o -p
+get file host
+get file host:directory
+get file host:directory/newname
+get file host:directory/newname.newtype
+get file host:directory/newname.newtype
+get file host:directory/newname.newtype
+ls
+cd
+pwd
+cat
+more
+less
+head
+tail
+grep
+wc
+sort
+uniq
+cut
+paste
+tr
+sed
+awk
+diff
+pwd
+ls
+ls -l
+ls -la
+ls -lah
+ls -lahS
+pwd
+ls
+cd
+cat
+more
+less
+pg
+head
+tail
+grep
+dir
+dir /w
+dir /w /x
+dir /w /x /s
+dir /w /x /s /t
+dir /w /x /s /t /a
+pwd
+ls
+ls -l
+ls -la
+ls -lah
+pwd
+ls
+ls -l
+ls -la
+ls -lah
+ls -lahS
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+fg
+pwd
+cat
+more
+less
+pg
+head
+tail
+tail
+tail
+pwd
+cat
+more
+less
+head
+tail
+grep
+find
+locate
+man
+pwd
+cat
+more
+less
+head
+tail
+grep
+find
+locate
+which
+whereis
+man
+info
+apropos
+fg
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+jobs
+bg
+jobs
+kill %job_number
+kill -9 %job_number
+kill -9 %job_number
+kill -9 %job_number
+kill -9 %job_number
+kill -9 %job_number
+kill -9 %job_number
+kill -9 %job_number
+kill -9 %job_number
+kill -9 %job_number
+pwd
+cat
+more
+less
+less -p
+less -p
+less -p
+pwd
+cat
+more
+less
+pg
+head
+tail
+wc
+sort
+uniq
+pwd
+cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+bg
+pwd
+cat
+more
+less
+pg
+nl
+pg -p
+pg -p
+ps -ef
+ps -aux
+ps -e
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head
+ps
+ps aux
+ps -ef
+ps -e
+ps -aux
+ps -eaux
+ps -auxf
+ps -auxww
+ps -auxwww
+top
+top
+top
+top
+top
+top
+top
+top
+top
+date
+pwd
+cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+htop
+ps
+pstree
+pmap
+vmstat
+iostat
+netstat
+lsof
+date
+pwd
+cat
+more
+less
+less -p
+less -p
+less -p
+ps -u
+ps -u username
+ps -u username -f
+ps -u username -f -H
+ps -u username -f -H -e
+ps -u username -f -H -e -l
+ps -u username -f -H -e -l -F
+ps -u username -f -H -e -l -F -w
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps -ef
+ps -efl
+pstree
+pstree -p
+pstree -p -a
+pstree -p -a -u
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+date
+pwd
+cat
+more
+less
+pg
+head
+tail
+grep
+find
+locate
+ps -ef
+ps -efl
+ps -eflH
+ps -eflHZ
+ps -eflHZM
+ps -eflHZMm
+ps -eflHZMmN
+ps -eflHZMmNw
+ps -A
+ps -a
+ps -e
+ps -ef
+ps -efl
+ps -eflT
+ps -eflTu
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps -C name
+ps -C name
+ps -C name
+ps -C name
+ps -C name
+ps -C name
+ps -C name
+ps -C name
+ps -C name
+ps -A
+ps -a
+ps -d
+ps -e
+ps -e
+ps -e
+ps -e
+ps -e
+ps -e
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+pwd
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+ps
+top
+kill
+killall
+pkill
+pgrep
+pstree
+ps aux
+ps -ef
+date
+pwd
+cat
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+tac
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+date
+pwd
+cat
+more
+less
+pg
+nl
+nl -p
+nl -p
+pwd
+whoami
+date
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+pwd
+cat filename
+more filename
+less filename
+pg filename
+head filename
+tail filename
+grep filename
+find filename
+locate filename
+pwd
+cat filename
+more filename
+less filename
+pg filename
+head filename
+tail filename
+grep filename
+find filename
+locate filename
+pwd
+cat filename
+more filename
+less filename
+pg filename
+head filename
+tail filename
+grep filename
+find filename
+locate filename
+pwd
+cat filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+tac filename
+pwd
+cat filename
+more filename
+less filename
+pg filename
+head filename
+tail filename
+grep filename
+find filename
+locate filename
+pwd
+whoami
+date
+time
+who
+w
+ps
+top
+uptime
+free
+df
+du
+ls
+cd
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date +%T
+date +%H:%M:%S
+date +%H:%M:%S
+date +%H:%M:%S
+date +%H:%M:%S
+date +%H:%M:%S
+date +%H:%M:%S
+date +%H:%M:%S
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+renice
+ionice
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+date
+date +%T
+date +%D
+date +%A
+date +%B
+date +%C
+date +%D
+date +%F
+date +%G
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+renice
+date
+date
+date
+date
+date
+date
+date
+date
+date
+renice
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+renice
+date
+free
+date
+pwd
+whoami
+who
+who
+who
+who
+who
+who
+who
+who
+who
+who
+who
+df -h
+df -hT
+df -hT --total
+df -hT --total | grep total
+df -hT --total | grep total | awk '{print $3}'
+df -hT --total | grep total | awk '{print $3}' | cut -d 'G' -f 1
+df -h
+df -hT
+df -hT --total
+df -hT --total | grep total
+df -hT --total | grep total | awk '{print $3}'
+df -hT --total | grep total | awk '{print $3}' | cut -d 'G' -f 1
+df -h
+df -k
+df -m
+df -T
+df -t
+df -x
+df -x
+df -x
+df -h
+df -a
+df -k
+df -m
+df -T
+df -t
+df -x
+df -v
+df -V
+df -h -t ext4
+df -h
+df -a
+df -i
+df -k
+df -l
+df -P
+df -t
+df -T
+free -m
+free -h
+free -k
+free -g
+free -t
+free -s
+free -o
+free -w
+free -l
+free -m
+free -h
+free -g
+free -k
+free -t
+free -s
+free -o
+free -w
+free -l
+free -c
+free -b
+free -m
+free -h
+free -s
+free -s
+free -s
+free -s
+free -s
+free -s
+free -s
+date
+pwd
+whoami
+echo $HOME
+echo $SHELL
+echo $PATH
+echo $TERM
+echo $LOGNAME
+echo $USER
+echo $GROUPS
+echo $GROUP
+echo $GID
+hostname
+date
+pwd
+whoami
+echo $HOME
+echo $SHELL
+echo $PATH
+echo $TERM

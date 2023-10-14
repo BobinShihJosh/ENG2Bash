@@ -1,0 +1,21 @@
+
+
+1. chmod 755 /home/user/Documents -> This command sets the permissions of the Documents folder to read, write, and execute for the owner, read and execute for the group, and read and execute for others.
+
+2. chmod 644 /home/user/Pictures -> This command sets the permissions of the Pictures folder to read and write for the owner, and read only for the group and others.
+
+3. chmod 775 /home/user/Videos -> This command sets the permissions of the Videos folder to read, write, and execute for the owner, read, write, and execute for the group, and read only for others.
+
+4. chmod 600 /home/user/Music -> This command sets the permissions of the Music folder to read and write only for the owner, and no access for the group and others.
+
+5. chmod 664 /home/user/Downloads -> This command sets the permissions of the Downloads folder to read and write for the owner, and read and write for the group and others.
+
+6. chmod 711 /home/user/Books -> This command sets the permissions of the Books folder to read, write, and execute for the owner, and execute only for the group and others.
+
+7. chmod 622 /home/user/Projects -> This command sets the permissions of the Projects folder to read and write for the owner, and write only for the group and others.
+
+8. chmod 744 /home/user/Applications -> This command sets the permissions of the Applications folder to read, write, and execute for the owner, read only for the group, and no access for others.
+
+9. chmod 633 /home/user/Templates -> This command sets the permissions of the Templates folder to read and write for the owner, read only for the group, and write only for others.
+
+10. chmod 700 /home/user/Documents -> This command sets the permissions of the Documents folder to read, write, and execute only for the owner, and no access for the group and others.

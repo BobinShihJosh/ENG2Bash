@@ -1,0 +1,21 @@
+
+
+1. tree -d /home/user/Documents -> This command will display the directory structure of the Documents folder in a tree format.
+
+2. tree -L 2 /home/user/Pictures -> This command will display the directory structure of the Pictures folder up to two levels deep in a tree format.
+
+3. tree -f /home/user/Videos -> This command will display the directory structure of the Videos folder with the full path of each file and directory in a tree format.
+
+4. tree -i /home/user/Music -> This command will display the directory structure of the Music folder with the inode numbers of each file and directory in a tree format.
+
+5. tree -s /home/user/Downloads -> This command will display the directory structure of the Downloads folder with the size of each file and directory in a tree format.
+
+6. tree -p /home/user/Desktop -> This command will display the directory structure of the Desktop folder with the permissions of each file and directory in a tree format.
+
+7. tree -u /home/user/Documents -> This command will display the directory structure of the Documents folder with the last access time of each file and directory in a tree format.
+
+8. tree -C /home/user/Pictures -> This command will display the directory structure of the Pictures folder with color coding for each file and directory in a tree format.
+
+9. tree -D /home/user/Videos -> This command will display the directory structure of the Videos folder with the date of last modification for each file and directory in a tree format.
+
+10. tree -F /home/user/Music -> This command will display the directory structure of the Music folder with a '/' character appended to each directory name in a tree format.

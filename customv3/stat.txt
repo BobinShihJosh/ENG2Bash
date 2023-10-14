@@ -1,0 +1,100 @@
+1. stat /home/user/Documents -> Display status of Documents directory
+2. stat /etc/passwd -> Display status of passwd file
+3. stat /var/log/syslog -> Display status of syslog file
+4. stat -c "%n %s %Y" /tmp/file.txt -> Display custom status format of file.txt in tmp directory
+5. stat -L /var/log/syslog -> Follow symbolic links to display status of syslog file
+6. stat -t /var/log -> Display status of all files in log directory in a terse format
+7. stat -f /dev/sda1 -> Display file system status of sda1 device
+8. stat -c "%n %A %U:%G" /home -> Display name, permissions, and owner/group of home directory
+9. stat -r /var/log/syslog -> Display time of last access for the syslog file
+10. stat -W /var/log/syslog -> Display time of last write for the syslog file
+11. stat -z /var/log/syslog -> Display SELinux security context of the syslog file
+12. stat -c "%n %a %u %g %h" /home/user -> Display name, permissions, owner, group, and number of hard links of user's home directory
+13. stat -c "%n %b %B" /home/user/Documents -> Display name, block size, and number of blocks used by Documents directory
+14. stat -c "%n %i" /var/log/syslog -> Display name and inode number of the syslog file
+15. stat -c "%n %F" /var -> Display name and file type (directory) of the var directory
+16. stat -c "%x %y %z" /etc/passwd -> Display time of last access, modification, and status change of the passwd file
+17. stat -f -c "%n %T %S" /dev/sda -> Display name, file system type, and mount point of the sda device
+18. stat -c "%n %Y" /var/log/syslog -> Display name and year of last status change of the syslog file
+19. stat -c "%n %A %a" /etc/passwd -> Display name, permissions, and octal representation of permissions of the passwd file
+20. stat -c "%n %s" /dev/sda1 -> Display name and size of sda1 device
+21. stat -c "%n %U %G" /etc/passwd -> Display name, owner, and group of the passwd file
+22. stat -c "%n %C" /proc/cpuinfo -> Display name and number of CPUs on the system
+23. stat -c "%n %m" /etc/passwd -> Display name and time of last modification for the passwd file
+24. stat -c "%n %z" /etc/passwd -> Display name and size in bytes of the passwd file
+25. stat -c "%n %A %U %G" /etc -> Display name, permissions, owner, and group of the etc directory
+26. stat /home/user/Desktop/notes -> Display status of notes file in user's Desktop directory
+27. stat -c "%n %a %u %g" /etc/group -> Display name, permissions, owner, and group of the group file
+28. stat -c "%n %w" /var/log/syslog -> Display name and time of last file write for the syslog file
+29. stat -c "%n %w" /etc/passwd -> Display name and time of last file write for the passwd file
+30. stat -c "%n %a %U %G" /usr/local/bin -> Display name, permissions, owner, and group of the bin directory
+31. stat -c "%n %u %g %s" /home/user/Documents -> Display name, owner, group, and size of the Documents directory
+32. stat -c "%n %A %i" /dev/sdb -> Display name, permissions, and inode number of the sdb device
+33. stat -c "%n %a %U %G" /etc/shadow -> Display name, permissions, owner, and group of the shadow file
+34. stat -c "%n %T %S" /usr -> Display name, file system type, and mount point of the usr directory
+35. stat -c "%n %a %U %G" /usr/share -> Display name, permissions, owner, and group of the share directory
+36. stat -c "%n %A %U %G" /usr/bin -> Display name, permissions, owner, and group of the bin directory
+37. stat -c "%n %a %U %G" /usr/sbin -> Display name, permissions, owner, and group of the sbin directory
+38. stat -c "%n %a %U %G %h" /usr/include -> Display name, permissions, owner, group, and number of hard links of the include directory
+39. stat -c "%n %a %U %G" /usr/local/include -> Display name, permissions, owner, and group of the local include directory
+40. stat -c "%n %U:%G" /home/user/Documents -> Display name and owner/group of the Documents directory
+41. stat -c "%n %m %z" /usr/bin -> Display name, time of last modification, and size of the bin directory
+42. stat -c "%n %a %U %G" /usr/lib -> Display name, permissions, owner, and group of the lib directory
+43. stat -c "%n %a %U %G" /usr/local/lib -> Display name, permissions, owner, and group of the local lib directory
+44. stat -c "%n %u %g %a" /var/log -> Display name, owner, group, and permissions of the log directory
+45. stat -c "%n %x" /home/user/Desktop -> Display name and time of last access for the Desktop directory
+46. stat -c "%n %a %U %G" /var/ -> Display name, permissions, owner, and group of the var directory
+47. stat -c "%n %F" /usr/local -> Display name and file type (directory) of the local directory
+48. stat -c "%n %T %S" /var -> Display name, file system type, and mount point of the var directory
+49. stat -c "%n %a %U %G" /var/run -> Display name, permissions, owner, and group of the run directory
+50. stat -c "%n %m %z" /var/log -> Display name, time of last modification, and size of the log directory
+51. stat -c "%n %a %U %G" /var/cache -> Display name, permissions, owner, and group of the cache directory
+52. stat -c "%n %a %U %G %h" /var/spool -> Display name, permissions, owner, group, and number of hard links of the spool directory
+53. stat -c "%n %w" /var/cache -> Display name and time of last file write for the cache directory
+54. stat -c "%n %a %U %G" /usr/local/share -> Display name, permissions, owner, and group of the local share directory
+55. stat -c "%n %W" /var/log -> Display name and time of last write for the log directory
+56. stat -c "%n %a %U %G %h" /usr/local -> Display name, permissions, owner, group, and number of hard links of the local directory
+57. stat -c "%n %w" /usr/local/bin -> Display name and time of last file write for the bin directory
+58. stat -c "%n %a %U %G" /usr/local/sbin -> Display name, permissions, owner, and group of the local sbin directory
+59. stat -c "%n %i %a" /usr/local/share/man -> Display name, inode number, and permissions of the local man directory
+60. stat -c "%n %x %y %z" /etc/sudoers -> Display name, time of last access, modification, and status change for the sudoers file
+61. stat -c "%n %m %z" /var/tmp -> Display name, time of last modification, and size of the tmp directory in var
+62. stat -c "%n %a %U %G" /var/spool/mail -> Display name, permissions, owner, and group of the mail directory in var/spool
+63. stat -c "%n %a %U %G" /usr/local/man -> Display name, permissions, owner, and group of the local man directory
+64. stat -c "%n %a %u %g" /var/lib -> Display name, permissions, owner, and group of the lib directory in var
+65. stat -c "%n %a %U %G" /var/tmp -> Display name, permissions, owner, and group of the tmp directory in var
+66. stat -c "%n %a %U %G" /var/backups -> Display name, permissions, owner, and group of the backups directory in var
+67. stat -c "%n %m %z" /etc/group -> Display name, time of last modification, and size of the group file
+68. stat -c "%n %a %U %G" /var/spool/cron -> Display name, permissions, owner, and group of the cron directory in var/spool
+69. stat -c "%n %w" /var/spool/postfix -> Display name and time of last file write for the postfix directory in var/spool
+70. stat -c "%n %a %u %g" /var/cache/ldconfig -> Display name, permissions, owner, and group of the ldconfig directory in var/cache
+71. stat -c "%n %a %U %G %h" /var/log/apt -> Display name, permissions, owner, group, and number of hard links of the apt directory in var/log
+72. stat -c "%n %m %z" /dev/null -> Display name, time of last modification, and size of the null device
+73. stat -c "%n %a %U %G" /var/run/lock -> Display name, permissions, owner, and group of the lock directory in var/run
+74. stat -c "%n %a %U %G" /var/run/screen -> Display name, permissions, owner, and group of the screen directory in var/run
+75. stat -c "%n %a %u %g" /usr/local/etc -> Display name, permissions, owner, and group of the etc directory in local
+76. stat -c "%n %a %U %G" /mnt -> Display name, permissions, owner, and group of the mount directory
+77. stat -c "%n %a %U %G" /var/spool/squid -> Display name, permissions, owner, and group of the squid directory in var/spool
+78. stat -c "%n %u %g" /boot -> Display name, owner, and group of the boot directory
+79. stat -c "%n %m %z" /run/shm -> Display name, time of last modification, and size of the shm directory in run
+80. stat -c "%n %a %u %g" /var/log/apt -> Display name, permissions, owner, and group of the apt directory in var/log
+81. stat -c "%n %a %U %G" /var/mail -> Display name, permissions, owner, and group of the mail directory in var
+82. stat -c "%n %a %U %G" /run/screens -> Display name, permissions, owner, and group of the screens directory in run
+83. stat -c "%n %a %u %g" /usr/sbin -> Display name, permissions, owner, and group of the sbin directory in usr
+84. stat -c "%n %Y" /bin/ls -> Display name and year of last status change for the ls command in bin
+85. stat -c "%n %M" /lib/x86_64-linux-gnu/libc.so.6 -> Display name and file capabilities of the libc library
+86. stat -c "%n %m %z" /var/spool/cron/crontabs -> Display name, time of last modification, and size of the crontabs directory in var/spool/cron
+87. stat -c "%n %a %U %G" /run/lock -> Display name, permissions, owner, and group of the lock directory in run
+88. stat -c "%n %a %U %G" /run/screen -> Display name, permissions, owner, and group of the screen directory in run
+89. stat -c "%n %a %u %g" /usr/include/netinet -> Display name, permissions, owner, and group of the netinet directory in include
+90. stat -c "%n %a %U %G" /var/backups/apt -> Display name, permissions, owner, and group of the apt directory in backups
+91. stat -c "%n %m %z" /usr/share/man -> Display name, time of last modification, and size of the man directory in share
+92. stat -c "%n %a %U %G" /var/spool/postfix/active -> Display name, permissions, owner, and group of the active directory in postfix/spool
+93. stat -c "%n %a %U %G %h" /var/lib/dpkg -> Display name, permissions, owner, group, and number of hard links of the dpkg directory in var/lib
+94. stat -c "%n %a %u %g" /usr/local/etc/apache2 -> Display name, permissions, owner, and group of the apache2 directory in local/etc
+95. stat -c "%n %a %u %g" /usr/share/doc -> Display name, permissions, owner, and group of the doc directory in share
+96. stat -c "%n %a %U %G" /usr/local/man/man1 -> Display name, permissions, owner, and group of the man1 directory in local/man
+97. stat -c "%n %w" /opt -> Display name and time of last file write for the opt directory
+98. stat -c "%n %a %u %g" /etc/opt -> Display name, permissions, owner, and group of the opt directory in etc
+99. stat -c "%n %a %U %G" /srv -> Display name, permissions, owner, and group of the srv directory
+100. stat -c "%n %a %U %G" a_directory -> Display status of sample directory named "a_directory"

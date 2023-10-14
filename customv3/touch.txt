@@ -1,0 +1,102 @@
+1. touch file.txt -> create empty file
+2. touch folder/ -> create empty directory
+3. touch -a file.txt -> change file access time
+4. touch -m file.txt -> change file modification time
+5. touch -c file.txt -> do not create file
+6. touch -r file.txt newfile.txt -> create new file, copy modification time from another file
+7. touch -t 202201011200 file.txt -> create file with specified timestamp
+8. touch file with_spaces.txt -> create file with spaces in the name
+9. touch 'file with quotes.txt' -> create file with quotes in the name
+10. touch ~/file.txt -> create file in home directory
+11. touch /var/www/file.txt -> create file in specified directory
+12. touch file-{1..10}.txt -> create multiple files with common prefix and numeric suffixes
+13. touch file-{a,b,c}.txt -> create multiple files with common suffix and alpha suffixes
+14. touch *.txt -> create multiple files using wildcard
+15. touch -d '1 day ago' file.txt -> change file timestamp to one day ago
+16. touch -d '2 weeks ago' file.txt -> change file timestamp to two weeks ago
+17. touch -d 'next Monday' file.txt -> change file timestamp to next Monday
+18. touch -t $(date +%Y%m%d%H%M) file.txt -> create file with current timestamp
+19. touch ./file.txt -> create file in current directory
+20. touch file.txt.lock -> create file with lock suffix
+21. touch file.txt.bak -> create file with bak suffix
+22. touch file.txt~ -> create file with tilde suffix
+23. touch file.txt.swp -> create file with swp suffix
+24. touch file.txt.orig -> create file with orig suffix
+25. touch file.txt.save -> create file with save suffix
+26. touch file.txt.old -> create file with old suffix
+27. touch file.txt.new -> create file with new suffix
+28. touch file.txt.tmp -> create file with tmp suffix
+29. touch file.txt.log -> create file with log suffix
+30. touch file.txt.err -> create file with err suffix
+31. touch file.txt.out -> create file with out suffix
+32. touch file.txt.pid -> create file with pid suffix
+33. touch file.txt.lockfile -> create file with lockfile suffix
+34. touch file.txt.stats -> create file with stats suffix
+35. touch file.txt.conf -> create file with conf suffix
+36. touch file.txt.cfg -> create file with cfg suffix
+37. touch file.txt.crt -> create file with crt suffix
+38. touch file.txt.key -> create file with key suffix
+39. touch file.txt.pem -> create file with pem suffix
+40. touch file.txt.pub -> create file with pub suffix
+41. touch file.txt.priv -> create file with priv suffix
+42. touch file.txt.rsa -> create file with rsa suffix
+43. touch file.txt.dsa -> create file with dsa suffix
+44. touch file.txt.ssh -> create file with ssh suffix
+45. touch file.txt.tar -> create file with tar suffix
+46. touch file.txt.zip -> create file with zip suffix
+47. touch file.txt.rar -> create file with rar suffix
+48. touch file.txt.gz -> create file with gz suffix
+49. touch file.txt.bz2 -> create file with bz2 suffix
+50. touch file.txt.xz -> create file with xz suffix
+51. touch file.txt.sha -> create file with sha suffix
+52. touch file.txt.md5 -> create file with md5 suffix
+53. touch file.txt.asc -> create file with asc suffix
+54. touch file.txt.gpg -> create file with gpg suffix
+55. touch file.txt.sig -> create file with sig suffix
+56. touch file.txt.pubkey -> create file with pubkey suffix
+57. touch file.txt.privkey -> create file with privkey suffix
+58. touch file.txt.backup -> create file with backup suffix
+59. touch file.txt.db -> create file with db suffix
+60. touch file.txt.sqlite -> create file with sqlite suffix
+61. touch file.txt.mysql -> create file with mysql suffix
+62. touch file.txt.postgres -> create file with postgres suffix
+63. touch file.txt.mongo -> create file with mongo suffix
+64. touch file.txt.redis -> create file with redis suffix
+65. touch file.txt.cache -> create file with cache suffix
+66. touch file.txt.locking -> create file with locking suffix
+67. touch file.txt.swapping -> create file with swapping suffix
+68. touch file.txt.logging -> create file with logging suffix
+69. touch file.txt.monitoring -> create file with monitoring suffix
+70. touch file.txt.troubleshooting -> create file with troubleshooting suffix
+71. touch -h file.txt -> treat symbolic link as regular file
+72. touch -n file.txt -> do not update timestamp if file does not exist
+73. touch -u file.txt -> only update access time
+74. touch -v file.txt -> show file updates
+75. touch -x file.txt -> do not create file if it already exists
+76. touch -z file.txt -> change file timestamp to current time
+77. touch --no-create file.txt -> do not create file if it does not exist
+78. touch --reference=file.txt newfile.txt -> copy timestamp from another file
+79. touch --time=atime file.txt -> only update access time
+80. touch --time=mtime file.txt -> only update modification time
+81. touch --time=ctime file.txt -> only update creation time
+82. touch --time=now file.txt -> change file timestamp to current time
+83. touch --time=202201011200 file.txt -> create file with specified timestamp
+84. touch --help -> show touch help menu
+85. touch --version -> show touch version information
+86. touch -S file.txt -> set file size to zero
+87. touch -T file.txt -> create file in default temporary directory
+88. touch --no-dereference file.txt -> treat symbolic link as symbolic link
+89. touch --silent file.txt -> do not show file updates
+90. touch -R folder/ -> create directory recursively
+91. touch -p folder/folder2/file.txt -> create directory hierarchy and file
+92. touch --reference-time=file.txt newfile.txt -> copy timestamp from another file
+93. touch --date='1 day ago' file.txt -> change file timestamp to one day ago
+94. touch --date='2 weeks ago' file.txt -> change file timestamp to two weeks ago
+95. touch --date='next Monday' file.txt -> change file timestamp to next Monday
+96. touch --date=@946671600 file.txt -> create file with specified timestamp
+97. touch --date='2022-01-01 12:00:00' file.txt -> create file with specified timestamp
+98. touch --date='2022-01-01T12:00:00Z' file.txt -> create file with specified timestamp
+99. touch --date='2022-01-01T12:00:00-0500' file.txt -> create file with specified timestamp
+100. touch --date='2022-01-01T12:00:00+0800' file.txt -> create file with specified timestamp
+
+I hope these examples are helpful for you!

@@ -1,0 +1,102 @@
+cat file.txt
+cat -n file.txt
+cat -E file.txt
+cat file.txt file2.txt
+cd /home
+cd ..
+cd Documents
+cd -
+chmod 777 file.txt
+chmod 554 directory/
+chmod 600 file.pdf
+chmod u+rwx file.png
+clear
+clear file1
+clear folder1 file1
+clear -x
+cp file1.txt file2.txt
+cp -r dir1 dir2
+cp -v file1.txt file2.txt
+cp -i file1.txt file2.txt
+ls
+ls -a
+ls -l
+ls -t
+"echo ""Hello World"" > greetings.txt"
+"echo ""Welcome to Linux"" > /home/user/welcome.txt"
+"echo ""HELLO"" >> greetings.txt"
+"echo ""This is a file"" > myfile.txt"
+env
+env -i /bin/bash
+env -u USER /bin/sh
+env EDITOR=nano crontab -e
+free
+free -m
+free -g
+free -t
+wget example.com
+git clone repo
+scp file remote:
+curl http://api.com
+kill -9 53245
+kill -s SIGTERM myapp
+kill -f /tmp/file
+kill -15 mydir
+ls
+ls -l
+ls -a
+ls -t
+mkdir mydir
+mkdir dir1/
+mkdir -p dir1/dir2
+mkdir -m 775 mydir
+mktemp newfile
+mktemp test-dir
+mktemp -p /tmp/ file
+mktemp -d /var/tmp/
+mv file1 file2
+mv file1 folder
+mv folder1 folder2
+mv folder1/file1 folder2
+ping google.com -c 5
+ping server.local
+ping 8.8.8.8 -I eth0
+ping -n 10 192.168.0.1
+put file1 dir1
+put -r dir1 dir2
+put file1 /home/user/dir1
+put -p file1 dir1
+pwd
+pwd -L
+pwd -P
+pwd /home/user
+rm file.txt
+rm -r directory
+rm -f file.txt
+rm -rf directory
+rmdir foo
+rmdir bar/
+rmdir -v dir1
+rmdir proj1/
+ssh user1@host1
+ssh-keygen -t rsa
+ssh-copy-id user@host
+ssh -X user@host
+stat /home/user/Documents
+stat /etc/passwd
+stat /var/log/syslog
+"stat -c ""%n %s %Y"" /tmp/file.txt"
+stat -L /var/log/syslog
+stat -t /var/log
+top
+top -b
+top -c
+top -d
+touch file.txt
+touch folder/
+touch -a file.txt
+touch -m file.txt
+tree
+tree -a
+tree -d
+tree -L 1

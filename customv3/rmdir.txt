@@ -1,0 +1,100 @@
+1. rmdir foo -> Remove directory "foo".
+2. rmdir bar/ -> Remove directory "bar".
+3. rmdir -v dir1 -> Remove directory "dir1" verbosely.
+4. rmdir proj1/ -> Remove directory "proj1".
+5. rmdir -p a/b/c/ -> Remove directory "a/b/c/" with parents.
+6. rmdir folder -> Remove folder named "folder".
+7. rmdir -f dir2/ -> Force remove directory "dir2/".
+8. rmdir docs -> Remove docs directory.
+9. rmdir --ignore-fail-on-non-empty dir3/ -> Ignore non-empty directory and remove "dir3/".
+10. rmdir source/ -> Remove directory named "source".
+11. rmdir -p archive/2020/dec/ -> Remove directory "archive/2020/dec/" with parents.
+12. rmdir music/ -> Remove music directory.
+13. rmdir -v -p /home/user/temp/ -> Remove /home/user/temp/ directory verbosely with parents.
+14. rmdir videos -> Remove videos directory.
+15. rmdir -p a/b/c/d/e/f/ -> Remove directory "a/b/c/d/e/f/" with parents.
+16. rmdir images/ -> Remove images directory.
+17. rmdir -v -p /var/log/2020/oct/ -> Remove /var/log/2020/oct/ directory verbosely with parents.
+18. rmdir tmp -> Remove tmp directory.
+19. rmdir -rf dir4/ -> Recursively force remove directory "dir4/".
+20. rmdir software/ -> Remove software directory.
+21. rmdir -p code/2020/jan/ -> Remove directory "code/2020/jan/" with parents.
+22. rmdir docs/ -> Remove docs directory.
+23. rmdir -v -p /var/www/html/ -> Remove /var/www/html/ directory verbosely with parents.
+24. rmdir music-videos/ -> Remove music-videos directory.
+25. rmdir -p a/b/c/d/e/f/g/h/ -> Remove directory "a/b/c/d/e/f/g/h/" with parents.
+26. rmdir log/ -> Remove log directory.
+27. rmdir -v -p /usr/bin/ -> Remove /usr/bin/ directory verbosely with parents.
+28. rmdir workdocs -> Remove workdocs directory.
+29. rmdir -f -v dir5/ -> Force remove directory "dir5/" verbosely.
+30. rmdir books/ -> Remove books directory.
+31. rmdir -p downloads/2020/nov/ -> Remove directory "downloads/2020/nov/" with parents.
+32. rmdir docs/ -> Remove docs directory.
+33. rmdir -v -p /usr/local/bin/ -> Remove /usr/local/bin/ directory verbosely with parents.
+34. rmdir pictures -> Remove pictures directory.
+35. rmdir -p a/b/c/d/e/f/g/h/i/j/ -> Remove directory "a/b/c/d/e/f/g/h/i/j/" with parents.
+36. rmdir downloads/ -> Remove downloads directory.
+37. rmdir -v -p /etc/sysconfig/ -> Remove /etc/sysconfig/ directory verbosely with parents.
+38. rmdir data/ -> Remove data directory.
+39. rmdir -f -v dir6/ -> Force remove directory "dir6/" verbosely.
+40. rmdir images/ -> Remove images directory.
+41. rmdir -p library/2020/nov/ -> Remove directory "library/2020/nov/" with parents.
+42. rmdir docs/ -> Remove docs directory.
+43. rmdir -v -p /etc/nginx/ -> Remove /etc/nginx/ directory verbosely with parents.
+44. rmdir movies -> Remove movies directory.
+45. rmdir -p a/b/c/d/e/f/g/h/i/j/k/ -> Remove directory "a/b/c/d/e/f/g/h/i/j/k/" with parents.
+46. rmdir public/ -> Remove public directory.
+47. rmdir -v -p /usr/share/ -> Remove /usr/share/ directory verbosely with parents.
+48. rmdir backlogs/ -> Remove backlogs directory.
+49. rmdir -f -v dir7/ -> Force remove directory "dir7/" verbosely.
+50. rmdir -p library/2020/dec/ -> Remove directory "library/2020/dec/" with parents.
+51. rmdir docs/ -> Remove docs directory.
+52. rmdir -v -p /etc/httpd/ -> Remove /etc/httpd/ directory verbosely with parents.
+53. rmdir reports/ -> Remove reports directory.
+54. rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/ -> Remove directory "a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/" with parents.
+55. rmdir backups/ -> Remove backups directory.
+56. rmdir -v -p /var/www/ -> Remove /var/www/ directory verbosely with parents.
+57. rmdir oldfiles/ -> Remove oldfiles directory.
+58. rmdir -f -v dir8/ -> Force remove directory "dir8/" verbosely.
+59. rmdir -p archives/2020/nov/ -> Remove directory "archives/2020/nov/" with parents.
+60. rmdir docs/ -> Remove docs directory.
+61. rmdir -v -p /etc/ssh/ -> Remove /etc/ssh/ directory verbosely with parents.
+62. rmdir backups/ -> Remove backups directory.
+63. rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/ -> Remove directory "a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/" with parents.
+64. rmdir archives/ -> Remove archives directory.
+65. rmdir -v -p /var/log/nginx/ -> Remove /var/log/nginx/ directory verbosely with parents.
+66. rmdir test/ -> Remove test directory.
+67. rmdir -f -v dir9/ -> Force remove directory "dir9/" verbosely.
+68. rmdir -p uploads/2020/nov/ -> Remove directory "uploads/2020/nov/" with parents.
+69. rmdir docs/ -> Remove docs directory.
+70. rmdir -v -p /opt/lampp/ -> Remove /opt/lampp/ directory verbosely with parents.
+71. rmdir temp/ -> Remove temp directory.
+72. rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/ -> Remove directory "a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/" with parents.
+73. rmdir scripts/ -> Remove scripts directory.
+74. rmdir -v -p /var/lib/mysql/ -> Remove /var/lib/mysql/ directory verbosely with parents.
+75. rmdir backup/ -> Remove backup directory.
+76. rmdir -f -v dir10/ -> Force remove directory "dir10/" verbosely.
+77. rmdir -p backups/2020/nov/ -> Remove directory "backups/2020/nov/" with parents.
+78. rmdir docs/ -> Remove docs directory.
+79. rmdir -v -p /var/www/html/sample/ -> Remove /var/www/html/sample/ directory verbosely with parents.
+80. rmdir git/ -> Remove git directory.
+81. rmdir -p a1/b2/c3/ -> Remove directory "a1/b2/c3/" with parents.
+82. rmdir files/ -> Remove files directory.
+83. rmdir -v -p /var/named/ -> Remove /var/named/ directory verbosely with parents.
+84. rmdir logs/ -> Remove logs directory.
+85. rmdir -f -v dir11/ -> Force remove directory "dir11/" verbosely.
+86. rmdir -p backups/2020/dec/ -> Remove directory "backups/2020/dec/" with parents.
+87. rmdir docs/ -> Remove docs directory.
+88. rmdir -v -p /var/www/html/test/ -> Remove /var/www/html/test/ directory verbosely with parents.
+89. rmdir backup1/ -> Remove backup1 directory.
+90. rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/1/2/3/4/5/6/7/8/9 -> Remove directory "a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/1/2/3/4/5/6/7/8/9" with parents.
+91. rmdir downloads/ -> Remove downloads directory.
+92. rmdir -v -p /var/lib/pgsql/ -> Remove /var/lib/pgsql/ directory verbosely with parents.
+93. rmdir archives/ -> Remove archives directory.
+94. rmdir -p backups/2020/dec/ -> Remove directory "backups/2020/dec/" recursively.
+95. rmdir tmp/ -> Remove tmp directory.
+96. rmdir -v -p /var/www/html/demo/ -> Remove /var/www/html/demo/ directory verbosely with parents.
+97. rmdir backup2/ -> Remove backup2 directory.
+98. rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15 -> Remove directory "a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15" recursively.
+99. rmdir archives/ -> Remove archives directory.
+100. rmdir -v -p /usr/tmp/ -> Remove /usr/tmp/ directory verbosely with parents.

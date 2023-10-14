@@ -1,0 +1,100 @@
+1. wget example.com -> Download file from URL.
+2. git clone repo -> Clone repository.
+3. scp file remote: -> Copy file to remote server.
+4. curl http://api.com -> Retrieve data from API.
+5. rsync -avz file remote: -> Sync local file to remote server.
+6. ftp ftp.example.com -> Connect to FTP server.
+7. tar -cvzf archive.tar.gz dir/ -> Create archive of directory.
+8. getent passwd user -> Retrieve user information.
+9. svn checkout repo -> Check out SVN repository.
+10. yum-get install package -> Install package using yum.
+11. dpkg -L package -> List files installed by package.
+12. dnf-get update -> Update packages using DNF.
+13. apt-get upgrade -> Upgrade packages using APT.
+14. rpm -qa -> List all installed packages using rpm.
+15. locate file -> Find file in filesystem.
+16. find . -name file -> Find file in directory.
+17. grep pattern file -> Search for pattern in file.
+18. awk '/pattern/{print}' file -> Print lines matching pattern.
+19. sed 's/find/replace/g' file -> Replace text in file.
+20. cut -d ',' -f 1 file -> Extract first field in file.
+21. cat file | grep pattern -> Search for pattern in file.
+22. tail -n 100 file -> Display last 100 lines of file.
+23. head -n 10 file -> Display first 10 lines of file.
+24. less file -> Display file content page by page.
+25. more file -> Display file content page by page.
+26. wc -l file -> Count lines in file.
+27. du -sh dir/ -> Show size of directory.
+28. ls -l -> Show detailed list of files.
+29. chmod 755 file -> Change file permissions to 755.
+30. chown user:group file -> Change file ownership.
+31. kill PID -> Kill process with given PID.
+32. ps aux -> Show list of running processes.
+33. top -> Show resource usage of processes.
+34. uptime -> Show system uptime.
+35. df -h -> Show disk space usage.
+36. free -m -> Show free memory in MB.
+37. ifconfig -> Show network interfaces.
+38. netstat -apn -> Show network connections.
+39. route -n -> Show routing table.
+40. ping host -> Ping host to test connectivity.
+41. traceroute host -> Trace route to host.
+42. mtr host -> Combine ping and traceroute.
+43. ssh user@host -> SSH into remote server.
+44. sftp user@host -> SFTP into remote server.
+45. scp file user@host: -> Copy file to remote server.
+46. rsync -avz file user@host: -> Sync local file to remote server.
+47. tar -cvzf archive.tar.gz dir/ -> Create archive of directory.
+48. wget example.com -> Download file from URL.
+49. curl http://api.com -> Retrieve data from API.
+50. ftp ftp.example.com -> Connect to FTP server.
+51. getent passwd user -> Retrieve user information.
+52. svn checkout repo -> Check out SVN repository.
+53. yum-get install package -> Install package using yum.
+54. dpkg -L package -> List files installed by package.
+55. dnf-get update -> Update packages using DNF.
+56. apt-get upgrade -> Upgrade packages using APT.
+57. rpm -qa -> List all installed packages using rpm.
+58. locate file -> Find file in filesystem.
+59. find . -name file -> Find file in directory.
+60. grep pattern file -> Search for pattern in file.
+61. awk '/pattern/{print}' file -> Print lines matching pattern.
+62. sed 's/find/replace/g' file -> Replace text in file.
+63. cut -d ',' -f 1 file -> Extract first field in file.
+64. cat file | grep pattern -> Search for pattern in file.
+65. tail -n 100 file -> Display last 100 lines of file.
+66. head -n 10 file -> Display first 10 lines of file.
+67. less file -> Display file content page by page.
+68. more file -> Display file content page by page.
+69. wc -l file -> Count lines in file.
+70. du -sh dir/ -> Show size of directory.
+71. ls -l -> Show detailed list of files.
+72. chmod 755 file -> Change file permissions to 755.
+73. chown user:group file -> Change file ownership.
+74. kill PID -> Kill process with given PID.
+75. ps aux -> Show list of running processes.
+76. top -> Show resource usage of processes.
+77. uptime -> Show system uptime.
+78. df -h -> Show disk space usage.
+79. free -m -> Show free memory in MB.
+80. ifconfig -> Show network interfaces.
+81. netstat -apn -> Show network connections.
+82. route -n -> Show routing table.
+83. ping host -> Ping host to test connectivity.
+84. traceroute host -> Trace route to host.
+85. mtr host -> Combine ping and traceroute.
+86. ssh user@host -> SSH into remote server.
+87. sftp user@host -> SFTP into remote server.
+88. scp file user@host: -> Copy file to remote server.
+89. rsync -avz file user@host: -> Sync local file to remote server.
+90. tar -cvzf archive.tar.gz dir/ -> Create archive of directory.
+91. wget example.com -> Download file from URL.
+92. curl http://api.com -> Retrieve data from API.
+93. ftp ftp.example.com -> Connect to FTP server.
+94. getent passwd user -> Retrieve user information.
+95. svn checkout repo -> Check out SVN repository.
+96. yum-get install package -> Install package using yum.
+97. dpkg -L package -> List files installed by package.
+98. dnf-get update -> Update packages using DNF.
+99. apt-get upgrade -> Upgrade packages using APT.
+100. rpm -qa -> List all installed packages using rpm.

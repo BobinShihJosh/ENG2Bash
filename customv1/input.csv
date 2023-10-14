@@ -1,0 +1,389 @@
+Lists all files and directories in the present working directory
+List the files and directories in the current directory.
+Show the content of the current folder.
+Display the items in the directory.
+See the files and subdirectories in the current location.
+Examine the files and subdirectories in the present working directory.
+Lists files in sub-directories as well
+List the content of the current directory and all its subdirectories.
+Recursively show the files and subdirectories of the current directory.
+Display the content of the current folder and all its sub-folders.
+Examine the files and directories in the present working directory and all its subdirectories.
+List the content of the current directory and its entire subdirectory tree.
+Lists hidden files as well
+List all the files and directories in the current directory, including hidden files.
+Show the content of the current folder, including hidden items.
+Display all items in the directory, including those that are hidden.
+See all the files and subdirectories in the current location, including those with hidden attribute.
+Examine all the files and subdirectories in the present working directory, including the hidden ones.
+Lists files and directories with detailed information like permissions,size, owner, etc.
+List all files and directories, including hidden ones, in the current directory with detailed information.
+Show a detailed list of everything in the current folder, including hidden items.
+Display all files and subdirectories, including hidden items, in the current location with long format.
+See a detailed representation of all items, including hidden files and directories, in the present working directory.
+Examine a long format list of everything, including hidden files and subdirectories, in the current directory.
+Navigate to HOME directory
+Go to the home directory.
+Change to the user's home directory.
+Navigate to the root directory of the user's home folder.
+Move to the starting directory of the user account.
+Switch to the base directory of the current user's home folder.
+Move one level up
+Move up one directory level.
+Go back to the parent directory.
+Change to the directory above the current one.
+Switch to the directory containing the current directory.
+Access the directory that is higher in hierarchy.
+To change to a particular directory
+Go to the directory named 'folder1'.
+Change the current working directory to 'folder1'.
+Navigate to the folder 'folder1'.
+Enter the directory 'folder1'.
+Access the directory named 'folder1'.
+Move to the root directory
+Change the current directory to the root directory.
+Navigate to the top-most directory in the file system.
+Go to the parent of all directories.
+Switch to the base directory of the file system.
+Access the directory at the highest level in the file hierarchy.
+Creates a new file
+Write the standard input to a file named filename.
+Redirect the input to a new file called filename.
+Create a file named filename and add the standard input to it.
+Save the output of the standard input to a file named filename.
+Output the standard input to a new file filename and overwrite it if it already exists.
+Displays the file content
+Display the content of the file named 'filename'.
+Show the contents of the file 'filename'.
+Read the contents of the file named 'filename'.
+Print the content of the 'filename' file.
+Output the text contained in the file 'filename'.
+Joins two files (file1, file2) and stores the output in a new file (file3)
+Combine the contents of file1 and file2 and write the result to file3.
+Merge file1 and file2 and save the output in file3.
+Join the contents of file1 and file2 into a single file named file3.
+Concatenate file1 and file2 and redirect the output to file3.
+Append the contents of file1 and file2 and store the result in file3.
+Moves the files to the new location
+Move the file to the specified new location.
+Relocate the file to the new path.
+Rename the file by changing its location to the new path.
+Place the file in the new directory specified.
+Transfer the file to the new file path indicated.
+Renames the file to a new filename
+Rename a file by changing its name to 'new_file_name'.
+Move a file named 'filename' to a new name 'new_file_name'.
+Rename 'filename' to 'new_file_name'.
+Change the name of 'filename' to 'new_file_name'.
+Relocate 'filename' with the new name 'new_file_name'.
+Allows regular users to run programs with the security privileges of the superuser or root
+Run a command as the superuser or root.
+Execute a command with administrative privileges.
+Act as the administrator for the purpose of running a command.
+Invoke a command with elevated permissions.
+Perform a command with the highest level of authority.
+Deletes a file
+Delete the file named 'filename'.
+Remove the file called 'filename'.
+Eliminate the file with the name 'filename'.
+Erase the file designated as 'filename'.
+Get rid of the file specified as 'filename'.
+Gives help information on a command
+Access the manual pages for a command.
+View the manual documentation for a Linux utility.
+Read the user manual for a Linux program.
+Get help and information about a specific command in Linux.
+Refer to the manual pages for detailed information about a Linux command.
+Gives a list of all past commands typed in the current terminal session
+Display a list of previously executed commands.
+Show a record of past commands in the terminal.
+See the history of executed commands in the shell.
+List the commands executed in the terminal session.
+View a history of used commands in the command line interface.
+Clears the terminal
+Erase the terminal screen.
+Remove the previous commands from the terminal display.
+Clean the terminal window.
+Clear the output from the terminal screen.
+Wipe the terminal's display clean of any previous commands or output.
+Creates a new directory in the present working directory or a at the specified path
+Create a new directory with the name 'directoryname.'
+Make a folder named 'directoryname.'
+Establish a new directory called 'directoryname.'
+Generate a directory with the specified name 'directoryname.'
+Form a new folder named 'directoryname.'
+Deletes a directory
+Remove the directory named 'directoryname'.
+Delete the folder 'directoryname'.
+Erase the directory with the name 'directoryname'.
+Unlink the directory 'directoryname'.
+Take out the directory 'directoryname'.
+Renames a directory
+Move or rename a file or directory.
+Relocate a file or folder to a different location.
+Change the name or position of a file or folder.
+Transfer a file or folder from one location to another.
+Replace the original location of a file or folder with a new one.
+Divides the file into x columns
+Print files with horizontal expansion.
+Expand files horizontally while printing.
+Output files in a tabular format with extended columns.
+Produce a tabular format of the files with expanded columns.
+Display the contents of the files with expanded horizontal columns while printing.
+Assigns a header to the file
+Print files with header information.
+Display files with headers for each page.
+Output files with page headers.
+Print files along with header row.
+Generate a printout of files with header information on each page.
+Denotes the file with Line Numbers
+Print the contents of a file with line numbers.
+Display a file's contents with line numbers added.
+Add line numbers while printing the contents of a file.
+Output the contents of a file with line numbers included.
+Show the contents of a file with line numbering for each line.
+Print a file without any changes or modifications.
+Submit a file to the printer without changing its format.
+Send a file to the printer in its original format.
+Print a file as is, without any alterations.
+Submit a file to the printer exactly as it is, without making any modifications.
+Print the file 'c' using the lpr printer.
+Send the file 'c' to the lpr printer for printing.
+Use the lpr printer to print the file 'c'.
+Submit file 'c' for printing via the lpr printer.
+Instruct the lpr printer to print the contents of file 'c'.
+Command used to install and update packages
+Get and install the 'numpy' package using the 'apt-get' package manager.
+Use 'apt-get' to acquire and set up the 'numpy' package.
+Install the 'numpy' package through 'apt-get' package management system.
+Employ 'apt-get' to add the 'numpy' package to your system.
+Utilize the 'apt-get' package manager to download and install 'numpy'.
+to show file type and access permission
+Display the content of the current directory with detailed information.
+List the files and directories in the current folder with long format.
+See a detailed view of the items in the directory.
+Show a long listing of the files and subdirectories in the current location.
+Examine the files and subdirectories in the present working directory with in-depth information.
+Give read and write permissions to the file named filename.
+Change the file permissions of filename to allow reading and writing.
+Make the file filename readable and writable.
+Set the permissions of filename to read and write for everyone.
+Allow both reading and writing to the file filename.
+Grant read permissions to everyone for the file named 'filename'.
+Make the file 'filename' readable by all users.
+Change the file 'filename' mode to allow reading by all.
+Alter the permissions of the file 'filename' to include read access for all.
+Set read rights on the file 'filename' for all users.
+Grant write permissions to the file 'filename'.
+Change the file 'filename' to allow writing.
+Modify the permissions of the file 'filename' to include writing.
+Make the file 'filename' writable.
+Set the write permission on the file 'filename'.
+Give execute permissions to the file named 'filename'.
+Allow the file 'filename' to be executed.
+Make the file 'filename' executable.
+Set the file 'filename' so it can be run.
+Grant execute rights to the file 'filename'.
+Remove write permission from the file 'filename'
+Revoke write access to 'filename'
+Take away the write ability for 'filename'
+Deny write permission for the file 'filename'
+Withdraw write access to the file 'filename'
+For changing the ownership of a file/directory
+Change the ownership of the file to the specified user.
+Assign the file to a new owner, the user specified.
+Make the user the new owner of the file.
+Transfer the ownership of the file to the named user.
+Alter the ownership of the file so that it belongs to the specified user.
+change the user as well as group for a file or directory
+Assign a new owner to a file or directory
+Transfer ownership of a file or directory to a specified user
+Reassign ownership of a file or directory to a user
+Make a user the owner of a file or directory
+Specify a new owner for a file or directory
+Set a user as the owner of a file or directory
+Display the value of a variable
+Show the contents of a variable
+Print the value stored in a variable
+Output the contents of a variable
+Reveal the contents stored in a variable
+Present the value of a variable.
+Show the environment variables
+Display the current environment settings
+Print the shell environment information
+Present the environment configurations
+Reveal the system environment variables
+Output the environment variables of the current shell session.
+Create a new variable
+Define a new variable and set its value
+Establish a new variable and give it a value
+Declare a new variable and assign it a value
+Make a new variable and specify its value
+Form a new variable and provide it with a value.
+Remove a variable
+Remove a variable
+Delete a variable
+Eliminate a variable
+Undeclare a variable
+Nullify a variable
+Dispose of a variable.
+To set value of an environment variable
+Assign the value "value" to a variable 
+Define a variable with the value "value" 
+Establish a variable with the value "value" 
+Specify a variable and its value "value"
+Set a variable to the value "value"
+Create a variable and give it the value "value"
+Add a new user  of 'username' 
+Create a new  of 'username'  user with administrative privileges
+Add a new  of 'username' user with root permissions
+Establish a new user  of 'username' with superuser access
+Grant root privileges to a new user  of 'username' 
+Create a new administrative user  of 'username' 
+change the password of a user
+Update a user's  of 'username' password
+Modify a user's  of 'username' password
+Reset a user's  of 'username' password
+Alter a user's  of 'username' password
+Change a user's  of 'username' password security.
+Remove a newly created user of 'username'
+Delete a user of 'username' and their related files
+Remove a user  of 'username' and their associated data
+Terminate a user  of 'username' and their belongings
+Erase a user  of 'username' and their files permanently
+Get rid of a user  of 'username' and their information
+Purge a user  of 'username' and their related assets.
+Assign a user of 'username' to an additional of "groupname" group
+Add a user of 'username' to a secondary of "groupname" group
+Grant a user of 'username' membership to another of "groupname" group
+Make a user of 'username' part of an extra of "groupname" group
+Give a user of 'username' access to an additional of "groupname" group
+Include a user of 'username' in a supplementary of "groupname" group
+Enroll a user of 'username' in an additional group of "groupname" membership
+Add a user of 'username' to a supplementary group of "groupname" membership
+To remove a user from a group
+Remove a user account and its association with a group.
+Delete a user account and their membership in a group.
+Unregister a user and their group affiliation.
+Eliminate a user and their connection to a group.
+Purge a user account and the group it belongs to.
+Shows information of all the users logged in
+Display information about a user on a Unix-like system.
+Show details about a specific user account.
+Get information about a particular user on a Unix system.
+Retrieve details about a user including login name, real name, and login time.
+Fetch information about a user, such as their login name, full name, and last login time.
+Gives information of a particular user
+Display information about the specified user.
+Show details about a specific user on the system.
+Retrieve information about a particular user.
+See information about the user with the specified username.
+Get information such as login time, real name, and home directory of a user.
+login into a remote Linux machine using SSH
+Connect to a remote computer using the SSH protocol with the specified username and IP address.
+Establish a secure shell connection to the remote machine using the given username and IP.
+Log in to a remote system through SSH with the provided username and IP address.
+Access a remote device over the internet securely with SSH and the specified username and IP.
+Initiate a secure shell session to a remote machine with the provided username and IP address.
+To ping and Analyzing network and host connections
+Send a test message to the host named 'sample_hostname' to check its connectivity.
+Check the reachability of 'sample_hostname' by sending a ping request.
+Determine if 'sample_hostname' is reachable by sending a network test packet.
+Verify the network connection to 'sample_hostname' by sending a ping.
+Test the network connection to 'sample_hostname' by sending a network diagnostic packet.
+Display files in the current directory of a remote computer
+Show the contents of the current directory.
+Display a list of files and subdirectories in the current folder.
+List the items in the current working directory.
+Examine the files and subdirectories present in the present location.
+Provide an overview of the files and folders in the current directory.
+change directory to “dirname” on a remote computer
+Change the current working directory to 'dirname'.
+Navigate to the directory named 'dirname'.
+Go to the folder 'dirname'.
+Enter the directory 'dirname'.
+Switch to the directory 'dirname'.
+upload ‘file’ from local to remote computer
+Upload a file.
+Send a file to a specified location.
+Transfer a file from the current device to another.
+Place a file into a designated directory.
+Copy a file to a target location.
+Download ‘file’ from remote to local computer
+Retrieve a file.
+Download a file.
+Acquire a file.
+Fetch a file.
+Obtain a file.
+Logout
+Exit the terminal.
+End the session.
+Close the command prompt.
+Terminate the command line interface.
+Leave the command line interface and return to the previous interface.
+To send a process to the background
+Resume a stopped job in the background.
+Move a suspended process to run in the background.
+Start a job running in the background.
+Continue execution of a stopped task in the background.
+Make a previously stopped job run in the background.
+To run a stopped process in the foreground
+Bring a background process to the foreground.
+Make a background job the active process.
+Move a background task to the command line interface.
+Resume a stopped process in the foreground.
+Switch a background task to the forefront.
+Details on all Active Processes
+Display the processes running on the system and their resource usage.
+Show the current status of system processes and their utilization of system resources.
+Monitor the performance of processes in real-time.
+View the active processes and their CPU, memory, and other resource usage statistics.
+Track the most resource-intensive processes running on the system in real-time.
+Give the status of processes running for a user
+Show the current processes running on the system.
+Display the list of active processes.
+List the processes currently in execution.
+Examine the tasks currently running on the system.
+View the active processes on the system and their status.
+Gives the status of a particular process
+Show information about the process with the specified process ID (PID).
+Display the details of the process identified by its PID.
+List the attributes of the process with PID.
+Examine the information of the process matching the PID provided.
+Retrieve information about the process indicated by its PID value.
+Gives the Process ID (PID) of a process
+Find the process ID of a running program.
+Get the identification number of a currently running process.
+Retrieve the process identifier of a specific application.
+Determine the process ID of a specified executable.
+Locate the process ID for a running software program.
+Kills a process
+Terminate the process with the specified process ID (PID).
+End the running task with the given PID number.
+Send a signal to end the process identified by PID.
+Stop the process with PID from running.
+Forcefully close the process with the PID indicated.
+Starts a process with a given priority
+Set the priority of a process to run with lower CPU utilization.
+Run a program with a lower priority than other processes.
+Execute a command at a lower priority to allow other processes to have more CPU time.
+Launch a process with reduced CPU resource allocation.
+Start a command with a lower CPU allocation for better system performance.
+Changes priority of an already running process
+Adjust the priority level of a running process.
+Change the scheduling priority of an active process.
+Modify the priority value assigned to a process that is already running.
+Alter the importance level of a process that is currently executing.
+Redefine the priority of a process that is in operation.
+Gives free hard disk space on your system
+Show the amount of free disk space on all mounted file systems.
+Display the available and used disk space on the system.
+Check the amount of space occupied and the space available on the file systems.
+See the disk space utilization of all mounted file systems.
+View the amount of storage used and the storage remaining on all mounted file systems.
+Gives free RAM on your system
+Display the amount of free and used memory in the system.
+Show the available and used system memory information.
+List the amount of physical memory and swap memory that is unused.
+Print the memory usage statistics.
+Report the system's available and utilized memory resources.

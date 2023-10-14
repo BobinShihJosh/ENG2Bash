@@ -1,0 +1,100 @@
+1. ls -> List files in current directory
+2. ls -a -> List including hidden files
+3. ls -l -> List in long format
+4. ls -t -> List files by time modified
+5. ls -S -> List files by size
+6. ls -R -> List recursively
+7. ls -1 -> List in one column
+8. ls / -> List root directory contents
+9. ls /home -> List contents of /home directory
+10. ls -l /etc -> List long format for /etc directory
+11. ls */*.txt -> List all .txt files one level down
+12. ls -lh -> List in human-readable format
+13. ls --color -> List files with color coding
+14. ls -lr -> List recursively in reverse order
+15. ls -ltr -> List files by time modified in reverse order
+16. ls -lS -> List files by size in long format
+17. ls -a /usr -> List including hidden files in /usr directory
+18. ls -d */ -> List directories only
+19. ls -ld /var/log -> List long format for /var/log directory
+20. ls -i -> List file inode number
+21. ls -U -> List files by creation time
+22. ls -lh /home/user1 -> List in human-readable format for /home/user1 directory
+23. ls -a | grep ".txt" -> List all .txt files in current directory using grep
+24. ls -lat -> List files by time modified and access time
+25. ls -l /home/user2/Desktop -> List long format for /home/user2/Desktop directory
+26. ls -l /tmp | less -> List long format for /tmp directory with pagination using less
+27. ls -aR -> List recursively including hidden files
+28. ls -lS /var/www -> List files by size in long format in /var/www directory
+29. ls -l ~/.ssh -> List long format for ~/.ssh directory
+30. ls -a /etc | grep -v "^d" -> List all files in /etc directory excluding folders
+31. ls --full-time -> List files with full timestamps
+32. ls /usr/local/bin -I '*.sh' -> List files in /usr/local/bin directory excluding .sh files
+33. ls -r -> List files in reverse order
+34. ls -lhR -> List in human-readable format recursively
+35. ls -a -l -> List in long format including hidden files
+36. ls -1 /var/log -> List in one column for /var/log directory
+37. ls /home/user1/*.txt -> List all .txt files in /home/user1 directory
+38. ls -R /usr/local -> List recursively in /usr/local directory
+39. ls -latr -> List files by time modified and access time in reverse order
+40. ls -lt /var/log -> List files by time modified in long format for /var/log directory
+41. ls -l /mnt/cdrom -> List long format for /mnt/cdrom directory
+42. ls -a /usr/bin -> List including hidden files in /usr/bin directory
+43. ls -lSrh -> List files by size in long format in human-readable format
+44. ls -lhS -> List files by size in long human-readable format for current directory
+45. ls -la /etc | less -> List including hidden files in long format for /etc directory with pagination using less
+46. ls -l /etc/passwd /etc/group -> List long format for /etc/passwd and /etc/group files
+47. ls -d /* -> List root directories only
+48. ls -l /var/log | tail -n 10 -> List last 10 lines of long format for /var/log directory
+49. ls --author -> List files with authors
+50. ls -l /home/user1 /home/user2 -> List long format for /home/user1 and /home/user2 directories
+51. ls -al -> List including hidden files in long format
+52. ls -l --time-style=long-iso -> List long format with ISO-style timestamps
+53. ls -lp -> List with / at the end of directories
+54. ls -l /etc/passwd -> List long format for /etc/passwd file
+55. ls -lS /tmp -> List files by size in long format for /tmp directory
+56. ls -d /etc/grub* -> List directories starting with /etc/grub
+57. ls --block-size=KB -> List files with size in KB
+58. ls -l -t -r -> List files in long format by time modified in reverse order
+59. ls -hid -> List including hidden files with inode number and device number
+60. ls -l /var/spool/mail -> List long format for /var/spool/mail directory
+61. ls -p /usr/bin | grep -v "/$" -> List /usr/bin directory contents with executable files only
+62. ls --sort=size -> List files sorted by size
+63. ls -1h -> List in one column in human-readable format
+64. ls -a -t -> List including hidden files by time modified
+65. ls --version-control -> List with version control
+66. ls -l --time-style=full-iso -> List long format with full ISO-style timestamp
+67. ls -l /dev/null -> List long format for /dev/null file
+68. ls -w 50 -> List with 50 character width
+69. ls /home/user1 | wc -l -> Count number of files in /home/user1 directory
+70. ls -rS -> List files by size in reverse order
+71. ls -ald /etc/* -> List long format including hidden files for directories starting with /etc/
+72. ls -hr -> List in human-readable format in reverse order
+73. ls --sort=time -> List files sorted by time
+74. ls -l /dev -> List long format for /dev directory
+75. ls -pR -> List with / at the end of directories recursively
+76. ls -dq /var/log/* -> List only directories in /var/log directory
+77. ls -l /usr/local/sbin -> List long format for /usr/local/sbin directory
+78. ls --sort=extension -> List files sorted by extension
+79. ls -F -> List with symbols indicating file type
+80. ls -ltrh -> List files by time modified in reverse order in human-readable format
+81. ls -ld /var/*/* -> List long format for 2nd level directories in /var/
+82. ls -lah -> List including hidden files in long human-readable format
+83. ls /usr/bin | wc -l -> Count number of files in /usr/bin directory
+84. ls -R | grep ".txt" -> List all .txt contents recursively using grep
+85. ls --sort=none -> List files without sorting
+86. ls -i /etc/passwd -> List file inode number for /etc/passwd file
+87. ls -ltu -> List files by time modified sorted by access time
+88. ls -l /dev/*/* -> List long format for 2nd level directories in /dev/
+89. ls -l /usr/share/doc -> List long format for /usr/share/doc directory
+90. ls -lG -> List in long format with color coding
+91. ls -lhS /var/log -> List files by size in long human-readable format for /var/log directory
+92. ls -l --full-time -> List long format with full timestamps
+93. ls -l /dev/shm -> List long format for /dev/shm directory
+94. ls -U -l -> List files by creation time in long format
+95. ls -T -> List files with full timestamps without seconds
+96. ls -l /bin /usr/bin -> List long format for /bin and /usr/bin directories
+97. ls -lahR -> List including hidden files in long human-readable format recursively
+98. ls --time=status -> List files by status change time
+99. ls -Rt -> List recursively by time modified
+100. ls -lhS /etc -> List files by size in long human-readable format for /etc directory.

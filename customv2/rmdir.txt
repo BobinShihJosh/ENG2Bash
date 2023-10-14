@@ -1,0 +1,41 @@
+
+
+1. rmdir /home/user/Documents -> This command will remove the Documents folder from the user's home directory.
+
+2. rmdir /home/user/Pictures -> This command will remove the Pictures folder from the user's home directory.
+
+3. rmdir /home/user/Videos -> This command will remove the Videos folder from the user's home directory.
+
+4. rmdir /home/user/Music -> This command will remove the Music folder from the user's home directory.
+
+5. rmdir /home/user/Downloads -> This command will remove the Downloads folder from the user's home directory.
+
+6. rmdir /home/user/Desktop -> This command will remove the Desktop folder from the user's home directory.
+
+7. rmdir /home/user/Documents/Projects -> This command will remove the Projects folder from the Documents folder in the user's home directory.
+
+8. rmdir /home/user/Pictures/Family -> This command will remove the Family folder from the Pictures folder in the user's home directory.
+
+9. rmdir /home/user/Videos/Movies -> This command will remove the Movies folder from the Videos folder in the user's home directory.
+
+10. rmdir /home/user/Music/Classical -> This command will remove the Classical folder from the Music folder in the user's home directory.
+
+11. rmdir /home/user/Downloads/Software -> This command will remove the Software folder from the Downloads folder in the user's home directory.
+
+12. rmdir /home/user/Desktop/Work -> This command will remove the Work folder from the Desktop folder in the user's home directory.
+
+13. rmdir /home/user/Documents/School -> This command will remove the School folder from the Documents folder in the user's home directory.
+
+14. rmdir /home/user/Pictures/Vacation -> This command will remove the Vacation folder from the Pictures folder in the user's home directory.
+
+15. rmdir /home/user/Videos/TVShows -> This command will remove the TVShows folder from the Videos folder in the user's home directory.
+
+16. rmdir /home/user/Music/Rock -> This command will remove the Rock folder from the Music folder in the user's home directory.
+
+17. rmdir /home/user/Downloads/Games -> This command will remove the Games folder from the Downloads folder in the user's home directory.
+
+18. rmdir /home/user/Desktop/Personal -> This command will remove the Personal folder from the Desktop folder in the user's home directory.
+
+19. rmdir /home/user/Documents/Work -> This command will remove the Work folder from the Documents folder in the user's home directory.
+
+20. rmdir /home/user/Pictures/Events -> This command will remove the Events folder from the Pictures folder in the user's home directory.

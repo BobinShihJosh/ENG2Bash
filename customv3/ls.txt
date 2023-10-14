@@ -1,0 +1,100 @@
+1. ls -> List all files.
+2. ls -l -> List files with details.
+3. ls -a -> List all files including hidden ones.
+4. ls -t -> List files sorted by modification time.
+5. ls -r -> List files in reverse order.
+6. ls -R -> List all files recursively.
+7. ls -lh -> List all files with a human-readable format.
+8. ls -S -> List files sorted by size.
+9. ls /etc -> List files in the /etc directory.
+10. ls /home -> List files in the /home directory.
+11. ls /var -> List files in the /var directory.
+12. ls /usr -> List files in the /usr directory.
+13. ls /tmp -> List files in the /tmp directory.
+14. ls /root -> List files in the /root directory.
+15. ls /sbin -> List files in the /sbin directory.
+16. ls /bin -> List files in the /bin directory.
+17. ls /lib -> List files in the /lib directory.
+18. ls /var/log -> List files in the /var/log directory.
+19. ls -F -> List files with indicators (directories with a slash, executables with a *).
+20. ls -G -> List files with colorized output.
+21. ls -i -> List files with inode numbers.
+22. ls -m -> List files separated by commas.
+23. ls -1 -> List files with one file per line.
+24. ls -p -> List files with a slash after directory names.
+25. ls -c -> List files sorted by creation time.
+26. ls -u -> List files sorted by access time.
+27. ls -d -> List only directories.
+28. ls -g -> List files with long format (similar to -l, but without owner information).
+29. ls -s -> List files with size information.
+30. ls -T -> List files with a tab-separated format.
+31. ls /dev -> List files in the /dev directory.
+32. ls /proc -> List files in the /proc directory.
+33. ls /sys -> List files in the /sys directory.
+34. ls /boot -> List files in the /boot directory.
+35. ls /mnt -> List files in the /mnt directory.
+36. ls /media -> List files in the /media directory.
+37. ls /srv -> List files in the /srv directory.
+38. ls /opt -> List files in the /opt directory.
+39. ls /lib64 -> List files in the /lib64 directory.
+40. ls /usr/local -> List files in the /usr/local directory.
+41. ls /usr/share -> List files in the /usr/share directory.
+42. ls /usr/lib -> List files in the /usr/lib directory.
+43. ls /usr/bin -> List files in the /usr/bin directory.
+44. ls /usr/sbin -> List files in the /usr/sbin directory.
+45. ls -A -> List all files except . and ..
+46. ls -c --full-time -> List files sorted by creation time with the exact time and date.
+47. ls -h --si --color -> List files with a colorful, human-readable format with size in powers of 1000.
+48. ls -l -h -> List files with details and human-readable file sizes.
+49. ls -L -> List symbolic links as files.
+50. ls -n -> List files with numerical user and group IDs.
+51. ls -o -> List files with long format without group information.
+52. ls -q -> List files with ? instead of non-printable characters.
+53. ls -t --group-directories-first -> List files sorted by modification time with directories listed first.
+54. ls -X -> List files sorted by extension.
+55. ls -Z -> List files with security context.
+56. ls my_directory -> List files in the my_directory directory.
+57. ls ~/my_files -> List files in the my_files directory in the current user's home directory.
+58. ls -r -t -> List files in reverse order sorted by modification time.
+59. ls / --color=auto -> List files in the root directory with colorized output.
+60. ls -l /home/user/important_files -> List files with details in the important_files directory of the user's home directory.
+61. ls --dereference -> List the files that symbolic links point to.
+62. ls -G -p -> List files with colorized output and a slash after directory names.
+63. ls -1 -t -> List files with one file per line sorted by modification time.
+64. ls -s -h -> List files with size information in a human-readable format.
+65. ls -d */ -> List only directories in the current directory.
+66. ls -c -t -> List files sorted by creation time and modification time.
+67. ls -l --group-directories-first -> List files with details with directories listed first.
+68. ls -F -p -> List files with indicators and a slash after directory names.
+69. ls -lhS -> List all files with a human-readable format sorted by size.
+70. ls -g --time-style=long-iso -> List files with long format and ISO-style dates without owner information.
+71. ls -lh --block-size=KB -> List all files with a human-readable format with size in kilobytes.
+72. ls -il -> List files with inode numbers and long format.
+73. ls -m -F -> List files separated by commas with indicators.
+74. ls -d /* -> List only directories in the root directory.
+75. ls -ltr -> List files sorted by modification time in reverse order with details.
+76. ls -ltu -> List files sorted by access time in reverse order with details.
+77. ls -l --time-style=full-iso -> List files with long format and full ISO-style dates.
+78. ls -C -> List files in columns.
+79. ls -p -a -> List all files with a slash after directory names.
+80. ls -h -S -> List files with size information in a human-readable format sorted by size.
+81. ls -la --exclude "*.txt" -> List all files with hidden files and excluding files with .txt extension.
+82. ls -ap -> List files with a slash after directory names and including hidden files.
+83. ls -ltr /usr/bin -> List files in the /usr/bin directory sorted by modification time in reverse order with details.
+84. ls -1 /my_directory -> List files in the my_directory directory with one file per line.
+85. ls -lh --color=auto -> List files with a human-readable format and colorized output.
+86. ls -r -S -> List files in reverse order sorted by size.
+87. ls -l --si -> List files with details with size in powers of 1000.
+88. ls -1 -r -> List files with one file per line in reverse order.
+89. ls --version -> Show the version of ls command.
+90. ls --help -> Show the help of ls command.
+91. ls -l --full-time -h -> List files with details, exact time and date, and file sizes in a human-readable format.
+92. ls -1 --group-directories-first -> List files with one file per line with directories listed first.
+93. ls -a -F -> List all files with indicators.
+94. ls -lh --color=always -> List files with a human-readable format and colorized output even when piped to another command.
+95. ls -l -u -h -> List files with details sorted by access time with file sizes in a human-readable format.
+96. ls -l --time-style=+%s -> List files with long format and modification time in seconds since the UNIX epoch.
+97. ls -l --human-readable --sort=time -> List files with details and file sizes in a human-readable format sorted by modification time.
+98. ls --hide=* -> List files hiding files with a specified pattern.
+99. ls -1a | grep -v "^\.\"" -> List all files with one file per line excluding . and .. directories.
+100. ls -alh -> List all files with details and a human-readable format.

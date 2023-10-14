@@ -1,0 +1,100 @@
+1. put file1 dir1 -> Move file1 to dir1
+2. put -r dir1 dir2 -> Recursively copy dir1 to dir2
+3. put file1 /home/user/dir1 -> Copy file1 to /home/user/dir1
+4. put -p file1 dir1 -> Copy file1 with preserve mode
+5. put -v file1 dir1 -> Verbose copy file1 to dir1
+6. put -i file1 dir1 -> Interactively copy file1 to dir1
+7. put -u file1 dir1 -> Copy file1 only if it is newer than dir1
+8. put -t 10 file1 dir1 -> Copy file1 to dir1 with 10 seconds timeout
+9. put -n file1 dir1 -> Do not overwrite existing file in dir1
+10. put -E file1 dir1 -> Preserve file extension when copying file1 to dir1
+11. put * dir1 -> Move all files in current directory to dir1
+12. put -pR dir1 dir2 -> Preserve mode and recursively copy dir1 to dir2
+13. put -f file1 dir1 -> Force copy of file1 to dir1
+14. put file1 dir1/file2 -> Copy file1 to dir1 with new name file2
+15. put -s file1 dir1 -> Copy file1 and strip leading directory components
+16. put -x file1 dir1 -> Copy file1 with executable mode to dir1
+17. put -b file1 dir1 -> Copy file1 and make a backup of existing file in dir1
+18. put -H file1 dir1 -> Follow symbolic links when copying file1 to dir1
+19. put -Z file1 dir1 -> Copy file1 with context to dir1
+20. put -U file1 dir1 -> Copy file1 and keep source file ownership to dir1
+21. put -c file1 dir1 -> Copy file1 only if it differs from dir1
+22. put -e file1 dir1 -> Copy file1 and preserve the timestamp of the source file
+23. put -z 9 file1 dir1 -> Copy file1 with compression level 9 to dir1
+24. put dir1 dir2 -> Move dir1 to dir2
+25. put -A dir1 dir2 -> Copy all files in dir1 to dir2
+26. put -S file1 dir1 -> Copy file1 with sparse support to dir1
+27. put -m file1 dir1 -> Copy file1 with permission mask to dir1
+28. put -D file1 dir1 -> Copy file1 with date preservation to dir1
+29. put -L file1 dir1 -> Follow symbolic links and copy file1 to dir1
+30. put -g file1 dir1 -> Copy file1 and preserve group ownership to dir1
+31. put -n -v file1 dir1 -> Do not overwrite existing file and show verbose output when copying file1 to dir1
+32. put -r -v dir1 dir2 -> Recursively copy dir1 to dir2 with verbose output
+33. put -p -v file1 dir1 -> Preserve mode and show verbose output when copying file1 to dir1
+34. put -u -c file1 dir1 -> Copy file1 only if it is newer than dir1 and show output only when copying differs
+35. put -v -t 5 file1 dir1 -> Show verbose output and timeout in 5 seconds when copying file1 to dir1
+36. put -pR -v dir1 dir2 -> Preserve mode and recursively copy dir1 to dir2 with verbose output
+37. put -i -v file1 dir1 -> Interactively and show verbose output when copying file1 to dir1
+38. put -f -v file1 dir1 -> Force copy and show verbose output when copying file1 to dir1
+39. put -s -v file1 dir1 -> Copy file1 and strip leading directory components with verbose output
+40. put -x -v file1 dir1 -> Copy file1 with executable mode and show verbose output to dir1
+41. put -b -v file1 dir1 -> Copy file1 and make a backup of existing file in dir1 with verbose output
+42. put -H -v file1 dir1 -> Follow symbolic links and show verbose output when copying file1 to dir1
+43. put -Z -v file1 dir1 -> Copy file1 with context and show verbose output to dir1
+44. put -U -v file1 dir1 -> Copy file1 and keep source file ownership with verbose output to dir1
+45. put -c -v file1 dir1 -> Copy file1 only if it differs from dir1 with verbose output
+46. put -e -v file1 dir1 -> Copy file1 and preserve the timestamp of the source file with verbose output
+47. put -z 9 -v file1 dir1 -> Copy file1 with compression level 9 and show verbose output to dir1
+48. put -A -v dir1 dir2 -> Copy all files in dir1 with verbose output to dir2
+49. put -S -v file1 dir1 -> Copy file1 with sparse support and show verbose output to dir1
+50. put -m -v file1 dir1 -> Copy file1 with permission mask and show verbose output to dir1
+51. put -D -v file1 dir1 -> Copy file1 with date preservation and show verbose output to dir1
+52. put -L -v file1 dir1 -> Follow symbolic links and show verbose output when copying file1 to dir1
+53. put -g -v file1 dir1 -> Copy file1 and preserve group ownership with verbose output to dir1
+54. put -n -u file1 dir1 -> Do not overwrite existing file and copy only if it is newer than dir1
+55. put -r -f dir1 dir2 -> Recursively copy dir1 to dir2 and force copy
+56. put -p -i file1 dir1 -> Preserve mode and interactively copy file1 to dir1
+57. put -t 5 -c file1 dir1 -> Timeout in 5 seconds and copy file1 only if it differs from dir1
+58. put -s -x file1 dir1 -> Copy file1 and strip leading directory components with executable mode to dir1
+59. put -b -H file1 dir1 -> Copy file1 and make a backup of existing file in dir1 and follow symbolic links
+60. put -U -f file1 dir1 -> Copy file1 and keep source file ownership and force copy to dir1
+61. put -c -e file1 dir1 -> Copy file1 only if it differs from dir1 and preserve the timestamp of the source file
+62. put -z 9 -pR dir1 dir2 -> Copy dir1 to dir2 with compression level 9 and preserve mode
+63. put -A -u dir1 dir2 -> Copy all files in dir1 to dir2 and copy only if it is newer than dir2
+64. put -S -x file1 dir1 -> Copy file1 with sparse support and executable mode to dir1
+65. put -m -D file1 dir1 -> Copy file1 with permission mask and date preservation to dir1
+66. put -L -b file1 dir1 -> Follow symbolic links and make a backup of existing file in dir1 when copying file1
+67. put -g -c file1 dir1 -> Copy file1 and preserve group ownership only if it differs from dir1
+68. put -n -z 9 file1 dir1 -> Do not overwrite existing file and copy file1 with compression level 9 to dir1
+69. put -r -t 5 dir1 dir2 -> Recursively copy dir1 to dir2 with 5 seconds timeout
+70. put -u -f file1 dir1 -> Copy file1 only if it is newer than dir1 and force copy to dir1
+71. put -p -s file1 dir1 -> Preserve mode and copy file1 without leading directory components to dir1
+72. put -H -e file1 dir1 -> Follow symbolic links and preserve the timestamp of the source file when copying file1 to dir1
+73. put -c -f file1 dir1 -> Copy file1 only if it differs from dir1 and force copy to dir1
+74. put -x -z 9 file1 dir1 -> Copy file1 with executable mode and compression level 9 to dir1
+75. put -g -u file1 dir1 -> Copy file1 and preserve group ownership only if it is newer than dir1
+76. put -t 5 -pR dir1 dir2 -> Copy dir1 to dir2 with preserve mode and 5 seconds timeout
+77. put -D -b file1 dir1 -> Copy file1 with date preservation and make a backup of existing file in dir1
+78. put -v -pR dir1 dir2 -> Verbose copy with preserve mode of dir1 to dir2
+79. put -i -u file1 dir1 -> Interactively copy file1 only if it is newer than dir1
+80. put -z 9 -p file1 dir1 -> Copy file1 with compression level 9 and preserve mode to dir1
+81. put -e -n file1 dir1 -> Copy file1 and preserve the timestamp of the source file and do not overwrite existing file in dir1
+82. put -t 5 -u file1 dir1 -> Timeout in 5 seconds and copy file1 only if it is newer than dir1
+83. put -H -n file1 dir1 -> Follow symbolic links and copy file1 to dir1 without overwriting existing file
+84. put -x -p file1 dir1 -> Copy file1 with executable mode and preserve mode to dir1
+85. put -g -s file1 dir1 -> Copy file1 and preserve group ownership and strip leading directory components to dir1
+86. put -c -z 9 file1 dir1 -> Copy file1 only if it differs from dir1 with compression level 9 to dir1
+87. put -S -b file1 dir1 -> Copy file1 with sparse support and make a backup of existing file in dir1
+88. put -t 5 -f file1 dir1 -> Timeout in 5 seconds and force copy file1 to dir1
+89. put -v -A dir1 dir2 -> Verbose copy all files in dir1 to dir2
+90. put -r -n dir1 dir2 -> Recursively copy dir1 to dir2 without overwriting existing files in dir2
+91. put -p -b file1 dir1 -> Preserve mode and make a backup of existing file in dir1 when copying file1
+92. put -u -z 9 file1 dir1 -> Copy file1 only if it is newer than dir1 with compression level 9 to dir1
+93. put -p -S file1 dir1 -> Preserve mode and copy file1 with sparse support to dir1
+94. put -H -c file1 dir1 -> Follow symbolic links and copy file1 only if it differs from dir1
+95. put -t 5 -c -v file1 dir1 -> Timeout in 5 seconds and copy file1 only if it differs from dir1 with verbose output
+96. put -e -S file1 dir1 -> Copy file1 and preserve the timestamp of the source file with sparse support to dir1
+97. put -n -r dir1 dir2 -> Do not overwrite existing files and recursively copy dir1 to dir2
+98. put -z 9 -b file1 dir1 -> Copy file1 with compression level 9 to dir1 and make a backup of existing file in dir1
+99. put -p -n file1 dir1 -> Preserve mode and do not overwrite existing file in dir1 when copying file1
+100. put -u -z 9 -c file1 dir1 -> Copy file1 only if it is newer than dir1 with compression level 9 and copy only if it differs from dir1.

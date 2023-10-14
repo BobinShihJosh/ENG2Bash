@@ -1,0 +1,21 @@
+
+
+1. touch /home/user/Documents/example.txt -> Create a new file called example.txt in the Documents folder of the user's home directory.
+
+2. touch /etc/hosts -> Create a new file called hosts in the etc folder of the root directory.
+
+3. touch /usr/local/bin/script.sh -> Create a new file called script.sh in the bin folder of the local usr directory.
+
+4. touch /var/log/syslog -> Create a new file called syslog in the log folder of the var directory.
+
+5. touch /opt/programs/test.txt -> Create a new file called test.txt in the programs folder of the opt directory.
+
+6. touch /home/user/Pictures/image.jpg -> Create a new file called image.jpg in the Pictures folder of the user's home directory.
+
+7. touch /usr/share/doc/README -> Create a new file called README in the doc folder of the share usr directory.
+
+8. touch /etc/cron.d/backup -> Create a new file called backup in the cron.d folder of the etc directory.
+
+9. touch /var/lib/mysql/data.sql -> Create a new file called data.sql in the mysql folder of the lib var directory.
+
+10. touch /opt/programs/scripts/run.sh -> Create a new file called run.sh in the scripts folder of the programs opt directory.

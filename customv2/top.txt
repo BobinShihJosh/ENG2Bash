@@ -1,0 +1,21 @@
+
+
+1. top -c -> This command displays the full path of the current working directory.
+
+2. top -d /home/user/Documents -> This command displays the contents of the Documents folder in the home directory of the user.
+
+3. top -l /usr/bin -> This command displays the contents of the /usr/bin directory.
+
+4. top -a /etc/apache2 -> This command displays all the files and directories in the /etc/apache2 directory.
+
+5. top -s /var/log -> This command displays the size of the /var/log directory.
+
+6. top -m /usr/local/bin -> This command displays the last modified date of the files in the /usr/local/bin directory.
+
+7. top -f /home/user/Downloads -> This command displays all the files in the Downloads folder in the home directory of the user.
+
+8. top -r /usr/share -> This command recursively displays all the files and directories in the /usr/share directory.
+
+9. top -t /opt -> This command displays the total size of the /opt directory.
+
+10. top -u /usr/lib -> This command displays all the files and directories in the /usr/lib directory, sorted by user ownership.

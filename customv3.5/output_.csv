@@ -1,0 +1,2419 @@
+cat file.txt
+cat -n file.txt
+cat -E file.txt
+cat file.txt file2.txt
+cat file1.txt > file2.txt
+cat file1.txt >> file2.txt
+cat dir/file.txt
+cat /dev/urandom
+cat -v file.txt
+cat -s file.txt
+cat /proc/cpuinfo
+cat -u file.txt
+cat /etc/passwd
+cat -T file.txt
+cat /etc/fstab
+cat file*txt
+cat -A file.txt
+cat -e file.txt
+cat -b file.txt
+cat -u file.txt > /dev/null
+cat -q file.txt
+cat -k file.txt
+cat -r file.txt
+cat -z file.txt
+cat -w file.txt
+cat -l file.txt
+cat /etc/group
+cat -H file.txt
+cat -i file.txt
+cat -0 file.txt
+cat -# file.txt
+cat -y file.txt
+cat /etc/shadow
+cat -h file.txt
+cat -x file.txt
+cat -g file.txt
+cat /etc/issue
+cat -j file.txt
+cat /dev/null
+cat -u file.txt | less
+cat -a file.txt
+cat -f file.txt
+cat -U file.txt
+cat -B file.txt
+cat /etc/os-release
+cat -I file.txt
+cat -P file.txt
+cat -p file.txt
+cat /etc/hosts
+cat -V file.txt
+cat -l file.txt > file2.txt
+cat -Z file.txt
+cat -G file.txt
+cat -R file.txt
+cat -N file.txt
+cat -d file.txt
+cat -o file.txt
+cat /etc/services
+cat -O file.txt
+cat /dev/zero
+cat -Q file.txt
+"cat -u file.txt | grep ""example"""
+cat -t file.txt
+cat -S file.txt
+cat -W file.txt
+cat -L file.txt
+cat /dev/random
+cat -cdb file.txt
+cat -E file.txt | less
+cat /etc/login.defs
+cat -a file.txt > file2.txt
+cat -U file.txt | less
+cat -n -b file.txt
+cat /proc/meminfo
+cat -Zd file.txt
+cat /etc/pam.d
+cat -r file.txt | tr 'aeiou' 'AEIOU'
+cat /etc/resolv.conf
+cat -f file.txt | head -n 10
+cat /sys/class/net/eth0/address
+cat -T file.txt | sed 's/\t/ /g'
+cat -n file.txt | awk '{print $2}'
+cat /sys/devices/virtual/tty/tty1/active
+cat -f file.txt | tail -n 5
+cat /etc/locale.conf
+cat -v file.txt | sed 's/^/#/'
+cat -t -v file.txt
+cat /proc/version
+cat -f file.txt | sed -e 's/word/example/g' | less
+"cat /etc/fstab | grep ""ext4"""
+cat /proc/mounts
+cat -n file.txt | tac
+cat -v -t file.txt
+cat /etc/httpd/conf/httpd.conf
+cat -z file.txt | gunzip
+cat -v -A file.txt
+cat -f file.txt | nl
+cat /proc/sys/kernel/hostname
+cat -u file.txt | wc -l
+cat -n file.txt | sort -rn
+cd /home
+cd ..
+cd Documents
+cd -
+cd /usr/share/
+cd Downloads
+cd ~
+cd /etc/init.d/
+cd Music
+cd /var/log/
+cd Pictures
+cd ../../
+cd /usr/local/bin
+cd Videos
+cd /usr/lib/
+cd /home/user/Desktop
+cd /usr/sbin/
+cd /var/cache
+cd /usr/games/
+cd /var/run
+cd /usr/share/doc/
+cd /var/spool
+cd /usr/src/linux-headers-$(uname -r)
+cd /sys/
+cd /var/tmp
+cd /usr/local/etc
+cd /proc/
+cd /home/user/Downloads/
+cd /usr/share/icons
+cd /root/
+cd /usr/share/man/
+cd /usr/share/fonts/
+cd /var/lib
+cd /usr/local/share
+cd /tmp/
+cd /usr/share/gnome
+cd /var/opt
+cd /usr/include/
+cd /var/backups
+cd /usr/local/bin/
+cd /var/crash
+cd /boot/
+cd /usr/share/icons/hicolor
+cd /opt/
+cd /usr/kerberos
+cd /var/mail
+cd /usr/share/X11
+cd /var/log/apache2
+cd /usr/X11R6/
+cd /var/run/saslauthd/
+cd /usr/share/kde4/
+cd /var/spool/mail
+cd /usr/local/games/bin
+cd /usr/local/etc/apache2
+cd /var/run/screen/
+cd /usr/share/qt4/
+cd /var/spool/cron/crontabs
+cd /usr/local/lib/
+cd /var/spool/samba/
+cd /usr/share/texmf
+cd /var/spool/squid/
+cd /usr/local/src/
+cd /var/spool/exim4/
+cd /usr/share/vim/
+cd /var/spool/mqueue
+cd /usr/lib64/
+cd /var/tmp/kdecache-user/
+cd /usr/share/man/man1/
+cd /var/lib/bind/
+cd /usr/local/mysql/bin/
+cd /var/lib/etckeeper/
+cd /usr/share/doc/HTML/en/
+cd /var/log/cups/
+cd /usr/local/nagios/bin/
+cd /var/lib/mysql/
+cd /usr/share/doc/git-core/api/
+cd /var/log/squid/
+cd /usr/local/rvm/
+cd /var/lib/samba/
+cd /usr/share/polkit-1/
+cd /var/lib/nfs/
+cd /usr/lib/i386-linux-gnu/
+cd /var/log/exim4/
+cd /usr/share/doc/libssl-doc/
+cd /var/lib/hsqldb/
+cd /usr/share/doc/binutils/
+cd /var/cache/fontconfig/
+cd /usr/local/apache2/bin/
+cd /var/lib/amavis/
+cd /usr/share/doc/coreutils/
+cd /var/log/proftpd/
+cd /usr/local/var/
+cd /var/run/nscd/
+cd /usr/share/doc/prelink/
+cd /var/log/apache2/
+cd /usr/local/var/db/
+cd /var/lock/
+cd /usr/share/doc/libc6/
+cd /var/spool/postfix/
+cd /usr/share/doc/libpq5/
+chmod 777 file.txt
+chmod 554 directory/
+chmod 600 file.pdf
+chmod u+rwx file.png
+chmod a-x directory/
+chmod o-r file.txt
+chmod g+w directory/
+chmod 644 file.pdf
+chmod 777 dir1/ dir2/
+chmod 400 file.txt
+chmod u+x dir1/
+chmod a+r file.png
+chmod 755 directory/
+chmod o+w file.txt
+chmod g=rwx file.png
+chmod 444 file.txt
+chmod 777 dir/ -R
+chmod 644 file.pdf -v
+chmod 400 file.txt -c
+chmod a-wx file.png -v
+chmod +x script.sh
+chmod -r dir/
+chmod o-x file.txt
+chmod g-rwx file.png
+chmod 777 dir/ && chown user:group dir/
+"chmod u=rwx,go=rx file.txt"
+chmod 400 file.txt && chown user file.txt
+chmod g+r file.png && chgrp group file.png
+chmod o-rwx file.txt && chown user:group file.txt
+chmod 644 file.pdf && chattr +i file.pdf
+chmod 777 dir/ && chcon user:object_r:file_t dir/
+chmod 400 file.txt && chroot /jail/ /bin/bash
+chmod 755 directory/ && chroot /jail/ /bin/bash
+chmod 777 dir/ && setfacl -m u:user:rwx dir/
+chmod 644 file.pdf && setfacl -m g:group:rx file.pdf
+chmod 777 dir/ && setcap CAP_NET_RAW+ep /sbin/ping
+chmod 644 file.pdf && setcomp --user-download file.pdf
+"chmod 777 dir/ && setfattr -n user.comment -v ""sample comment"" dir/"
+"chmod 744 script.sh && su -c ""./script.sh"""
+chmod 400 file.txt && sudo vi file.txt
+chmod 600 file.pem && ssh -i file.pem user@host
+chmod 644 file.pdf && scp file.pdf user@host:/directory/
+chmod 777 dir/ && tar -cvzf archive.tar.gz dir/
+chmod 644 file.pdf && unzip file.zip
+chmod 400 key.pem && openssl req -new -key key.pem
+chmod 600 config.yml && ansible-playbook playbook.yml
+chmod 755 script.sh && bash script.sh
+"chmod 644 file.pdf && cat file.pdf | grep ""search string"""
+chmod 400 file.txt && cp file.txt /backup/
+chmod 777 dir/ && dd if=/dev/zero of=file.bin count=1024
+chmod 644 file.pdf && diff file.pdf file2.pdf
+"chmod 700 dir/ && find dir/ -name ""pattern"""
+chmod 644 file.pdf && finger user
+"chmod 777 dir/ && grep ""pattern"" dir/*"
+chmod 644 file.pdf && head file.pdf
+chmod 400 file.txt && history
+chmod 755 script.sh && killall script.sh
+chmod 644 file.pdf && ln -s file.pdf file2.pdf
+chmod 700 dir/ && ls dir/
+chmod 644 file.pdf && md5sum file.pdf
+chmod 400 file.txt && mkdir dir/
+chmod 777 dir/ && mv file.pdf dir/
+chmod 644 file.pdf && nano file.pdf
+chmod 777 dir/ && nc -l 8080 < file.pdf
+chmod 600 file.pem && openssl x509 -req -days 365 -in cert.csr -signkey file.pem -out cert.crt
+chmod 700 dir/ && passwd
+chmod 644 file.pdf && ping -c 5 host
+chmod 400 file.txt && ps aux
+chmod 777 dir/ && pwd
+chmod 644 file.pdf && rm file.pdf
+chmod 400 file.txt && sed 's/search/replace/g' file.txt
+chmod 600 file.key && ssh-keygen -t rsa -b 4096 -f file.key
+chmod 777 dir/ && tar -xvf archive.tar
+chmod 644 file.pdf && unzip -l file.zip
+chmod 400 file.pem && wget --certificate=file.pem URL
+chmod 777 dir/ && xargs rm < dir/files.txt
+chmod 644 file.pdf && zip file.zip file.pdf
+chmod 777 dir/ && cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1 > dir/password.txt
+chmod 400 file.txt && cp file.txt /tmp/file.txt.backup
+chmod 777 dir/ && dd if=/dev/zero of=file.img bs=1M count=1024 && mkfs.ext4 file.img && mount file.img dir/
+"chmod 644 file.pdf && echo ""Hello, World!"" > file.pdf"
+chmod 700 dir/ && file *
+chmod 644 file.pdf && groups
+chmod 777 dir/ && init 6
+chmod 400 file.txt && last
+chmod 777 dir/ && lsof | grep dir/
+chmod 644 file.pdf && man ls
+chmod 700 dir/ && mount /dev/sdb1 dir/
+chmod 644 file.pdf && nmap -sS host
+chmod 400 file.txt && openssl aes-256-cbc -salt -in file.txt -out file.txt.enc -pass file:key.txt
+chmod 777 dir/ && pidof process
+chmod 644 file.pdf && rmdir dir/
+chmod 400 file.pem && sshfs -o IdentityFile=file.pem user@host:/remote/dir/ /local/dir/
+chmod 777 dir/ && screen -S session
+chmod 644 file.pdf && split -b 1M -d file.pdf part
+chmod 400 file.txt && tail -f file.txt
+chmod 777 dir/ && tcpdump -i eth0 -w dir/capture.pcap
+"chmod 644 file.pdf && touch -d ""3 days ago"" file.pdf && ls -l file.pdf"
+chmod 700 dir/ && umount dir/
+chmod 777 dir/ && xxd file.pdf
+clear
+clear file1
+clear folder1 file1
+clear -x
+clear -V
+clear mydir
+clear mydir/*
+clear -n
+clear -x file1
+clear mydir/file1
+clear -q
+clear -T 3
+clear --help
+clear -l
+clear -Z
+clear folder1/* folder2/*
+clear -h
+clear -f -x
+clear mydir/*.txt
+clear -x -n
+clear -t 5
+clear file*
+clear mydir/file*
+clear -q -n
+clear mydir/folder/*
+clear -E
+clear -T
+clear folder* file*
+clear -x -f file1
+clear -t
+clear mydir/folder1/* mydir/folder2/*
+clear -V -q
+clear -E -x
+clear -T xterm-256color
+clear /
+clear mydir/*/*
+clear -x -n -f
+clear file?
+clear -q -l
+clear folder? folder* file?
+clear -t 10
+clear -x -t 5
+clear -T vt100
+clear mydir/folder1/folder2/*
+clear -E -n
+clear file{1..10}
+clear -l -x
+clear --version
+clear -Z -x
+clear mydir/folder*/file*
+clear -f file*
+clear -t -1
+clear file!(1)
+clear -x -n -l
+clear /dev/null
+clear -E -q
+"clear mydir/{folder1, folder2}/*"
+clear -t 0
+clear file!(?)
+clear -f folder*
+clear -n -l -x
+clear /dev/urandom
+"clear mydir/*.{txt,doc}"
+clear -T ansi
+clear -q -Z
+clear mydir/**/file*
+clear -t -5
+clear file!(*)
+"clear mydir/*.{txt,doc} mydir/folder/*"
+clear -f file1 file2
+clear -q -x
+clear -T ansi-m
+clear mydir/**/**/file*
+clear file*(?)
+clear -x -l -n
+clear /dev/zero
+clear mydir/folder*/*
+clear -f file* folder*
+clear -q -Z -x
+clear -T linux
+clear file*(*)
+clear -l -n -x
+clear /dev/tty1
+"clear mydir/{folder1/*,folder2/*}"
+clear -f folder*/ file*
+clear -l -Z
+clear mydir/**/folder/*
+clear file**
+clear -T xterm-r5
+clear -x -n -l -f
+clear /dev/full
+"clear mydir/{folder1/folder2/*,folder3/*}"
+clear -f file* -x
+clear -n -t 5
+clear mydir/folder*[12]
+clear -q -Z -n
+clear -T dumb
+clear /dev/pts/0
+clear mydir/**/*2
+clear -x -q -f folder*
+cp file1.txt file2.txt
+cp -r dir1 dir2
+cp -v file1.txt file2.txt
+cp -i file1.txt file2.txt
+cp -u file1.txt file2.txt
+cp -l file1.txt file2.txt
+cp -p file1.txt file2.txt
+cp -f file1.txt file2.txt
+cp -n file1.txt file2.txt
+cp file1.txt /home/user1
+cp file1.txt dir1/
+cp file*.txt dir/
+cp -a dir/ dir2/
+cp -i dir/ dir2/
+cp -r dir1 dir2/backup/
+cp -v dir1 dir2/backup/
+cp -u dir1 dir2/backup/
+cp -l dir1 dir2/backup/
+cp -p dir1 dir2/backup/
+cp -f dir1 dir2/backup/
+cp -n dir1 dir2/backup/
+cp -a dir1/ /mnt/backup/
+cp -avr dir1/ dir2/backup/
+cp -u dir1/ file.txt
+cp -f *.txt dir/
+cp -n *.txt dir/backup/
+cp -r dir1/* dir2/backup/
+cp -v file*.txt dir/
+cp -p -R dir1/ dir2/backup/
+cp file*.txt dir/backup/
+cp -f -r dir1/* dir2/backup/
+cp -pr dir1/ dir2/backup/
+cp file1.txt backup/file1.txt
+cp *.txt backup/
+cp -a dir /mnt/backup/
+cp file1.txt /mnt/backup/file2.txt
+cp -f dir1/ dir2/backup/
+cp -ur dir1/ dir2
+cp -p -R dir1/ dir2
+cp -i -r dir1/ dir2
+cp -u -r dir1/ dir2
+cp -l -r dir1/ dir2
+cp -v -r dir1/ dir2
+cp -a -r dir1/ dir2
+cp -pn -R dir1/ dir2/backup/
+cp -dfR dir1/. dir2/
+cp -an /mnt/data/ /mnt/backup/
+cp -r dir1/ dir2/backup/
+cp *.txt dir2/
+cp file1.txt dir1/file1.txt
+cp -r dir1/* dir2/backup/
+cp -u -R dir1/ dir2/backup/
+cp -rp dir/ /mnt/backup/
+cp -i -p file1.txt file2.txt
+cp -f -p file1.txt file2.txt
+cp -u -p file1.txt file2.txt
+cp -v -p file1.txt file2.txt
+cp -l -p file1.txt file2.txt
+cp -a -p dir1/ dir2/backup/
+cp -d file.txt /mnt/backup/
+cp -p -r dir1/ dir2/backup/
+cp -uv dir1/* dir2/backup/
+cp -R -p dir1/ dir2/backup/
+cp -R -u -p dir1/ dir2/backup/
+cp -a /mnt/data/ /mnt/backup/
+cp -v -r *.txt backup/
+cp file1.txt backup/
+cp -rp dir1/ dir2/
+cp -p file1.txt dir1/
+cp -l file1.txt file2.txt
+cp -ni file1.txt dir1/
+cp -u -p file1.txt backup/
+cp -rf dir1 dir2/
+"cp -r --preserve=mode,timestamp dir1/ dir2/backup/"
+cp -p -u -R dir1/ dir2/backup/
+cp -v -rl file1.txt file2.txt
+cp -a -v /mnt/data/ /mnt/backup/
+cp -v -R -p dir1/ dir2/backup/
+cp -na /mnt/data/ /mnt/backup/
+cp -p -u -v dir1/ dir2/backup/
+cp -u -R -p -v dir1/ dir2/backup/
+cp -v -R -p -u dir1/ dir2/backup/
+cp -v -n file1.txt file2.txt
+cp -v -f file1.txt file2.txt
+cp -R -f -p dir1/ dir2/backup/
+cp -su file1.txt file2.txt
+cp -p -f -r dir1/ dir2/backup/
+cp -dR dir1/ dir2/backup/
+cp -rf dir1/ dir2/backup/file1.txt
+cp -v -p -R dir1/ dir2/backup/
+cp -n -R dir1 dir2/backup/
+cp -v -p -u -R dir1/ dir2/backup/
+cp -v -p -f -R dir1/ dir2/backup/
+cp -p -f -v -R dir1/ dir2/backup/
+cp --reply=yes file1.txt file2.txt
+cp -p -u -v -R /mnt/data/ /mnt/backup/
+cp -v -R -p -f -u dir1/ dir2/backup/
+cp --preserve=all file1.txt file2.txt
+cp -v -p -u -f -R dir1/ dir2/backup/
+cp -p -f -R -v dir1/ dir2/backup/
+ls
+ls -a
+ls -l
+ls -t
+ls -S
+ls -R
+ls -1
+ls /
+ls /home
+ls -l /etc
+ls */*.txt
+ls -lh
+ls --color
+ls -lr
+ls -ltr
+ls -lS
+ls -a /usr
+ls -d */
+ls -ld /var/log
+ls -i
+ls -U
+ls -lh /home/user1
+"ls -a | grep "".txt"""
+ls -lat
+ls -l /home/user2/Desktop
+ls -l /tmp | less
+ls -aR
+ls -lS /var/www
+ls -l ~/.ssh
+"ls -a /etc | grep -v ""^d"""
+ls --full-time
+ls /usr/local/bin -I '*.sh'
+ls -r
+ls -lhR
+ls -a -l
+ls -1 /var/log
+ls /home/user1/*.txt
+ls -R /usr/local
+ls -latr
+ls -lt /var/log
+ls -l /mnt/cdrom
+ls -a /usr/bin
+ls -lSrh
+ls -lhS
+ls -la /etc | less
+ls -l /etc/passwd /etc/group
+ls -d /*
+ls -l /var/log | tail -n 10
+ls --author
+ls -l /home/user1 /home/user2
+ls -al
+ls -l --time-style=long-iso
+ls -lp
+ls -l /etc/passwd
+ls -lS /tmp
+ls -d /etc/grub*
+ls --block-size=KB
+ls -l -t -r
+ls -hid
+ls -l /var/spool/mail
+"ls -p /usr/bin | grep -v ""/$"""
+ls --sort=size
+ls -1h
+ls -a -t
+ls --version-control
+ls -l --time-style=full-iso
+ls -l /dev/null
+ls -w 50
+ls /home/user1 | wc -l
+ls -rS
+ls -ald /etc/*
+ls -hr
+ls --sort=time
+ls -l /dev
+ls -pR
+ls -dq /var/log/*
+ls -l /usr/local/sbin
+ls --sort=extension
+ls -F
+ls -ltrh
+ls -ld /var/*/*
+ls -lah
+ls /usr/bin | wc -l
+"ls -R | grep "".txt"""
+ls --sort=none
+ls -i /etc/passwd
+ls -ltu
+ls -l /dev/*/*
+ls -l /usr/share/doc
+ls -lG
+ls -lhS /var/log
+ls -l --full-time
+ls -l /dev/shm
+ls -U -l
+ls -T
+ls -l /bin /usr/bin
+ls -lahR
+ls --time=status
+ls -Rt
+ls -lhS /etc
+"echo ""Hello World"" > greetings.txt"
+"echo ""Welcome to Linux"" > /home/user/welcome.txt"
+"echo ""HELLO"" >> greetings.txt"
+"echo -n ""My name is "" && echo ""John"" > name.txt"
+"echo ""This is a file"" > myfile.txt"
+"echo -e ""Hello\nWorld"" > hello.txt"
+"echo ""Welcome Linux"" > /tmp/welcome.txt"
+"echo ""This is a sample file"" > sample.txt"
+"echo ""Hello World"" >> greetings.txt"
+"echo ""This is just a file."" > testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" > file.txt"
+"echo ""This is a directory"" > mydir"
+"echo ""Hello World"" > /tmp/greetings.txt"
+"echo ""This is a test"" > file.txt"
+"echo -n ""John Doe"" > name.txt"
+"echo ""Testing 123..."" > test.txt"
+"echo -e ""This is a file\n\nwith two lines"" > file.txt"
+"echo ""This is a directory"" > /home/user/mydir"
+"echo -n ""Alice"" > name.txt"
+"echo ""Hello world"" > /tmp/hello.txt"
+"echo ""This is a text file"" > textfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" >> file.txt"
+"echo ""This is a directory"" > directory.txt"
+"echo ""Hello World"" > ~/Desktop/greetings.txt"
+"echo -n ""Bob"" > name.txt"
+"echo ""This is a test file."" > file.txt"
+"echo -e ""This file\n\nhas blank lines"" > file.txt"
+"echo ""This is a directory"" > mydir/filename"
+"echo ""Hello"" > /tmp/hello.txt"
+"echo ""This is a sample file"" > /home/user/sample.txt"
+"echo -n ""Hello "" && echo -n ""World"" > helloworld.txt"
+"echo ""This is a test..."" > testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" > myfile.txt"
+"echo ""This is a directory"" > /home/user/mydir/file.txt"
+"echo -n ""Mary"" > name.txt"
+"echo ""Hello World"" > ~/Documents/greetings.txt"
+"echo ""This is a text file"" > /tmp/textfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" >> myfile.txt"
+"echo ""This is a directory"" > dir.txt"
+"echo ""Hello"" > /home/user/Desktop/hello.txt"
+"echo -n ""Paul"" > name.txt"
+"echo ""This is a test file"" > /tmp/testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" > myfile.txt"
+"echo ""This is a directory"" > mydir/newfile"
+"echo ""Hello World"" > /user/greetings.txt"
+"echo ""This is a sample file"" > /tmp/sample.txt"
+"echo -n ""Greetings, "" && echo -n ""Earthling!"" > greetings.txt"
+"echo ""This is a test file"" > ~/testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" >> myfile.txt"
+"echo ""This is a directory"" > /home/user/mydir/filename"
+"echo ""Hello"" > ~/Downloads/hello.txt"
+"echo -n ""Lucy"" > name.txt"
+"echo ""This is a test file"" > /home/user/testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" > myfile.txt"
+"echo ""This is a directory"" > directory.txt"
+"echo ""Hello World"" > ~/Pictures/greetings.txt"
+"echo ""This is a text file"" > /home/user/textfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" >> myfile.txt"
+"echo ""This is a directory"" > mydir/newfilename"
+"echo ""Hello World"" > /user/share/greetings.txt"
+"echo ""This is a sample file"" > /home/user/Documents/sample.txt"
+"echo -n ""World"" > hello.txt"
+"echo ""This is a test file"" > ~/Documents/testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" > myfile.txt"
+"echo ""This is a directory"" > mydir/subdir/filename"
+"echo ""Hello"" > /home/user/Pictures/hello.txt"
+"echo -n ""Jane"" > name.txt"
+"echo ""This is a test file"" > ~/Downloads/testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" >> myfile.txt"
+"echo ""This is a directory"" > /home/user/mydir/subdir/file.txt"
+"echo ""Hello World"" > /usr/local/share/greetings.txt"
+"echo ""This is a sample file"" > /home/user/Pictures/sample.txt"
+"echo -n ""Sarah"" > name.txt"
+"echo ""This is a test file"" > ~/Pictures/testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" > myfile.txt"
+"echo ""This is a directory"" > mydir/subdir/newfile"
+"echo ""Hello"" > /home/user/Downloads/hello.txt"
+"echo ""This is a test file"" > /home/user/Pictures/testfile.txt"
+"echo -n ""Peter"" > name.txt"
+"echo ""This is a directory"" > /usr/local/mydir/file.txt"
+"echo ""Hello World"" > /usr/share/greetings.txt"
+"echo ""This is a sample file"" > /home/user/Downloads/sample.txt"
+"echo -n ""Tom"" > name.txt"
+"echo ""This is a test file"" > /home/user/Pictures/testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" > myfile.txt"
+"echo ""This is a directory"" > mydir/subdir/subdir2/filename"
+"echo ""Hello"" > /home/user/Downloads/hello.txt"
+"echo ""This is a test file"" > /home/user/Documents/testfile.txt"
+"echo -n ""Maria"" > name.txt"
+"echo ""This is a directory"" > mydir/subdir/newfilename"
+"echo ""Hello World"" > ~/Videos/greetings.txt"
+"echo ""This is a sample file"" > /home/user/Documents/sample.txt"
+"echo -n ""David"" > name.txt"
+"echo ""This is a test file"" > /usr/share/testfile.txt"
+"echo -e ""Line 1\nLine 2\nLine 3"" > myfile.txt"
+"echo ""This is a directory"" > mydir/subdir/subdir2/filename2"
+"echo ""Hello"" > /tmp/hello.txt"
+env
+env -i /bin/bash
+env -u USER /bin/sh
+env EDITOR=nano crontab -e
+env -S PATH=/usr/local/bin ls
+env -i bash
+env -i PATH=/bin ls
+env -0 ./my-script.sh
+env -i TERM=xterm some_command
+env -u HOME pwd
+env -i SHELL=/bin/bash bash
+env - PATH=/usr/local/bin some_command
+env -i VAR=value command
+env -i MYVAR=123 bash
+env -i PATH=/usr/local/bin:/usr/bin sh
+env -i PASSWORD=secret ssh user@host
+env -i TERM=dumb some_program
+env -u PATH some_command
+env -u VAR command
+env -S MYVAR=some_value command
+env MYVAR=abc some_command
+env -u VAR perl script.pl
+env -S VAR=value command
+env -i HOME=/tmp bash
+env -u MYVAR some_command
+env -i TERM=xterm-256color bash
+env -i USER=root bash
+env -i EDITOR=vim crontab -e
+env -i MYVAR=val some_command
+env -i HOME=/root bash
+env -i EDITOR=nano command
+env -u SSH_AUTH_SOCK ssh user@host
+env -i MYVAR=myval bash
+env -i DISPLAY=:0 xterm
+env -u USER whoami
+env -i VAR=value bash
+env -u PATH ls /tmp
+env -i TERM=xterm-88color sh
+env -S MYVAR=123 some_command
+env -i EDITOR=vim some_command
+env MYVAR=123 some_command
+env -i BASH_ENV=/path/to/bashrc bash
+env -i LC_ALL=C ls
+env -u HOME ping google.com
+env -i HOME=/var/run/foo bash
+env -i MYVAR=something perl script.pl
+env -u SOMEVAR ./some_script.sh
+env -i DISPLAY=:0 xeyes
+env -u myvar some_command
+env -i LS_COLORS=none ls
+env MYVAR=foo bar.sh
+env -i MYVAR=foo python script.py
+env -i EDITOR=vi crontab -e
+env -u MYVAR cat file
+env -i VAR1=value1 VAR2=value2 bash
+env -u SSH_AUTH_SOCK scp file user@host:/path
+env -i HOME=/home/root bash
+env -i TERM=vt220 bash
+env -u ONE_VAR -u SECOND_VAR myscript
+env -i PATH=/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/local/games bash
+env -u OLDPWD pwd
+env -i HOME=~/tmp bash
+env -i TERM=xterm-16color bash
+env -S VAR=value script.sh
+env -i MYVAR1=someval1 MYVAR2=someval2 script.sh
+env -u SSH_AGENT_PID scp file user@host:/path
+env -i TERM=xterm-88color ls
+env -i DISPLAY=localhost:0.0 rhythmbox
+env -u PATH -u LD_LIBRARY_PATH command
+env -i LC_CTYPE=C ls
+env -u MYVAR1 -u MYVAR2 ./script.sh
+env -i HOME=/root pwd
+"env -S MYVAR=""\""hello world\"""" script.sh"
+env -i TERM=ansi screen
+env -u VAR1 -u VAR2 script.sh
+env -i LC_ALL=en_US.UTF-8 sh
+env -u SSH_CLIENT scp file user@host:/path
+env -S MYVAR=$HOME script.sh
+env -i TERM=linux xterm
+env -u LD_PRELOAD command
+env -i MYVAR=echo foo bash
+env -u LC_ALL locale
+env -i HOME=/home/user/Desktop bash
+"env -S VAR=""\""I am a value\"" command"
+env -S VAR=1234 ./script.sh
+env -i TERM=dumb screen
+env -u TERMCAP clear
+env -i SHELL=/bin/ksh ksh
+"env -S VAR=""cat /etc/passwd"" command"
+env -u XAUTHORITY xterm
+"env -i MYVAR=$(echo ""Hello, World!"") bash"
+env -u LANG date
+env -i HOME=/mnt/sdb1 bash
+env -u LC_COLLATE ls
+env -i SHELL=/bin/tcsh tcsh
+env -S VAR=/path/to/dir command
+env -u LOGNAME whoami
+"env -i MYVAR=""$(printf ""%s"" ""hello world"")"" sh"
+"env -u IFS read -p ""Enter your name: "" name"
+env -i MYVAR=/path/to/dir bash
+free
+free -m
+free -g
+free -t
+free -h
+free -s 5
+free -c 3
+free -o
+free -b
+free -w
+free -k
+free -l
+free -V
+free /home/user/file1
+free /home/user
+free .
+free --si
+free --sync
+free --help
+free --version
+free -h /home/user/file2
+free -t /home/user
+free -s 10 -c 5
+free -b /home/user/file3
+free -l /home/user
+free -mg
+free -h .
+free -t .
+free -gh /home/user
+free -s 30 -c 10 /home/user/file4
+free -oh /home/user
+free -m /home/user/file5
+free -tgh /home/user
+free -b .
+free -h /home/user/file6 /home/user/file7
+free -s 20 /home/user/file8 /home/user/file9
+free -t /home/user/file10 /home/user/file11
+free -oh /home/user/file12 /home/user/file13
+free -lgh /home/user
+free -b /home/user/file14 /home/user/file15
+free -tm
+free -tg
+free -s 15 /home/user/file16 /home/user/file17 /home/user/file18
+free -oh /home/user/file19 /home/user/file20 /home/user/file21
+free -lgh .
+free -h /home/user/file22 /home/user/file23 /home/user/file24
+free -tgh /home/user/file25 /home/user/file26
+free -oh /home/user/file27 /home/user/file28 /home/user/file29 /home/user/file30
+free -s 25 /home/user/file31 /home/user/file32 /home/user/file33 /home/user/file34
+free -h /home/user/file35 /home/user/file36 /home/user/file37 /home/user/file38
+free -tgh /home/user/file39 /home/user/file40 /home/user/file41
+free -oh /home/user/file42 /home/user/file43 /home/user/file44 /home/user/file45
+free -s 30 /home/user/file46 /home/user/file47 /home/user/file48 /home/user/file49 /home/user/file50
+free -h /home/user/file51 /home/user/file52 /home/user/file53 /home/user/file54 /home/user/file55
+free -tgh /home/user/file56 /home/user/file57 /home/user/file58 /home/user/file59
+free -oh /home/user/file60 /home/user/file61 /home/user/file62 /home/user/file63 /home/user/file64
+free -s 35 /home/user/file65 /home/user/file66 /home/user/file67 /home/user/file68 /home/user/file69 /home/user/file70
+free -h /home/user/file71 /home/user/file72 /home/user/file73 /home/user/file74 /home/user/file75 /home/user/file76
+free -tgh /home/user/file77 /home/user/file78 /home/user/file79 /home/user/file80 /home/user/file81
+free -oh /home/user/file82 /home/user/file83 /home/user/file84 /home/user/file85 /home/user/file86 /home/user/file87
+free -s 40 /home/user/file88 /home/user/file89 /home/user/file90 /home/user/file91 /home/user/file92 /home/user/file93 /home/user/file94
+free -h /home/user/file95 /home/user/file96 /home/user/file97 /home/user/file98 /home/user/file99 /home/user/file100
+wget example.com
+git clone repo
+scp file remote:
+curl http://api.com
+rsync -avz file remote:
+ftp ftp.example.com
+tar -cvzf archive.tar.gz dir/
+getent passwd user
+svn checkout repo
+yum-get install package
+dpkg -L package
+dnf-get update
+apt-get upgrade
+rpm -qa
+locate file
+find . -name file
+grep pattern file
+awk '/pattern/{print}' file
+sed 's/find/replace/g' file
+"cut -d ',' -f 1 file"
+cat file | grep pattern
+tail -n 100 file
+head -n 10 file
+less file
+more file
+wc -l file
+du -sh dir/
+ls -l
+chmod 755 file
+chown user:group file
+kill PID
+ps aux
+top
+uptime
+df -h
+free -m
+ifconfig
+netstat -apn
+route -n
+ping host
+traceroute host
+mtr host
+ssh user@host
+sftp user@host
+scp file user@host:
+rsync -avz file user@host:
+tar -cvzf archive.tar.gz dir/
+wget example.com
+curl http://api.com
+ftp ftp.example.com
+getent passwd user
+svn checkout repo
+yum-get install package
+dpkg -L package
+dnf-get update
+apt-get upgrade
+rpm -qa
+locate file
+find . -name file
+grep pattern file
+awk '/pattern/{print}' file
+sed 's/find/replace/g' file
+"cut -d ',' -f 1 file"
+cat file | grep pattern
+tail -n 100 file
+head -n 10 file
+less file
+more file
+wc -l file
+du -sh dir/
+ls -l
+chmod 755 file
+chown user:group file
+kill PID
+ps aux
+top
+uptime
+df -h
+free -m
+ifconfig
+netstat -apn
+route -n
+ping host
+traceroute host
+mtr host
+ssh user@host
+sftp user@host
+scp file user@host:
+rsync -avz file user@host:
+tar -cvzf archive.tar.gz dir/
+wget example.com
+curl http://api.com
+ftp ftp.example.com
+getent passwd user
+svn checkout repo
+yum-get install package
+dpkg -L package
+dnf-get update
+apt-get upgrade
+rpm -qa
+kill -9 53245
+kill -s SIGTERM myapp
+kill -f /tmp/file
+kill -15 mydir
+kill -9 server
+kill -s SIGHUP file
+kill -q PID
+kill -SIGKILL app
+kill -9 /var/run/haproxy.pid
+kill -s SIGINT directory
+kill -f /usr/local/program
+kill -15 /mnt/data/logs
+kill -9 /var/run/nginx.pid
+kill -s SIGQUIT /etc/myapp
+kill -9 program
+kill -f /var/app/name.pid
+kill -15 /home/user
+kill -s SIGHUP program
+kill -s SIGKILL /var/www
+kill -9 /etc/myapp.pid
+kill -f /usr/local/bin
+kill -15 name
+kill -s SIGTERM /tmp
+kill -9 /var/log/app.pid
+kill -s SIGHUP /opt
+kill -f /var/run/myapp.pid
+kill -15 /usr/local
+kill -s SIGKILL myapp
+kill -9 /var/app.pid
+kill -f /tmp
+kill -15 /var
+kill -s SIGTERM /usr/local/bin
+kill -9 /etc/nginx.pid
+kill -s SIGHUP /var/log
+kill -f /var/run/httpd.pid
+kill -15 /usr/local/sbin
+kill -s SIGKILL /var/log/myapp.log
+kill -9 name
+kill -f /usr/bin
+kill -15 /var/log/myapp
+kill -s SIGHUP /usr/local
+kill -9 /var/run/myserver.pid
+kill -s SIGTERM /etc/nginx
+kill -f /var/log/httpd
+kill -15 /etc
+kill -s SIGHUP myserver
+kill -9 /var/app/logs
+kill -f /usr/local/bin
+kill -15 /var/app/conf
+kill -s SIGTERM /usr/bin
+kill -9 /var/log/httpd.pid
+kill -s SIGHUP /var/app
+kill -f /usr/local/sbin
+kill -15 /run
+kill -s SIGKILL /var
+kill -9 /var/app/logs/file.log
+kill -f /var/log/myapp
+kill -15 /usr/bin
+kill -s SIGHUP /etc/nginx/nginx.conf
+kill -9 /var/app/logs
+kill -f /usr/bin
+kill -15 /var/app/conf
+kill -s SIGTERM /usr/local/sbin
+kill -9 /var/log/nginx.pid
+kill -s SIGHUP /var/log/myapp.log
+kill -f /etc/nginx
+kill -15 /usr/local/bin
+kill -s SIGKILL /var/app
+kill -9 /var/app/logs/file.log
+kill -f /usr/bin
+kill -15 /var/app/conf
+kill -s SIGHUP /usr/local/sbin
+kill -9 /var/log/httpd
+kill -f /usr/local/bin
+kill -15 /run
+kill -s SIGTERM /var
+kill -9 /var/log/myapp.log
+kill -s SIGHUP /etc/nginx
+kill -f /var/app
+kill -15 /usr/local/sbin
+kill -s SIGKILL /etc
+kill -9 /var/app/logs
+kill -f /usr/local/bin
+kill -15 /run
+kill -s SIGTERM /var
+kill -9 /var/app
+kill -s SIGHUP /etc/nginx/sites-available/default
+kill -f /var/app
+kill -15 /usr/local/bin
+kill -s SIGKILL /usr/bin
+kill -9 /var/run/myapp.pid
+kill -f /var/app/logs/file.log
+kill -15 /etc/nginx
+kill -s SIGHUP /etc/myapp
+kill -9 /var/log/myapp
+kill -f /usr/bin
+kill -15 /run
+kill -s SIGTERM /var/log
+kill -9 /var/app/logs
+kill -f /usr/local/sbin
+ls
+ls -l
+ls -a
+ls -t
+ls -r
+ls -R
+ls -lh
+ls -S
+ls /etc
+ls /home
+ls /var
+ls /usr
+ls /tmp
+ls /root
+ls /sbin
+ls /bin
+ls /lib
+ls /var/log
+ls -F
+ls -G
+ls -i
+ls -m
+ls -1
+ls -p
+ls -c
+ls -u
+ls -d
+ls -g
+ls -s
+ls -T
+ls /dev
+ls /proc
+ls /sys
+ls /boot
+ls /mnt
+ls /media
+ls /srv
+ls /opt
+ls /lib64
+ls /usr/local
+ls /usr/share
+ls /usr/lib
+ls /usr/bin
+ls /usr/sbin
+ls -A
+ls -c --full-time
+ls -h --si --color
+ls -l -h
+ls -L
+ls -n
+ls -o
+ls -q
+ls -t --group-directories-first
+ls -X
+ls -Z
+ls my_directory
+ls ~/my_files
+ls -r -t
+ls / --color=auto
+ls -l /home/user/important_files
+ls --dereference
+ls -G -p
+ls -1 -t
+ls -s -h
+ls -d */
+ls -c -t
+ls -l --group-directories-first
+ls -F -p
+ls -lhS
+ls -g --time-style=long-iso
+ls -lh --block-size=KB
+ls -il
+ls -m -F
+ls -d /*
+ls -ltr
+ls -ltu
+ls -l --time-style=full-iso
+ls -C
+ls -p -a
+ls -h -S
+"ls -la --exclude ""*.txt"""
+ls -ap
+ls -ltr /usr/bin
+ls -1 /my_directory
+ls -lh --color=auto
+ls -r -S
+ls -l --si
+ls -1 -r
+ls --version
+ls --help
+ls -l --full-time -h
+ls -1 --group-directories-first
+ls -a -F
+ls -lh --color=always
+ls -l -u -h
+ls -l --time-style=+%s
+ls -l --human-readable --sort=time
+ls --hide=*
+"ls -1a | grep -v ""^\.\"""""
+ls -alh
+mkdir mydir
+mkdir dir1/
+mkdir -p dir1/dir2
+mkdir -m 775 mydir
+mkdir mydir1 mydir2
+mkdir -v mydir
+mkdir -p dir1/dir2/dir3
+mkdir -m 777 mydir
+mkdir -v dir1 dir2 dir3
+mkdir mydir && cd mydir
+"mkdir -p dir1/{dir2,dir3}"
+mkdir -m 600 mydir
+mkdir -v dir{1..3}
+"mkdir -p dir1/dir2/{dir3,dir4}"
+mkdir -m 644 mydir
+mkdir -v mydir{1..3}
+mkdir -p dir1/dir2/dir3/dir4
+mkdir -m 400 mydir
+"mkdir -v dir{a,b,c}"
+mkdir -p dir1/dir2/dir3/dir4/dir5
+mkdir -m 666 mydir
+"mkdir -v mydir/{dir1,dir2}"
+mkdir mydir1 mydir2 mydir3
+"mkdir -p dir1/dir2/dir3/{dir4,dir5}"
+mkdir -m 744 mydir
+"mkdir -v mydir{1..3}/{dir1,dir2}"
+"mkdir -p dir1/dir2/dir3/{dir4,dir5,dir6}"
+mkdir -m 700 mydir
+"mkdir -v mydir/{dir1,dir2,dir3}"
+"mkdir -p dir1/dir2/{dir3/{dir4,dir5},dir6}"
+mkdir -m 755 mydir
+mkdir -v mydir{1..3}/dir1
+"mkdir -p dir1/dir2/{dir3/{dir4,dir5/{dir6,dir7}},dir8}"
+mkdir -m 600 mydir1 mydir2
+"mkdir -v mydir/{dir1,dir2,dir3}/subdir"
+"mkdir -p dir1/{dir2/dir3/dir4,dir5/dir6}"
+mkdir -m 700 mydir1 mydir2 mydir3
+"mkdir -v mydir{1..3}/{dir1,dir2}/subdir"
+"mkdir -p dir1/{dir2/{dir3/{dir4,dir5},dir6},dir7/dir8}"
+mkdir -m 644 mydir1 mydir2 mydir3
+"mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2"
+"mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9}}}},dir10}"
+mkdir -m 750 mydir1 mydir2 mydir3
+"mkdir -v mydir{1..3}/{dir1,dir2}/subdir1/subdir2"
+"mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11}}}}},dir12}"
+mkdir -m 755 mydir1 mydir2 mydir3 mydir4
+"mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3"
+"mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13}}}}}},dir14}"
+mkdir -m 700 mydir1 mydir2 mydir3 mydir4
+"mkdir -v mydir{1..3}/{dir1,dir2}/subdir1/subdir2/subdir3"
+"mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15}}}}}}},dir16}"
+mkdir -m 600 mydir1 mydir2 mydir3 mydir4
+"mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3/subdir4"
+"mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15/{dir16,dir17}}}}}}}}/{dir18,dir19}}"
+mkdir -m 644 mydir1 mydir2 mydir3 mydir4 mydir5
+"mkdir -v mydir{1..3}/{dir1,dir2}/subdir1/subdir2/subdir3/subdir4"
+"mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15/{dir16,dir17/{dir18,dir19}}}}}}}}}}"
+mkdir -m 700 mydir1 mydir2 mydir3 mydir4 mydir5
+"mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3/subdir4/subdir5"
+"mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15/{dir16,dir17/{dir18,dir19/{dir20,dir21}}}}}}}}}}}}"
+mkdir -m 750 mydir1 mydir2 mydir3 mydir4 mydir5
+"mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3/subdir4/subdir5/subdir6"
+"mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15/{dir16,dir17/{dir18,dir19/{dir20,dir21/{dir22,dir23}}}}}}}}}}}}}"
+mkdir -m 644 mydir1 mydir2 mydir3 mydir4 mydir5 mydir6
+"mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3/subdir4/subdir5/subdir6/subdir7"
+mktemp newfile
+mktemp test-dir
+mktemp -p /tmp/ file
+mktemp -d /var/tmp/
+mktemp /home/user/test
+mktemp -u newfile
+mktemp --dry-run newfile
+mktemp -t
+mktemp --suffix .txt test
+mktemp -q /tmp/newfile
+mktemp -p ~/test-dir/ temp
+mktemp --tmpdir=/mnt/data-dir/
+mktemp -p /var/tmp/ -t
+mktemp test-XXXX
+mktemp -d /tmp/testdir-XXXX
+mktemp -u /tmp/tmp.XXXXXXXXXX
+mktemp --suffix=.bak backup
+mktemp -d --tmpdir=/mnt/data-dir/
+mktemp -d -p ~/test/ tempdir-XXXX
+mktemp /tmp/archive-XXXXXX.tar.gz
+mktemp -t --suffix=.log
+mktemp -p ~/test/backup/ backup-XXXXXX
+mktemp -u --suffix=.bak backup
+mktemp -d -t
+mktemp -p /var/tmp/ -u progname_XXXXXXXXXX
+mktemp -p /tmp/newdir-XXXX -d
+mktemp --directory
+mktemp -t -d /var/tmp/
+mktemp -p /tmp/ -t -d
+mktemp --suffix=_temp --directory
+mktemp -q -p ~/test/ -t temp_XXXXXX
+mktemp --tmpdir=/mnt/dir/ -d -t archive-XXXXXX
+mktemp -u -t /mnt/data.XXXXXXXXXX
+mktemp test-XXXXX --tmpdir=/mnt/tmp/
+mktemp -p /var/tmp/ -t -u testfileXXXXXX
+mktemp --suffix=.txt -t -d /mnt/tempdir/
+mktemp -u --tmpdir=/mnt/backup/ back-XXXXXX
+mktemp -d /tmp/test-XXXXX-d
+mktemp -p /var/tmp/ --dry-run --tmpdir=/mnt/data/ filename.XXXXXX
+mktemp -t -d --tmpdir=/mnt/logs/
+mktemp -p /home/user/ -u .config_XXXXXXXXXXXX
+mktemp --suffix=.txt -d --tmpdir=/mnt/temp-data/ tempdir-XXXXXX
+mktemp -t -d --directory
+mktemp --suffix=_test -t -d --tmpdir=/tmp/
+mktemp -p /var/tmp/ -u --suffix=.log appfile
+mktemp -u -d ~/backup.XXXXXXXXXX
+mktemp --directory --suffix=__data --tmpdir=/mnt/temp/
+mktemp -u -p /var/tmp/ app-XXXXXX
+mktemp --suffix=.txt -p ~/test/ -d -t temp
+mktemp -t -d -p /mnt/
+mktemp -d --directory --suffix=_log
+mktemp -p ~/test/ -t -u data_XXXXXXXX
+mktemp -p /tmp/ --suffix=.txt --tmpdir=/mnt/ testfile
+mktemp -t /home/user/logfile_XXXXXX
+mktemp --directory --tmpdir=/mnt/tempdata/ tempdata-XXXXXX-d
+mktemp -d -u --tmpdir=/mnt/backup/ backup
+mktemp --suffix=.txt --dry-run -t testdata
+mktemp -d -t --suffix=_logs --tmpdir=/mnt/logs/
+mktemp -u -d /mnt/data_XXXXXXXXXX
+mktemp -p ~/test/ -t -u datafile_XXXXXX
+mktemp --suffix=.txt -d -p /mnt/ -u testfile
+mktemp -d -t -p /mnt/ backup_XXXXXXXXXX-d
+mktemp --directory --tmpdir=/mnt/logs/ --suffix=_logs
+mktemp -p ~/test/ -t --suffix=_data data
+mktemp -p /mnt/ -u -t backupdir_XXXXXX
+mktemp --tmpdir=/mnt/data/ -d -t tempdir_XXXXXX
+mktemp -u -d /mnt/backup_XXXXXXXXXX
+mktemp -t --suffix=__logs --tmpdir=/mnt/
+mktemp -p /mnt/logs/ --dry-run --tmpdir=/mnt/ logs_XXXXXX
+mktemp -d -t -p /tmp/ --suffix=__data
+mktemp -p ~/test/ -u -t log_XXXXXXXXXX
+mktemp -d -t -p /mnt/datafiles/ backupdata-XXXXXXXXXX-d
+mktemp --directory -t -p /mnt/ backup__
+mktemp --suffix=_logs --tmpdir=/mnt/logs/ -t datafile
+mktemp -p ~/test-dir/ -u -t app_XXXXXXXXXX
+mktemp --tmpdir=/mnt/data/ --dry-run --directory
+mktemp -d -t -p /mnt/ --suffix=__data datafiles
+mktemp --suffix=_log --tmpdir=/mnt/ --dry-run testlog
+mktemp -p ~/test/ --directory --dry-run --suffix=_data temp
+mktemp -d -t -p /mnt/datafiles/ backupdata_XXXXXXXXXX
+mktemp -p /mnt/logs/ -t -d -u applog_XXXXXXXXXX
+mktemp --directory --tmpdir=/mnt/datafiles/ -t testdir-XXXXXX
+mktemp -p ~/test/ -t -u --suffix=_app appfile
+mktemp -t -p /mnt/datafiles/ backup
+mktemp --suffix=_testfile --dry-run --tmpdir=/mnt/ test
+mktemp -d -t -p /mnt/ --suffix=_logs logs
+mktemp -p /mnt/datafiles/ -t -d -u backupdir_XXXXXX-d
+mktemp --suffix=_log --directory --tmpdir=/mnt/ --dry-run tmpfile
+mktemp -u -t -p /mnt/ data_XXXXXXXXXX
+mktemp -p ~/test-dir/ -d -t -u app/
+mktemp -t -p /mnt/logs/ backup_XXXXXXXXXX
+mktemp --directory --tmpdir=/mnt/datafiles/ --suffix=_backup backup
+mktemp -p /mnt/logs/ -d -t -u applog/
+mktemp --suffix=_data --tmpdir=/mnt/ -t /mnt/datafile-XXXXX
+mktemp -d -t -p /mnt/datafiles/ --directory -u backupdata-XXXXXX
+mv file1 file2
+mv file1 folder
+mv folder1 folder2
+mv folder1/file1 folder2
+mv folder/* folder2
+mv -T folder1 folder2
+mv -b file folder
+mv -f file folder
+mv -i file folder
+mv -n file folder
+mv -u file folder
+mv -v file folder
+mv --backup=numbered file folder
+mv --backup=t file folder
+mv --no-clobber file folder
+mv --force file folder
+mv --interactive file folder
+mv --update file folder
+mv --verbose file folder
+mv -S suffix file folder
+mv -t folder file1 file2
+mv -c file folder
+mv -p file folder
+mv * folder
+mv \*.png folder
+mv /path/to/file folder
+mv ~/file folder
+mv file ~/folder
+mv -R folder1 folder2
+mv -i folder/* folder2
+mv -S suffix file1 file2
+mv -u folder1/file folder2
+mv -v folder1/file folder2
+mv -b folder1/* folder2
+mv -n folder1/file folder2
+mv -t folder2 folder1/*
+mv -R folder1/* folder2
+mv -u folder1/* folder2
+mv -v folder1/* folder2
+mv -i folder1/* folder2
+mv -b -t folder2 folder1/*
+mv -v -R folder1/* folder2
+mv -u -i folder1/* folder2
+mv -S suffix -b folder1/* folder2
+mv -v -t folder2 folder1/*
+mv -u -b folder1/* folder2
+mv -i -t folder2 folder1/*
+mv -n -R folder1/* folder2
+mv -f -t folder2 folder1/*
+mv -S suffix -t folder2 folder1/*
+mv -p -R folder1/* folder2
+mv -b -u folder1/file folder2
+mv -v -n folder1/file folder2
+mv -i -b folder1/* folder2
+mv -t folder2/ folder1/*
+mv -v -f folder1/file folder2
+mv -u -t folder2 folder1/*
+mv -S suffix -i folder1/* folder2
+mv -R -b folder1/* folder2
+mv -v -S suffix folder1/file folder2
+mv -i -t folder2/ folder1/*
+mv -f -R folder1/* folder2
+mv -p -i -t folder2/ folder1/*
+mv -u -t -i folder1/* folder2
+mv -S suffix -n -R folder1/* folder2
+mv -S suffix -f -t folder2 folder1/*
+mv -v -S suffix -t folder2/ folder1/*
+mv -b -u -i folder1/* folder2
+mv -n -t folder2/ folder1/*
+mv -S suffix -n -t folder2 folder1/*
+mv -v -n -R folder1/* folder2
+mv -p -v -R folder1/* folder2
+mv -n -i -t folder2/ folder1/*
+mv -u -v -n folder1/file folder2
+mv -f -b folder1/* folder2
+mv -S suffix -i -R folder1/* folder2
+mv -v -S suffix -i folder1/* folder2
+mv -n -u folder1/* folder2
+mv -t -i -R folder1/* folder2
+mv -u -t -n folder1/* folder2
+mv -S suffix -f -R folder1/* folder2
+mv -v -n -t folder2 folder1/*
+mv -S suffix -i -n folder1/* folder2
+mv -v -p -R folder1/* folder2
+mv -n -t -i folder1/* folder2
+mv -f -v -t folder2 folder1/*
+mv -S suffix -n -i folder1/* folder2
+mv -v -f -i folder1/* folder2
+mv -S suffix -u folder1/file folder2
+mv -v -S suffix -t folder2 folder1/*
+mv -i -u -t folder2 folder1/*
+mv -b -t -i folder1/* folder2
+mv -v -f -S suffix folder1/file folder2
+mv -u -t -n folder1/file folder2
+mv -f -i -R folder1/* folder2
+mv -S suffix -t -i folder1/* folder2
+mv -v -S suffix -n folder1/* folder2
+mv -n -p -R folder1/* folder2
+mv -i -u -n folder1/* folder2
+mv -v -u -t folder2/ folder1/*
+ping google.com -c 5
+ping server.local
+ping 8.8.8.8 -I eth0
+ping -n 10 192.168.0.1
+ping -s 1000 server.local
+ping -q google.com
+ping -i 2 192.168.1.1
+ping -c 2 192.168.1.1
+ping -M do google.com
+ping -w 10 google.com
+ping -s 50 server.local
+ping -R google.com
+ping -v server.local
+ping -n 10 localhost
+ping -c 5 www.example.com
+ping -I eth0 server.local
+ping -t google.com
+ping -D server.local
+ping -f 192.168.1.1
+ping -S 192.168.0.2 google.com
+ping -W 1 google.com
+ping -c 3 localhost
+ping -l 50 server.local
+ping -r 5 google.com
+ping -A server.local
+ping -m 10 192.168.0.1
+ping -f -s 1000 server.local
+ping -b 192.168.0.255
+ping -n -a 192.168.1.1
+ping -c 2 -s 1000 server.local
+ping -I eth1 -c 3 google.com
+ping -q -c 3 8.8.8.8
+ping -i 1 -c 10 192.168.0.1
+ping -M want google.com
+ping -w 5 192.168.0.1
+ping -c 3 -s 50 server.local
+ping -R -c 1 google.com
+ping -s 500 server.local
+ping -D -c 1 server.local
+ping -f -s 50 192.168.1.1
+ping -S 192.168.0.2 -c 2 google.com
+ping -W 2 -c 5 google.com
+ping -t -c 3 server.local
+ping -R -c 5 google.com
+ping -q -c 5 localhost
+ping -i 5 -c 5 192.168.1.1
+ping -M dont google.com
+ping -w 3 -c 2 google.com
+ping -c 2 -s 500 server.local
+ping -R -c 3 server.local
+ping -W 1 -c 3 localhost
+ping -r -c 5 192.168.0.1
+ping -m 50 google.com
+ping -f -s 500 server.local
+ping -I eth0 -c 5 192.168.0.1
+ping -q -c 5 192.168.1.1
+ping -i 10 -c 2 google.com
+ping -s 100 server.local
+ping -D -c 2 google.com
+ping -f -s 100 192.168.1.1
+ping -S 192.168.0.2 -c 3 server.local
+ping -W 3 -c 3 google.com
+ping -t -c 5 server.local
+ping -R -c 2 google.com
+ping -q -c 2 localhost
+ping -i 2 -c 10 192.168.1.1
+ping -M wantfrag google.com
+ping -w 2 -c 5 192.168.0.1
+ping -c 2 -s 100 server.local
+ping -R -c 1 server.local
+ping -W 1 -c 2 localhost
+ping -r -c 2 192.168.0.1
+ping -m 100 google.com
+ping -f -s 1000 server.local
+ping -I eth0 -c 3 192.168.0.1
+ping -q -c 2 192.168.1.1
+ping -i 5 -c 3 google.com
+ping -s 200 server.local
+ping -D -c 1 localhost
+ping -f -s 200 192.168.1.1
+ping -S 192.168.0.2 -c 2 google.com
+ping -W 2 -c 2 google.com
+ping -t -c 2 server.local
+ping -R -c 4 google.com
+ping -q -c 4 localhost
+ping -i 4 -c 4 192.168.0.1
+ping -M wantfrag google.com
+ping -w 4 -c 4 google.com
+ping -c 4 -s 200 server.local
+ping -R -c 2 server.local
+ping -W 1 -c 1 localhost
+ping -r -c 1 192.168.0.1
+ping -m 200 google.com
+ping -f -s 2000 server.local
+ping -I eth0 -c 4 192.168.0.1
+ping -q -c 1 192.168.1.1
+ping -i 3 -c 2 google.com
+ping -s 300 server.local
+ping -D -c 3 google.com
+ping -f -s 300 192.168.1.1
+put file1 dir1
+put -r dir1 dir2
+put file1 /home/user/dir1
+put -p file1 dir1
+put -v file1 dir1
+put -i file1 dir1
+put -u file1 dir1
+put -t 10 file1 dir1
+put -n file1 dir1
+put -E file1 dir1
+put * dir1
+put -pR dir1 dir2
+put -f file1 dir1
+put file1 dir1/file2
+put -s file1 dir1
+put -x file1 dir1
+put -b file1 dir1
+put -H file1 dir1
+put -Z file1 dir1
+put -U file1 dir1
+put -c file1 dir1
+put -e file1 dir1
+put -z 9 file1 dir1
+put dir1 dir2
+put -A dir1 dir2
+put -S file1 dir1
+put -m file1 dir1
+put -D file1 dir1
+put -L file1 dir1
+put -g file1 dir1
+put -n -v file1 dir1
+put -r -v dir1 dir2
+put -p -v file1 dir1
+put -u -c file1 dir1
+put -v -t 5 file1 dir1
+put -pR -v dir1 dir2
+put -i -v file1 dir1
+put -f -v file1 dir1
+put -s -v file1 dir1
+put -x -v file1 dir1
+put -b -v file1 dir1
+put -H -v file1 dir1
+put -Z -v file1 dir1
+put -U -v file1 dir1
+put -c -v file1 dir1
+put -e -v file1 dir1
+put -z 9 -v file1 dir1
+put -A -v dir1 dir2
+put -S -v file1 dir1
+put -m -v file1 dir1
+put -D -v file1 dir1
+put -L -v file1 dir1
+put -g -v file1 dir1
+put -n -u file1 dir1
+put -r -f dir1 dir2
+put -p -i file1 dir1
+put -t 5 -c file1 dir1
+put -s -x file1 dir1
+put -b -H file1 dir1
+put -U -f file1 dir1
+put -c -e file1 dir1
+put -z 9 -pR dir1 dir2
+put -A -u dir1 dir2
+put -S -x file1 dir1
+put -m -D file1 dir1
+put -L -b file1 dir1
+put -g -c file1 dir1
+put -n -z 9 file1 dir1
+put -r -t 5 dir1 dir2
+put -u -f file1 dir1
+put -p -s file1 dir1
+put -H -e file1 dir1
+put -c -f file1 dir1
+put -x -z 9 file1 dir1
+put -g -u file1 dir1
+put -t 5 -pR dir1 dir2
+put -D -b file1 dir1
+put -v -pR dir1 dir2
+put -i -u file1 dir1
+put -z 9 -p file1 dir1
+put -e -n file1 dir1
+put -t 5 -u file1 dir1
+put -H -n file1 dir1
+put -x -p file1 dir1
+put -g -s file1 dir1
+put -c -z 9 file1 dir1
+put -S -b file1 dir1
+put -t 5 -f file1 dir1
+put -v -A dir1 dir2
+put -r -n dir1 dir2
+put -p -b file1 dir1
+put -u -z 9 file1 dir1
+put -p -S file1 dir1
+put -H -c file1 dir1
+put -t 5 -c -v file1 dir1
+put -e -S file1 dir1
+put -n -r dir1 dir2
+put -z 9 -b file1 dir1
+put -p -n file1 dir1
+put -u -z 9 -c file1 dir1
+pwd
+pwd -L
+pwd -P
+pwd /home/user
+pwd /home/user/Downloads
+pwd /home/user/Documents
+pwd /home/user/Pictures
+pwd /home/user/Public
+pwd /home/user/Templates
+pwd /home/user/Videos
+pwd /etc
+pwd /bin
+pwd /sbin
+pwd /usr
+pwd /var
+pwd /tmp
+pwd /dev
+pwd /sys
+pwd /proc
+pwd /root
+pwd /mnt
+pwd /media
+pwd /opt
+pwd /usr/bin
+pwd /usr/sbin
+pwd /usr/local/bin
+pwd /usr/local/sbin
+pwd /usr/share
+pwd /usr/lib
+pwd /usr/include
+pwd /usr/src
+pwd /usr/local
+pwd /usr/share/doc
+pwd /usr/share/man
+pwd /usr/share/info
+pwd /usr/share/locale
+pwd /usr/share/fonts
+pwd /usr/share/themes
+pwd /usr/share/icons
+pwd /usr/share/backgrounds
+pwd /usr/share/sounds
+pwd /usr/share/applications
+pwd /usr/share/templates
+pwd /usr/share/videos
+pwd /usr/share/zoneinfo
+pwd /usr/share/mime
+pwd /usr/share/gnome-shell
+pwd /usr/share/gnome
+pwd /usr/share/kde4
+pwd /usr/share/backgrounds/gnome
+pwd /usr/share/backgrounds/kde4
+pwd /usr/share/icons/gnome
+pwd /usr/share/icons/kde4
+pwd /usr/share/themes/gnome
+pwd /usr/share/themes/kde4
+pwd /usr/include/linux
+pwd /usr/include/openssl
+pwd /usr/include/python2.7
+pwd /usr/include/netinet
+pwd /usr/include/SDL2
+pwd /usr/share/applications/mimeinfo.cache
+pwd /usr/bin/curl
+pwd /usr/bin/chromium-browser
+pwd /usr/bin/firefox
+pwd /usr/bin/gedit
+pwd /usr/bin/gimp
+pwd /usr/bin/git
+pwd /usr/bin/java
+pwd /usr/bin/gcc
+pwd /usr/bin/clang
+pwd /usr/share/locale/en
+pwd /usr/share/locale/zh_CN
+pwd /usr/share/locale/de
+pwd /usr/share/locale/es
+pwd /usr/share/locale/fr
+pwd /usr/share/locale/ja
+pwd /usr/share/locale/ko
+pwd /usr/share/locale/pt_BR
+pwd /usr/share/locale/ru
+pwd /usr/share/locale/tr
+pwd /var/log
+pwd /var/cache
+pwd /var/lib
+pwd /var/spool
+pwd /var/run
+pwd /var/tmp
+pwd /var/backups
+pwd /var/games
+pwd /var/local
+pwd /var/mail
+pwd /var/opt
+pwd /var/www
+pwd /var/lib/mysql
+pwd /var/log/apache2
+pwd /var/log/syslog
+pwd /var/cache/apt
+pwd /var/cache/fontconfig
+pwd /var/spool/cron/crontabs
+pwd /var/run/utmp
+pwd /var/run/dbus
+rm file.txt
+rm -r directory
+rm -f file.txt
+rm -rf directory
+rm *.txt
+rm -i file.txt
+rm -ir directory
+rm -d directory
+rm -v file.txt
+rm -rv directory
+rm -I file.txt
+rm -R directory
+rm file*.txt
+rm -rf /
+rm -P file.txt
+rm --help
+rm -A file.txt
+rm -f directory/file.txt
+rm -Rf directory1 directory2 directory3
+rm -r directory/
+rm -r /home/user/Downloads/*
+rm -v *.txt
+rm *~
+rm -rf ../directory
+rm /dev/null
+rm -rf directory1/* directory2/* directory3/*
+rm -rf ./*
+rm -ri directory/*
+rm -df ~/directory
+rm -r /home/user/Downloads/*.txt
+rm -vrf directory
+rm -rf /home/user/Downloads/*
+rm -v -- *.txt
+rm -fr directory1 directory2 directory3
+rm -r /var/log/*
+rm -f /var/log/messages
+rm -rvf directory1 directory2 directory3
+rm -d /home/user/emptydir
+rm -i *.txt
+rm -fr /
+rm -r --force directory
+rm -rf directory/.
+rm -i ~/directory/*
+rm -fr /var/log/*
+rm -d dir1 dir2 dir3
+rm -r -p directory1/directory2
+rm -f /var/log/messages*
+rm -rf --no-preserve-root /
+rm -r directory/[abc]*
+rm -i -r directory/
+rm -d /home/user/dir1 /home/user/dir2 /home/user/dir3
+rm -fr --no-preserve-root /
+rm -r directory/**/*.txt
+rm -rf /var/*/*/*
+rm -I file1.txt file2.txt file3.txt
+rm -r -p directory1/directory2/directory3
+rm -d -v directory1 directory2 directory3
+rm -rf directory/*.txt
+rm -rf directory/!(file1.txt|file2.txt|file3.txt)
+rm -i -R directory
+rm -d -rf directory1 directory2 directory3
+rm -ri file*.txt
+rm -fr -v --no-preserve-root /
+rm -vf directory/*.txt
+rm -r -p -v directory1/directory2/directory3
+rm -f -r directory/!(file1.txt|file2.txt|file3.txt)
+rm -ri directory/*/*.txt
+rm -d -ir directory1 directory2 directory3
+rm -r -P directory
+rm -rvf /data/*
+rm -f -r -v directory*
+"rm -ri {*.txt,*.pdf}"
+rm -d -irv directory1 directory2 directory3
+rm -rfv ../backup/*.tar.gz
+rm -r directory1/directory2/[ab]*
+rm -rf --no-preserve-root /*
+rm -v -f -r directory*
+rm -irv directory/*/*.txt
+rm -r -p -v directory1/directory2/directory3/directory4
+rm -iv $(find . -type f -name '*.log' -mtime +7)
+rm -fv /dev/sdc
+rm -ri --no-preserve-root /
+rm -r -f -v directory1 directory2 directory3
+"rm -r -f --include=""*.txt"" --include=""*.pdf"" directory"
+"rm -r -f --exclude=""*.txt"" --exclude=""*.pdf"" directory"
+rm -r -p -v directory1/*/directory2
+rm -rfv / --no-preserve-root
+"rm -irv --exclude=""*.pdf"" directory/*"
+rm -fi file*.txt
+rm -d -irf directory1 directory2 directory3
+"rm -r -f -v directory/{file1.txt,file2.txt,file3.txt}"
+"rm -r -f --exclude-directory={dir1,dir2,dir3} directory"
+"rm -r -f --include='{*.txt,*.pdf}' directory"
+"rm -r -f --exclude='{*.txt,*.pdf}' directory"
+"rm -r -p -v directory1/*/{directory2,directory3}"
+"rm -rfv --no-preserve-root / --exclude={""/home/*"",""/var/*""}"
+"rm -irv --include='{*.txt,*.pdf}' directory/*"
+rm -r -f -v directory1 directory2 directory3
+"rm -r -f --exclude-directory={dir1,dir2,dir3} --exclude='{*.txt,*.pdf}' directory"
+"rm -r -f --include='{*.txt,*.pdf}' --exclude-directory={directory1,directory2} directory"
+rmdir foo
+rmdir bar/
+rmdir -v dir1
+rmdir proj1/
+rmdir -p a/b/c/
+rmdir folder
+rmdir -f dir2/
+rmdir docs
+rmdir --ignore-fail-on-non-empty dir3/
+rmdir source/
+rmdir -p archive/2020/dec/
+rmdir music/
+rmdir -v -p /home/user/temp/
+rmdir videos
+rmdir -p a/b/c/d/e/f/
+rmdir images/
+rmdir -v -p /var/log/2020/oct/
+rmdir tmp
+rmdir -rf dir4/
+rmdir software/
+rmdir -p code/2020/jan/
+rmdir docs/
+rmdir -v -p /var/www/html/
+rmdir music-videos/
+rmdir -p a/b/c/d/e/f/g/h/
+rmdir log/
+rmdir -v -p /usr/bin/
+rmdir workdocs
+rmdir -f -v dir5/
+rmdir books/
+rmdir -p downloads/2020/nov/
+rmdir docs/
+rmdir -v -p /usr/local/bin/
+rmdir pictures
+rmdir -p a/b/c/d/e/f/g/h/i/j/
+rmdir downloads/
+rmdir -v -p /etc/sysconfig/
+rmdir data/
+rmdir -f -v dir6/
+rmdir images/
+rmdir -p library/2020/nov/
+rmdir docs/
+rmdir -v -p /etc/nginx/
+rmdir movies
+rmdir -p a/b/c/d/e/f/g/h/i/j/k/
+rmdir public/
+rmdir -v -p /usr/share/
+rmdir backlogs/
+rmdir -f -v dir7/
+rmdir -p library/2020/dec/
+rmdir docs/
+rmdir -v -p /etc/httpd/
+rmdir reports/
+rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/
+rmdir backups/
+rmdir -v -p /var/www/
+rmdir oldfiles/
+rmdir -f -v dir8/
+rmdir -p archives/2020/nov/
+rmdir docs/
+rmdir -v -p /etc/ssh/
+rmdir backups/
+rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/
+rmdir archives/
+rmdir -v -p /var/log/nginx/
+rmdir test/
+rmdir -f -v dir9/
+rmdir -p uploads/2020/nov/
+rmdir docs/
+rmdir -v -p /opt/lampp/
+rmdir temp/
+rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/
+rmdir scripts/
+rmdir -v -p /var/lib/mysql/
+rmdir backup/
+rmdir -f -v dir10/
+rmdir -p backups/2020/nov/
+rmdir docs/
+rmdir -v -p /var/www/html/sample/
+rmdir git/
+rmdir -p a1/b2/c3/
+rmdir files/
+rmdir -v -p /var/named/
+rmdir logs/
+rmdir -f -v dir11/
+rmdir -p backups/2020/dec/
+rmdir docs/
+rmdir -v -p /var/www/html/test/
+rmdir backup1/
+rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/1/2/3/4/5/6/7/8/9
+rmdir downloads/
+rmdir -v -p /var/lib/pgsql/
+rmdir archives/
+rmdir -p backups/2020/dec/
+rmdir tmp/
+rmdir -v -p /var/www/html/demo/
+rmdir backup2/
+rmdir -p a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15
+rmdir archives/
+rmdir -v -p /usr/tmp/
+ssh user1@host1
+ssh-keygen -t rsa
+ssh-copy-id user@host
+ssh -X user@host
+scp file.txt user@host:/directory
+sshfs user@host:/remote /local
+ssh-add id_rsa
+sftp user@host
+ssh -p 2222 user@host
+rsync -r user@host:/remote /local
+ssh-keyscan host >> ~/.ssh/known_hosts
+ssh -L 8080:localhost:80 user@host
+"sshfs -o allow_other,uid=1000,gid=1000 user@host:/remote /local"
+ssh-keygen -t ed25519
+ssh -X -C user@host
+scp -r folder/ user@host:/directory/
+sshfs -o IdentityFile=~/.ssh/id_rsa user@host:/remote /local
+ssh-add -l
+sftp> cd /directory
+ssh -o IdentityFile=~/.ssh/id_rsa2 user@host
+rsync -avz user@host:/remote /local
+ssh-keyscan -p 2222 host >> ~/.ssh/known_hosts
+sudo sshfs user@host:/remote /local
+ssh -fNT -L 8080:localhost:80 user@host
+sshfs -o reconnect user@host:/remote /local
+ssh-keygen -t dsa
+ssh -o ConnectTimeout=10 user@host
+scp user@host:/remote/file.txt .
+sshfs -o umask=022 user@host:/remote /local
+ssh -O exit user@host
+ssh-add -D
+sftp> get file.txt
+ssh-copy-id -i id_rsa.pub user@host
+rsync -az user@host:/remote /local --exclude '*.bak'
+ssh-keyscan -t rsa host >> ~/.ssh/known_hosts
+"sshfs -o uid=username,gid=groupname user@host:/remote /local"
+ssh -o LogLevel=VERBOSE user@host
+scp -P 2222 file.txt user@host:/directory/
+ssh -D 8080 user@host
+sshfs -o ssh_command='ssh -v' user@host:/remote /local
+ssh-keygen -f ~/.ssh/id_ed25519.pub -e -m pem
+ssh -o ServerAliveInterval=30 user@host
+sftp> put file.txt
+ssh-copy-id -i id_dsa.pub user@host
+rsync -avz --exclude-from 'exclude-list.txt' user@host:/remote /local
+ssh-keyscan -t ecdsa host >> ~/.ssh/known_hosts
+sshfs -o gidfile=/etc/group user@host:/remote /local
+ssh -o ProxyCommand='ssh user1@jumphost nc %h %p' user2@destination
+scp -r user@host:/remote/folder/ .
+ssh -M -S ~/.ssh/control_socket user@host
+ssh-keygen -E sha256 -lf ~/.ssh/id_rsa.pub
+ssh -o TCPKeepAlive=yes user@host
+sftp> lcd /local
+ssh-copy-id -i ~/.ssh/id_ed25519.pub -p 2222 user@host
+rsync -az --delete user@host:/remote /local
+ssh-keygen -t ecdsa
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no user@host
+scp -P 2222 -r user@host:/remote/folder/ .
+"sshfs -o allow_other,IdentityFile=~/.ssh/id_rsa user@host:/remote /local"
+ssh -o ServerAliveCountMax=3 user@host
+sftp> lpwd
+ssh-add ~/.ssh/*key*
+rsync -az --size-only user@host:/remote /local
+ssh-keygen -E sha512 -lf ~/.ssh/id_ed25519.pub
+ssh -o ControlMaster=yes -o ControlPath='/tmp/ssh-%r@%h:%p' -o ControlPersist=600 user@host
+scp -i id_rsa file user@host:/directory
+ssh -L 8080:localhost:80 -L 3306:localhost:3306 user@host
+"sshfs -o slave,user=user1,group=group1,user_allow_other host2:/remote /local"
+ssh -o User=user1 -o IdentityFile=~/.ssh/user1.key user@host
+sftp> lpwd
+ssh-copy-id -i ~/.ssh/id_ecdsa.pub -p 2222 user@host
+rsync -az --exclude=CVS --delete-after user@host:/remote /local
+ssh-keygen -t rsa -b 4096
+ssh -o LogLevel=QUIET user@host
+scp -r -i ~/.ssh/mykey user@host:/remote/folder/ .
+"sshfs -o slave,allow_other user@host:/remote /local"
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o IdentityFile=~/.ssh/root.key root@host
+sftp> ls > files.txt
+ssh-add -x
+rsync -rtz user@host:/remote /local
+ssh-keygen -E md5 -lf ~/.ssh/id_rsa.pub
+ssh -o PasswordAuthentication=no -o PubkeyAuthentication=yes user@host
+scp -P 2222 -i id_rsa2 file.txt user@host:/directory/
+ssh -L 8080:localhost:80 -L 3306:localhost:3306 user1@jumphost ssh user2@destination
+sshfs -o follow_symlinks user@host:/remote /local
+ssh -o ControlMaster=yes -o ControlPath='/tmp/ssh-%r@%h:%p' -o ControlPersist=600 -fNL 1234:host2:5678 user1@host1
+sftp> mput *.txt
+ssh-add -X
+rsync -az --delete-excluded user@host:/remote /local --exclude-from 'exclude-list.txt'
+"ssh-keygen -t ed25519 -C ""my@email.com"""
+ssh -o LogLevel=DEBUG3 user@host
+scp -r -i ~/.ssh/mykey -P 2222 user@host:/remote/folder/ .
+"sshfs -o slave,allow_other,IdentityFile=~/.ssh/user.key user@host:/remote /local"
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o ProxyCommand='ssh user1@jumphost -W %h:%p' user2@destination
+sftp> pwd
+ssh-add -t 3600 ~/.ssh/*key*
+rsync -az --link-dest=/backup/2022-01-01 user@host:/remote /local
+ssh -o PreferredAuthentications=publickey user@host
+scp -i id_rsa -r folder/ user@host:/directory/
+"sshfs -o slave,allow_other,uid=username,gid=groupname user@host:/remote /local"
+stat /home/user/Documents
+stat /etc/passwd
+stat /var/log/syslog
+"stat -c ""%n %s %Y"" /tmp/file.txt"
+stat -L /var/log/syslog
+stat -t /var/log
+stat -f /dev/sda1
+"stat -c ""%n %A %U:%G"" /home"
+stat -r /var/log/syslog
+stat -W /var/log/syslog
+stat -z /var/log/syslog
+"stat -c ""%n %a %u %g %h"" /home/user"
+"stat -c ""%n %b %B"" /home/user/Documents"
+"stat -c ""%n %i"" /var/log/syslog"
+"stat -c ""%n %F"" /var"
+"stat -c ""%x %y %z"" /etc/passwd"
+"stat -f -c ""%n %T %S"" /dev/sda"
+"stat -c ""%n %Y"" /var/log/syslog"
+"stat -c ""%n %A %a"" /etc/passwd"
+"stat -c ""%n %s"" /dev/sda1"
+"stat -c ""%n %U %G"" /etc/passwd"
+"stat -c ""%n %C"" /proc/cpuinfo"
+"stat -c ""%n %m"" /etc/passwd"
+"stat -c ""%n %z"" /etc/passwd"
+"stat -c ""%n %A %U %G"" /etc"
+stat /home/user/Desktop/notes
+"stat -c ""%n %a %u %g"" /etc/group"
+"stat -c ""%n %w"" /var/log/syslog"
+"stat -c ""%n %w"" /etc/passwd"
+"stat -c ""%n %a %U %G"" /usr/local/bin"
+"stat -c ""%n %u %g %s"" /home/user/Documents"
+"stat -c ""%n %A %i"" /dev/sdb"
+"stat -c ""%n %a %U %G"" /etc/shadow"
+"stat -c ""%n %T %S"" /usr"
+"stat -c ""%n %a %U %G"" /usr/share"
+"stat -c ""%n %A %U %G"" /usr/bin"
+"stat -c ""%n %a %U %G"" /usr/sbin"
+"stat -c ""%n %a %U %G %h"" /usr/include"
+"stat -c ""%n %a %U %G"" /usr/local/include"
+"stat -c ""%n %U:%G"" /home/user/Documents"
+"stat -c ""%n %m %z"" /usr/bin"
+"stat -c ""%n %a %U %G"" /usr/lib"
+"stat -c ""%n %a %U %G"" /usr/local/lib"
+"stat -c ""%n %u %g %a"" /var/log"
+"stat -c ""%n %x"" /home/user/Desktop"
+"stat -c ""%n %a %U %G"" /var/"
+"stat -c ""%n %F"" /usr/local"
+"stat -c ""%n %T %S"" /var"
+"stat -c ""%n %a %U %G"" /var/run"
+"stat -c ""%n %m %z"" /var/log"
+"stat -c ""%n %a %U %G"" /var/cache"
+"stat -c ""%n %a %U %G %h"" /var/spool"
+"stat -c ""%n %w"" /var/cache"
+"stat -c ""%n %a %U %G"" /usr/local/share"
+"stat -c ""%n %W"" /var/log"
+"stat -c ""%n %a %U %G %h"" /usr/local"
+"stat -c ""%n %w"" /usr/local/bin"
+"stat -c ""%n %a %U %G"" /usr/local/sbin"
+"stat -c ""%n %i %a"" /usr/local/share/man"
+"stat -c ""%n %x %y %z"" /etc/sudoers"
+"stat -c ""%n %m %z"" /var/tmp"
+"stat -c ""%n %a %U %G"" /var/spool/mail"
+"stat -c ""%n %a %U %G"" /usr/local/man"
+"stat -c ""%n %a %u %g"" /var/lib"
+"stat -c ""%n %a %U %G"" /var/tmp"
+"stat -c ""%n %a %U %G"" /var/backups"
+"stat -c ""%n %m %z"" /etc/group"
+"stat -c ""%n %a %U %G"" /var/spool/cron"
+"stat -c ""%n %w"" /var/spool/postfix"
+"stat -c ""%n %a %u %g"" /var/cache/ldconfig"
+"stat -c ""%n %a %U %G %h"" /var/log/apt"
+"stat -c ""%n %m %z"" /dev/null"
+"stat -c ""%n %a %U %G"" /var/run/lock"
+"stat -c ""%n %a %U %G"" /var/run/screen"
+"stat -c ""%n %a %u %g"" /usr/local/etc"
+"stat -c ""%n %a %U %G"" /mnt"
+"stat -c ""%n %a %U %G"" /var/spool/squid"
+"stat -c ""%n %u %g"" /boot"
+"stat -c ""%n %m %z"" /run/shm"
+"stat -c ""%n %a %u %g"" /var/log/apt"
+"stat -c ""%n %a %U %G"" /var/mail"
+"stat -c ""%n %a %U %G"" /run/screens"
+"stat -c ""%n %a %u %g"" /usr/sbin"
+"stat -c ""%n %Y"" /bin/ls"
+"stat -c ""%n %M"" /lib/x86_64-linux-gnu/libc.so.6"
+"stat -c ""%n %m %z"" /var/spool/cron/crontabs"
+"stat -c ""%n %a %U %G"" /run/lock"
+"stat -c ""%n %a %U %G"" /run/screen"
+"stat -c ""%n %a %u %g"" /usr/include/netinet"
+"stat -c ""%n %a %U %G"" /var/backups/apt"
+"stat -c ""%n %m %z"" /usr/share/man"
+"stat -c ""%n %a %U %G"" /var/spool/postfix/active"
+"stat -c ""%n %a %U %G %h"" /var/lib/dpkg"
+"stat -c ""%n %a %u %g"" /usr/local/etc/apache2"
+"stat -c ""%n %a %u %g"" /usr/share/doc"
+"stat -c ""%n %a %U %G"" /usr/local/man/man1"
+"stat -c ""%n %w"" /opt"
+"stat -c ""%n %a %u %g"" /etc/opt"
+"stat -c ""%n %a %U %G"" /srv"
+"stat -c ""%n %a %U %G"" a_directory"
+top
+top -b
+top -c
+top -d
+top -H
+top -i
+top -M
+top -n
+top -p
+top -S
+top -s
+top -U
+top -u
+top -v
+top -w
+top -Z
+top /root
+top /home/user
+top /var/log
+top -i 3
+top -p 123
+top -d 10
+top -s cpu
+top -s mem
+top -U user
+top -u user
+top -v 8.0
+top -w 160
+top -Z root
+top -b -d 5
+top -c -i 2
+top -d 10 -u user
+top -H -p 123
+top -i 3 -s cpu
+top -m 10
+top -n 5
+"top -p 123,345"
+top -S -p 123
+top -u user -U root
+top -w 200 -Z root
+top /etc
+top /usr/bin
+top /var/tmp
+top -b -i 5
+top -d 15 -s mem
+top -H -u user
+top -i 3 -w 120
+top -M -u user
+top -n 10 -i 2
+top -p 123 -S
+top -s cpu -U user
+top -u user -v 8.0
+top -w 180 -Z apache
+top /usr/sbin
+top /home/user1/public_html
+top /var/lib/mysql
+top -b -n 5
+top -d 20 -s cpu
+top -H -U root
+top -i 3 -u user
+top -M -p 123
+top -n 15 -s mem
+"top -p 123,345,678"
+top -s cpu -w 160
+top -u user -Z apache
+top -v 7.5 -w 200
+top -w 180 /etc
+top /usr/share
+top /home/user2
+top /var/named
+top -b -d 10 -i 3
+top -d 15 -s mem -U user
+"top -H -p 123,345"
+top -i 3 -s cpu -u user
+top -M -u root
+top -n 20 -s cpu
+"top -p 123,345,678 -S"
+top -s cpu -w 180 /usr/sbin
+top -u user -v 8.2
+top -v 7.5 -Z apache
+top -w 160 /var/tmp
+top /usr/lib
+top /home/user3
+top /var/log/apache2
+top -b -d 10 -n 3
+top -d 20 -s cpu -u user
+top -H -u user -p 123
+top -i 3 -s mem -u root
+top -M -w 180 /etc
+top -n 25 -s cpu
+"top -p 123,345,678 -s cpu"
+top -s cpu -w 160 /usr/share
+top -u user -Z nginx
+top -v 8.2 -w 200
+top -w 180 /var/lib/mysql
+top /usr/include
+top /home/user4
+top /var/log/nginx
+top -d 5 -n 5 -s mem
+top -H -u root -p 123
+touch file.txt
+touch folder/
+touch -a file.txt
+touch -m file.txt
+touch -c file.txt
+touch -r file.txt newfile.txt
+touch -t 202201011200 file.txt
+touch file with_spaces.txt
+touch 'file with quotes.txt'
+touch ~/file.txt
+touch /var/www/file.txt
+touch file-{1..10}.txt
+"touch file-{a,b,c}.txt"
+touch *.txt
+touch -d '1 day ago' file.txt
+touch -d '2 weeks ago' file.txt
+touch -d 'next Monday' file.txt
+touch -t $(date +%Y%m%d%H%M) file.txt
+touch ./file.txt
+touch file.txt.lock
+touch file.txt.bak
+touch file.txt~
+touch file.txt.swp
+touch file.txt.orig
+touch file.txt.save
+touch file.txt.old
+touch file.txt.new
+touch file.txt.tmp
+touch file.txt.log
+touch file.txt.err
+touch file.txt.out
+touch file.txt.pid
+touch file.txt.lockfile
+touch file.txt.stats
+touch file.txt.conf
+touch file.txt.cfg
+touch file.txt.crt
+touch file.txt.key
+touch file.txt.pem
+touch file.txt.pub
+touch file.txt.priv
+touch file.txt.rsa
+touch file.txt.dsa
+touch file.txt.ssh
+touch file.txt.tar
+touch file.txt.zip
+touch file.txt.rar
+touch file.txt.gz
+touch file.txt.bz2
+touch file.txt.xz
+touch file.txt.sha
+touch file.txt.md5
+touch file.txt.asc
+touch file.txt.gpg
+touch file.txt.sig
+touch file.txt.pubkey
+touch file.txt.privkey
+touch file.txt.backup
+touch file.txt.db
+touch file.txt.sqlite
+touch file.txt.mysql
+touch file.txt.postgres
+touch file.txt.mongo
+touch file.txt.redis
+touch file.txt.cache
+touch file.txt.locking
+touch file.txt.swapping
+touch file.txt.logging
+touch file.txt.monitoring
+touch file.txt.troubleshooting
+touch -h file.txt
+touch -n file.txt
+touch -u file.txt
+touch -v file.txt
+touch -x file.txt
+touch -z file.txt
+touch --no-create file.txt
+touch --reference=file.txt newfile.txt
+touch --time=atime file.txt
+touch --time=mtime file.txt
+touch --time=ctime file.txt
+touch --time=now file.txt
+touch --time=202201011200 file.txt
+touch --help
+touch --version
+touch -S file.txt
+touch -T file.txt
+touch --no-dereference file.txt
+touch --silent file.txt
+touch -R folder/
+touch -p folder/folder2/file.txt
+touch --reference-time=file.txt newfile.txt
+touch --date='1 day ago' file.txt
+touch --date='2 weeks ago' file.txt
+touch --date='next Monday' file.txt
+touch --date=@946671600 file.txt
+touch --date='2022-01-01 12:00:00' file.txt
+touch --date='2022-01-01T12:00:00Z' file.txt
+touch --date='2022-01-01T12:00:00-0500' file.txt
+touch --date='2022-01-01T12:00:00+0800' file.txt
+tree
+tree -a
+tree -d
+tree -L 1
+tree -f
+tree -i
+tree -p
+tree -s
+tree -C
+tree -J
+tree -h
+"tree -P ""*.txt"""
+"tree -I ""*.txt"""
+tree -v
+tree --charset utf-8
+tree ~
+tree /var
+tree /var/www
+tree /var/log
+tree /etc
+tree /usr
+tree /home
+tree /bin
+tree /sbin
+tree /lib
+tree /lib64
+tree /boot
+tree /proc
+tree /sys
+tree /usr/local
+tree /usr/share
+tree /usr/bin
+tree /usr/sbin
+tree /usr/lib
+tree /usr/lib64
+tree /usr/include
+tree /var/run
+tree /var/lock
+tree /var/mail
+tree /var/spool
+tree /var/cache
+tree /var/tmp
+tree /var/lib
+tree /var/log/audit
+tree /var/log/journal
+tree /var/log/samba
+tree /var/www/html
+tree /etc/systemd
+tree /etc/ssh
+tree /etc/httpd
+tree /etc/nginx
+tree /etc/sysconfig
+tree /etc/init.d
+tree /etc/rc.d
+tree /etc/sysctl.d
+tree /etc/pki
+tree /etc/ssl
+tree /etc/modprobe.d
+tree /etc/grub.d
+tree /etc/skel
+tree /run/user/1000
+tree /run/user/1000/gvfs
+tree /run/lock
+tree /run/shm
+tree /tmp
+tree /dev
+tree /sys/kernel/security
+tree /sys/fs
+tree /sys/devices
+tree /proc/irq
+tree /proc/sys
+tree /proc/scsi
+tree /proc/bus
+tree /proc/net
+tree /proc/tty
+tree /proc/sysvipc
+tree /proc/$pid
+tree /proc/sys/kernel
+tree /proc/sys/net
+tree /sys/firmware
+tree /sys/power
+tree /sys/devices/platform
+tree /sys/class
+tree /var/ftp
+tree /usr/local/bin
+tree /usr/local/sbin
+tree /usr/local/lib
+tree /usr/local/include
+tree /usr/local/share
+tree /usr/local/man
+tree /usr/local/games
+tree /usr/local/mysql
+tree /usr/X11R6
+tree /usr/games
+tree /usr/include/linux
+tree /usr/share/man
+tree /usr/share/doc
+tree /usr/share/locale
+tree /usr/share/fonts
+tree /usr/share/zoneinfo

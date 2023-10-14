@@ -1,0 +1,27 @@
+1.  put file.txt remote/ -> Uploads a local file to a remote directory
+2.  put -r dir/ remote/ -> Uploads a local directory recursively to a remote directory
+3.  put -P file.txt remote/ -> Uploads a local file to a remote directory, preserving the file permissions
+4.  put -C file.txt remote/ -> Uploads a local file to a remote directory, using compression
+5.  put -m file.txt remote/ -> Uploads a local file to a remote directory, preserving the modification time
+6.  put -S file.txt remote/ -> Uploads a local file to a remote directory, using a different block size
+7.  put -q file.txt remote/ -> Uploads a local file to a remote directory, suppressing progress messages
+8.  put -u file.txt remote/ -> Uploads a local file to a remote directory, only if the file is newer than the remote file
+9.  put -v file.txt remote/ -> Uploads a local file to a remote directory, showing verbose output
+10. put -z file.txt remote/ -> Uploads a local file to a remote directory, using compression
+11. put --version file.txt remote/ -> Displays the version information for the put command
+12. put --help file.txt remote/ -> Displays the help information for the put command
+13. put --exclude=pattern file.txt remote/ -> Uploads a local file to a remote directory, excluding files that match the pattern
+14. put --rsh=ssh file.txt remote/ -> Uploads a local file to a remote directory, using the ssh protocol for transport
+15. put --timeout=30 file.txt remote/ -> Uploads a local file to a remote directory, setting the timeout value to 30 seconds
+16. put --append file.txt remote/ -> Appends the contents of a local file to a remote file
+17. put --interactive file.txt remote/ -> Asks for confirmation before overwriting an existing remote file
+18. put --size-only file.txt remote/ -> Uploads a local file to a remote directory, only if the size of the file has changed
+19. put --port=22 file.txt remote/ -> Uploads a local file to a remote directory, using port 22 for transport
+20. put --no-preserve-mode file.txt remote/ -> Uploads a local file to a remote directory, without preserving file permissions
+21. put --no-preserve-time file.txt remote/ -> Uploads a local file to a remote directory, without preserving file modification time
+22. put --no-compress file.txt remote/ -> Uploads a local file to a remote directory, without using compression
+23. put --no-sync file.txt remote/ -> Uploads a local file to a remote directory, without synchronizing file timestamps
+24. put --force file.txt remote/ -> Uploads a local file to a remote directory, overwriting any existing remote file
+25. put --delete file.txt remote/ -> Deletes the remote file if the local file has been deleted
+26. put --no-check-certificate file.txt remote/ -> Uploads a local file to a remote directory, ignoring SSL certificate errors
+27. put --ftp-create-dirs file.txt remote/ -> Creates the remote directory if it does not exist

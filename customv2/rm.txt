@@ -1,0 +1,144 @@
+1. rm /home/user/Documents/file.txt -> Removes the file.txt from the Documents folder in the user's home directory.
+2. rm -r /home/user/Pictures -> Removes the Pictures folder and all its contents from the user's home directory.
+3. rm -f /home/user/Downloads/*.pdf -> Removes all PDF files from the Downloads folder in the user's home directory.
+4. rm -rf /home/user/Music/* -> Removes all files and folders from the Music folder in the user's home directory.
+5. rm -i /home/user/Videos/*.mp4 -> Prompts the user to confirm before removing all MP4 files from the Videos folder in the user's home directory.
+6. rm -v /home/user/Documents/*.docx -> Verbosely removes all DOCX files from the Documents folder in the user's home directory.
+7. rm -rf /home/user/Pictures/*.jpg -> Removes all JPG files from the Pictures folder in the user's home directory, including any subdirectories.
+8. rm -f /home/user/Downloads/*.exe -> Forcefully removes all EXE files from the Downloads folder in the user's home directory.
+9. rm -r /home/user/Music/ -> Recursively removes the Music folder and all its contents from the user's home directory.
+10. rm -i /home/user/Videos/*.avi -> Prompts the user to confirm before removing all AVI files from the Videos folder in the user's home directory.
+11. rm -v /home/user/Documents/*.doc -> Verbosely removes all DOC files from the Documents folder in the user's home directory.
+12. rm -rf /home/user/Pictures/*.png -> Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories.
+13. rm -f /home/user/Downloads/*.zip -> Forcefully removes all ZIP files from the Downloads folder in the user's home directory.
+14. rm -r /home/user/Music/*.mp3 -> Recursively removes all MP3 files from the Music folder in the user's home directory.
+15. rm -i /home/user/Videos/*.mov -> Prompts the user to confirm before removing all MOV files from the Videos folder in the user's home directory.
+16. rm -v /home/user/Documents/*.xlsx -> Verbosely removes all XLSX files from the Documents folder in the user's home directory.
+17. rm -rf /home/user/Pictures/*.gif -> Removes all GIF files from the Pictures folder in the user's home directory, including any subdirectories.
+18. rm -f /home/user/Downloads/*.iso -> Forcefully removes all ISO files from the Downloads folder in the user's home directory.
+19. rm -r /home/user/Music/*.wav -> Recursively removes all WAV files from the Music folder in the user's home directory.
+20. rm -i /home/user/Videos/*.mkv -> Prompts the user to confirm before removing all MKV files from the Videos folder in the user's home directory.
+21. rm -v /home/user/Documents/*.pptx -> Verbosely removes all PPTX files from the Documents folder in the user's home directory.
+22. rm -rf /home/user/Pictures/*.bmp -> Removes all BMP files from the Pictures folder in the user's home directory, including any subdirectories.
+23. rm -f /home/user/Downloads/*.rar -> Forcefully removes all RAR files from the Downloads folder in the user's home directory.
+24. rm -r /home/user/Music/*.ogg -> Recursively removes all OGG files from the Music folder in the user's home directory.
+25. rm -i /home/user/Videos/*.flv -> Prompts the user to confirm before removing all FLV files from the Videos folder in the user's home directory.
+26. rm -v /home/user/Documents/*.odt -> Verbosely removes all ODT files from the Documents folder in the user's home directory.
+27. rm -rf /home/user/Pictures/*.tiff -> Removes all TIFF files from the Pictures folder in the user's home directory, including any subdirectories.
+28. rm -f /home/user/Downloads/*.tar -> Forcefully removes all TAR files from the Downloads folder in the user's home directory.
+29. rm -r /home/user/Music/*.aac -> Recursively removes all AAC files from the Music folder in the user's home directory.
+30. rm -i /home/user/Videos/*.wmv -> Prompts the user to confirm before removing all WMV files from the Videos folder in the user's home directory.
+31. rm -v /home/user/Documents/*.rtf -> Verbosely removes all RTF files from the Documents folder in the user's home directory.
+32. rm -rf /home/user/Pictures/*.jpeg -> Removes all JPEG files from the Pictures folder in the user's home directory, including any subdirectories.
+33. rm -f /home/user/Downloads/*.7z -> Forcefully removes all 7Z files from the Downloads folder in the user's home directory.
+34. rm -r /home/user/Music/*.m4a -> Recursively removes all M4A files from the Music folder in the user's home directory.
+35. rm -i /home/user/Videos/*.webm -> Prompts the user to confirm before removing all WEBM files from the Videos folder in the user's home directory.
+36. rm -v /home/user/Documents/*.txt -> Verbosely removes all TXT files from the Documents folder in the user's home directory.
+37. rm -rf /home/user/Pictures/*.svg -> Removes all SVG files from the Pictures folder in the user's home directory, including any subdirectories.
+38. rm -f /home/user/Downloads/*.dmg -> Forcefully removes all DMG files from the Downloads folder in the user's home directory.
+39. rm -r /home/user/Music/*.flac -> Recursively removes all FLAC files from the Music folder in the user's home directory.
+40. rm -i /home/user/Videos/*.mpg -> Prompts the user to confirm before removing all MPG files from the Videos folder in the user's home directory.
+41. rm -v /home/user/Documents/*.html -> Verbosely removes all HTML files from the Documents folder in the user's home directory.
+42. rm -rf /home/user/Pictures/*.png -> Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories.
+43. rm -f /home/user/Downloads/*.deb -> Forcefully removes all DEB files from the Downloads folder in the user's home directory.
+44. rm -r /home/user/Music/*.midi -> Recursively removes all MIDI files from the Music folder in the user's home directory.
+45. rm -i /home/user/Videos/*.3gp -> Prompts the user to confirm before removing all 3GP files from the Videos folder in the user's home directory.
+46. rm -v /home/user/Documents/*.csv -> Verbosely removes all CSV files from the Documents
+1. rm file1.txt -> deletes a file named file1.txt in the current directory.
+2. rm -i file1.txt -> prompts the user for confirmation before deleting a file named file1.txt.
+3. rm -f file1.txt -> forcefully deletes a file named file1.txt without any confirmation prompts.
+4. rm -r dir1 -> recursively deletes a directory named dir1.
+5. rm -v file1.txt -> prints the name of the file being deleted, in this case file1.txt.
+6. rm --help -> displays the help information for the rm command.
+7. rm -rf dir1 -> forcefully deletes a directory named dir1 along with all its contents without any confirmation prompts.
+8. rm -r dir1 dir2 -> deletes directories dir1 and dir2 recursively.
+9. rm -i file1.txt file2.txt -> prompts the user for confirmation before deleting files file1.txt and file2.txt.
+10. rm -d dir1 -> deletes an empty directory named dir1.
+11. rm -rf * -> forcefully deletes all files and directories in the current directory and its subdirectories without any confirmation prompts.
+12. rm -f *.txt -> forcefully deletes all files with the .txt extension in the current directory without any confirmation prompts.
+13. rm -r dir1/file1.txt -> recursively deletes file1.txt located in directory dir1.
+14. rm -r dir1/* -> recursively deletes all files and directories inside dir1.
+15. rm -i -v file1.txt -> prompts the user for confirmation before deleting a file named file1.txt and prints its name before deletion.
+16. rm -i -r dir1 -> prompts the user for confirmation before recursively deleting a directory named dir1.
+17. rm -i -rf dir1 -> prompts the user for confirmation before forcefully deleting a directory named dir1 and its contents.
+18. rm -i -rf * -> prompts the user for confirmation before forcefully deleting all files and directories in the current directory and its subdirectories.
+19. rm -d -v dir1 -> deletes an empty directory named dir1 and prints its name.
+20. rm /var/log/messages -> deletes the log file messages located in the directory /var/log.
+21. rm -r /home/user1 -> recursively deletes the home directory of user1.
+22. rm -rf / -> forcefully deletes all files and directories in the root directory without any confirmation prompts (DON'T RUN THIS COMMAND).
+23. rm -f /dev/null -> forcefully removes any output generated to /dev/null.
+24. rm -r /var/cache/apt/archives -> recursively deletes all files and directories inside archives directory located in /var/cache/apt.
+25. rm -i /var/log/messages -> prompts the user for confirmation before deleting the log file messages located in /var/log.
+26. rm -rf dir1 \&\& echo "Directory successfully deleted" -> deletes a directory named dir1 and prints a message if the operation is successful.
+27. rm \#file1 -> deletes a file named #file1 in the current directory.
+28. rm file* -> deletes all files starting with file in the current directory.
+29. rm -r /tmp/* -> recursively deletes all files and directories in the /tmp directory.
+30. rm -r /var/log/!! -> deletes all files in /var/log that match the previous command executed.
+31. rm *.txt -> deletes all files with the .txt extension in the current directory.
+32. rm file1.txt file2.txt file3.txt -> deletes files file1.txt, file2.txt, and file3.txt in the current directory.
+33. rm -d empty_directory/ -> deletes an empty directory named empty_directory.
+34. rm file1.txt && echo "File successfully deleted" -> deletes a file named file1.txt and prints a message if the operation is successful.
+35. rm -rf dir1/ dir2/ dir3/ -> forcefully deletes directories dir1, dir2, and dir3.
+36. rm -f !(*.txt) -> forcefully deletes all files in the current directory except those with the .txt extension.
+37. rm -r dir1/\{subdir1,subdir2\} -> recursively deletes subdir1 and subdir2 located inside directory dir1.
+38. rm -i dir1/file1.txt dir2/file2.txt -> prompts the user for confirmation before deleting files file1.txt located in directory dir1 and file2.txt located in directory dir2.
+39. rm -r -i dir1/ -> prompts the user for confirmation before recursively deleting directory dir1.
+40. rm -r -v dir1/ -> recursively deletes directory dir1 and prints its name.
+41. rm -i -f dir1/* -> forcefully deletes all files and directories inside dir1 with confirmation prompts.
+42. rm -f file??.txt -> forcefully deletes files file01.txt, file02.txt, file03.txt, etc. in the current directory.
+43. rm -r dir1/!(subdir1) -> recursively deletes all files and directories inside dir1 except for subdir1.
+44. rm -r -v -f dir1/ -> forcefully deletes directory dir1 and its contents, including subdirectories, and prints its name.
+45. rm --preserve-root / -> attempts to delete all files and directories in the root directory but prevents accidental deletion of other directories in case of a typo.
+46. rm -r -i / -> prompts the user for confirmation before recursively deleting all files and directories in the root directory (DON'T RUN THIS COMMAND).
+47. rm abc* -> deletes all files starting with abc in the current directory.
+48. rm -r -i -v dir1/ -> prompts the user for confirmation before recursively deleting directory dir1 and prints its name.
+49. rm -r --preserve-root / -> attempts to delete all files and directories in the root directory but prevents accidental deletion of other directories in case of a typo.
+50. rm -r -f /var/www/* -> forcefully deletes all files and directories inside /var/www without any confirmation prompts.
+51. rm -r -f /var/log/*.gz -> forcefully deletes all log files with the .gz extension located in the directory /var/log without any confirmation prompts.        
+52. rm -r -v /tmp/ -> recursively deletes all files and directories inside the /tmp directory and prints their names.
+53. rm -f -v abc*.txt -> forcefully deletes all files starting with abc and ending with .txt in the current directory and prints their names.
+54. rm -d -v empty_dir/ -> deletes an empty directory named empty_dir and prints its name.
+55. rm -f -v dir1/** -> forcefully deletes all files and directories inside dir1 and its subdirectories and prints their names.
+56. rm -rfv dir1/ -> forcefully deletes directory dir1 and its contents, including subdirectories, and prints their names.
+57. rm -i -v -r dir1/ -> prompts the user for confirmation before recursively deleting directory dir1 and prints its name.
+58. rm --version -> displays the version information of the rm command.
+59. rm file_with_very_long_name_that_is_difficult_to_type.txt -> deletes a file with a very long name in the current directory.
+60. rm -r /var/tmp/* -> recursively deletes all files and directories in the /var/tmp directory.
+61. rm -r -v /var/log/\{messages,auth.log\} -> recursively deletes log files messages and auth.log located in the directory /var/log and prints their names.   
+62. rm -rf /var/log/!!:gs/.log/.log.bak/ -> deletes all log files in /var/log that match the previous command executed and renames them to .log.bak.
+63. rm -rfv / -> forcefully deletes all files and directories in the root directory, including subdirectories, and prints their names (DON'T RUN THIS COMMAND).      
+64. rm -rf /var/www/html/* -> forcefully deletes all files and directories inside /var/www/html without any confirmation prompts.
+65. rm -r -v /var/log/* && echo "All log files deleted successfully" -> recursively deletes all log files located in the directory /var/log and its subdirectories and prints a message if the operation is successful.
+66. rm -r -f -v !(*.txt|*.log) -> forcefully deletes all files in the current directory except those with the .txt or .log extension and prints their names.     
+67. rm -i -r -v /home/user1/ -> prompts the user for confirmation before recursively deleting the home directory of user1 and prints its name.
+68. rm -rfv dir1/ > log_file.txt -> forcefully deletes directory dir1 and its contents, including subdirectories, and prints their names to a log file named log_file.txt.
+69. rm -f -- *.txt -> forcefully deletes all files with the .txt extension in the current directory without any confirmation prompts.
+70. rm -rfv /var/log/!(syslog|auth.log) -> forcefully deletes all log files in the directory /var/log except for syslog and auth.log and prints their names.   
+71. rm -r -f /home/*/old_logs/*.log -> forcefully deletes all log files with the .log extension located in the old_logs subdirectory of all home directories.    
+72. rm -r -v "$(find /home/user1/ -type f -name "*.bak")" -> recursively deletes all backup files with the .bak extension located in the home directory of user1 and prints their names.
+73. rm -r --interactive=once dir1/ -> prompts the user for confirmation once before recursively deleting directory dir1.
+74. rm -r -v $(<file_list.txt) -> recursively deletes all files and directories listed in the file file_list.txt and prints their names.
+75. rm -r -v $(ls -1 /var/log | grep -v syslog) -> recursively deletes all log files in the directory /var/log except for syslog and prints their names.
+76. rm -rfv dir1/ dir2/ dir3/ 2> /dev/null -> forcefully deletes directories dir1, dir2, and dir3 and redirects any error messages to /dev/null.
+77. rm -r -f -v dir1/**/*~ -> forcefully deletes all temporary files with the ~ character located in the subdirectories of dir1 and prints their names.
+78. rm -r -v $(find /home/*/ -type d -name "old_files") -> recursively deletes all directories named old_files located in all home directories and prints their names.
+79. rm -i -v -r / -> prompts the user for confirmation before recursively deleting all files and directories in the root directory and prints their names (DON'T RUN THIS COMMAND).
+80. rm -f -v $(<file_list.txt) 2> error_file.txt -> forcefully deletes all files and directories listed in the file file_list.txt and prints their names to a log file named error_file.txt.
+81. rm -r -f -v dir1/!(subdir1|subdir2) -> forcefully deletes all files and directories inside dir1 except for subdir1 and subdir2 and prints their names.     
+83. rm -r -v $(find /home/*/Downloads/ -type f -name "*.pdf" -mtime +365) -> recursively deletes all PDF files in the Downloads directory of all users that are older than one year and prints their names.
+84. rm -f -v /var/log/*2023* -> forcefully deletes all log files in the directory /var/log that contain the string 2023 in their filenames and prints their names.
+85. rm -r -v $(find /home/ -type d -name "old_*" -mtime +180) -> recursively deletes all directories in the home directory tree that start with old_ and are older than 180 days and prints their names.
+86. rm -rfv dir1/ || echo "Directory could not be deleted" -> forcefully deletes directory dir1 and its contents, including subdirectories, and prints a message if the operation is unsuccessful.
+87. rm -i -v -r /home/*/.local/share/Trash/* -> prompts the user for confirmation before recursively deleting all files and directories located in the trash folder of all users and prints their names.
+88. rm -f -v /var/log/*.log.[0-9]*.gz -> forcefully deletes all compressed log files in the directory /var/log that contain a sequence of numbers in their filenames and prints their names.
+89. rm -r -v $(find /var/www -type f -name *.php -mmin -60) -> recursively deletes all PHP files in the directory /var/www that have been modified in the last hour and prints their names.
+90. rm -rfv dir1/ 2>&1 | tee log_file.txt -> forcefully deletes directory dir1 and its contents, including subdirectories, prints their names to both the console and a log file named log_file.txt.
+91. rm -r -f -v dir1/subdir1/!(file1.txt) -> forcefully deletes all files and directories located inside subdir1 of dir1 except for file1.txt and prints their names.
+92. rm -rfv /var/log/!!/!(syslog|auth.log|messages) -> forcefully deletes all log files in the directory /var/log that match the previous command executed except for syslog, auth.log, and messages and prints their names.
+93. rm -i -r -v /home/*/.ssh/*{conf,config} -> prompts the user for confirmation before recursively deleting all SSH configuration files located in the home directories of all users and prints their names.
+94. rm -f -v /var/log/apache2/access.log /var/log/apache2/error.log -> forcefully deletes the Apache2 access and error logs located in the directory /var/log/apache2 and prints their names.
+95. rm -r -f -v dir1/!(subdir1/|subdir2/) -> forcefully deletes all files and directories located inside dir1 except for subdir1 and subdir2 and prints their names.
+96. rm -rfv /var/tmp/* || echo "Directory could not be deleted" -> forcefully deletes all files and directories in the /var/tmp directory and prints a message if the operation is unsuccessful.
+97. rm -r -v $(find / -type d -name ".git") -> recursively deletes all .git directories located in the system and prints their names.
+98. rm -f -v $(find /var/log -type f -mtime +7) -> forcefully deletes all log files located in the directory /var/log that are older than 7 days and prints their names.
+99. rm -r -v $(find /home/*/Desktop -type f -name "*.pdf" -o -name "*.doc" -o -name "*.docx") -> recursively deletes all PDF, Word, and Word documents located on the desktop of all users and prints their names.

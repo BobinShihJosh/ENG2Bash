@@ -1,0 +1,93 @@
+
+
+1. stat /home/user/Documents -> Displays information about the file or directory at the given path.
+
+2. stat -c %a /home/user/Pictures -> Displays the permissions of the file or directory at the given path.
+
+3. stat -c %s /home/user/Videos -> Displays the size of the file or directory at the given path.
+
+4. stat -c %y /home/user/Music -> Displays the last modification time of the file or directory at the given path.
+
+5. stat -c %U /home/user/Downloads -> Displays the owner of the file or directory at the given path.
+
+6. stat -c %G /home/user/Desktop -> Displays the group of the file or directory at the given path.
+
+7. stat -c %n /home/user/Documents -> Displays the name of the file or directory at the given path.
+
+8. stat -c %i /home/user/Pictures -> Displays the inode number of the file or directory at the given path.
+
+9. stat -c %h /home/user/Videos -> Displays the number of hard links to the file or directory at the given path.
+
+10. stat -c %X /home/user/Music -> Displays the last access time of the file or directory at the given path.
+
+11. stat -c %Y /home/user/Downloads -> Displays the last status change time of the file or directory at the given path.
+
+12. stat -c %f /home/user/Desktop -> Displays the type of file system object (file, directory, etc.) at the given path.
+
+13. stat -c %b /home/user/Documents -> Displays the size of a block on the file system containing the file or directory at the given path.
+
+14. stat -c %d /home/user/Pictures -> Displays the device number of the file system containing the file or directory at the given path.
+
+15. stat -c %t /home/user/Videos -> Displays the major device type in hexadecimal of the file system containing the file or directory at the given path.
+
+16. stat -c %T /home/user/Music -> Displays the minor device type in hexadecimal of the file system containing the file or directory at the given path.
+
+17. stat --printf="%A\n" /home/user/Downloads -> Displays a human-readable version of the permissions of the file or directory at the given path.
+
+18. stat --printf="%C\n" /home/user/Desktop -> Displays a human-readable version of the last modification time of the file or directory at the given path.
+
+19. stat --printf="%s\n" /home/user/Documents -> Displays a human-readable version of the size of the file or directory at the given path.
+
+20. stat --printf="%U\n" /home/user/Pictures -> Displays a human-readable version of the owner of the file or directory at the given path.
+
+21. stat --printf="%G\n" /home/user/Videos -> Displays a human-readable version of the group of the file or directory at the given path.
+
+22. stat --printf="%n\n" /home/user/Music -> Displays a human-readable version of the name of the file or directory at the given path.
+
+23. stat --printf="%i\n" /home/user/Downloads -> Displays a human-readable version of the inode number of the file or directory at the given path.
+
+24. stat --printf="%h\n" /home/user/Desktop -> Displays a human-readable version of the number of hard links to the file or directory at the given path.
+
+25. stat --printf="%X\n" /home/user/Documents -> Displays a human-readable version of the last access time of the file or directory at the given path.
+
+26. stat --printf="%Y\n" /home/user/Pictures -> Displays a human-readable version of the last status change time of the file or directory at the given path.
+
+27. stat --printf="%f\n" /home/user/Videos -> Displays a human-readable version of type of file system object (file, directory, etc.) at the given path. 
+
+28. stat --printf="%b\n" /home/user/Music -> Displays a human-readable version of size of a block on the file system containing the file or directory at the given path. 
+
+29. stat --printf="%d\n" /home/user/Downloads -> Displays a human-readable version of device number of the file system containing the file or directory at the given path. 
+
+30. stat --printf="%t\n" /home/user/Desktop -> Displays a human-readable version of major device type in hexadecimal of the file system containing the file or directory at the given path. 
+
+31. stat --printf="%T\n" /home/user/Documents -> Displays a human-readable version of minor device type in hexadecimal of the file system containing the file or directory at the given path. 
+
+32. stat --format=%A /home/user/Pictures -> Displays a numeric version of permissions of the file or directory at the given path. 
+
+33. stat --format=%C /home/user/Videos -> Displays a numeric version of last modification time of the file or directory at the given path. 
+
+34. stat --format=%s /home/user/Music -> Displays a numeric version of size of a block on the file system containing 	the file or directory at the given path. 
+
+35. stat --format=%U /home/user/Downloads -> Displays a numeric version of owner of 	the file or directory at 	the given path. 
+
+36. stat --format=%G /home/user/Desktop -> Displays a numeric version of group 	of 	the file or directory 	at 	the given path. 
+
+37. stat --format=%n /home/user/Documents -> Displays a numeric version of name 	of 	the file or directory 	at 	the given path. 
+
+38. stat --format=%i /home/user/Pictures -> Displays a numeric version of inode number 	of 	the file or directory 	at 	the given path. 
+
+39. stat --format=%h /home/user/Videos -> Displays a numeric version of number 	of hard links to 	the file or directory 	at 	the given path. 
+
+40. stat --format=%X /home/user/Music -> Displays a numeric version of last access time 	of 	the file or directory 	at 	the given path. 
+
+41. stat --format=%Y /home/user/Downloads -> Displays a numeric version of last status change time 	of 	the file or directory 	at 	the given path. 
+
+42. stat --format=%f /home/user/Desktop -> Displays a numeric version type 	of 	file system object (file, directory, etc.) 	at 	the given path. 
+
+43. stat --format=%b /home/user/Documents -> Displays a numeric version size 	of a block on 	the file system containing 	the file or directory 	at 	the given path. 
+
+44. stat --format=%d /home/user/Pictures -> Displays a numeric version device number 	of 	the file system containing 	the file or directory 	at 	the given path. 
+
+45. stat --format=%t /home/user/Videos -> Displays a numeric version major device type in hexadecimal 	of 	the file system containing 	the file or directory 	at 	the given path.  
+  
+46. stat --format=%T /home/user/Music -> Displays a numeric version minor device type in hexadecimal 	of 	the file system containing 	the file or directory 	at 	the given path.  

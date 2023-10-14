@@ -1,0 +1,100 @@
+1. kill -9 53245 -> Terminate process 53245
+2. kill -s SIGTERM myapp -> Send SIGTERM signal to the process named myapp
+3. kill -f /tmp/file -> Forcefully kill the process using the file at /tmp/file as input
+4. kill -15 mydir -> Send SIGTERM signal to all processes in mydir directory
+5. kill -9 server -> Terminate the server process
+6. kill -s SIGHUP file -> Send SIGHUP signal to the process using the file as input
+7. kill -q PID -> Send SIGQUIT signal to the process with PID
+8. kill -SIGKILL app -> Send SIGKILL signal to the process named app
+9. kill -9 /var/run/haproxy.pid -> Terminate the process using /var/run/haproxy.pid file as input
+10. kill -s SIGINT directory -> Send SIGINT signal to all processes in the directory directory
+11. kill -f /usr/local/program -> Forcefully terminate the process with program as input
+12. kill -15 /mnt/data/logs -> Send SIGTERM signal to all processes in /mnt/data/logs directory
+13. kill -9 /var/run/nginx.pid -> Terminate the process using /var/run/nginx.pid file as input
+14. kill -s SIGQUIT /etc/myapp -> Send SIGQUIT signal to all processes in /etc/myapp directory
+15. kill -9 program -> Terminate the process with program as input
+16. kill -f /var/app/name.pid -> Forcefully kill the process using the /var/app/name.pid file as input
+17. kill -15 /home/user -> Send SIGTERM signal to all processes in /home/user directory
+18. kill -s SIGHUP program -> Send SIGHUP signal to the process with program as input
+19. kill -s SIGKILL /var/www -> Send SIGKILL signal to all processes in /var/www directory
+20. kill -9 /etc/myapp.pid -> Terminate the process using /etc/myapp.pid file as input
+21. kill -f /usr/local/bin -> Forcefully kill all processes in the /usr/local/bin directory
+22. kill -15 name -> Send SIGTERM signal to the process with name as input
+23. kill -s SIGTERM /tmp -> Send SIGTERM signal to all processes in the /tmp directory
+24. kill -9 /var/log/app.pid -> Terminate the process using /var/log/app.pid file as input
+25. kill -s SIGHUP /opt -> Send SIGHUP signal to all processes in the /opt directory
+26. kill -f /var/run/myapp.pid -> Forcefully kill the process using /var/run/myapp.pid file as input
+27. kill -15 /usr/local -> Send SIGTERM signal to all processes in the /usr/local directory
+28. kill -s SIGKILL myapp -> Send SIGKILL signal to the process named myapp
+29. kill -9 /var/app.pid -> Terminate the process using /var/app.pid file as input
+30. kill -f /tmp -> Forcefully kill all processes in the /tmp directory
+31. kill -15 /var -> Send SIGTERM signal to all processes in the /var directory
+32. kill -s SIGTERM /usr/local/bin -> Send SIGTERM signal to all processes in the /usr/local/bin directory
+33. kill -9 /etc/nginx.pid -> Terminate the process using /etc/nginx.pid file as input
+34. kill -s SIGHUP /var/log -> Send SIGHUP signal to all processes in the /var/log directory
+35. kill -f /var/run/httpd.pid -> Forcefully kill the process using /var/run/httpd.pid file as input
+36. kill -15 /usr/local/sbin -> Send SIGTERM signal to all processes in the /usr/local/sbin directory
+37. kill -s SIGKILL /var/log/myapp.log -> Send SIGKILL signal to the process using /var/log/myapp.log file as input
+38. kill -9 name -> Terminate the process with name as input
+39. kill -f /usr/bin -> Forcefully kill all processes in the /usr/bin directory
+40. kill -15 /var/log/myapp -> Send SIGTERM signal to all processes in the /var/log/myapp directory
+41. kill -s SIGHUP /usr/local -> Send SIGHUP signal to all processes in the /usr/local directory
+42. kill -9 /var/run/myserver.pid -> Terminate the process using /var/run/myserver.pid file as input
+43. kill -s SIGTERM /etc/nginx -> Send SIGTERM signal to all processes in the /etc/nginx directory
+44. kill -f /var/log/httpd -> Forcefully kill all processes in the /var/log/httpd directory
+45. kill -15 /etc -> Send SIGTERM signal to all processes in the /etc directory
+46. kill -s SIGHUP myserver -> Send SIGHUP signal to the process named myserver
+47. kill -9 /var/app/logs -> Terminate all processes in the /var/app/logs directory
+48. kill -f /usr/local/bin -> Forcefully kill all processes in the /usr/local/bin directory
+49. kill -15 /var/app/conf -> Send SIGTERM signal to all processes in the /var/app/conf directory
+50. kill -s SIGTERM /usr/bin -> Send SIGTERM signal to all processes in the /usr/bin directory
+51. kill -9 /var/log/httpd.pid -> Terminate the process using /var/log/httpd.pid file as input
+52. kill -s SIGHUP /var/app -> Send SIGHUP signal to all processes in the /var/app directory
+53. kill -f /usr/local/sbin -> Forcefully kill all processes in the /usr/local/sbin directory
+54. kill -15 /run -> Send SIGTERM signal to all processes in the /run directory
+55. kill -s SIGKILL /var -> Send SIGKILL signal to all processes in the /var directory
+56. kill -9 /var/app/logs/file.log -> Terminate the process using /var/app/logs/file.log file as input
+57. kill -f /var/log/myapp -> Forcefully kill all processes in the /var/log/myapp directory
+58. kill -15 /usr/bin -> Send SIGTERM signal to all processes in the /usr/bin directory
+59. kill -s SIGHUP /etc/nginx/nginx.conf -> Send SIGHUP signal to the process using /etc/nginx/nginx.conf file as input
+60. kill -9 /var/app/logs -> Terminate all processes in the /var/app/logs directory
+61. kill -f /usr/bin -> Forcefully kill all processes in the /usr/bin directory
+62. kill -15 /var/app/conf -> Send SIGTERM signal to all processes in the /var/app/conf directory
+63. kill -s SIGTERM /usr/local/sbin -> Send SIGTERM signal to all processes in the /usr/local/sbin directory
+64. kill -9 /var/log/nginx.pid -> Terminate the process using /var/log/nginx.pid file as input
+65. kill -s SIGHUP /var/log/myapp.log -> Send SIGHUP signal to the process using /var/log/myapp.log file as input
+66. kill -f /etc/nginx -> Forcefully kill all processes in the /etc/nginx directory
+67. kill -15 /usr/local/bin -> Send SIGTERM signal to all processes in the /usr/local/bin directory
+68. kill -s SIGKILL /var/app -> Send SIGKILL signal to all processes in the /var/app directory
+69. kill -9 /var/app/logs/file.log -> Terminate the process using /var/app/logs/file.log file as input
+70. kill -f /usr/bin -> Forcefully kill all processes in the /usr/bin directory
+71. kill -15 /var/app/conf -> Send SIGTERM signal to all processes in the /var/app/conf directory
+72. kill -s SIGHUP /usr/local/sbin -> Send SIGHUP signal to all processes in the /usr/local/sbin directory
+73. kill -9 /var/log/httpd -> Terminate all processes in the /var/log/httpd directory
+74. kill -f /usr/local/bin -> Forcefully kill all processes in the /usr/local/bin directory
+75. kill -15 /run -> Send SIGTERM signal to all processes in the /run directory
+76. kill -s SIGTERM /var -> Send SIGTERM signal to all processes in the /var directory
+77. kill -9 /var/log/myapp.log -> Terminate the process using /var/log/myapp.log file as input
+78. kill -s SIGHUP /etc/nginx -> Send SIGHUP signal to all processes in the /etc/nginx directory
+79. kill -f /var/app -> Forcefully kill all processes in the /var/app directory
+80. kill -15 /usr/local/sbin -> Send SIGTERM signal to all processes in the /usr/local/sbin directory
+81. kill -s SIGKILL /etc -> Send SIGKILL signal to all processes in the /etc directory
+82. kill -9 /var/app/logs -> Terminate all processes in the /var/app/logs directory
+83. kill -f /usr/local/bin -> Forcefully kill all processes in the /usr/local/bin directory
+84. kill -15 /run -> Send SIGTERM signal to all processes in the /run directory
+85. kill -s SIGTERM /var -> Send SIGTERM signal to all processes in the /var directory
+86. kill -9 /var/app -> Terminate all processes in the /var/app directory
+87. kill -s SIGHUP /etc/nginx/sites-available/default -> Send SIGHUP signal to the process using /etc/nginx/sites-available/default file as input
+88. kill -f /var/app -> Forcefully kill all processes in the /var/app directory
+89. kill -15 /usr/local/bin -> Send SIGTERM signal to all processes in the /usr/local/bin directory
+90. kill -s SIGKILL /usr/bin -> Send SIGKILL signal to all processes in the /usr/bin directory
+91. kill -9 /var/run/myapp.pid -> Terminate the process using /var/run/myapp.pid file as input
+92. kill -f /var/app/logs/file.log -> Forcefully kill the process using /var/app/logs/file.log file as input
+93. kill -15 /etc/nginx -> Send SIGTERM signal to all processes in the /etc/nginx directory
+94. kill -s SIGHUP /etc/myapp -> Send SIGHUP signal to all processes in the /etc/myapp directory
+95. kill -9 /var/log/myapp -> Terminate all processes in the /var/log/myapp directory
+96. kill -f /usr/bin -> Forcefully kill all processes in the /usr/bin directory
+97. kill -15 /run -> Send SIGTERM signal to all processes in the /run directory
+98. kill -s SIGTERM /var/log -> Send SIGTERM signal to all processes in the /var/log directory
+99. kill -9 /var/app/logs -> Terminate all processes in the /var/app/logs directory
+100. kill -f /usr/local/sbin -> Forcefully kill all processes in the /usr/local/sbin directory

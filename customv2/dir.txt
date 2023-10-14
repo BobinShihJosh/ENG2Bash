@@ -1,0 +1,52 @@
+
+
+1. ls -l dir1 -> Lists the contents of the directory 'dir1' in long format.
+2. cd dir2 -> Changes the current working directory to 'dir2'.
+3. mkdir dir3 -> Creates a new directory called 'dir3'.
+4. rmdir dir4 -> Removes the directory 'dir4' and its contents.
+5. mv dir5 dir6 -> Moves the directory 'dir5' to 'dir6'.
+6. cp dir7 dir8 -> Copies the directory 'dir7' to 'dir8'.
+7. chmod 755 dir9 -> Changes the permissions of the directory 'dir9' to 755.
+8. chown user1 dir10 -> Changes the owner of the directory 'dir10' to 'user1'.
+9. find dir11 -name "*.txt" -> Finds all files with the extension '.txt' in the directory 'dir11'.
+10. du -sh dir12 -> Displays the size of the directory 'dir12' in human readable format.
+11. tree dir13 -> Displays a tree structure of the directory 'dir13'.
+12. grep -r "string" dir14 -> Searches for the string 'string' in all files in the directory 'dir14'.
+13. tar -cvf dir15.tar dir15 -> Creates a tar archive of the directory 'dir15'.
+14. zip -r dir16.zip dir16 -> Creates a zip archive of the directory 'dir16'.
+15. chgrp group1 dir17 -> Changes the group of the directory 'dir17' to 'group1'.
+16. touch dir18/file1 -> Creates an empty file called 'file1' in the directory 'dir18'.
+17. rm -rf dir19 -> Recursively removes all files and directories in the directory 'dir19'.
+18. cat dir20/* -> Displays the contents of all files in the directory 'dir20'.
+19. diff dir21 dir22 -> Compares the contents of two directories, 'dir21' and 'dir22'.
+20. head -n 5 dir23/* -> Displays the first 5 lines of all files in the directory 'dir23'.
+21. tail -n 5 dir24/* -> Displays the last 5 lines of all files in the directory 'dir24'.
+22. sort dir25/* -> Sorts all files in the directory 'dir25'.
+23. uniq dir26/* -> Removes duplicate lines from all files in the directory 'dir26'.
+24. wc -l dir27/* -> Counts the number of lines in all files in the directory 'dir27'.
+25. grep -v "string" dir28/* -> Searches for lines that do not contain the string 'string' in all files in the directory 'dir28'.
+26. sed -i "s/old/new/g" dir29/* -> Replaces all occurrences of 'old' with 'new' in all files in the directory 'dir29'.
+27. awk '/pattern/ {print $0}' dir30/* -> Prints all lines that match the pattern in all files in the directory 'dir30'.
+28. xargs -I {} mv {} dir31/ -> Moves all files to the directory 'dir31'.
+29. find . -type d -name "dir32" -exec rm -rf {} \; -> Recursively removes all files and directories in the directory 'dir32'.
+30. find . -type f -name "*.txt" -exec mv {} dir33/ \; -> Moves all files with the extension '.txt' to the directory 'dir33'.
+31. find . -type f -name "*.jpg" -exec cp {} dir34/ \; -> Copies all files with the extension '.jpg' to the directory 'dir34'.
+32. find . -type f -name "*.pdf" -exec chmod 644 {} \; -> Changes permissions of all files with the extension '.pdf' to 644.
+33. find . -type d -name "dir35" -exec chown user2 {} \; -> Changes owner of all directories named 'dir35' to user2.
+34. find . -type d -name "dir36" -exec chgrp group2 {} \; -> Changes group of all directories named 'dir36' to group2.
+35. find . -type f -name "*.sh" -exec sed -i "s/old/new/g" {} \; -> Replaces all occurrences of 'old' with 'new' in all files with the extension '.sh' in current working directory and its subdirectories.
+36. find . -type f -name "*.py" -exec awk '/pattern/ {print $0}' {} \; -> Prints all lines that match the pattern in all files with the extension '.py' in current working directory and its subdirectories.
+37. find . -type f -name "*.html" -exec head -n 5 {} \; -> Displays first 5 lines of all files with the extension '.html' in current working directory and its subdirectories.
+38. find . -type f -name "*.css" -exec tail -n 5 {} \; -> Displays last 5 lines of all files with the extension '.css' in current working directory and its subdirectories.
+39. find . -type f -name "*.js" -exec sort {} \; -> Sorts all files with the extension '.js' in current working directory and its subdirectories.
+40. find . -type f -name "*.php" -exec uniq {} \; -> Removes duplicate lines from all files with the extension '.php' in current working directory and its subdirectories.
+41. find . -type f -name "*.xml" -exec wc -l {} \; -> Counts number of lines in all files with the extension '.xml' in current working directory and its subdirectories.
+42. find . -type f -name "*.json" -exec grep -v "string" {} \; -> Searches for lines that do not contain string in all files with the extension '.json' in current working directory and its subdirectories.
+43. tar cfvz dir37_backup.tar.gz dir37/ -> Creates a tar archive of the directory 'dir37'.
+44. zip -r dir38_backup.zip dir38/ -> Creates a zip archive of the directory 'dir38'.
+45. du --max-depth=1 dir39/ -> Displays size of each file and subdirectory within the directory 'dir39'.
+46. tree --charset=ascii dir40/ -> Displays a tree structure of the directory 'dir40' using ASCII characters only.
+47. cat > dir41/file2 -> Creates a new file called 'file2' in the directory 'dir41'.
+48. rm --force --recursive dir42/ -> Recursively removes all files and directories in the directory 'dir42'. 
+49. diff --brief --recursive dir43/ dir44/ -> Compares contents of two directories, 'dir43' and 'dir44', and displays only differences between them. 
+50. head --lines=5 --verbose dir45/* -> Displays first 5 lines of all files in the directory 'dir45', along with their names and sizes.

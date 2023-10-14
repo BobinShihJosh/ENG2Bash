@@ -1,0 +1,100 @@
+1. chmod 777 file.txt -> Give everyone full access to file.txt.
+2. chmod 554 directory/ -> Give the owner read and execute permissions, and others read-only permissions to directory/.
+3. chmod 600 file.pdf -> Give the owner read and write permissions to file.pdf.
+4. chmod u+rwx file.png -> Give the owner read, write, and execute permissions to file.png.
+5. chmod a-x directory/ -> Remove execute permissions for all users from directory/.
+6. chmod o-r file.txt -> Remove read permission for others from file.txt.
+7. chmod g+w directory/ -> Give the group write permission to directory/.
+8. chmod 644 file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf.
+9. chmod 777 dir1/ dir2/ -> Give everyone full access to dir1/ and dir2/.
+10. chmod 400 file.txt -> Give the owner read-only permission to file.txt.
+11. chmod u+x dir1/ -> Give the owner execute permission to dir1/.
+12. chmod a+r file.png -> Give read permission to all users to file.png.
+13. chmod 755 directory/ -> Give the owner read, write, and execute permissions, and others read and execute permissions to directory/.
+14. chmod o+w file.txt -> Give write permission to others to file.txt.
+15. chmod g=rwx file.png -> Give the group read, write, and execute permissions to file.png.
+16. chmod 444 file.txt -> Give everyone read-only permission to file.txt.
+17. chmod 777 dir/ -R -> Give everyone full access to dir/ and all of its contents recursively.
+18. chmod 644 file.pdf -v -> Verbosely give the owner read and write permissions, and others read-only permissions to file.pdf.
+19. chmod 400 file.txt -c -> Verbosely give the owner read-only permission to file.txt.
+20. chmod a-wx file.png -v -> Verbosely remove write and execute permissions for all users from file.png.
+21. chmod +x script.sh -> Add execute permission for the script.sh script to the current user.
+22. chmod -r dir/ -> Remove read permission for the current user from dir/.
+23. chmod o-x file.txt -> Remove execute permission for others from file.txt.
+24. chmod g-rwx file.png -> Remove read, write, and execute permissions for the group from file.png.
+25. chmod 777 dir/ && chown user:group dir/ -> Give everyone full access and change the owner and group for dir/.
+26. chmod u=rwx,go=rx file.txt -> Give the owner read, write, and execute permissions, and others read and execute permissions to file.txt.
+27. chmod 400 file.txt && chown user file.txt -> Give the owner read-only permission and change the owner for file.txt.
+28. chmod g+r file.png && chgrp group file.png -> Give the group read permission and change the group for file.png.
+29. chmod o-rwx file.txt && chown user:group file.txt -> Remove read, write, and execute permissions for others, and change the owner and group for file.txt.
+30. chmod 644 file.pdf && chattr +i file.pdf -> Give the owner read and write permissions, and others read-only permissions, and make file.pdf immutable.
+31. chmod 777 dir/ && chcon user:object_r:file_t dir/ -> Give everyone full access and change the security context for dir/.
+32. chmod 400 file.txt && chroot /jail/ /bin/bash -> Give the owner read-only permission and change the root directory for /bin/bash.
+33. chmod 755 directory/ && chroot /jail/ /bin/bash -> Give the owner read, write, and execute permissions, and others read and execute permissions to directory/, and change the root directory for /bin/bash.
+34. chmod 777 dir/ && setfacl -m u:user:rwx dir/ -> Give everyone full access and set an access control list for dir/.
+35. chmod 644 file.pdf && setfacl -m g:group:rx file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and set an access control list for file.pdf.
+36. chmod 777 dir/ && setcap CAP_NET_RAW+ep /sbin/ping -> Give everyone full access and set capabilities for /sbin/ping.
+37. chmod 644 file.pdf && setcomp --user-download file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and set compression for file.pdf.
+38. chmod 777 dir/ && setfattr -n user.comment -v "sample comment" dir/ -> Give everyone full access and set extended attributes for dir/.
+39. chmod 744 script.sh && su -c "./script.sh" -> Give the owner read, write, and execute permissions, and others read-only permission to script.sh, and run script.sh as root.
+40. chmod 400 file.txt && sudo vi file.txt -> Give the owner read-only permission to file.txt, and open file.txt using vim editor with root privileges.
+41. chmod 600 file.pem && ssh -i file.pem user@host -> Give the owner read and write permissions to file.pem, and connect to host using ssh with file.pem as the identity file.
+42. chmod 644 file.pdf && scp file.pdf user@host:/directory/ -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and copy file.pdf to /directory/ on host using scp.
+43. chmod 777 dir/ && tar -cvzf archive.tar.gz dir/ -> Give everyone full access and create a compressed tar archive of dir/.
+44. chmod 644 file.pdf && unzip file.zip -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and extract file.zip.
+45. chmod 400 key.pem && openssl req -new -key key.pem -> Give the owner read-only permission to key.pem, and generate a new certificate request using key.pem.
+46. chmod 600 config.yml && ansible-playbook playbook.yml -> Give the owner read and write permissions to config.yml, and run playbook.yml using ansible.
+47. chmod 755 script.sh && bash script.sh -> Give the owner read, write, and execute permissions, and others read and execute permissions to script.sh, and execute script.sh using bash.
+48. chmod 644 file.pdf && cat file.pdf | grep "search string" -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and search for "search string" within file.pdf using grep.
+49. chmod 400 file.txt && cp file.txt /backup/ -> Give the owner read-only permissions to file.txt, and make a copy of file.txt to /backup/.
+50. chmod 777 dir/ && dd if=/dev/zero of=file.bin count=1024 -> Give everyone full access, and create a 1MB test file named file.bin in dir/ using dd.
+51. chmod 644 file.pdf && diff file.pdf file2.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and show the difference between file.pdf and file2.pdf using diff.
+52. chmod 700 dir/ && find dir/ -name "pattern" -> Give the owner read, write, and execute permissions to dir/, and find files or directories within dir/ that match "pattern".
+53. chmod 644 file.pdf && finger user -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and display information about user using finger.
+54. chmod 777 dir/ && grep "pattern" dir/* -> Give everyone full access to dir/, and search for "pattern" in all files within dir/ using grep.
+55. chmod 644 file.pdf && head file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and display the first 10 lines of file.pdf using head.
+56. chmod 400 file.txt && history -> Give the owner read-only permission to file.txt, and display the command history using history.
+57. chmod 755 script.sh && killall script.sh -> Give the owner read, write, and execute permissions, and others read and execute permissions to script.sh, and kill all running instances of script.sh using killall.
+58. chmod 644 file.pdf && ln -s file.pdf file2.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and create a symbolic link named file2.pdf that points to file.pdf using ln.
+59. chmod 700 dir/ && ls dir/ -> Give the owner read, write, and execute permissions to dir/, and list the contents of dir/ using ls.
+60. chmod 644 file.pdf && md5sum file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and calculate and show the MD5 sum of file.pdf using md5sum.
+61. chmod 400 file.txt && mkdir dir/ -> Give the owner read-only permission to file.txt, and create a new directory named dir/.
+62. chmod 777 dir/ && mv file.pdf dir/ -> Give everyone full access to dir/, and move file.pdf to dir/.
+63. chmod 644 file.pdf && nano file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and open file.pdf using nano editor.
+64. chmod 777 dir/ && nc -l 8080 < file.pdf -> Give everyone full access to dir/, and listen for connections on port 8080 and send file.pdf as output using nc.
+65. chmod 600 file.pem && openssl x509 -req -days 365 -in cert.csr -signkey file.pem -out cert.crt -> Give the owner read and write permissions to file.pem, and sign a certificate request using file.pem.
+66. chmod 700 dir/ && passwd -> Give the owner read, write, and execute permissions to dir/, and change the password for the current user using passwd.
+67. chmod 644 file.pdf && ping -c 5 host -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and send 5 ICMP echo requests to host using ping.
+68. chmod 400 file.txt && ps aux -> Give the owner read-only permission to file.txt, and display a list of running processes using ps.
+69. chmod 777 dir/ && pwd -> Give everyone full access to dir/, and show the current working directory using pwd.
+70. chmod 644 file.pdf && rm file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and delete file.pdf.
+71. chmod 400 file.txt && sed 's/search/replace/g' file.txt -> Give the owner read-only permission to file.txt, and replace all instances of "search" with "replace" in file.txt using sed.
+72. chmod 600 file.key && ssh-keygen -t rsa -b 4096 -f file.key -> Give the owner read and write permissions to file.key, and generate a new 4096-bit RSA key using ssh-keygen.
+73. chmod 777 dir/ && tar -xvf archive.tar -> Give everyone full access to dir/, and extract a tar archive named archive.tar to dir/ using tar.
+74. chmod 644 file.pdf && unzip -l file.zip -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and show the contents of file.zip using unzip.
+75. chmod 400 file.pem && wget --certificate=file.pem URL -> Give the owner read-only permission to file.pem, and download a file from URL using wget with file.pem as the SSL client certificate file.
+76. chmod 777 dir/ && xargs rm < dir/files.txt -> Give everyone full access to dir/, and read a list of file names from dir/files.txt and delete each file using xargs and rm.
+77. chmod 644 file.pdf && zip file.zip file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and create a zip archive named file.zip that contains file.pdf using zip.
+78. chmod 777 dir/ && cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1 > dir/password.txt -> Give everyone full access to dir/, and generate a random 32-character length password and save it to dir/password.txt using cat, tr, fold, and head commands.
+79. chmod 400 file.txt && cp file.txt /tmp/file.txt.backup -> Give the owner read-only permission to file.txt, and make a backup copy of file.txt to /tmp/.
+80. chmod 777 dir/ && dd if=/dev/zero of=file.img bs=1M count=1024 && mkfs.ext4 file.img && mount file.img dir/ -> Give everyone full access to dir/, and create a 1GB file system image named file.img, format it with ext4 file system, and mount it to dir/.
+81. chmod 644 file.pdf && echo "Hello, World!" > file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and write "Hello, World!" to file.pdf using echo.
+82. chmod 700 dir/ && file * -> Give the owner read, write, and execute permissions to dir/ and display properties of all files in the current directory using file command.
+83. chmod 644 file.pdf && groups -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and display the groups to which the current user belongs.
+84. chmod 777 dir/ && init 6 -> Give everyone full access to dir/, and reboot the system using init.
+85. chmod 400 file.txt && last -> Give the owner read-only permission to file.txt, and display the last logged in users using last.
+86. chmod 777 dir/ && lsof | grep dir/ -> Give everyone full access to dir/, and display the list of files and processes that are accessing dir/ using lsof and grep commands.
+87. chmod 644 file.pdf && man ls -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and display the manual page for ls using man.
+88. chmod 700 dir/ && mount /dev/sdb1 dir/ -> Give the owner read, write, and execute permissions to dir/, and mount the /dev/sdb1 hard drive partition to dir/.
+89. chmod 644 file.pdf && nmap -sS host -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and perform a TCP SYN scan on host using nmap.
+90. chmod 400 file.txt && openssl aes-256-cbc -salt -in file.txt -out file.txt.enc -pass file:key.txt -> Give the owner read-only permission to file.txt, and encrypt file.txt using AES-256 with key stored in file:key.txt using openssl.
+91. chmod 777 dir/ && pidof process -> Give everyone full access to dir/, and display the process ID of the running process named process using pidof.
+92. chmod 644 file.pdf && rmdir dir/ -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and remove the empty directory named dir/.
+93. chmod 400 file.pem && sshfs -o IdentityFile=file.pem user@host:/remote/dir/ /local/dir/ -> Give the owner read-only permission to file.pem, and mount the /remote/dir/ directory on host to /local/dir/ on the local machine using sshfs.
+94. chmod 777 dir/ && screen -S session -> Give everyone full access to dir/, and start a new screen session named session.
+95. chmod 644 file.pdf && split -b 1M -d file.pdf part -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and split file.pdf into 1MB sized parts named part00, part01, etc. using split command.
+96. chmod 400 file.txt && tail -f file.txt -> Give the owner read-only permission to file.txt, and display the last 10 lines of file.txt and continue to follow the file as it is updated using tail command.
+97. chmod 777 dir/ && tcpdump -i eth0 -w dir/capture.pcap -> Give everyone full access to dir/, and capture network traffic on interface eth0 and write it to dir/capture.pcap using tcpdump.
+98. chmod 644 file.pdf && touch -d "3 days ago" file.pdf && ls -l file.pdf -> Give the owner read and write permissions, and others read-only permissions to file.pdf, and change the modification date of file.pdf to 3 days ago and display the file information using touch and ls commands.
+99. chmod 700 dir/ && umount dir/ -> Give the owner read, write, and execute permissions to dir/, and unmount the file system mounted on dir/.
+100. chmod 777 dir/ && xxd file.pdf -> Give everyone full access to dir/, and display the hexadecimal dump of file.pdf using xxd command.

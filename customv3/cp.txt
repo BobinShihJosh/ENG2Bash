@@ -1,0 +1,102 @@
+1. cp file1.txt file2.txt -> copies file1 to file2
+2. cp -r dir1 dir2 -> copies dir1 to dir2 recursively
+3. cp -v file1.txt file2.txt -> copies file1 to file2 and shows verbose output
+4. cp -i file1.txt file2.txt -> copies file1 to file2 and prompts before overwriting
+5. cp -u file1.txt file2.txt -> copies file1 to file2 only if it's newer
+6. cp -l file1.txt file2.txt -> copies file1 to file2 and creates hard link
+7. cp -p file1.txt file2.txt -> copies file1 to file2 and preserves file attributes
+8. cp -f file1.txt file2.txt -> copies file1 to file2 and overwrites file2 if exists
+9. cp -n file1.txt file2.txt -> copies file1 to file2 if file2 does not exist
+10. cp file1.txt /home/user1 -> copies file1 to /home/user1
+11. cp file1.txt dir1/ -> copies file1 to dir1/
+12. cp file*.txt dir/ -> copies all files that start with file and ends with .txt to dir/
+13. cp -a dir/ dir2/ -> copies dir to dir2 preserving all attributes and recursively
+14. cp -i dir/ dir2/ -> copies dir to dir2 and prompts before overwriting
+15. cp -r dir1 dir2/backup/ -> copies dir1 to dir2/backup recursively
+16. cp -v dir1 dir2/backup/ -> copies dir1 to dir2/backup and shows verbose output
+17. cp -u dir1 dir2/backup/ -> copies dir1 to dir2/backup only if it's newer
+18. cp -l dir1 dir2/backup/ -> copies dir1 to dir2/backup and creates hard link
+19. cp -p dir1 dir2/backup/ -> copies dir1 to dir2/backup and preserves file attributes
+20. cp -f dir1 dir2/backup/ -> copies dir1 to dir2/backup and overwrites if exists
+21. cp -n dir1 dir2/backup/ -> copies dir1 to dir2/backup if it doesn't exist
+22. cp -a dir1/ /mnt/backup/ -> copy dir1 to /mnt/backup preserving all attributes
+23. cp -avr dir1/ dir2/backup/ -> copies dir1 to dir2/backup and shows verbose & recursive output
+24. cp -u dir1/ file.txt -> copies all files in dir1/ to file.txt if it's newer
+25. cp -f *.txt dir/ -> copies all files with .txt extension and overwrites if exists
+26. cp -n *.txt dir/backup/ -> copies all files with .txt extension to dir/backup if it doesn't exist
+27. cp -r dir1/* dir2/backup/ -> copies all files and directories in dir1 to dir2/backup
+28. cp -v file*.txt dir/ -> copies all files that start with file and ends with .txt to dir/ and shows verbose output
+29. cp -p -R dir1/ dir2/backup/ -> copies dir1 to dir2/backup and preserves attributes recursively
+30. cp file*.txt dir/backup/ -> copies all files that start with file and ends with .txt to dir/backup/
+31. cp -f -r dir1/* dir2/backup/ -> copies all files and directories in dir1 to dir2/backup and overwrites if exists
+32. cp -pr dir1/ dir2/backup/ -> copies dir1 to dir2/backup and preserves attributes and recursively
+33. cp file1.txt backup/file1.txt -> copies file1 to backup/ directory as file1.txt
+34. cp *.txt backup/ -> copies all files with .txt extension to backup/ directory
+35. cp -a dir /mnt/backup/ -> copies dir to /mnt/backup/ preserving attributes
+36. cp file1.txt /mnt/backup/file2.txt -> copies file1 to /mnt/backup directory as file2.txt
+37. cp -f dir1/ dir2/backup/ -> copies dir1 to dir2/backup and overwrites if exists
+38. cp -ur dir1/ dir2 -> copies dir1 to dir2 only if it's newer
+39. cp -p -R dir1/ dir2 -> copies dir1 to dir2 and preserves attributes recursively
+40. cp -i -r dir1/ dir2 -> copies dir1 to dir2 and prompts before overwriting recursively
+41. cp -u -r dir1/ dir2 -> copies dir1 to dir2 only if it's newer recursively
+42. cp -l -r dir1/ dir2 -> copies dir1 to dir2 and creates hard link recursively
+43. cp -v -r dir1/ dir2 -> copies dir1 to dir2 and shows verbose output recursively
+44. cp -a -r dir1/ dir2 -> copies dir1 to dir2 and preserves attributes recursively
+45. cp -pn -R dir1/ dir2/backup/ -> copies dir1 to dir2/backup and doesn't preserve timestamp recursively
+46. cp -dfR dir1/. dir2/ -> copies all files and directories to dir2/ recursively
+47. cp -an /mnt/data/ /mnt/backup/ -> copies /mnt/data/ to /mnt/backup/ preserving attributes and doesn't copy if exists
+48. cp -r dir1/ dir2/backup/ -> copies dir1 to dir2/backup recursively
+49. cp *.txt dir2/ -> copies all files with .txt extension to dir2/
+50. cp file1.txt dir1/file1.txt -> copies file1 to dir1/ directory as file1.txt
+51. cp -r dir1/* dir2/backup/ -> copies all files and directories in dir1 to dir2/backup/
+52. cp -u -R dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ only if it's newer recursively
+53. cp -rp dir/ /mnt/backup/ -> copies dir to /mnt/backup/ preserving attributes and permissions recursively
+54. cp -i -p file1.txt file2.txt -> copies file1 to file2 and prompts before overwriting and preserves file attributes
+55. cp -f -p file1.txt file2.txt -> copies file1 to file2 and overwrites existing file2 and preserves file attributes
+56. cp -u -p file1.txt file2.txt -> copies file1 to file2 only if it's newer and preserves file attributes
+57. cp -v -p file1.txt file2.txt -> copies file1 to file2 and shows verbose output and preserves file attributes
+58. cp -l -p file1.txt file2.txt -> copies file1 to file2 and creates hard link and preserves file attributes
+59. cp -a -p dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ preserving attributes and recursively, and preserves file attributes
+60. cp -d file.txt /mnt/backup/ -> copies file.txt to /mnt/backup/ and creates missing directories
+61. cp -p -r dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ preserving file attributes and recursively
+62. cp -uv dir1/* dir2/backup/ -> copies all files in dir1/ to dir2/backup/ if it's newer and show verbose output
+63. cp -R -p dir1/ dir2/backup/ -> copies dir1 to dir2/backup preserving attributes and recursively
+64. cp -R -u -p dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ only if it's newer and preserves file attributes recursively
+65. cp -a /mnt/data/ /mnt/backup/ -> copies /mnt/data/ to /mnt/backup/ preserving attributes and recursively
+66. cp -v -r *.txt backup/ -> copies all files with .txt extension to backup/ and shows verbose output recursively
+67. cp file1.txt backup/ -> copies file1.txt to backup/ directory
+68. cp -rp dir1/ dir2/ -> copies dir1/ to dir2/ preserving attributes and permissions recursively
+69. cp -p file1.txt dir1/ -> copies file1.txt to dir1/ and preserves file attributes
+70. cp -l file1.txt file2.txt -> copies file1.txt to file2.txt as hard link
+71. cp -ni file1.txt dir1/ -> copies file1.txt to dir1/ and prompts before overwriting
+72. cp -u -p file1.txt backup/ -> copies file1.txt to backup/ only if it's newer and preserves file attributes
+73. cp -rf dir1 dir2/ -> copies dir1 to dir2/ and overwrites if exists
+74. cp -r --preserve=mode,timestamp dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ and preserves mode and timestamp attributes recursively
+75. cp -p -u -R dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ only if it's newer and preserves file attributes recursively
+76. cp -v -rl file1.txt file2.txt -> copies file1.txt to file2.txt as hard link and shows verbose output
+77. cp -a -v /mnt/data/ /mnt/backup/ -> copies /mnt/data/ to /mnt/backup/ preserving attributes and recursively and shows verbose output
+78. cp -v -R -p dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ preserving file attributes and recursively and shows verbose output
+79. cp -na /mnt/data/ /mnt/backup/ -> copies /mnt/data/ to /mnt/backup/ preserving attributes and doesn't overwrite if exists
+80. cp -p -u -v dir1/ dir2/backup/ -> copies dir1/ to dir2/backup/ only if it's newer and preserves file attributes and shows verbose output
+81. cp -u -R -p -v dir1/ dir2/backup/ -> copies dir1/ to dir2/backup/ only if it's newer and preserves file attributes recursively and shows verbose output
+82. cp -v -R -p -u dir1/ dir2/backup/ -> copies dir1/ to dir2/backup/ only if it's newer and preserves file attributes recursively and shows verbose output
+83. cp -v -n file1.txt file2.txt -> copies file1 to file2 if file2 doesn't exist and shows verbose output
+84. cp -v -f file1.txt file2.txt -> copies file1 to file2 and overwrites if exists and shows verbose output
+85. cp -R -f -p dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ and overwrites if exists and preserves file attributes recursively
+86. cp -su file1.txt file2.txt -> copies file1 to file2 only if file2 is missing or it's newer
+87. cp -p -f -r dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ and overwrites if exists and preserves file attributes recursively
+88. cp -dR dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ and creates missing directories and preserves attributes recursively
+89. cp -rf dir1/ dir2/backup/file1.txt -> copies dir1 to dir2/backup/file1.txt and overwrites if exists
+90. cp -v -p -R dir1/ dir2/backup/ -> copies dir1 to dir2/backup/ and preserves file attributes and shows verbose output recursively
+91. cp -n -R dir1 dir2/backup/ -> copies dir1 to dir2/backup/ if it doesn't exist recursively
+92. cp -v -p -u -R dir1/ dir2/backup/ -> copies dir1/ to dir2/backup/ only if it's newer and preserves file attributes and shows verbose output recursively
+93. cp -v -p -f -R dir1/ dir2/backup/ -> copies dir1/ to dir2/backup/ and overwrites if exists and preserves file attributes and shows verbose output recursively
+94. cp -p -f -v -R dir1/ dir2/backup/ -> copies dir1/ to dir2/backup/ and overwrites if exists and preserves file attributes and shows verbose output recursively
+95. cp --reply=yes file1.txt file2.txt -> copies file1 to file2 and answers yes to all prompts
+96. cp -p -u -v -R /mnt/data/ /mnt/backup/ -> copies /mnt/data/ to /mnt/backup/ only if it's newer and preserves file attributes and shows verbose output recursively
+97. cp -v -R -p -f -u dir1/ dir2/backup/ -> copies dir1/ to dir2/backup/ only if it's newer and overwrites if exists and preserves file attributes and shows verbose output recursively
+98. cp --preserve=all file1.txt file2.txt -> copies file1 to file2 preserving all file attributes
+99. cp -v -p -u -f -R dir1/ dir2/backup/ -> copies dir1/ to dir2/backup/ only if it's newer and overwrites if exists and preserves file attributes and shows verbose output recursively
+100. cp -p -f -R -v dir1/ dir2/backup/ -> copies dir1/ to dir2/backup/ and overwrites if exists and preserves file attributes and shows verbose output recursively
+
+Note: These commands are just examples and may not work for your specific use case. Please make sure to test and modify them to fit your needs.

@@ -1,0 +1,102 @@
+print contents in file.txt -> cat file.txt
+print contents in file.txt with line numbers -> cat -n file.txt
+print contents in file.txt with $ at end -> cat -E file.txt
+combine files and myfile2 -> cat file.txt myfile2.txt
+Change directory to /home. -> cd /home
+Go up one level. -> cd ..
+Change directory to Documents. -> cd Documents
+Return to the previous directory. -> cd -
+Give everyone full access to file.txt. -> chmod 777 file.txt
+Give the owner read and execute permissions, and others read-only permissions to directory/. -> chmod 554 directory/
+Give the owner read and write permissions to file.pdf. -> chmod 600 file.pdf
+Give the owner read, write, and execute permissions to file.png. -> chmod u+rwx file.png
+clears screen -> clear
+clears contents of myfile.txt -> clear myfile.txt
+clears contents of myfolder and myfile -> clear myfolder myfile
+clears scrollback buffer -> clear -x
+copies myfile to myfile2 -> cp myfile.txt myfile2.txt
+copies dir1 to dir5 recursively -> cp -r dir1 dir5
+copies myfile to myfile2 and shows verbose output -> cp -v myfile.txt myfile2.txt
+copies myfile to myfile2 and prompts before overwriting -> cp -i myfile.txt myfile2.txt
+List files in current directory -> ls
+List including hidden files -> ls -a
+List in long format -> ls -l
+List files by time modified -> ls -t
+Writes Hello World to a file named foobar.txt. -> "echo ""Hello World"" > foobar.txt"
+Writes Welcome to Linux to a file at the specified directory. -> "echo ""Welcome to Linux"" > /home/user/welcome.txt"
+Appends HELLO to the end of foobar.txt. -> "echo ""HELLO"" >> foobar.txt"
+Display environment variables -> env
+Start a clean environment -> env -i /bin/bash
+Writes "Alice" to a file named "name.txt" without a trailing newline. -> echo -n "Alice" > name.txt
+Start a shell with USER variable unset -> env -u USER /bin/sh
+Edit your crontab file with nano as editor -> env EDITOR=nano crontab -e
+Display system memory. -> free
+Display memory in megabytes. -> free -m
+Display memory in gigabytes. -> free -g
+Display total and used memory. -> free -t
+Download file from google.com. -> wget google.com
+Clone repository my_repo -> git clone my_repo
+Copy file to remote server. -> scp file remote:
+Retrieve data from API. -> curl http://api.com
+Terminate process 59888 -> kill -9 59888
+Send SIGTERM signal to the process named myapp -> kill -s SIGTERM myapp
+Forcefully kill the process using the file at /tmp/file as input -> kill -f /tmp/file
+Send SIGTERM signal to all processes in testdir directory -> kill -15 testdir
+List all files. -> ls
+List files with details. -> ls -l
+List all files including hidden ones. -> ls -a
+List files sorted by modification time. -> ls -t
+Create directory named testdir -> mkdir testdir
+Create directory named dir1 inside current directory -> mkdir dir1/
+Create directory dir1 with subdirectory dir5 -> mkdir -p dir1/dir5
+Create directory testdir with permissions set to 775 -> mkdir -m 775 testdir
+Creates a new temporary file with newfile prefix. -> mktemp newfile
+Creates a temporary directory with test-dir prefix. -> mktemp test-dir
+Creates a new temporary file with file prefix in the /tmp/ directory. -> mktemp -p /tmp/ file
+Creates a new temporary directory in the /var/tmp/ directory. -> mktemp -d /var/tmp/
+Rename myfile as myfile2. -> mv myfile myfile2
+Move myfile to folder. -> mv myfile folder
+Rename myfolder as folder2. -> mv myfolder folder2
+Move myfile from myfolder to folder2. -> mv myfolder/myfile folder2
+Ping Google.com 5 times -> ping google.com -c 5
+Ping server.local indefinitely -> ping server.local
+Ping 0.0.0.0 through eth9 interface -> ping 0.0.0.0 -I eth9
+Ping 192.168.0.1 100 times -> ping -n 100 192.168.0.1
+Move myfile to dir1 -> put myfile dir1
+Recursively copy dir1 to dir5 -> put -r dir1 dir5
+Copy myfile to /home/user/dir1 -> put myfile /home/user/dir1
+Copy myfile with preserve mode -> put -p myfile dir1
+Print current directory. -> pwd
+Print symbolic path. -> pwd -L
+Print physical path. -> pwd -P
+Print directory path. -> pwd /home/user
+remove my_file.txt. -> rm my_file.txt
+remove mydirectory and its contents recursively. -> rm -r mydirectory
+remove myfile.txt forcefully. -> rm -f myfile.txt
+remove a directory and its contents recursively forcefully. -> rm -rf directory
+Remove directory last. -> rmdir last
+Remove directory foobar. -> rmdir foobar/
+Remove directory dir1 verbosely. -> rmdir -v dir1
+Remove directory myproj1. -> rmdir myproj1/
+Connect to myhost with myuser -> ssh myuser@myhost
+Generate RSA key pair -> ssh-keygen -t rsa
+Copy public key to host -> ssh-copy-id user@host
+Enable X11 forwarding -> ssh -X user@host
+Display status of Documents directory -> stat /home/user/Documents
+Display status of passwd file -> stat /etc/passwd
+Display status of syslog file -> stat /var/log/syslog
+Display custom status format of file.txt in tmp directory -> "stat -c ""%n %s %Y"" /tmp/file.txt"
+Follow symbolic links to display status of syslog file -> stat -L /var/log/syslog
+Display status of all files in log directory in a terse format -> stat -t /var/log
+Display system information. -> top
+Batch mode, keep updating. -> top -b
+Command line show. -> top -c
+Delay between updates. -> top -d
+create empty file -> touch file.txt
+create empty directory -> touch folder/
+change file access time -> touch -a file.txt
+change file modification time -> touch -m file.txt
+Display directory tree -> tree
+Display hidden files -> tree -a
+Display directories only -> tree -d
+Display one level of directories -> tree -L 1

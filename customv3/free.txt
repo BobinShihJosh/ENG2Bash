@@ -1,0 +1,62 @@
+1. free -> Display system memory.
+2. free -m -> Display memory in megabytes.
+3. free -g -> Display memory in gigabytes.
+4. free -t -> Display total and used memory.
+5. free -h -> Display human-readable memory usage.
+6. free -s 5 -> Display memory usage every 5 seconds.
+7. free -c 3 -> Do memory usage measurement for 3 times.
+8. free -o -> Display memory in bytes.
+9. free -b -> Same as "-o".
+10. free -w -> Display wide output.
+11. free -k -> Same as "-o".
+12. free -l -> Display detailed low level memory.
+13. free -V -> Display version information.
+14. free /home/user/file1 -> Display free space on file system "/home/user/file1".
+15. free /home/user -> Display free space on file system "/home/user".
+16. free . -> Display free space on current directory.
+17. free --si -> Display memory in powers of 1000.
+18. free --sync -> Drop caches before free memory measurement.
+19. free --help -> Display help information of command "free".
+20. free --version -> Display version information of command "free".
+21. free -h /home/user/file2 -> Same as "free /home/user/file2", but with human-readable output.
+22. free -t /home/user -> Same as "free /home/user", but with total and used memory displayed.
+23. free -s 10 -c 5 -> Display memory usage every 10 seconds for 5 times.
+24. free -b /home/user/file3 -> Same as "free /home/user/file3", but with memory displayed in bytes.
+25. free -l /home/user -> Same as "free /home/user", but with detailed low level memory information.
+26. free -mg -> Same as "free -m", but with memory displayed in gigabytes. 
+27. free -h . -> Same as "free .", but with human-readable output.
+28. free -t . -> Same as "free .", but with total and used memory displayed.
+29. free -gh /home/user -> Same as "free -g /home/user", but with memory displayed in human-readable format.
+30. free -s 30 -c 10 /home/user/file4 -> Display memory usage every 30 seconds for 10 times on file system "/home/user/file4".
+31. free -oh /home/user -> Same as "free -o /home/user", but with human-readable output.
+32. free -m /home/user/file5 -> Same as "free /home/user/file5", but with memory displayed in megabytes.
+33. free -tgh /home/user -> Same as "free -tg /home/user", but with total and used memory displayed in human-readable format.
+34. free -b . -> Same as "free .", but with memory displayed in bytes.
+35. free -h /home/user/file6 /home/user/file7 -> Same as "free /home/user/file6 /home/user/file7", but with human-readable output.
+36. free -s 20 /home/user/file8 /home/user/file9 -> Display memory usage every 20 seconds on file systems "/home/user/file8" and "/home/user/file9".
+37. free -t /home/user/file10 /home/user/file11 -> Same as "free /home/user/file10 /home/user/file11", but with total and used memory displayed.
+38. free -oh /home/user/file12 /home/user/file13 -> Same as "free -o /home/user/file12 /home/user/file13", but with human-readable output.
+39. free -lgh /home/user -> Same as "free -lg /home/user", but with detailed low level memory information along with human-readable memory.
+40. free -b /home/user/file14 /home/user/file15 -> Same as "free /home/user/file14 /home/user/file15", but with memory displayed in bytes.
+41. free -tm -> Same as "free -t", but with memory displayed in megabytes.
+42. free -tg -> Same as "free -t", but with memory displayed in gigabytes.
+43. free -s 15 /home/user/file16 /home/user/file17 /home/user/file18 -> Display memory usage every 15 seconds on file systems "/home/user/file16", "/home/user/file17", and "/home/user/file18".
+44. free -oh /home/user/file19 /home/user/file20 /home/user/file21 -> Same as "free -o /home/user/file19 /home/user/file20 /home/user/file21", but with human-readable output.
+45. free -lgh . -> Same as "free -lg .", but for the current directory.
+46. free -h /home/user/file22 /home/user/file23 /home/user/file24 -> Same as "free /home/user/file22 /home/user/file23 /home/user/file24", but with human-readable output.
+47. free -tgh /home/user/file25 /home/user/file26 -> Same as "free -tg /home/user/file25 /home/user/file26", but with total and used memory displayed in human-readable format.
+48. free -oh /home/user/file27 /home/user/file28 /home/user/file29 /home/user/file30 -> Same as "free -o /home/user/file27 /home/user/file28 /home/user/file29 /home/user/file30", but with human-readable output.
+49. free -s 25 /home/user/file31 /home/user/file32 /home/user/file33 /home/user/file34 -> Display memory usage every 25 seconds on file systems "/home/user/file31", "/home/user/file32", "/home/user/file33", and "/home/user/file34".
+50. free -h /home/user/file35 /home/user/file36 /home/user/file37 /home/user/file38 -> Same as "free /home/user/file35 /home/user/file36 /home/user/file37 /home/user/file38", but with human-readable output.
+51. free -tgh /home/user/file39 /home/user/file40 /home/user/file41 -> Same as "free -tg /home/user/file39 /home/user/file40 /home/user/file41", but with total and used memory displayed in human-readable format.
+52. free -oh /home/user/file42 /home/user/file43 /home/user/file44 /home/user/file45 -> Same as "free -o /home/user/file42 /home/user/file43 /home/user/file44 /home/user/file45", but with human-readable output.
+53. free -s 30 /home/user/file46 /home/user/file47 /home/user/file48 /home/user/file49 /home/user/file50 -> Display memory usage every 30 seconds on file systems "/home/user/file46", "/home/user/file47", "/home/user/file48", "/home/user/file49", and "/home/user/file50".
+54. free -h /home/user/file51 /home/user/file52 /home/user/file53 /home/user/file54 /home/user/file55 -> Same as "free /home/user/file51 /home/user/file52 /home/user/file53 /home/user/file54 /home/user/file55", but with human-readable output.
+55. free -tgh /home/user/file56 /home/user/file57 /home/user/file58 /home/user/file59 -> Same as "free -tg /home/user/file56 /home/user/file57 /home/user/file58 /home/user/file59", but with total and used memory displayed in human-readable format.
+56. free -oh /home/user/file60 /home/user/file61 /home/user/file62 /home/user/file63 /home/user/file64 -> Same as "free -o /home/user/file60 /home/user/file61 /home/user/file62 /home/user/file63 /home/user/file64", but with human-readable output.
+57. free -s 35 /home/user/file65 /home/user/file66 /home/user/file67 /home/user/file68 /home/user/file69 /home/user/file70 -> Display memory usage every 35 seconds on file systems "/home/user/file65", "/home/user/file66", "/home/user/file67", "/home/user/file68", "/home/user/file69", and "/home/user/file70".
+58. free -h /home/user/file71 /home/user/file72 /home/user/file73 /home/user/file74 /home/user/file75 /home/user/file76 -> Same as "free /home/user/file71 /home/user/file72 /home/user/file73 /home/user/file74 /home/user/file75 /home/user/file76", but with human-readable output.
+59. free -tgh /home/user/file77 /home/user/file78 /home/user/file79 /home/user/file80 /home/user/file81 -> Same as "free -tg /home/user/file77 /home/user/file78 /home/user/file79 /home/user/file80 /home/user/file81", but with total and used memory displayed in human-readable format.
+60. free -oh /home/user/file82 /home/user/file83 /home/user/file84 /home/user/file85 /home/user/file86 /home/user/file87 -> Same as "free -o /home/user/file82 /home/user/file83 /home/user/file84 /home/user/file85 /home/user/file86 /home/user/file87", but with human-readable output.
+61. free -s 40 /home/user/file88 /home/user/file89 /home/user/file90 /home/user/file91 /home/user/file92 /home/user/file93 /home/user/file94 -> Display memory usage every 40 seconds on file systems "/home/user/file88", "/home/user/file89", "/home/user/file90", "/home/user/file91", "/home/user/file92", "/home/user/file93", and "/home/user/file94".
+62. free -h /home/user/file95 /home/user/file96 /home/user/file97 /home/user/file98 /home/user/file99 /home/user/file100 -> Same as "free /home/user/file95 /home/user/file96 /home/user/file97 /home/user/file98 /home/user/file99 /home/user/file100", but with human-readable output.

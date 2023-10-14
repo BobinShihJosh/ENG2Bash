@@ -1,0 +1,66 @@
+1. mkdir mydir -> Create directory named mydir
+2. mkdir dir1/ -> Create directory named dir1 inside current directory
+3. mkdir -p dir1/dir2 -> Create directory dir1 with subdirectory dir2
+4. mkdir -m 775 mydir -> Create directory mydir with permissions set to 775
+5. mkdir mydir1 mydir2 -> Create directories mydir1 and mydir2
+6. mkdir -v mydir -> Create directory mydir with verbose output
+7. mkdir -p dir1/dir2/dir3 -> Create directory dir1 with subdirectories dir2 and dir3
+8. mkdir -m 777 mydir -> Create directory mydir with permissions set to 777
+9. mkdir -v dir1 dir2 dir3 -> Create directories dir1, dir2, and dir3 with verbose output
+10. mkdir mydir && cd mydir -> Create directory mydir and change to it
+11. mkdir -p dir1/{dir2,dir3} -> Create directory dir1 with subdirectories dir2 and dir3
+12. mkdir -m 600 mydir -> Create directory mydir with permissions set to 600
+13. mkdir -v dir{1..3} -> Create directories dir1, dir2, and dir3 with verbose output
+14. mkdir -p dir1/dir2/{dir3,dir4} -> Create directory dir1 with subdirectory dir2 and its subdirectories dir3 and dir4
+15. mkdir -m 644 mydir -> Create directory mydir with permissions set to 644
+16. mkdir -v mydir{1..3} -> Create directories mydir1, mydir2, and mydir3 with verbose output
+17. mkdir -p dir1/dir2/dir3/dir4 -> Create directory dir1 with subdirectories dir2, dir3, and dir4
+18. mkdir -m 400 mydir -> Create directory mydir with permissions set to 400
+19. mkdir -v dir{a,b,c} -> Create directories dira, dirb, and dirc with verbose output
+20. mkdir -p dir1/dir2/dir3/dir4/dir5 -> Create directory dir1 with subdirectories dir2, dir3, dir4, and dir5
+21. mkdir -m 666 mydir -> Create directory mydir with permissions set to 666
+22. mkdir -v mydir/{dir1,dir2} -> Create directories dir1 and dir2 inside mydir with verbose output
+23. mkdir mydir1 mydir2 mydir3 -> Create directories mydir1, mydir2, and mydir3
+24. mkdir -p dir1/dir2/dir3/{dir4,dir5} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, and its subdirectories dir4 and dir5
+25. mkdir -m 744 mydir -> Create directory mydir with permissions set to 744
+26. mkdir -v mydir{1..3}/{dir1,dir2} -> Create directories dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output
+27. mkdir -p dir1/dir2/dir3/{dir4,dir5,dir6} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, and its subdirectories dir4, dir5, and dir6
+28. mkdir -m 700 mydir -> Create directory mydir with permissions set to 700
+29. mkdir -v mydir/{dir1,dir2,dir3} -> Create directories dir1, dir2, and dir3 inside mydir with verbose output
+30. mkdir -p dir1/dir2/{dir3/{dir4,dir5},dir6} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, and its subdirectories dir4, dir5, and dir6
+31. mkdir -m 755 mydir -> Create directory mydir with permissions set to 755
+32. mkdir -v mydir{1..3}/dir1 -> Create directory dir1 inside mydir1, mydir2, and mydir3 with verbose output
+33. mkdir -p dir1/dir2/{dir3/{dir4,dir5/{dir6,dir7}},dir8} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, and its subdirectories dir4, dir5, dir6, dir7, and dir8
+34. mkdir -m 600 mydir1 mydir2 -> Create directories mydir1 and mydir2 with permissions set to 600
+35. mkdir -v mydir/{dir1,dir2,dir3}/subdir -> Create subdirectory subdir inside dir1, dir2, and dir3 inside mydir with verbose output
+36. mkdir -p dir1/{dir2/dir3/dir4,dir5/dir6} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, and subdirectory dir5 with its subdirectory dir6
+37. mkdir -m 700 mydir1 mydir2 mydir3 -> Create directories mydir1, mydir2, and mydir3 with permissions set to 700
+38. mkdir -v mydir{1..3}/{dir1,dir2}/subdir -> Create subdirectory subdir inside dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output
+39. mkdir -p dir1/{dir2/{dir3/{dir4,dir5},dir6},dir7/dir8} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectories dir4 and dir5, its subdirectory dir6, and subdirectory dir7 with its subdirectory dir8
+40. mkdir -m 644 mydir1 mydir2 mydir3 -> Create directories mydir1, mydir2, and mydir3 with permissions set to 644
+41. mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2 -> Create subdirectories subdir1 and subdir2 inside dir1, dir2, and dir3 inside mydir with verbose output
+42. mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9}}}},dir10} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, its subdirectory dir5, its subdirectory dir6, its subdirectory dir7, its subdirectories dir8 and dir9, and subdirectory dir10
+43. mkdir -m 750 mydir1 mydir2 mydir3 -> Create directories mydir1, mydir2, and mydir3 with permissions set to 750
+44. mkdir -v mydir{1..3}/{dir1,dir2}/subdir1/subdir2 -> Create subdirectories subdir1 and subdir2 inside dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output
+45. mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11}}}}},dir12} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, its subdirectory dir5, its subdirectory dir6, its subdirectory dir7, its subdirectories dir8, dir9, dir10, and dir11, and subdirectory dir12
+46. mkdir -m 755 mydir1 mydir2 mydir3 mydir4 -> Create directories mydir1, mydir2, mydir3, and mydir4 with permissions set to 755
+47. mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3 -> Create subdirectories subdir1, subdir2, and subdir3 inside dir1, dir2, and dir3 inside mydir with verbose output
+48. mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13}}}}}},dir14} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, its subdirectory dir5, its subdirectory dir6, its subdirectory dir7, its subdirectories dir8, dir9, dir10, dir11, dir12, and dir13, and subdirectory dir14
+49. mkdir -m 700 mydir1 mydir2 mydir3 mydir4 -> Create directories mydir1, mydir2, mydir3, and mydir4 with permissions set to 700
+50. mkdir -v mydir{1..3}/{dir1,dir2}/subdir1/subdir2/subdir3 -> Create subdirectories subdir1, subdir2, and subdir3 inside dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output
+51. mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15}}}}}}},dir16} -> Create directory dir1 with subdirectory dir2, its subdirectory dir3, its subdirectory dir4, its subdirectory dir5, its subdirectory dir6, its subdirectory dir7, its subdirectories dir8, dir9, dir10, dir11, dir12, dir13, dir14, and dir15, and subdirectory dir16
+52. mkdir -m 600 mydir1 mydir2 mydir3 mydir4 -> Create directories mydir1, mydir2, mydir3, and mydir4 with permissions set to 600
+53. mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3/subdir4 -> Create subdirectories subdir1, subdir2, subdir3, and subdir4 inside dir1, dir2, and dir3 inside mydir with verbose output
+54. mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15/{dir16,dir17}}}}}}}}/{dir18,dir19}} -> Create directory dir1 with its subdirectory dir2 and its subdirectory dir3, its subdirectories dir4, dir5, dir6, dir7, dir8, dir9, dir10, dir11, dir12, dir13, dir14, dir15, dir16, and dir17, and their subdirectories dir18 and dir19
+55. mkdir -m 644 mydir1 mydir2 mydir3 mydir4 mydir5 -> Create directories mydir1, mydir2, mydir3, mydir4, and mydir5 with permissions set to 644
+56. mkdir -v mydir{1..3}/{dir1,dir2}/subdir1/subdir2/subdir3/subdir4 -> Create subdirectories subdir1, subdir2, subdir3, and subdir4 inside dir1 and dir2 inside mydir1, mydir2, and mydir3 with verbose output
+57. mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15/{dir16,dir17/{dir18,dir19}}}}}}}}}} -> Create directory dir1 with its subdirectory dir2 and its subdirectory dir3, its subdirectories dir4, dir5, dir6, dir7, dir8, dir9, dir10, dir11, dir12, dir13, dir14, dir15, dir16, dir17, dir18, and dir19
+58. mkdir -m 700 mydir1 mydir2 mydir3 mydir4 mydir5 -> Create directories mydir1, mydir2, mydir3, mydir4, and mydir5 with permissions set to 700
+59. mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3/subdir4/subdir5 -> Create subdirectories subdir1, subdir2, subdir3, subdir4, and subdir5 inside dir1, dir2, and dir3 inside mydir with verbose output
+60. mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15/{dir16,dir17/{dir18,dir19/{dir20,dir21}}}}}}}}}}}} -> Create directory dir1 with its subdirectory dir2 and its subdirectory dir3, its subdirectories dir4, dir5, dir6, dir7, dir8, dir9, dir10, dir11, dir12, dir13, dir14, dir15, dir16, dir17, dir18, dir19, dir20, and dir21
+61. mkdir -m 750 mydir1 mydir2 mydir3 mydir4 mydir5 -> Create directories mydir1, mydir2, mydir3, mydir4, and mydir5 with permissions set to 750
+62. mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3/subdir4/subdir5/subdir6 -> Create subdirectories subdir1, subdir2, subdir3, subdir4, subdir5, and subdir6 inside dir1, dir2, and dir3 inside mydir with verbose output
+63. mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15/{dir16,dir17/{dir18,dir19/{dir20,dir21/{dir22,dir23}}}}}}}}}}}}} -> Create directory dir1 with its subdirectory dir2 and its subdirectory dir3, its subdirectories dir4, dir5, dir6, dir7, dir8, dir9, dir10, dir11, dir12, dir13, dir14, dir15, dir16, dir17, dir18, dir19, dir20, dir21, dir22, and dir23
+64. mkdir -m 644 mydir1 mydir2 mydir3 mydir4 mydir5 mydir6 -> Create directories mydir1, mydir2, mydir3, mydir4, mydir5, and mydir6 with permissions set to 644
+65. mkdir -v mydir/{dir1,dir2,dir3}/subdir1/subdir2/subdir3/subdir4/subdir5/subdir6/subdir7 -> Create subdirectories subdir1, subdir2, subdir3, subdir4, subdir5, subdir6, and subdir7 inside dir1, dir2, and dir3 inside mydir with verbose output
+66. mkdir -p dir1/{dir2/{dir3/{dir4,dir5/{dir6,dir7/{dir8,dir9/{dir10,dir11/{dir12,dir13/{dir14,dir15/{dir16,dir17/{dir18,dir19/{dir20,dir21/{dir22,dir23/{dir24

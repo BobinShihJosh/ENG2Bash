@@ -1,0 +1,39 @@
+1. free -> Display memory usage information
+2. free -h -> Display memory usage information in human-readable format
+3. free -k -> Display memory usage information in kilobytes
+4. free -m -> Display memory usage information in megabytes
+5. free -g -> Display memory usage information in gigabytes
+6. free -t -> Display total memory usage information
+7. free -s 10 -> Display memory usage information every 10 seconds
+8. free -c 5 -> Display memory usage information 5 times
+9. free -w -> Display wide output of memory usage information
+10. free -l -> Display detailed low-level memory usage information
+11. free -o -> Display memory usage information in old format
+12. free -V -> Display the version number of the free command
+13. free -h -t -> Display total memory usage information in human-readable format
+14. free -h -s 10 -> Display memory usage information every 10 seconds in human-readable format
+15. free -m -t -> Display total memory usage information in megabytes
+16. free -g -t -> Display total memory usage information in gigabytes
+17. free -w -t -> Display total memory usage information in wide output format
+18. free -h -l -> Display detailed low-level memory usage information in human-readable format
+19. free -o -t -> Display total memory usage information in old format
+20. free -h --si -> Display memory usage information using SI units
+21. free -m --si -> Display memory usage information in megabytes using SI units
+22. free -g --si -> Display memory usage information in gigabytes using SI units
+23. free -t -k -> Display total memory usage information in kilobytes
+24. free -t -m -> Display total memory usage information in megabytes
+25. free -t -g -> Display total memory usage information in gigabytes
+26. free -s 5 -c 3 -> Display memory usage information every 5 seconds, 3 times
+27. free -w -o -> Display memory usage information in wide output and old format
+28. free -h -t --si -> Display total memory usage information in human-readable format using SI units
+29. free -m -t --si -> Display total memory usage information in megabytes using SI units
+30. free -g -t --si -> Display total memory usage information in gigabytes using SI units
+31. free -h -l -t -> Display detailed low-level total memory usage information in human-readable format
+32. free -h -o -t -> Display total memory usage information in human-readable format using old format
+33. free -h -s 30 -c 5 -> Display memory usage information every 30 seconds, 5 times in human-readable format
+34. free -m -s 5 -c 3 -> Display memory usage information every 5 seconds, 3 times in megabytes
+35. free -g -s 10 -c 2 -> Display memory usage information every 10 seconds, 2 times in gigabytes
+36. free -w -t -l -> Display detailed low-level total memory usage information in wide output format
+37. free -h -t -o -> Display total memory usage information in human-readable format using old format
+38. free -s 10 -c 3 -w -> Display memory usage information every 10 seconds, 3 times in wide output format
+39. free -h -t -l --si -> Display detailed low-level total memory usage information

@@ -1,0 +1,389 @@
+ls
+ls
+ls
+ls
+ls
+ls
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -R
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -a
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+ls -al
+cd~
+cd~
+cd~
+cd~
+cd~
+cd~
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd folder1
+cd folder1
+cd folder1
+cd folder1
+cd folder1
+cd folder1
+cd /
+cd /
+cd /
+cd /
+cd /
+cd /
+cat > filename
+cat > filename
+cat > filename
+cat > filename
+cat > filename
+cat > filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat filename
+cat file1 file2 > file3
+cat file1 file2 > file4
+cat file1 file2 > file5
+cat file1 file2 > file6
+cat file1 file2 > file7
+cat file1 file2 > file8
+mv file "new file path"
+mv file "new file path"
+mv file "new file path"
+mv file "new file path"
+mv file "new file path"
+mv file "new file path"
+mv filename new_file_name
+mv filename new_file_name
+mv filename new_file_name
+mv filename new_file_name
+mv filename new_file_name
+mv filename new_file_name
+sudo
+sudo
+sudo
+sudo
+sudo
+sudo
+rm filename
+rm filename
+rm filename
+rm filename
+rm filename
+rm filename
+man
+man
+man
+man
+man
+man
+history
+history
+history
+history
+history
+history
+clear
+clear
+clear
+clear
+clear
+clear
+mkdir directoryname
+mkdir directoryname
+mkdir directoryname
+mkdir directoryname
+mkdir directoryname
+mkdir directoryname
+rmdir directoryname
+rmdir directoryname
+rmdir directoryname
+rmdir directoryname
+rmdir directoryname
+rmdir directoryname
+mv
+mv
+mv
+mv
+mv
+mv
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -x
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -h
+pr -n
+pr -n
+pr -n
+pr -n
+pr -n
+pr -n
+lp -nc
+lp -nc
+lp -nc
+lp -nc
+lp -nc
+lpr c
+lpr c
+lpr c
+lpr c
+lpr c
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+apt-get install package_name
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+ls -l
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod rw filename
+chmod r filename
+chmod r filename
+chmod r filename
+chmod r filename
+chmod r filename
+chmod w filename
+chmod w filename
+chmod w filename
+chmod w filename
+chmod w filename
+chmod x filename
+chmod x filename
+chmod x filename
+chmod x filename
+chmod x filename
+chmod -= filename
+chmod -= filename
+chmod -= filename
+chmod -= filename
+chmod -= filename
+Chown user
+Chown user
+Chown user
+Chown user
+Chown user
+Chown user
+Chown user:group filename
+Chown user:group filename
+Chown user:group filename
+Chown user:group filename
+Chown user:group filename
+Chown user:group filename
+Chown user:group filename
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+echo $VARIABLE
+env
+env
+env
+env
+env
+env
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+VARIABLE_NAME= variable_value
+Unset
+Unset
+Unset
+Unset
+Unset
+Unset
+Unset
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+export Variable=value
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo adduser username
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo passwd -l 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo userdel -r 'username'
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo usermod -a -G GROUPNAME USERNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+sudo deluser USER GROUPNAME
+finger
+finger
+finger
+finger
+finger
+finger
+finger username
+finger username
+finger username
+finger username
+finger username
+finger username
+SSH username@ip-address
+SSH username@ip-address
+SSH username@ip-address
+SSH username@ip-address
+SSH username@ip-address
+SSH username@ip-address
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+Ping hostname="sample_hostname"
+dir
+dir
+dir
+dir
+dir
+dir
+cd "dirname"
+cd "dirname"
+cd "dirname"
+cd "dirname"
+cd "dirname"
+cd "dirname"
+put file
+put file
+put file
+put file
+put file
+put file
+get file
+get file
+get file
+get file
+get file
+get file
+quit
+quit
+quit
+quit
+quit
+quit
+bg
+bg
+bg
+bg
+bg
+bg
+fg
+fg
+fg
+fg
+fg
+fg
+top
+top
+top
+top
+top
+top
+ps
+ps
+ps
+ps
+ps
+ps
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+ps PID
+pidof
+pidof
+pidof
+pidof
+pidof
+pidof
+kill PID
+kill PID
+kill PID
+kill PID
+kill PID
+kill PID
+nice
+nice
+nice
+nice
+nice
+nice
+renice
+renice
+renice
+renice
+renice
+renice
+df
+df
+df
+df
+df
+df
+free
+free
+free
+free
+free
+free

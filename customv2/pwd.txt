@@ -1,0 +1,5 @@
+1. pwd -> Print the current working directory.
+2. pwd -L -> Print the logical current working directory (default behavior).
+3. pwd -P -> Print the physical current working directory, with symbolic links resolved.
+4. pwd --help -> Display the help message for the pwd command.
+5. pwd --version -> Display the version information for the pwd command.

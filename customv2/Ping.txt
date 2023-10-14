@@ -1,0 +1,29 @@
+1. ping www.google.com -> Ping the website www.google.com
+2. ping -c 3 www.yahoo.com -> Ping the website www.yahoo.com three times
+3. ping -s 1000 www.amazon.com -> Ping the website www.amazon.com with a packet size of 1000 bytes
+4. ping -w 10 www.facebook.com -> Ping the website www.facebook.com for 10 seconds
+5. ping -n www.reddit.com -> Ping the website www.reddit.com continuously until stopped
+6. ping -R www.netflix.com -> Ping the website www.netflix.com and record route information
+7. ping -f www.twitter.com -> Flood ping the website www.twitter.com with as many packets as possible
+8. ping -l 500 www.ebay.com -> Ping the website www.ebay.com with a packet size of 500 bytes
+9. ping -i 2 www.twitch.tv -> Ping the website www.twitch.tv every 2 seconds
+10.ping -q www.microsoft.com -> Quietly ping the website www.microsoft.com and only display summary information
+11.ping -v www.apple.com -> Verbose ping the website www.apple.com and display detailed information
+12.ping -t 5 www.spotify.com -> Ping the website www.spotify.com and set the Time To Live (TTL) to 5
+13.ping -A www.paypal.com -> Audible ping the website www.paypal.com when a packet is received
+14.ping -B www.youtube.com -> Broadcast ping the website www.youtube.com to all hosts on the local network
+15.ping -D www.github.com -> Debug ping the website www.github.com and display debugging information
+16.ping -E www.linkedin.com -> Extend ping the website www.linkedin.com and send large packets
+17.ping -F www.dropbox.com -> Fragment ping the website www.dropbox.com and send fragmented packets
+18.ping -G www.pinterest.com -> Generate ping the website www.pinterest.com and generate an ICMP echo request message
+19.ping -H www.stackoverflow.com -> Use the ICMP Host Unreachable message when pinging the website www.stackoverflow.com
+20.ping -I eth0 www.outlook.com -> Use the network interface eth0 when pinging the website www.outlook.com
+21.ping -J 192.168.1.1 www.gmail.com -> Loose source route ping the website www.gmail.com through the host at 192.168.1.1
+22.ping -K www.yahoo.co.jp -> Keep alive ping the website www.yahoo.co.jp and continue pinging until manually stopped
+23.ping -L www.yelp.com -> Use the ICMP Time Exceeded message when pinging the website www.yelp.com
+24.ping -M do www.bing.com -> Use the "Do Not Fragment" flag when pinging the website www.bing.com
+25.ping -N www.medium.com -> Use the "No Fragmentation" flag when pinging the website www.medium.com
+26.ping -O www.quora.com -> Use the "Record Route" option when pinging the website www.quora.com
+27.ping -P www.instagram.com -> Use the "Timestamp" option when pinging the website www.instagram.com
+28.ping -Q 10 www.tumblr.com -> Set the Type of Service (TOS) to 10 when pinging the website www.tumblr.com
+29.ping -S 192.168.1.2 www.wikipedia.org -> Use the source IP address 192.168.1.2 when pinging the website www.wikipedia.org

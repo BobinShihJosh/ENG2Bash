@@ -1,0 +1,96 @@
+1. mktemp newfile -> Creates a new temporary file with "newfile" prefix.
+2. mktemp test-dir -> Creates a temporary directory with "test-dir" prefix.
+3. mktemp -p /tmp/ file -> Creates a new temporary file with "file" prefix in the /tmp/ directory.
+4. mktemp -d /var/tmp/ -> Creates a new temporary directory in the /var/tmp/ directory.
+5. mktemp /home/user/test -> Creates a new temporary file with "test" prefix in the /home/user/ directory.
+6. mktemp -u newfile -> Creates a new temporary file with "newfile" prefix and displays the file name without creating it.
+7. mktemp --dry-run newfile -> Displays the file name that will be created with "newfile" prefix without creating it.
+8. mktemp -t -> Creates a new temporary file in the system temporary directory with a random name.
+9. mktemp --suffix .txt test -> Creates a new temporary file with "test" prefix and ".txt" suffix.
+10. mktemp -q /tmp/newfile -> Creates a new temporary file with "newfile" prefix and suppresses output messages.
+11. mktemp -p ~/test-dir/ temp -> Creates a new temporary file with "temp" prefix in the ~/test-dir/ directory.
+12. mktemp --tmpdir=/mnt/data-dir/ -> Creates a new temporary file in the /mnt/data-dir/ directory.
+13. mktemp -p /var/tmp/ -t -> Creates a new temporary file in the /var/tmp/ directory with a random name.
+14. mktemp test-XXXX -> Creates a new temporary file with "test-" prefix and a unique suffix.
+15. mktemp -d /tmp/testdir-XXXX -> Creates a new temporary directory with "testdir-" prefix and a unique suffix.
+16. mktemp -u /tmp/tmp.XXXXXXXXXX -> Creates a new temporary file with a unique name and displays its name without creating it.
+17. mktemp --suffix=.bak backup -> Creates a new temporary file with "backup" prefix and ".bak" suffix.
+18. mktemp -d --tmpdir=/mnt/data-dir/ -> Creates a new temporary directory in the /mnt/data-dir/ directory.
+19. mktemp -d -p ~/test/ tempdir-XXXX -> Creates a new temporary directory with "tempdir-" prefix and a unique suffix in the ~/test/ directory.
+20. mktemp /tmp/archive-XXXXXX.tar.gz -> Creates a new temporary file with "archive-" prefix and a unique suffix with ".tar.gz" extension in the /tmp/ directory.
+21. mktemp -t --suffix=.log -> Creates a new temporary file in the system temporary directory with a random name and ".log" suffix.
+22. mktemp -p ~/test/backup/ backup-XXXXXX -> Creates a new temporary file with "backup-" prefix and a unique suffix in the ~/test/backup/ directory.
+23. mktemp -u --suffix=.bak backup -> Creates a new temporary file with "backup" prefix and ".bak" suffix and displays the file name without creating it.
+24. mktemp -d -t -> Creates a new temporary directory in the system temporary directory with a random name.
+25. mktemp -p /var/tmp/ -u progname_XXXXXXXXXX -> Creates a new temporary file with "progname_" prefix, a unique suffix and displays the file name without creating it in the /var/tmp/ directory.
+26. mktemp -p /tmp/newdir-XXXX -d -> Creates a new temporary directory with "newdir-" prefix and a unique suffix in the /tmp/ directory.
+27. mktemp --directory -> Creates a new temporary directory in the current directory with a random name.
+28. mktemp -t -d /var/tmp/ -> Creates a new temporary directory in the /var/tmp/ directory with a random name.
+29. mktemp -p /tmp/ -t -d -> Creates a new temporary directory in the /tmp/ directory with a random name.
+30. mktemp --suffix=_temp --directory -> Creates a new temporary directory in the current directory with "_temp" suffix.
+31. mktemp -q -p ~/test/ -t temp_XXXXXX -> Creates a new temporary file with "temp_" prefix and a unique suffix and suppresses output messages in the ~/test/ directory.
+32. mktemp --tmpdir=/mnt/dir/ -d -t archive-XXXXXX -> Creates a new temporary directory with "archive-" prefix and a unique suffix in the /mnt/dir/ directory.
+33. mktemp -u -t /mnt/data.XXXXXXXXXX -> Creates a new temporary file with a unique name and displays its name without creating it in the /mnt/ directory.
+34. mktemp test-XXXXX --tmpdir=/mnt/tmp/ -> Creates a new temporary file with "test-" prefix and a unique suffix in the /mnt/tmp/ directory.
+35. mktemp -p /var/tmp/ -t -u testfileXXXXXX -> Creates a new temporary file with "testfile" prefix, a unique suffix and displays the file name without creating it in the /var/tmp/ directory.
+36. mktemp --suffix=.txt -t -d /mnt/tempdir/ -> Creates a new temporary directory with a random name and ".txt" suffix in the /mnt/tempdir/ directory.
+37. mktemp -u --tmpdir=/mnt/backup/ back-XXXXXX -> Creates a new temporary file with "back-" prefix and a unique suffix and displays the file name without creating it in the /mnt/backup/ directory.
+38. mktemp -d /tmp/test-XXXXX-d -> Creates a new temporary directory with "test-" prefix and a unique suffix with "-d" suffix in the /tmp/ directory.
+39. mktemp -p /var/tmp/ --dry-run --tmpdir=/mnt/data/ filename.XXXXXX -> Displays the file name that will be created with "filename" prefix and a unique suffix without creating it in the /var/tmp/ directory.
+40. mktemp -t -d --tmpdir=/mnt/logs/ -> Creates a new temporary directory in the /mnt/logs/ directory with a random name.
+41. mktemp -p /home/user/ -u .config_XXXXXXXXXXXX -> Creates a new temporary file with ".config_" prefix and a unique suffix and displays the file name without creating it in the /home/user/ directory.
+42. mktemp --suffix=.txt -d --tmpdir=/mnt/temp-data/ tempdir-XXXXXX -> Creates a new temporary directory with "tempdir-" prefix and a unique suffix with ".txt" suffix in the /mnt/temp-data/ directory.
+43. mktemp -t -d --directory -> Creates a new temporary directory in the system temporary directory with a random name.
+44. mktemp --suffix=_test -t -d --tmpdir=/tmp/ -> Creates a new temporary directory with a random name and "_test" suffix in the /tmp/ directory.
+45. mktemp -p /var/tmp/ -u --suffix=.log appfile -> Creates a new temporary file with "appfile" prefix, ".log" suffix and displays the file name without creating it in the /var/tmp/ directory.
+46. mktemp -u -d ~/backup.XXXXXXXXXX -> Creates a new temporary directory with a unique name and displays its name without creating it in the ~/ directory.
+47. mktemp --directory --suffix=__data --tmpdir=/mnt/temp/ -> Creates a new temporary directory in the /mnt/temp/ directory with "__data" suffix.
+48. mktemp -u -p /var/tmp/ app-XXXXXX -> Creates a new temporary file with "app-" prefix and a unique suffix and displays the file name without creating it in the /var/tmp/ directory.
+49. mktemp --suffix=.txt -p ~/test/ -d -t temp -> Creates a new temporary directory with "temp" prefix and ".txt" suffix in the ~/test/ directory with a random name.
+50. mktemp -t -d -p /mnt/ -> Creates a new temporary directory in the /mnt/ directory with a random name.
+51. mktemp -d --directory --suffix=_log -> Creates a new temporary directory in the current directory with "_log" suffix.
+52. mktemp -p ~/test/ -t -u data_XXXXXXXX -> Creates a new temporary file with "data_" prefix and a unique suffix and displays the file name without creating it in the ~/test/ directory.
+53. mktemp -p /tmp/ --suffix=.txt --tmpdir=/mnt/ testfile -> Creates a new temporary file with "testfile" prefix and ".txt" suffix in the /mnt/ directory.
+54. mktemp -t /home/user/logfile_XXXXXX -> Creates a new temporary file with "logfile_" prefix and a unique suffix in the /home/user/ directory.
+55. mktemp --directory --tmpdir=/mnt/tempdata/ tempdata-XXXXXX-d -> Creates a new temporary directory with "tempdata-" prefix, a unique suffix and "-d" suffix in the /mnt/tempdata/ directory.
+56. mktemp -d -u --tmpdir=/mnt/backup/ backup -> Creates a new temporary directory with "backup" prefix and a unique suffix and displays the directory name without creating it in the /mnt/backup/ directory.
+57. mktemp --suffix=.txt --dry-run -t testdata -> Displays the file name that will be created with "testdata" prefix and ".txt" suffix without creating it in the system temporary directory.
+58. mktemp -d -t --suffix=_logs --tmpdir=/mnt/logs/ -> Creates a new temporary directory with a random name and "_logs" suffix in the /mnt/logs/ directory.
+59. mktemp -u -d /mnt/data_XXXXXXXXXX -> Creates a new temporary directory with "/mnt/data_" prefix and a unique suffix and displays the directory name without creating it.
+60. mktemp -p ~/test/ -t -u datafile_XXXXXX -> Creates a new temporary file with "datafile_" prefix and a unique suffix and displays the file name without creating it in the ~/test/ directory.
+61. mktemp --suffix=.txt -d -p /mnt/ -u testfile -> Creates a new temporary file with "testfile" prefix, ".txt" suffix and displays the file name without creating it in the /mnt/ directory.
+62. mktemp -d -t -p /mnt/ backup_XXXXXXXXXX-d -> Creates a new temporary directory with "backup_" prefix, a unique suffix and "-d" suffix in the /mnt/ directory.
+63. mktemp --directory --tmpdir=/mnt/logs/ --suffix=_logs -> Creates a new temporary directory with a random name and "_logs" suffix in the /mnt/logs/ directory.
+64. mktemp -p ~/test/ -t --suffix=_data data -> Creates a new temporary file with "data" prefix and "_data" suffix in the ~/test/ directory with a random name.
+65. mktemp -p /mnt/ -u -t backupdir_XXXXXX -> Creates a new temporary directory with "backupdir_" prefix and a unique suffix and displays the directory name without creating it in the /mnt/ directory.
+66. mktemp --tmpdir=/mnt/data/ -d -t tempdir_XXXXXX -> Creates a new temporary directory with "tempdir_" prefix and a unique suffix in the /mnt/data/ directory with a random name.
+67. mktemp -u -d /mnt/backup_XXXXXXXXXX -> Creates a new temporary directory with "/mnt/backup_" prefix and a unique suffix and displays the directory name without creating it.
+68. mktemp -t --suffix=__logs --tmpdir=/mnt/ -> Creates a new temporary file with a random name and "__logs" suffix in the /mnt/ directory.
+69. mktemp -p /mnt/logs/ --dry-run --tmpdir=/mnt/ logs_XXXXXX -> Displays the file name that will be created with "logs_" prefix and a unique suffix without creating it in the /mnt/logs/ directory.
+70. mktemp -d -t -p /tmp/ --suffix=__data -> Creates a new temporary directory with a random name and "__data" suffix in the /tmp/ directory.
+71. mktemp -p ~/test/ -u -t log_XXXXXXXXXX -> Creates a new temporary file with "log_" prefix and a unique suffix and displays the file name without creating it in the ~/test/ directory.
+72. mktemp -d -t -p /mnt/datafiles/ backupdata-XXXXXXXXXX-d -> Creates a new temporary directory with "backupdata-" prefix, a unique suffix and "-d" suffix in the /mnt/datafiles/ directory.
+73. mktemp --directory -t -p /mnt/ backup__ -> Creates a new temporary directory with "backup__" prefix and a random name in the /mnt/ directory.
+74. mktemp --suffix=_logs --tmpdir=/mnt/logs/ -t datafile -> Creates a new temporary file with "datafile" prefix and "_logs" suffix in the /mnt/logs/ directory with a random name.
+75. mktemp -p ~/test-dir/ -u -t app_XXXXXXXXXX -> Creates a new temporary file with "app_" prefix and a unique suffix and displays the file name without creating it in the ~/test-dir/ directory.
+76. mktemp --tmpdir=/mnt/data/ --dry-run --directory -> Displays the directory name that will be created with a random name without creating it in the /mnt/data/ directory.
+77. mktemp -d -t -p /mnt/ --suffix=__data datafiles -> Creates a new temporary directory with "datafiles" prefix and "__data" suffix in the /mnt/ directory.
+78. mktemp --suffix=_log --tmpdir=/mnt/ --dry-run testlog -> Displays the file name that will be created with "testlog" prefix and "_log" suffix without creating it in the /mnt/ directory.
+79. mktemp -p ~/test/ --directory --dry-run --suffix=_data temp -> Displays the directory name that will be created with "temp" prefix and "_data" suffix without creating it in the ~/test/ directory.
+80. mktemp -d -t -p /mnt/datafiles/ backupdata_XXXXXXXXXX -> Creates a new temporary directory with "backupdata_" prefix and a unique suffix in the /mnt/datafiles/ directory with a random name.
+81. mktemp -p /mnt/logs/ -t -d -u applog_XXXXXXXXXX -> Creates a new temporary directory with "applog_" prefix and a unique suffix and displays the directory name without creating it in the /mnt/logs/ directory.
+82. mktemp --directory --tmpdir=/mnt/datafiles/ -t testdir-XXXXXX -> Creates a new temporary directory with "testdir-" prefix and a unique suffix in the /mnt/datafiles/ directory with a random name.
+83. mktemp -p ~/test/ -t -u --suffix=_app appfile -> Creates a new temporary file with "appfile" prefix and "_app" suffix and displays the file name without creating it in the ~/test/ directory.
+84. mktemp -t -p /mnt/datafiles/ backup -> Creates a new temporary file with "backup" prefix and a random name in the /mnt/datafiles/ directory.
+85. mktemp --suffix=_testfile --dry-run --tmpdir=/mnt/ test -> Displays the file name that will be created with "test" prefix and "_testfile" suffix without creating it in the /mnt/ directory.
+86. mktemp -d -t -p /mnt/ --suffix=_logs logs -> Creates a new temporary directory with "logs" prefix and "_logs" suffix in the /mnt/ directory with a random name.
+87. mktemp -p /mnt/datafiles/ -t -d -u backupdir_XXXXXX-d -> Creates a new temporary directory with "backupdir_" prefix, a unique suffix and "-d" suffix and displays the directory name without creating it in the /mnt/datafiles/ directory.
+88. mktemp --suffix=_log --directory --tmpdir=/mnt/ --dry-run tmpfile -> Displays the directory name that will be created with "tmpfile" prefix and "_log" suffix without creating it in the /mnt/ directory.
+89. mktemp -u -t -p /mnt/ data_XXXXXXXXXX -> Creates a new temporary file with "data_" prefix and a unique suffix and displays the file name without creating it in the /mnt/ directory.
+90. mktemp -p ~/test-dir/ -d -t -u app/ -> Creates a new temporary directory with "app" prefix and a unique suffix and displays the directory name without creating it in the ~/test-dir/ directory.
+91. mktemp -t -p /mnt/logs/ backup_XXXXXXXXXX -> Creates a new temporary file with "backup_" prefix and a unique suffix in the /mnt/logs/ directory with a random name.
+92. mktemp --directory --tmpdir=/mnt/datafiles/ --suffix=_backup backup -> Creates a new temporary directory with "backup" prefix and "_backup" suffix in the /mnt/datafiles/ directory with a random name.
+93. mktemp -p /mnt/logs/ -d -t -u applog/ -> Creates a new temporary directory with "applog" prefix and a unique suffix and displays the directory name without creating it in the /mnt/logs/ directory.
+94. mktemp --suffix=_data --tmpdir=/mnt/ -t /mnt/datafile-XXXXX -> Creates a new temporary file with "/mnt/datafile-" prefix, a unique suffix and "_data" suffix in the /mnt/ directory.
+95. mktemp -d -t -p /mnt/datafiles/ --directory -u backupdata-XXXXXX -> Creates a new temporary directory with "backupdata-" prefix, a unique suffix and a random name in the /mnt/datafiles/ directory.
+96. mk

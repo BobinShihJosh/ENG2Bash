@@ -1,0 +1,50 @@
+1. cat /etc/passwd -> Display the contents of the /etc/passwd file.
+2. cat /home/user/file.txt -> Display the contents of the file.txt located in the user's home directory.
+3. cat /var/log/syslog -> Display the contents of the syslog file located in the /var/log directory.
+4. cat /usr/local/bin/* -> Display the contents of all files located in the /usr/local/bin directory.
+5. cat /etc/hosts -> Display the contents of the hosts file located in the /etc directory.
+6. cat /etc/services -> Display the contents of the services file located in the /etc directory.
+7. cat /etc/resolv.conf -> Display the contents of the resolv.conf file located in the /etc directory.
+8. cat /etc/fstab -> Display the contents of the fstab file located in the /etc directory.
+9. cat /proc/cpuinfo -> Display the contents of the cpuinfo file located in the /proc directory.
+10. cat /proc/meminfo -> Display the contents of the meminfo file located in the /proc directory.
+11. cat /proc/version -> Display the contents of the version file located in the /proc directory.
+12. cat /proc/modules -> Display the contents of the modules file located in the /proc directory.
+13. cat /proc/interrupts -> Display the contents of the interrupts file located in the /proc directory.
+14. cat /proc/devices -> Display the contents of the devices file located in the /proc directory.
+15. cat /proc/filesystems -> Display the contents of the filesystems file located in the /proc directory.
+16. cat /usr/share/doc/* -> Display the contents of all files located in the /usr/share/doc directory.
+17. cat /usr/share/man/* -> Display the contents of all files located in the /usr/share/man directory.
+18. cat /usr/lib/* -> Display the contents of all files located in the /usr/lib directory.
+19. cat /usr/local/lib/* -> Display the contents of all files located in the /usr/local/lib directory.
+20. cat /usr/include/* -> Display the contents of all files located in the /usr/include directory.
+21. cat /usr/local/include/* -> Display the contents of all files located in the /usr/local/include directory.
+22. cat /var/log/* -> Display the contents of all files located in the /var/log directory.
+23. cat /var/spool/* -> Display the contents of all files located in the /var/spool directory.
+24. cat /var/lib/* -> Display the contents of all files located in the /var/lib directory.
+25. cat /var/lock/* -> Display the contents of all files located in the /var/lock directory.
+26. cat ~/.bashrc -> Display the contents of your bashrc file located in your home directory.
+27. cat ~/.profile -> Display the contents of your profile file located in your home directory.
+28. cat ~/.bash_history -> Display your bash history stored in your home directory.
+29. cat ~/Documents/* -> Display the contents of all files located in your Documents folder in your home directory.      
+30. cat ~/Downloads/* -> Display the contents of all files located in your Downloads folder in your home directory.      
+31. cat ~/Pictures/* -> Display the contents of all files located in your Pictures folder in your home directory.        
+32. cat ~/Music/* -> Display the contents of all files located in your Music folder in your home directory.
+33. cat ~/Videos/* -> Display the contents of all files located in your Videos folder in your home directory.
+34. cat ~/Desktop/* -> Display the contents of all files located on your Desktop in your home directory.
+35. cat ~/Public/* -> Display the contents of all files located in your Public folder in your home directory.
+36. cat ~/Templates/* -> Display the contents of all files located in your Templates folder in your home directory.      
+37. cat ~/Library/* -> Display the contents of all files located in your Library folder in your home directory.
+38. cat ~/Applications/* -> Display the contents of all files located in your Applications folder in your home directory.
+39. cat ~/Movies/* -> Display the contents of all files located in your Movies folder in your home directory.
+40. cat ~/Music/* -> Display the contents of all files located in your Music folder in your home directory.
+41. cat ~/Pictures/* -> Display the contents of all files located in your Pictures folder in your home directory.        
+42. cat ~/Documents/* -> Display the contents of all files located in your Documents folder in your home directory.      
+43. cat ~/Downloads/* -> Display the contents of all files located in your Downloads folder in your home directory.      
+44. cat ~/Desktop/* -> Display the contents of all files located on your Desktop in your home directory.
+45. cat ~/Public/* -> Display the contents of all files located in your Public folder in your home directory.
+46. cat ~/Templates/* -> Display the contents of all files located in your Templates folder in your home directory.      
+47. cat ~/Library/* -> Display the contents of all files located in your Library folder in your home directory.
+48. cat ~/Applications/* -> Display the contents of all files located in your Applications folder in your home directory.
+49. cat ~/Movies/* -> Display the contents of all files located in your Movies folder in your home directory
+50. cat ~/Music/* -> Display the contents of all files located in your Music folder in your home directory

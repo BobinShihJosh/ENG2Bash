@@ -1,0 +1,102 @@
+1. ping google.com -c 5 -> Ping Google.com 5 times
+2. ping server.local -> Ping server.local indefinitely
+3. ping 8.8.8.8 -I eth0 -> Ping 8.8.8.8 through eth0 interface
+4. ping -n 10 192.168.0.1 -> Ping 192.168.0.1 10 times
+5. ping -s 1000 server.local -> Ping server.local with 1000 byte packet size
+6. ping -q google.com -> Quiet mode: don't display statistics
+7. ping -i 2 192.168.1.1 -> Ping 192.168.1.1 every 2 seconds
+8. ping -c 2 192.168.1.1 -> Ping 192.168.1.1 2 times
+9. ping -M do google.com -> Don't fragment packet
+10. ping -w 10 google.com -> Ping Google.com with 10 second deadline
+11. ping -s 50 server.local -> Ping server.local with 50 byte packet size
+12. ping -R google.com -> Record route (IPv6)
+13. ping -v server.local -> Verbose mode: show packets
+14. ping -n 10 localhost -> Ping local machine 10 times
+15. ping -c 5 www.example.com -> Ping example.com 5 times
+16. ping -I eth0 server.local -> Ping server.local through eth0 interface
+17. ping -t google.com -> Ping Google.com forever
+18. ping -D server.local -> Debug mode: show packets in hexdump format
+19. ping -f 192.168.1.1 -> Flood ping to 192.168.1.1
+20. ping -S 192.168.0.2 google.com -> Set source IP to 192.168.0.2 and ping Google.com
+21. ping -W 1 google.com -> Ping Google.com with 1 second timeout
+22. ping -c 3 localhost -> Ping local machine 3 times
+23. ping -l 50 server.local -> Ping server.local with 50 byte packet size
+24. ping -r 5 google.com -> Ping Google.com and retransmit 5 times
+25. ping -A server.local -> Audible mode: beep on successful ping
+26. ping -m 10 192.168.0.1 -> Ping 192.168.0.1 with 10 byte data size
+27. ping -f -s 1000 server.local -> Flood ping with 1000 byte packet size
+28. ping -b 192.168.0.255 -> Broadcast ping on local network
+29. ping -n -a 192.168.1.1 -> Ping 192.168.1.1 and resolve hostname
+30. ping -c 2 -s 1000 server.local -> Ping server.local with 2 packets of 1000 byte size
+31. ping -I eth1 -c 3 google.com -> Ping Google.com through eth1 interface and 3 times
+32. ping -q -c 3 8.8.8.8 -> Ping 8.8.8.8 3 times and display only summary
+33. ping -i 1 -c 10 192.168.0.1 -> Ping 192.168.0.1 every 1 second, 10 times
+34. ping -M want google.com -> Set want fragmentation bit
+35. ping -w 5 192.168.0.1 -> Ping 192.168.0.1 with 5 second timeout
+36. ping -c 3 -s 50 server.local -> Ping server.local with 3 packets of 50 byte size
+37. ping -R -c 1 google.com -> Record route to Google.com (one-hop)
+38. ping -s 500 server.local -> Ping server.local with 500 byte packet size
+39. ping -D -c 1 server.local -> Ping server.local and show packet in hexdump format
+40. ping -f -s 50 192.168.1.1 -> Flood ping with 50 byte packet size
+41. ping -S 192.168.0.2 -c 2 google.com -> Ping Google.com with source IP 192.168.0.2 and 2 packets
+42. ping -W 2 -c 5 google.com -> Ping Google.com with 2 second timeout and 5 times
+43. ping -t -c 3 server.local -> Ping server.local indefinitely and 3 times
+44. ping -R -c 5 google.com -> Record route to Google.com (5 hops)
+45. ping -q -c 5 localhost -> Ping local machine 5 times and display only summary
+46. ping -i 5 -c 5 192.168.1.1 -> Ping 192.168.1.1 every 5 seconds, 5 times
+47. ping -M dont google.com -> Set don't fragment bit
+48. ping -w 3 -c 2 google.com -> Ping Google.com with 3 second timeout and 2 times
+49. ping -c 2 -s 500 server.local -> Ping server.local with 2 packets of 500 byte size
+50. ping -R -c 3 server.local -> Record route to server.local (3 hops)
+51. ping -W 1 -c 3 localhost -> Ping local machine with 1 second timeout and 3 times
+52. ping -r -c 5 192.168.0.1 -> Ping 192.168.0.1 and display retransmission count
+53. ping -m 50 google.com -> Ping Google.com with 50 byte data size
+54. ping -f -s 500 server.local -> Flood ping to server.local with 500 byte packet size
+55. ping -I eth0 -c 5 192.168.0.1 -> Ping 192.168.0.1 through eth0 interface and 5 times
+56. ping -q -c 5 192.168.1.1 -> Ping 192.168.1.1 5 times and display only summary
+57. ping -i 10 -c 2 google.com -> Ping Google.com every 10 seconds and 2 times
+58. ping -s 100 server.local -> Ping server.local with 100 byte packet size
+59. ping -D -c 2 google.com -> Ping Google.com twice and show packet in hexdump format
+60. ping -f -s 100 192.168.1.1 -> Flood ping with 100 byte packet size
+61. ping -S 192.168.0.2 -c 3 server.local -> Ping server.local with source IP 192.168.0.2 and 3 packets
+62. ping -W 3 -c 3 google.com -> Ping Google.com with 3 second timeout and 3 times
+63. ping -t -c 5 server.local -> Ping server.local indefinitely and 5 times
+64. ping -R -c 2 google.com -> Record route to Google.com (2 hops)
+65. ping -q -c 2 localhost -> Ping local machine 2 times and display only summary
+66. ping -i 2 -c 10 192.168.1.1 -> Ping 192.168.1.1 every 2 seconds, 10 times
+67. ping -M wantfrag google.com -> Set want fragmentation bit
+68. ping -w 2 -c 5 192.168.0.1 -> Ping 192.168.0.1 with 2 second timeout and 5 times
+69. ping -c 2 -s 100 server.local -> Ping server.local with 2 packets of 100 byte size
+70. ping -R -c 1 server.local -> Record route to server.local (one-hop)
+71. ping -W 1 -c 2 localhost -> Ping local machine with 1 second timeout and 2 times
+72. ping -r -c 2 192.168.0.1 -> Ping 192.168.0.1 and display retransmission count
+73. ping -m 100 google.com -> Ping Google.com with 100 byte data size
+74. ping -f -s 1000 server.local -> Flood ping to server.local with 1000 byte packet size
+75. ping -I eth0 -c 3 192.168.0.1 -> Ping 192.168.0.1 through eth0 interface and 3 times
+76. ping -q -c 2 192.168.1.1 -> Ping 192.168.1.1 2 times and display only summary
+77. ping -i 5 -c 3 google.com -> Ping Google.com every 5 seconds and 3 times
+78. ping -s 200 server.local -> Ping server.local with 200 byte packet size
+79. ping -D -c 1 localhost -> Ping local machine and show packet in hexdump format
+80. ping -f -s 200 192.168.1.1 -> Flood ping with 200 byte packet size
+81. ping -S 192.168.0.2 -c 2 google.com -> Ping Google.com with source IP 192.168.0.2 and 2 packets
+82. ping -W 2 -c 2 google.com -> Ping Google.com with 2 second timeout and 2 times
+83. ping -t -c 2 server.local -> Ping server.local indefinitely and 2 times
+84. ping -R -c 4 google.com -> Record route to Google.com (4 hops)
+85. ping -q -c 4 localhost -> Ping local machine 4 times and display only summary
+86. ping -i 4 -c 4 192.168.0.1 -> Ping 192.168.0.1 every 4 seconds, 4 times
+87. ping -M wantfrag google.com -> Set want fragmentation bit
+88. ping -w 4 -c 4 google.com -> Ping Google.com with 4 second timeout and 4 times
+89. ping -c 4 -s 200 server.local -> Ping server.local with 4 packets of 200 byte size
+90. ping -R -c 2 server.local -> Record route to server.local (2 hops)
+91. ping -W 1 -c 1 localhost -> Ping local machine with 1 second timeout and 1 time
+92. ping -r -c 1 192.168.0.1 -> Ping 192.168.0.1 and display retransmission count
+93. ping -m 200 google.com -> Ping Google.com with 200 byte data size
+94. ping -f -s 2000 server.local -> Flood ping to server.local with 2000 byte packet size
+95. ping -I eth0 -c 4 192.168.0.1 -> Ping 192.168.0.1 through eth0 interface and 4 times
+96. ping -q -c 1 192.168.1.1 -> Ping 192.168.1.1 1 time and display only summary
+97. ping -i 3 -c 2 google.com -> Ping Google.com every 3 seconds and 2 times
+98. ping -s 300 server.local -> Ping server.local with 300 byte packet size
+99. ping -D -c 3 google.com -> Ping Google.com thrice and show packet in hexdump format
+100. ping -f -s 300 192.168.1.1 -> Flood ping with 300 byte packet size
+
+Note: the file/directory names are not relevant to the ping command, as this command does not operate on files or directories. The descriptions solely focus on the function, options, and directory (if applicable) of the ping command.

@@ -1,0 +1,102 @@
+1. tree -> Display directory tree
+2. tree -a -> Display hidden files
+3. tree -d -> Display directories only
+4. tree -L 1 -> Display one level of directories
+5. tree -f -> Display full paths
+6. tree -i -> Don't highlight directories
+7. tree -p -> Print the file type
+8. tree -s -> Print the size of files
+9. tree -C -> Colorize output
+10. tree -J -> Output in JSON format
+11. tree -h -> Print sizes in human readable format
+12. tree -P "*.txt" -> Display only files matching pattern
+13. tree -I "*.txt" -> Don't display files matching pattern
+14. tree -v -> Print version information
+15. tree --charset utf-8 -> Use UTF-8 encoding
+16. tree ~ -> Display home directory tree
+17. tree /var -> Display tree of /var directory
+18. tree /var/www -> Display tree of /var/www directory
+19. tree /var/log -> Display tree of /var/log directory
+20. tree /etc -> Display tree of /etc directory
+21. tree /usr -> Display tree of /usr directory
+22. tree /home -> Display tree of /home directory
+23. tree /bin -> Display tree of /bin directory
+24. tree /sbin -> Display tree of /sbin directory
+25. tree /lib -> Display tree of /lib directory
+26. tree /lib64 -> Display tree of /lib64 directory
+27. tree /boot -> Display tree of /boot directory
+28. tree /proc -> Display tree of /proc directory
+29. tree /sys -> Display tree of /sys directory
+30. tree /usr/local -> Display tree of /usr/local directory
+31. tree /usr/share -> Display tree of /usr/share directory
+32. tree /usr/bin -> Display tree of /usr/bin directory
+33. tree /usr/sbin -> Display tree of /usr/sbin directory
+34. tree /usr/lib -> Display tree of /usr/lib directory
+35. tree /usr/lib64 -> Display tree of /usr/lib64 directory
+36. tree /usr/include -> Display tree of /usr/include directory
+37. tree /var/run -> Display tree of /var/run directory
+38. tree /var/lock -> Display tree of /var/lock directory
+39. tree /var/mail -> Display tree of /var/mail directory
+40. tree /var/spool -> Display tree of /var/spool directory
+41. tree /var/cache -> Display tree of /var/cache directory
+42. tree /var/tmp -> Display tree of /var/tmp directory
+43. tree /var/lib -> Display tree of /var/lib directory
+44. tree /var/log/audit -> Display tree of /var/log/audit directory
+45. tree /var/log/journal -> Display tree of /var/log/journal directory
+46. tree /var/log/samba -> Display tree of /var/log/samba directory
+47. tree /var/www/html -> Display tree of /var/www/html directory
+48. tree /etc/systemd -> Display tree of /etc/systemd directory
+49. tree /etc/ssh -> Display tree of /etc/ssh directory
+50. tree /etc/httpd -> Display tree of /etc/httpd directory
+51. tree /etc/nginx -> Display tree of /etc/nginx directory
+52. tree /etc/sysconfig -> Display tree of /etc/sysconfig directory
+53. tree /etc/init.d -> Display tree of /etc/init.d directory
+54. tree /etc/rc.d -> Display tree of /etc/rc.d directory
+55. tree /etc/sysctl.d -> Display tree of /etc/sysctl.d directory
+56. tree /etc/pki -> Display tree of /etc/pki directory
+57. tree /etc/ssl -> Display tree of /etc/ssl directory
+58. tree /etc/modprobe.d -> Display tree of /etc/modprobe.d directory
+59. tree /etc/grub.d -> Display tree of /etc/grub.d directory
+60. tree /etc/skel -> Display tree of /etc/skel directory
+61. tree /run/user/1000 -> Display tree of /run/user/1000 directory
+62. tree /run/user/1000/gvfs -> Display tree of /run/user/1000/gvfs directory
+63. tree /run/lock -> Display tree of /run/lock directory
+64. tree /run/shm -> Display tree of /run/shm directory
+65. tree /tmp -> Display tree of /tmp directory
+66. tree /dev -> Display tree of /dev directory
+67. tree /sys/kernel/security -> Display tree of /sys/kernel/security directory
+68. tree /sys/fs -> Display tree of /sys/fs directory
+69. tree /sys/devices -> Display tree of /sys/devices directory
+70. tree /proc/irq -> Display tree of /proc/irq directory
+71. tree /proc/sys -> Display tree of /proc/sys directory
+72. tree /proc/scsi -> Display tree of /proc/scsi directory
+73. tree /proc/bus -> Display tree of /proc/bus directory
+74. tree /proc/net -> Display tree of /proc/net directory
+75. tree /proc/tty -> Display tree of /proc/tty directory
+76. tree /proc/sysvipc -> Display tree of /proc/sysvipc directory
+77. tree /proc/$pid -> Display tree of a specific process
+78. tree /proc/sys/kernel -> Display tree of /proc/sys/kernel directory
+79. tree /proc/sys/net -> Display tree of /proc/sys/net directory
+80. tree /sys/firmware -> Display tree of /sys/firmware directory
+81. tree /sys/power -> Display tree of /sys/power directory
+82. tree /sys/devices/platform -> Display tree of /sys/devices/platform directory
+83. tree /sys/class -> Display tree of /sys/class directory
+84. tree /var/ftp -> Display tree of /var/ftp directory
+85. tree /usr/local/bin -> Display tree of /usr/local/bin directory
+86. tree /usr/local/sbin -> Display tree of /usr/local/sbin directory
+87. tree /usr/local/lib -> Display tree of /usr/local/lib directory
+88. tree /usr/local/include -> Display tree of /usr/local/include directory
+89. tree /usr/local/share -> Display tree of /usr/local/share directory
+90. tree /usr/local/man -> Display tree of /usr/local/man directory
+91. tree /usr/local/games -> Display tree of /usr/local/games directory
+92. tree /usr/local/mysql -> Display tree of /usr/local/mysql directory
+93. tree /usr/X11R6 -> Display tree of /usr/X11R6 directory
+94. tree /usr/games -> Display tree of /usr/games directory
+95. tree /usr/include/linux -> Display tree of /usr/include/linux directory
+96. tree /usr/share/man -> Display tree of /usr/share/man directory
+97. tree /usr/share/doc -> Display tree of /usr/share/doc directory
+98. tree /usr/share/locale -> Display tree of /usr/share/locale directory
+99. tree /usr/share/fonts -> Display tree of /usr/share/fonts directory
+100. tree /usr/share/zoneinfo -> Display tree of /usr/share/zoneinfo directory
+
+Note: Please keep in mind that some of these directories may not exist on your system or may have different names.

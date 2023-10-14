@@ -1,0 +1,100 @@
+1. top -> Display system information.
+2. top -b -> Batch mode, keep updating.
+3. top -c -> Command line show.
+4. top -d -> Delay between updates.
+5. top -H -> Show threads.
+6. top -i -> Don't show idle tasks.
+7. top -M -> Show memory in MB.
+8. top -n -> Number of iterations.
+9. top -p -> Specific process ID.
+10. top -S -> Cumulative time view.
+11. top -s -> Sort by field.
+12. top -U -> Specific user�s processes.
+13. top -u -> Specific user's processes.
+14. top -v -> Show version.
+15. top -w -> Wide output.
+16. top -Z -> Security context.
+17. top /root -> Monitor processes in /root.
+18. top /home/user -> Monitor processes in /home/user.
+19. top /var/log -> Monitor processes in /var/log.
+20. top -i 3 -> Update every 3 seconds.
+21. top -p 123 -> Monitor process ID 123.
+22. top -d 10 -> Delay by 10 seconds.
+23. top -s cpu -> Sort by CPU usage.
+24. top -s mem -> Sort by memory usage.
+25. top -U user -> Monitor user�s processes.
+26. top -u user -> Monitor user's processes.
+27. top -v 8.0 -> Show version 8.0.
+28. top -w 160 -> Output width of 160.
+29. top -Z root -> Show root's security context.
+30. top -b -d 5 -> Batch mode with delay of 5 seconds.
+31. top -c -i 2 -> Command line show with updates every 2 seconds.
+32. top -d 10 -u user -> Delay by 10 seconds and monitor user's processes.
+33. top -H -p 123 -> Show threads for process ID 123.
+34. top -i 3 -s cpu -> Update every 3 seconds and sort by CPU usage.
+35. top -m 10 -> Show top 10 memory consuming processes.
+36. top -n 5 -> Show top 5 processes.
+37. top -p 123,345 -> Monitor process IDs 123 and 345.
+38. top -S -p 123 -> Cumulative time view for process ID 123.
+39. top -u user -U root -> Monitor user's and root's processes.
+40. top -w 200 -Z root -> Output width of 200 and show root's security context.
+41. top /etc -> Monitor processes in /etc directory.
+42. top /usr/bin -> Monitor processes in /usr/bin directory.
+43. top /var/tmp -> Monitor processes in /var/tmp directory.
+44. top -b -i 5 -> Batch mode and updates every 5 seconds.
+45. top -d 15 -s mem -> Delay by 15 seconds and sort by memory usage.
+46. top -H -u user -> Show threads for user�s processes.
+47. top -i 3 -w 120 -> Update every 3 seconds and output width of 120.
+48. top -M -u user -> Show memory in MB for user's processes.
+49. top -n 10 -i 2 -> Show top 10 processes with updates every 2 seconds.
+50. top -p 123 -S -> Cumulative time view for process ID 123.
+51. top -s cpu -U user -> Sort by CPU usage and monitor user�s processes.
+52. top -u user -v 8.0 -> Monitor user�s processes and show version 8.0.
+53. top -w 180 -Z apache -> Output width of 180 and show apache's security context.
+54. top /usr/sbin -> Monitor processes in /usr/sbin directory.
+55. top /home/user1/public_html -> Monitor processes in /home/user1/public_html directory.
+56. top /var/lib/mysql -> Monitor processes in /var/lib/mysql directory.
+57. top -b -n 5 -> Batch mode with 5 iterations.
+58. top -d 20 -s cpu -> Delay by 20 seconds and sort by CPU usage.
+59. top -H -U root -> Show threads for root's processes.
+60. top -i 3 -u user -> Update every 3 seconds and monitor user's processes.
+61. top -M -p 123 -> Show memory in MB for process ID 123.
+62. top -n 15 -s mem -> Show top 15 processes sorted by memory usage.
+63. top -p 123,345,678 -> Monitor process IDs 123, 345 and 678.
+64. top -s cpu -w 160 -> Sort by CPU usage and output width of 160.
+65. top -u user -Z apache -> Monitor user's processes and show apache's security context.
+66. top -v 7.5 -w 200 -> Show version 7.5 and output width of 200.
+67. top -w 180 /etc -> Output width of 180 and monitor processes in /etc directory.
+68. top /usr/share -> Monitor processes in /usr/share directory.
+69. top /home/user2 -> Monitor processes in /home/user2 directory.
+70. top /var/named -> Monitor processes in /var/named directory.
+71. top -b -d 10 -i 3 -> Batch mode with 10 second delay and updates every 3 seconds.
+72. top -d 15 -s mem -U user -> Delay by 15 seconds, sort by memory usage and monitor user's processes.
+73. top -H -p 123,345 -> Show threads for process IDs 123 and 345.
+74. top -i 3 -s cpu -u user -> Update every 3 seconds, sort by CPU usage and monitor user's processes.
+75. top -M -u root -> Show memory in MB for root's processes.
+76. top -n 20 -s cpu -> Show top 20 processes sorted by CPU usage.
+77. top -p 123,345,678 -S -> Cumulative time view for process IDs 123, 345 and 678.
+78. top -s cpu -w 180 /usr/sbin -> Sort by CPU usage, output width of 180 and monitor processes in /usr/sbin directory.
+79. top -u user -v 8.2 -> Monitor user's processes and show version 8.2.
+80. top -v 7.5 -Z apache -> Show version 7.5 and show apache's security context.
+81. top -w 160 /var/tmp -> Output width of 160 and monitor processes in /var/tmp directory.
+82. top /usr/lib -> Monitor processes in /usr/lib directory.
+83. top /home/user3 -> Monitor processes in /home/user3 directory.
+84. top /var/log/apache2 -> Monitor processes in /var/log/apache2 directory.
+85. top -b -d 10 -n 3 -> Batch mode with 10 second delay and 3 iterations.
+86. top -d 20 -s cpu -u user -> Delay by 20 seconds, sort by CPU usage and monitor user's processes.
+87. top -H -u user -p 123 -> Show threads for user's process with ID 123.
+88. top -i 3 -s mem -u root -> Update every 3 seconds, sort by memory usage and monitor root's processes.
+89. top -M -w 180 /etc -> Show memory in MB, output width of 180 and monitor processes in /etc directory.
+90. top -n 25 -s cpu -> Show top 25 processes sorted by CPU usage.
+91. top -p 123,345,678 -s cpu -> Monitor process IDs 123, 345 and 678 and sort by CPU usage.
+92. top -s cpu -w 160 /usr/share -> Sort by CPU usage, output width of 160 and monitor processes in /usr/share directory.
+93. top -u user -Z nginx -> Monitor user's processes and show nginx's security context.
+94. top -v 8.2 -w 200 -> Show version 8.2 and output width of 200.
+95. top -w 180 /var/lib/mysql -> Output width of 180 and monitor processes in /var/lib/mysql directory.
+96. top /usr/include -> Monitor processes in /usr/include directory.
+97. top /home/user4 -> Monitor processes in /home/user4 directory.
+98. top /var/log/nginx -> Monitor processes in /var/log/nginx directory.
+99. top -d 5 -n 5 -s mem -> 5 seconds delay, 5 iterations and sort by memory usage.
+100. top -H -u root -p 123 -> Show threads for root's process with ID 123.

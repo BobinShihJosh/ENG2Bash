@@ -1,0 +1,101 @@
+Display the contents of the file called "file.txt". -> cat file.txt
+Display the content of file.txt along with their corresponding line numbers. -> cat -n file.txt
+Display the contents of the file named file.txt, appending a "$" sign at the end of each line. -> cat -E file.txt
+Concatenate the contents of myfile1 and myfile2 into a single file. -> cat file.txt myfile2.txt
+Navigate to the /home directory. -> cd /home
+Navigate to the parent directory. -> cd ..
+Navigate to the Documents directory. -> cd Documents
+Change your current directory to the parent directory. -> cd -
+Grant read, write, and execute permissions to all users on the file.txt file. -> chmod 777 file.txt
+Grant the directory/. owner the ability to read and execute the content, while granting others the permission to only read the content. -> chmod 554 directory/
+Grant the user the ability to both read from and write to file.pdf. -> chmod 600 file.pdf
+Grant file.png the owner the ability to read, write, and execute the file permissions. -> chmod u+rwx file.png
+This Linux command erases the content of the terminal screen. -> clear
+Removes all content from the file named myfile.txt. -> clear myfile.txt
+This Linux command will delete all the files contained inside "myfolder" and "myfile". -> clear myfolder myfile
+Erases the command history stored in the scrollback buffer. -> clear -x
+Duplicates myfile and saves it as myfile2. -> cp myfile.txt myfile2.txt
+Recursively duplicates folder dir1 into folder dir5. -> cp -r dir1 dir5
+This Linux command copies the file named "myfile" to a new file named "myfile2" while displaying detailed information during the process. -> cp -v myfile.txt myfile2.txt
+This command will copy the contents of `myfile` to `myfile2` and ask for confirmation before replacing the `myfile2` if it already exists. -> cp -i myfile.txt myfile2.txt
+Display the contents of the present working directory. -> ls
+Display all files, including those that are hidden, in a directory. -> ls -a
+Show the details of file or directory in a long format, including permissions, ownership, size, and modification time. -> ls -l
+Display the files sorted based on their modification time. -> ls -t
+Writes the text "Hello World" and saves it in a file called foobar.txt. -> echo "Hello World" > foobar.txt
+This command writes a greeting message to a file located in the directory of your choice. -> "echo "Welcome to Linux" > /home/user/welcome.txt
+Concatenates the string "HELLO" to the contents of the file, foobar.txt. -> echo "HELLO" >> foobar.txt
+Show the variables that hold information about the current execution environment on the Linux system. -> env
+Start a clean environment. -> env -i /bin/bash
+Launch a shell without defining the USER environment variable. -> env -u USER /bin/sh
+Using the nano editor, modify your crontab file. -> env EDITOR=nano crontab -e
+Show the amount of memory present in the system. -> free
+Show the memory capacity in megabytes. -> free -m
+Show the memory size in units of gigabytes. -> free -g
+Show the amount of memory being used and the total amount of available memory. -> free -t
+Retrieve a file from the website with the domain name "google.com" and save it onto the local device. -> wget google.com
+Create a copy of the repository named "my_repo". -> git clone my_repo
+Transfer a file to a remote server. -> scp file remote:
+Fetch information from an API. -> curl http://api.com
+Stop the execution of process number 59888 in Linux. -> kill -9 59888
+Terminate the process with the name 'myapp' by sending a SIGTERM signal. -> kill -s SIGTERM myapp
+Terminate the process by using the specified file located at /tmp/file as an input in a forced manner. -> kill -f /tmp/file
+Terminate all processes within the testdir directory using the SIGTERM signal. -> kill -15 testdir
+Display all files. -> ls
+Display a detailed listing of files. -> ls -l
+List all files, including the ones that are hidden. -> ls -a
+Display files in a directory according to the time they were last modified. -> ls -t
+Make a new folder with the name "testdir". -> mkdir testdir
+Make a directory called "dir1" within the current directory. -> mkdir dir1/
+Create the directory 'dir1', which contains a subdirectory named 'dir5'. -> mkdir -p dir1/dir5
+Create a new directory named testdir, and give read, write, and execute permissions to the owner, group, and others. -> mkdir -m 775 testdir
+Generates a new file with a temporary name and "newfile" prefix. -> mktemp newfile
+Generates a directory that is prefixed with "test-dir" and exists only temporarily. -> mktemp test-dir
+Generates a fresh file with a specific prefix in the temporary folder (/tmp/). -> mktemp -p /tmp/ file
+Generates a fresh temporary folder within the /var/tmp/ directory. -> mktemp -d /var/tmp/
+Rename the file named "myfile" to "myfile2". -> mv myfile myfile2
+Transfer the file named "myfile" to a different directory. -> mv myfile folder
+Change the name of myfolder to folder2. -> mv myfolder folder2
+Move the file named myfile from the directory called myfolder to the directory named folder2. -> mv myfolder/myfile folder2
+Send 5 packets of data to the website of Google.com to test the reachability of the server. -> ping google.com -c 5
+Ping the server.local continuously without stopping. -> ping server.local
+Send a test message to the IP address 0.0.0.0 via the eth9 network interface. -> ping 0.0.0.0 -I eth9
+Send 100 requests to the IP address 192.168.0.1 using the ping command. -> ping -n 100 192.168.0.1
+Transfer myfile to directory dir1. -> put myfile dir1
+Copy directory dir1 to directory dir5, including all its subdirectories and their contents in a hierarchical manner. -> put -r dir1 dir5
+Move the file named myfile to the directory located at /home/user/dir1. -> put myfile /home/user/dir1
+Copy the file "myfile" while keeping its original mode intact. -> put -p myfile dir1
+Display the path of the current working directory. -> pwd
+Display the path in symbolic format. -> pwd -L
+Display the actual location of a file or directory in the system hierarchy. -> pwd -P
+Display the path of the current directory. -> pwd /home/user
+Delete the file named "my_file.txt". -> rm my_file.txt
+Recursively delete both the directory and its contents named mydirectory. -> rm -r mydirectory
+Delete the file named "myfile.txt" with no prompting for confirmation. -> rm -f myfile.txt
+Delete a directory and everything inside it, including subdirectories, with force. -> rm -rf directory
+Delete the final directory. -> rmdir last
+Delete directory named foobar. -> rmdir foobar/
+Delete the directory dir1 while displaying a detailed output. -> rmdir -v dir1
+Delete the directory named myproj1. -> rmdir myproj1/
+Establish a connection to myuser on myhost. -> ssh myuser@myhost
+Create a pair of keys using the RSA algorithm. -> ssh-keygen -t rsa
+Transfer the public key to another host in the Linux system. -> ssh-copy-id user@host
+Allow usage of graphical applications on a remote server and display them on the user's local machine. -> ssh -X user@host
+Show the current state or information of the Documents folder. -> stat /home/user/Documents
+Show the current state or information about the passwd file. -> stat /etc/passwd
+Show the current condition of the syslog file. -> stat /var/log/syslog
+Show the specific status format of the file named "file.txt" located in the "tmp" directory, according to custom settings. -> stat -c "%n %s %Y" /tmp/file.txt
+Use symbolic links to show the status of the syslog file. -> stat -L /var/log/syslog
+Show concise information about the status of every file in the log directory. -> stat -t /var/log
+Show details about the computer's configuration and specifications. -> top
+Continuous updating in batch mode. -> top -b
+Display the contents of a file or files on the terminal window. -> top -c
+The period of time between updates is referred to as the update interval. -> top -d
+Generate a file with no content. -> touch file.txt
+Make a directory that has no files or subdirectories in it. -> touch folder/
+Update the timestamp of the last file access. -> touch -a file.txt
+Modify the timestamp of a file. -> touch -m file.txt
+Show the hierarchical structure of directories in a graphical or textual representation. -> tree
+Show files that are not normally visible. -> tree -a
+Show the folders exclusively. -> tree -d
+Show the contents of the current directory's immediate subdirectories. -> tree -L 1

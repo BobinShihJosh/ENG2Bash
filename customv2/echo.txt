@@ -1,0 +1,101 @@
+
+
+1. echo "Hello World" -> This command will print the string "Hello World" to the terminal.
+
+2. echo $PATH -> This command will print the current PATH environment variable to the terminal.
+
+3. echo *.txt -> This command will print all files with the .txt extension in the current directory.
+
+4. echo /home/user/Documents/* -> This command will print all files in the Documents folder of the user's home directory.
+
+5. echo ~ -> This command will print the user's home directory path to the terminal.
+
+6. echo /etc/hosts -> This command will print the contents of the /etc/hosts file to the terminal.
+
+7. echo /usr/bin/* -> This command will print all files in the /usr/bin directory to the terminal.
+
+8. echo /var/log/* -> This command will print all files in the /var/log directory to the terminal.
+
+9. echo /opt/programs/* -> This command will print all files in the /opt/programs directory to the terminal.
+
+10. echo /usr/local/bin/* -> This command will print all files in the /usr/local/bin directory to the terminal.
+
+11. echo /usr/share/man/* -> This command will print all files in the /usr/share/man directory to the terminal.
+
+12. echo /etc/init.d/* -> This command will print all files in the /etc/init.d directory to the terminal.
+
+13. echo /usr/lib/* -> This command will print all files in the /usr/lib directory to the terminal.
+
+14. echo /usr/sbin/* -> This command will print all files in the /usr/sbin directory to the terminal.
+
+15. echo /etc/profile -> This command will print the contents of the /etc/profile file to the terminal.
+
+16. echo /etc/passwd -> This command will print the contents of the /etc/passwd file to the terminal.
+
+17. echo /var/spool/* -> This command will print all files in the /var/spool directory to the terminal.
+
+18. echo /var/lib/* -> This command will print all files in the /var/lib directory to the terminal.
+
+19. echo /var/cache/* -> This command will print all files in the /var/cache directory to the terminal.
+
+20. echo /var/logs/* -> This command will print all files in the /var/logs directory to the terminal.
+
+21. echo /usr/local/lib/* -> This command will print all files in the /usr/local/lib directory to the terminal.
+
+22. echo /usr/local/share/* -> This command will print all files in the /usr/local/share directory to the terminal.
+
+23. echo /usr/local/etc/* -> This command will print all files in the /usr/local/etc directory to the terminal.
+
+24. echo /usr/local/bin/* -> This command will print all files in the /usr/local/bin directory to the terminal.
+
+25. echo /opt/* -> This command will print all files in the /opt directory to the terminal.
+
+26. echo /etc/cron.* -> This command will print all files with a cron prefix in the /etc directory to the terminal. 
+
+27. echo ~/Documents/* -> This command will print all files in the Documents folder of the user's home directory to the terminal. 
+
+28. echo ~/Downloads/* -> This command will print all files in the Downloads folder of the user's home directory to the terminal. 
+
+29. echo ~/Pictures/* -> This command will print all files in the Pictures folder of the user's home directory to the terminal. 
+
+30. echo ~/Music/* -> This command will print all files in the Music folder of the user's home directory to the terminal. 
+
+31. echo ~/Videos/* -> This command will print all files in the Videos folder of the user's home directory to the terminal. 
+
+32. echo ~/Desktop/* -> This command will print all files in the Desktop folder of the user's home directory to the terminal. 
+
+33. echo ~/Public/* -> This command will print all files in the Public folder of the user's home directory to the terminal. 
+
+34. echo ~/Templates/* -> This command will print all files in the Templates folder of the user's home directory to the terminal. 
+
+35. echo ~/Documents/**/* -> This command will recursively print all files and folders within Documents folder of user's home directory to the terminal. 
+
+36. echo ~/Downloads/**/* -> This command will recursively print all files and folders within Downloads folder of user's home directory to the terminal. 
+
+37. echo ~/Pictures/**/* -> This command will recursively print all files and folders within Pictures folder of user's home directory to the terminal. 
+
+38. echo ~/Music/**/* -> This command will recursively print all files and folders within Music folder of user's home directory to the terminal. 
+
+39. echo ~/Videos/**/* -> This command will recursively print all files and folders within Videos folder of user's home directory to the terminal. 
+
+40. echo ~/Desktop/**/* -> This command will recursively print all files and folders within Desktop folder of user's home directory to the terminal. 
+
+41. echo ~/Public/**/* -> This command will recursively print all files and folders within Public folder of user's home directory to the terminal. 
+
+42. echo ~/Templates/**/* -> This command will recursively print all files and folders within Templates folder of user's home directory to the terminal. 
+
+43. echo /usr/**/* -> This command will recursively print all files and folders within usr directory of root filesystem to the terminal. 
+
+44. echo /opt/**/* -> This command will recursively print all files and folders within opt directory of root filesystem to the terminal. 
+
+45. echo /var/**/* -> This command will recursively print all files and folders within var directory of root filesystem to the terminal. 
+
+46. echo /etc/**/* -> This command will recursively print all files and folders within etc directory of root filesystem to the terminal. 
+
+47. echo /* -> This command will recursively print all files and folders within root filesystem to the terminal. 
+
+48. echo ~/**/* -> This command will recursively print all files and folders within user's home directory to the terminal. 
+
+49. echo ~/**/.* -> This command will recursively print all hidden files and folders within user's home directory to the terminal. 
+
+50.echo ~/**/.*/**/* -> This command will recursively print all hidden files and folders within subdirectories of user's home directory to the terminal

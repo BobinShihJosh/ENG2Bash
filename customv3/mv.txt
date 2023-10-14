@@ -1,0 +1,100 @@
+1. mv file1 file2 -> Rename file1 as file2.
+2. mv file1 folder -> Move file1 to folder.
+3. mv folder1 folder2 -> Rename folder1 as folder2.
+4. mv folder1/file1 folder2 -> Move file1 from folder1 to folder2.
+5. mv folder/* folder2 -> Move all files and directories from folder to folder2.
+6. mv -T folder1 folder2 -> Merge folder1 into folder2.
+7. mv -b file folder -> Create a backup of file when overwriting in folder.
+8. mv -f file folder -> Force overwrite of file in folder.
+9. mv -i file folder -> Prompt before overwrite of file in folder.
+10. mv -n file folder -> Do not overwrite existing file in folder.
+11. mv -u file folder -> Update file only when source is newer than destination in folder.
+12. mv -v file folder -> Display verbose output of file moved to folder.
+13. mv --backup=numbered file folder -> Create a numbered backup of file when overwriting in folder.
+14. mv --backup=t file folder -> Create a timestamped backup of file when overwriting in folder.
+15. mv --no-clobber file folder -> Do not overwrite existing file in folder.
+16. mv --force file folder -> Force overwrite of file in folder.
+17. mv --interactive file folder -> Prompt before overwrite of file in folder.
+18. mv --update file folder -> Update file only when source is newer than destination in folder.
+19. mv --verbose file folder -> Display verbose output of file moved to folder.
+20. mv -S suffix file folder -> Create a backup of file with a specified suffix when overwriting in folder.
+21. mv -t folder file1 file2 -> Move file1 and file2 to folder.
+22. mv -c file folder -> Do not overwrite existing file in folder.
+23. mv -p file folder -> Preserves original attributes of file in folder.
+24. mv * folder -> Move all files in current directory to folder.
+25. mv \*.png folder -> Move all PNG files in current directory to folder.
+26. mv /path/to/file folder -> Move file to folder with fully qualified path.
+27. mv ~/file folder -> Move file to folder in home directory.
+28. mv file ~/folder -> Move file to folder in home directory.
+29. mv -R folder1 folder2 -> Rename folder1 as folder2 and all its contents.
+30. mv -i folder/* folder2 -> Move all files and directories from folder to folder2 with prompt before overwrite.
+31. mv -S suffix file1 file2 -> Create backups of file1 and file2 with a specified suffix when overwriting.
+32. mv -u folder1/file folder2 -> Update file in folder2 only when source is newer.
+33. mv -v folder1/file folder2 -> Display verbose output of file moved from folder1 to folder2.
+34. mv -b folder1/* folder2 -> Create backups of all files and directories being overwritten in folder2.
+35. mv -n folder1/file folder2 -> Do not overwrite existing file in folder2.
+36. mv -t folder2 folder1/* -> Move all files and directories from folder1 to folder2.
+37. mv -R folder1/* folder2 -> Move all files and directories from folder1 to folder2 and retain their original names.
+38. mv -u folder1/* folder2 -> Update files and directories in folder2 only when source is newer.
+39. mv -v folder1/* folder2 -> Display verbose output of all files and directories moved from folder1 to folder2.
+40. mv -i folder1/* folder2 -> Prompt before overwriting existing files and directories in folder2.
+41. mv -b -t folder2 folder1/* -> Create backups of all files and directories being overwritten and retain their original names.
+42. mv -v -R folder1/* folder2 -> Display verbose output of all files and directories moved from folder1 to folder2 and retain their original names.
+43. mv -u -i folder1/* folder2 -> Update files and directories in folder2 only when source is newer with prompt before overwrite.
+44. mv -S suffix -b folder1/* folder2 -> Create backups of all files and directories being overwritten with a specified suffix.
+45. mv -v -t folder2 folder1/* -> Display verbose output of all files and directories moved from folder1 to folder2 and retain their original names.
+46. mv -u -b folder1/* folder2 -> Update files and directories in folder2 only when source is newer and create backups of all overwritten files.
+47. mv -i -t folder2 folder1/* -> Prompt before overwriting existing files and directories in folder2 and retain their original names.
+48. mv -n -R folder1/* folder2 -> Do not overwrite existing files and directories in folder2 and retain their original names.
+49. mv -f -t folder2 folder1/* -> Force overwrite existing files and directories in folder2 and retain their original names.
+50. mv -S suffix -t folder2 folder1/* -> Create backups of all files and directories being overwritten with a specified suffix and retain their original names.
+51. mv -p -R folder1/* folder2 -> Preserves original attributes of all files and directories moved from folder1 to folder2.
+52. mv -b -u folder1/file folder2 -> Update file in folder2 only when source is newer and create backups of all overwritten files.
+53. mv -v -n folder1/file folder2 -> Display verbose output of file moved from folder1 to folder2 without overwriting an existing file.
+54. mv -i -b folder1/* folder2 -> Prompt before overwriting and create backups of all overwritten files in folder2.
+55. mv -t folder2/ folder1/* -> Move all files and directories from folder1 to folder2 and retain their original names.
+56. mv -v -f folder1/file folder2 -> Display verbose output of file moved from folder1 to folder2 and force overwrite of existing file.
+57. mv -u -t folder2 folder1/* -> Update files and directories in folder2 only when source is newer and retain their original names.
+58. mv -S suffix -i folder1/* folder2 -> Prompt before overwriting existing files and directories with a specified backup suffix in folder2.
+59. mv -R -b folder1/* folder2 -> Rename all files and directories in folder1 as folder2 and create backups of all overwritten files.
+60. mv -v -S suffix folder1/file folder2 -> Display verbose output of file moved from folder1 to folder2 and create backups of all overwritten files with a specified suffix.
+61. mv -i -t folder2/ folder1/* -> Prompt before overwriting existing files and directories in folder2 and retain their original names.
+62. mv -f -R folder1/* folder2 -> Force overwrite existing files and directories in folder2 and retain their original names.
+63. mv -p -i -t folder2/ folder1/* -> Preserves original attributes of all files and directories moved from folder1 to folder2 with prompt before overwrite.
+64. mv -u -t -i folder1/* folder2 -> Update files and directories in folder2 only when source is newer with prompt before overwrite and retain their original names.
+65. mv -S suffix -n -R folder1/* folder2 -> Do not overwrite existing files and directories in folder2 and retain their original names, but create backups of all overwritten files with a specified suffix.
+66. mv -S suffix -f -t folder2 folder1/* -> Force overwrite existing files and directories in folder2 with a specified suffix and retain their original names.
+67. mv -v -S suffix -t folder2/ folder1/* -> Display verbose output of all files and directories moved from folder1 to folder2 with backups of all overwritten files with a specified suffix and retain their original names.
+68. mv -b -u -i folder1/* folder2 -> Update files and directories in folder2 only when source is newer with prompt before overwrite and create backups of all overwritten files.
+69. mv -n -t folder2/ folder1/* -> Do not overwrite existing files and directories in folder2 and retain their original names.
+70. mv -S suffix -n -t folder2 folder1/* -> Do not overwrite existing files and directories in folder2 with backups of all overwritten files with a specified suffix and retain their original names.
+71. mv -v -n -R folder1/* folder2 -> Display verbose output of all files and directories moved from folder1 to folder2 without overwriting existing files and directories in folder2.
+72. mv -p -v -R folder1/* folder2 -> Preserves original attributes of all files and directories moved from folder1 to folder2 and display verbose output while retaining their original names.
+73. mv -n -i -t folder2/ folder1/* -> Do not overwrite existing files and directories in folder2 with prompt before overwrite and retain their original names.
+74. mv -u -v -n folder1/file folder2 -> Update file in folder2 only when source is newer and display verbose output without overwriting an existing file.
+75. mv -f -b folder1/* folder2 -> Force overwrite existing files and directories and create backups of all overwritten files in folder2.
+76. mv -S suffix -i -R folder1/* folder2 -> Prompt before overwriting and create backups of all files and directories with a specified suffix in folder2.
+77. mv -v -S suffix -i folder1/* folder2 -> Display verbose output of all files and directories moved from folder1 to folder2 with backups of all overwritten files with a specified suffix and prompt before overwrite.
+78. mv -n -u folder1/* folder2 -> Do not overwrite existing files and directories in folder2 and update files and directories only when source is newer.
+79. mv -t -i -R folder1/* folder2 -> Move all files and directories from folder1 to folder2 and retain their original names with prompt before overwrite.
+80. mv -u -t -n folder1/* folder2 -> Update files and directories in folder2 only when source is newer and do not overwrite existing files and directories, but retain their original names.
+81. mv -S suffix -f -R folder1/* folder2 -> Force overwrite existing files and directories with a specified backup suffix in folder2.
+82. mv -v -n -t folder2 folder1/* -> Display verbose output of all files and directories moved from folder1 to folder2 without overwriting existing files and directories in folder2 with prompt before overwrite.
+83. mv -S suffix -i -n folder1/* folder2 -> Do not overwrite existing files and directories in folder2 with backups of all files and directories with a specified suffix in folder1 and prompt before overwrite.
+84. mv -v -p -R folder1/* folder2 -> Display verbose output of all files and directories moved from folder1 to folder2 while preserving their original attributes and retaining their original names.
+85. mv -n -t -i folder1/* folder2 -> Do not overwrite existing files and directories in folder2 with prompt before overwrite and retain their original names.
+86. mv -f -v -t folder2 folder1/* -> Force overwrite existing files and directories in folder2 and display verbose output while retaining their original names.
+87. mv -S suffix -n -i folder1/* folder2 -> Do not overwrite existing files and directories in folder2 with backups of all files and directories with a specified suffix in folder1 and prompt before overwrite.
+88. mv -v -f -i folder1/* folder2 -> Display verbose output of all files and directories moved from folder1 to folder2 with force overwrite and prompt before overwrite.
+89. mv -S suffix -u folder1/file folder2 -> Update file in folder2 only when source is newer and create backups of all overwritten files with a specified suffix.
+90. mv -v -S suffix -t folder2 folder1/* -> Display verbose output of all files and directories moved from folder1 to folder2 with backups of all overwritten files with a specified suffix and retain their original names.
+91. mv -i -u -t folder2 folder1/* -> Update files and directories in folder2 only when source is newer with prompt before overwrite and retain their original names.
+92. mv -b -t -i folder1/* folder2 -> Create backups of all files and directories being overwritten with prompt before overwrite and retain their original names in folder2.
+93. mv -v -f -S suffix folder1/file folder2 -> Display verbose output of file moved from folder1 to folder2 with force overwrite and create backups of all overwritten files with a specified suffix.
+94. mv -u -t -n folder1/file folder2 -> Update file in folder2 only when source is newer and do not overwrite existing file but retain its original name.
+95. mv -f -i -R folder1/* folder2 -> Force overwrite existing files and directories in folder2 with prompt before overwrite and retain their original names.
+96. mv -S suffix -t -i folder1/* folder2 -> Move all files and directories from folder1 to folder2 with backups of all files and directories with a specified suffix and prompt before overwrite.
+97. mv -v -S suffix -n folder1/* folder2 -> Display verbose output of all files and directories moved from folder1 to folder2 without overwriting existing files and directories in folder2 but create backups of all overwritten files with a specified suffix.
+98. mv -n -p -R folder1/* folder2 -> Do not overwrite existing files and directories in folder2 while preserving the original attributes of all files and directories moved from folder1 to folder2, and retain their original names.
+99. mv -i -u -n folder1/* folder2 -> Update files and directories in folder2 only when source is newer with prompt before overwrite and do not overwrite existing files and directories, but retain their original names.
+100. mv -v -u -t folder2/ folder1/* -> Display verbose output of all files and directories moved from folder1 to folder2 with update of files and directories only when source is newer with retention of their original names.

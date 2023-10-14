@@ -1,0 +1,27 @@
+
+
+1. ssh user@hostname -> Connects to the hostname as the user.
+2. ssh -i /path/to/key user@hostname -> Connects to the hostname as the user using the specified key.
+3. ssh -p port user@hostname -> Connects to the hostname as the user on the specified port.
+4. ssh -L local_port:remote_host:remote_port user@hostname -> Connects to the hostname as the user and forwards traffic from the local port to the remote host on the remote port.
+5. ssh -R remote_port:local_host:local_port user@hostname -> Connects to the hostname as the user and forwards traffic from the remote port to the local host on the local port.
+6. ssh -D local_port user@hostname -> Connects to the hostname as the user and creates a SOCKS proxy on the local port.
+7. ssh -X user@hostname -> Connects to the hostname as the user and enables X11 forwarding.
+8. ssh -t user@hostname command -> Connects to the hostname as the user and runs the specified command.
+9. ssh -f user@hostname -> Connects to the hostname as the user and runs in the background.
+10. scp /path/to/local/file user@hostname:/path/to/remote/file -> Copies a file from the local machine to the remote machine.
+11. scp user@hostname:/path/to/remote/file /path/to/local/file -> Copies a file from the remote machine to the local machine.
+12. scp -r /path/to/local/folder user@hostname:/path/to/remote/folder -> Copies a folder from the local machine to the remote machine.
+13. scp -r user@hostname:/path/to/remote/folder /path/to/local/folder -> Copies a folder from the remote machine to the local machine.
+14. scp -P port /path/to/local/file user@hostname:/path/to/remote/file -> Copies a file from the local machine to the remote machine on a specific port.
+15. scp -P port user@hostname:/path/to/remote/file /path/to/local/file -> Copies a file from the remote machine to the local machine on a specific port.
+16. sftp user@hostname -> Connects to an SFTP server on the hostname as the user.
+17. sftp -P port user@hostname -> Connects to an SFTP server on the hostname as the user on a specific port.
+18. sftp> get /path/to/remote/file /path/to/local/file -> Copies a file from the remote machine to the local machine using SFTP.
+19. sftp> put /path/to/local/file /path/to/remote/file -> Copies a file from the local machine to the remote machine using SFTP.
+20. sftp> mget /path/* -> Copies multiple files from the remote machine to the local machine using SFTP.
+21. sftp> mput /path/* -> Copies multiple files from the local machine to the remote machine using SFTP.
+22. rsync /path/to/local/folder user@hostname:/path/to/remote/folder -> Synchronizes a folder from the local machine to the remote machine using rsync.
+23. rsync user@hostname:/path/to/remote/folder /path/to/local/folder -> Synchronizes a folder from the remote machine to the local machine using rsync.
+24. rsync --delete /path/to/local/folder user@hostname:/path/to/remote/folder -> Synchronizes a folder from the local machine to the remote machine using rsync and deletes any files that have been deleted locally.
+25. rsync --delete user@hostname:/path/to/remote/folder /path/to/local/folder -> Synchronizes a folder from the remote machine to the local machine using rsync and deletes any files that have been deleted remotely.

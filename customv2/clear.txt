@@ -1,0 +1,52 @@
+
+
+1. clear -> Clears the terminal screen.
+2. clear ~/Documents -> Clears the contents of the Documents folder.
+3. clear ~/Downloads -> Clears the contents of the Downloads folder.
+4. clear ~/Desktop -> Clears the contents of the Desktop folder.
+5. clear ~/Pictures -> Clears the contents of the Pictures folder.
+6. clear ~/Music -> Clears the contents of the Music folder.
+7. clear ~/Videos -> Clears the contents of the Videos folder.
+8. clear ~/Public -> Clears the contents of the Public folder.
+9. clear ~/Templates -> Clears the contents of the Templates folder.
+10. clear ~/Documents/Projects -> Clears the contents of the Projects folder in Documents.
+11. clear ~/Downloads/Books -> Clears the contents of the Books folder in Downloads.
+12. clear ~/Desktop/Images -> Clears the contents of the Images folder in Desktop.
+13. clear ~/Pictures/Wallpapers -> Clears the contents of the Wallpapers folder in Pictures.
+14. clear ~/Music/Songs -> Clears the contents of the Songs folder in Music.
+15. clear ~/Videos/Movies -> Clears the contents of the Movies folder in Videos.
+16. clear ~/Public/Shared -> Clears the contents of the Shared folder in Public.
+17. clear ~/Templates/Forms -> Clears the contents of the Forms folder in Templates.
+18. clear ~/Documents/Projects/Reports -> Clears the contents of the Reports folder in Projects in Documents.
+19. clear ~/Downloads/Books/Textbooks -> Clears the contents of the Textbooks folder in Books in Downloads.
+20. clear ~/Desktop/Images/Screenshots -> Clears the contents of the Screenshots folder in Images in Desktop.
+21. clear ~/Pictures/Wallpapers/Nature -> Clears the contents of the Nature folder in Wallpapers in Pictures.
+22. clear ~/Music/Songs/Classical -> Clears the contents of the Classical folder in Songs in Music.
+23. clear ~/Videos/Movies/Action -> Clears the contents of the Action folder in Movies in Videos.
+24. clear ~/Public/Shared/Documents -> Clears the contents of the Documents folder in Shared in Public.
+25. clear ~/Templates/Forms/Letters -> Clears the contents of the Letters folder in Forms in Templates.
+26. clear ~/Documents/Projects/Reports/Monthly -> Clears the contents of the Monthly folder in Reports in Projects in Documents.
+27. clear ~/Downloads/Books/Textbooks/Science -> Clears the contents of the Science folder in Textbooks in Books in Downloads.
+28. clear ~/Desktop/Images/Screenshots/Games -> Clears the contents of the Games folder in Screenshots in Images in Desktop.
+29. clear ~/Pictures/Wallpapers/Nature/Mountains -> Clears the contents of the Mountains folder in Nature in Wallpapers in Pictures.
+30. clear ~/Music/Songs/Classical/Operas -> Clears the contents of the Operas folder in Classical in Songs in Music.
+31. clear ~/Videos/Movies/Action/Thrillers -> Clears the contents of the Thrillers folder in Action in Movies in Videos.
+32. clear ~/Public/Shared/Documents/Contracts -> Clears the contents of the Contracts folder in Documents in Shared in Public.
+33. clear ~/Templates/Forms/Letters/Resignation -> Clears the contents of the Resignation folder in Letters in Forms in Templates.
+34. clear ~/Documents/Projects/Reports/Monthly/Financial -> Clears the contents of the Financial folder in Monthly in Reports in Projects in Documents.
+35. clear ~/Downloads/Books/Textbooks/Science/Biology -> Clears the contents of the Biology folder in Science in Textbooks in Books in Downloads.
+36. clear ~/Desktop/Images/Screenshots/Games/Strategy -> Clears the contents of the Strategy folder in Games in Screenshots in Images in Desktop.
+37. clear ~/Pictures/Wallpapers/Nature/Mountains/Snowy -> Clears the contents of the Snowy folder in Mountains in Nature in Wallpapers in Pictures.
+38. clear ~/Music/Songs/Classical/Operas/Verdi -> Clears the contents of the Verdi folder in Operas in Classical in Songs in Music.
+39. clear ~/Videos/Movies/Action/Thrillers/Mystery -> Clears the contents of the Mystery folder in Thrillers in Action in Movies in Videos.
+40. clear ~/Public/Shared/Documents/Contracts/Employment -> Clears the contents of the Employment folder in Contracts in Documents in Shared in Public.
+41. clear ~/Templates/Forms/Letters/Resignation/Formal -> Clears the contents of the Formal folder in Resignation Letters Forms Templates 
+42. clear ~/Documents/Projects/Reports/Monthly/Financial/Budgeting -> Clears the contents of Budgeting folder Financial Monthly Reports Projects Documents 
+43. clear ~/Downloads/Books/Textbooks/Science/Biology/Genetics -> Clears the contents of Genetics folder Biology Science Textbooks Books Downloads 
+44. clear ~/Desktop/Images/Screenshots/Games/Strategy/Chess -> Clears the contents of Chess folder Strategy Games Screenshots Images Desktop 
+45. clear ~/Pictures/Wallpapers/Nature/Mountains/Snowy/Alps -> Clears the contents of Alps folder Snowy Mountains Nature Wallpapers Pictures 
+46. clear ~/Music/Songs/Classical/Operas/Verdi/Rigoletto -> Clears the contents of Rigoletto folder Verdi Operas Classical Songs Music 
+47. clear ~/Videos/Movies/Action/Thrillers/Mystery/Detective -> Clears the contents of Detective folder Mystery Thrillers Action Movies Videos 
+48. clear ~/Public/Shared/Documents/Contracts/Employment /Non-Disclosure -> Clears the contents of Non-Disclosure folder Employment Contracts Documents Shared Public 
+49. clear ~/Templates /Forms /Letters /Resignation /Formal /Business -> Clears Business Folder Formal Resignation Letters Forms Templates 
+50.clear ~/Documents /Projects /Reports /Monthly /Financial /Budgeting /Expenses -> Clears Expenses Folder Budgeting Financial Monthly Reports Projects Documents

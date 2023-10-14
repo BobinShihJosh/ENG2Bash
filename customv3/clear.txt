@@ -1,0 +1,100 @@
+1. clear -> clears screen
+2. clear file1 -> clears contents of file1
+3. clear folder1 file1 -> clears contents of folder1 and file1
+4. clear -x -> clears scrollback buffer
+5. clear -V -> prints version information
+6. clear mydir -> clears contents of mydir
+7. clear mydir/* -> clears contents of all files in mydir
+8. clear -n -> does not clear screen
+9. clear -x file1 -> clears contents of file1 and scrollback buffer
+10. clear mydir/file1 -> clears contents of mydir/file1
+11. clear -q -> does not clear screen or show message
+12. clear -T 3 -> sets timeout to 3 seconds
+13. clear --help -> shows help message
+14. clear -l -> prints number of lines in screen
+15. clear -Z -> tries to clear screen with termcap/terminfo
+16. clear folder1/* folder2/* -> clears contents of all files in folder1 and folder2
+17. clear -h -> shows help message
+18. clear -f -x -> clears screen and scrollback buffer
+19. clear mydir/*.txt -> clears contents of all text files in mydir
+20. clear -x -n -> clears scrollback buffer and does not clear screen
+21. clear -t 5 -> sets timeout to 5 seconds
+22. clear file* -> clears contents of all files starting with 'file'
+23. clear mydir/file* -> clears contents of all files starting with 'file' in mydir
+24. clear -q -n -> does not clear screen or show message
+25. clear mydir/folder/* -> clears contents of all files in folder in mydir
+26. clear -E -> clears screen while retaining current background color
+27. clear -T -> shows terminal type
+28. clear folder* file* -> clears contents of all folders and files starting with 'folder' and 'file'
+29. clear -x -f file1 -> clears contents of file1 and scrollback buffer
+30. clear -t -> shows timeout value
+31. clear mydir/folder1/* mydir/folder2/* -> clears contents of all files in folder1 and folder2 in mydir
+32. clear -V -q -> prints version information and does not clear screen or show message
+33. clear -E -x -> clears screen while retaining current background color and scrollback buffer
+34. clear -T xterm-256color -> sets terminal type to xterm-256color
+35. clear / -> does not clear contents of root directory
+36. clear mydir/*/* -> clears contents of all files in all nested directories in mydir
+37. clear -x -n -f -> clears scrollback buffer and does not clear screen or prompt for confirmation
+38. clear file? -> clears contents of all files with one character after 'file'
+39. clear -q -l -> does not clear screen or show message, prints number of lines in screen
+40. clear folder? folder* file? -> clears contents of all folders and files starting with 'folder' and 'file' with one character after them
+41. clear -t 10 -> sets timeout to 10 seconds
+42. clear -x -t 5 -> clears scrollback buffer and sets timeout to 5 seconds
+43. clear -T vt100 -> sets terminal type to vt100
+44. clear mydir/folder1/folder2/* -> clears contents of all files in folder2 in folder1 in mydir
+45. clear -E -n -> clears screen while retaining current background color and does not clear screen
+46. clear file{1..10} -> clears contents of all files with numbers 1 to 10 after 'file'
+47. clear -l -x -> prints number of lines in screen and clears scrollback buffer
+48. clear --version -> prints version information
+49. clear -Z -x -> tries to clear screen with termcap/terminfo and clears scrollback buffer
+50. clear mydir/folder*/file* -> clears contents of all files starting with 'file' in all folders starting with 'folder' in mydir
+51. clear -f file* -> clears screen and contents of all files starting with 'file'
+52. clear -t -1 -> sets timeout to infinity
+53. clear file!(1) -> clears contents of all files not starting with 'file1'
+54. clear -x -n -l -> clears scrollback buffer and does not clear screen or show message, prints number of lines in screen
+55. clear /dev/null -> clears contents of /dev/null
+56. clear -E -q -> clears screen while retaining current background color and does not clear screen or show message
+57. clear mydir/{folder1, folder2}/* -> clears contents of all files in folder1 and folder2 in mydir
+58. clear -t 0 -> sets timeout to 0 seconds
+59. clear file!(?) -> clears contents of all files not with one character after 'file'
+60. clear -f folder* -> clears screen and contents of all folders starting with 'folder'
+61. clear -n -l -x -> does not clear screen or prompt for confirmation, prints number of lines in screen and clears scrollback buffer
+62. clear /dev/urandom -> does not clear contents of /dev/urandom
+63. clear mydir/*.{txt,doc} -> clears contents of all text and doc files in mydir
+64. clear -T ansi -> sets terminal type to ansi
+65. clear -q -Z -> tries to clear screen with termcap/terminfo and does not clear screen or show message
+66. clear mydir/**/file* -> clears contents of all files starting with 'file' in all nested directories in mydir
+67. clear -t -5 -> sets timeout to -5 seconds
+68. clear file!(*) -> clears contents of all files not with any characters after 'file'
+69. clear mydir/*.{txt,doc} mydir/folder/* -> clears contents of all text and doc files in mydir and all files in folder in mydir
+70. clear -f file1 file2 -> clears screen and contents of file1 and file2
+71. clear -q -x -> clears scrollback buffer and does not clear screen or show message
+72. clear -T ansi-m -> sets terminal type to ansi-m
+73. clear mydir/**/**/file* -> clears contents of all files starting with 'file' in all doubly-nested directories in mydir
+74. clear file*(?) -> clears contents of all files with one non-newline character after 'file'
+75. clear -x -l -n -> clears scrollback buffer and prints number of lines in screen, does not clear screen
+76. clear /dev/zero -> clears contents of /dev/zero
+77. clear mydir/folder*/* -> clears contents of all files in all folders starting with 'folder' in mydir
+78. clear -f file* folder* -> clears screen and contents of all files starting with 'file' and all folders starting with 'folder'
+79. clear -q -Z -x -> tries to clear screen with termcap/terminfo and clears scrollback buffer, does not clear screen or show message
+80. clear -T linux -> sets terminal type to linux
+81. clear file*(*) -> clears contents of all files with any non-newline characters after 'file'
+82. clear -l -n -x -> prints number of lines in screen and does not clear screen or prompt for confirmation, clears scrollback buffer
+83. clear /dev/tty1 -> does not clear contents of /dev/tty1
+84. clear mydir/{folder1/*,folder2/*} -> clears contents of all files in folder1 and folder2 in mydir with the same filename
+85. clear -f folder*/ file* -> clears screen and contents of all folders starting with 'folder' and all files starting with 'file'
+86. clear -l -Z -> tries to clear screen with termcap/terminfo and prints number of lines in screen
+87. clear mydir/**/folder/* -> clears contents of all files in folder in all nested directories in mydir
+88. clear file** -> clears contents of all files starting with 'file' with any number of characters after them
+89. clear -T xterm-r5 -> sets terminal type to xterm-r5
+90. clear -x -n -l -f -> clears scrollback buffer and does not clear screen or prompt for confirmation, prints number of lines in screen and clears contents of all files
+91. clear /dev/full -> clears contents of /dev/full
+92. clear mydir/{folder1/folder2/*,folder3/*} -> clears contents of all files in folder2 in folder1 and all files in folder3 in mydir with the same filename
+93. clear -f file* -x -> clears screen and contents of all files starting with 'file' and scrollback buffer
+94. clear -n -t 5 -> does not clear screen or prompt for confirmation, sets timeout to 5 seconds
+95. clear mydir/folder*[12] -> clears contents of all folders starting with 'folder' and ending with 1 or 2 in mydir
+96. clear -q -Z -n -> tries to clear screen with termcap/terminfo and does not clear screen or show message, does not prompt for confirmation
+97. clear -T dumb -> sets terminal type to dumb
+98. clear /dev/pts/0 -> does not clear contents of /dev/pts/0
+99. clear mydir/**/*2 -> clears contents of all files ending with 2 in all nested directories in mydir
+100. clear -x -q -f folder* -> clears screen and scrollback buffer, does not clear screen or show message, clears contents of all folders starting with 'folder'

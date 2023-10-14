@@ -1,0 +1,102 @@
+print file contents
+print with line numbers
+print with $ at end
+combine files
+Change directory to /home.
+Go up one level.
+Change directory to Documents.
+Return to the previous directory.
+Give everyone full access to file.txt.
+"Give the owner read and execute permissions, and others read-only permissions to directory/."
+Give the owner read and write permissions to file.pdf.
+"Give the owner read, write, and execute permissions to file.png."
+clears screen
+clears contents of file1
+clears contents of folder1 and file1
+clears scrollback buffer
+copies file1 to file2
+copies dir1 to dir2 recursively
+copies file1 to file2 and shows verbose output
+copies file1 to file2 and prompts before overwriting
+List files in current directory
+List including hidden files
+List in long format
+List files by time modified
+"Writes ""Hello World"" to a file named ""greetings.txt""."
+"Writes ""Welcome to Linux"" to a file at the specified directory."
+"Appends ""HELLO"" to the end of ""greetings.txt""."
+"Creates a new file named ""myfile.txt"" with the content ""This is a file""."
+Display environment variables
+Start a clean environment
+Start a shell with USER variable unset
+Edit your crontab file with nano as editor
+Display system memory.
+Display memory in megabytes.
+Display memory in gigabytes.
+Display total and used memory.
+Download file from URL.
+Clone repository.
+Copy file to remote server.
+Retrieve data from API.
+Terminate process 53245
+Send SIGTERM signal to the process named myapp
+Forcefully kill the process using the file at /tmp/file as input
+Send SIGTERM signal to all processes in mydir directory
+List all files.
+List files with details.
+List all files including hidden ones.
+List files sorted by modification time.
+Create directory named mydir
+Create directory named dir1 inside current directory
+Create directory dir1 with subdirectory dir2
+Create directory mydir with permissions set to 775
+"Creates a new temporary file with ""newfile"" prefix."
+"Creates a temporary directory with ""test-dir"" prefix."
+"Creates a new temporary file with ""file"" prefix in the /tmp/ directory."
+Creates a new temporary directory in the /var/tmp/ directory.
+Rename file1 as file2.
+Move file1 to folder.
+Rename folder1 as folder2.
+Move file1 from folder1 to folder2.
+Ping Google.com 5 times
+Ping server.local indefinitely
+Ping 8.8.8.8 through eth0 interface
+Ping 192.168.0.1 10 times
+Move file1 to dir1
+Recursively copy dir1 to dir2
+Copy file1 to /home/user/dir1
+Copy file1 with preserve mode
+Print current directory.
+Print symbolic path.
+Print physical path.
+Print directory path.
+remove a file.
+remove a directory and its contents recursively.
+remove a file forcefully.
+remove a directory and its contents recursively forcefully.
+"Remove directory ""foo""."
+"Remove directory ""bar""."
+"Remove directory ""dir1"" verbosely."
+"Remove directory ""proj1""."
+Connect to host1 with user1
+Generate RSA key pair
+Copy public key to host
+Enable X11 forwarding
+Display status of Documents directory
+Display status of passwd file
+Display status of syslog file
+Display custom status format of file.txt in tmp directory
+Follow symbolic links to display status of syslog file
+Display status of all files in log directory in a terse format
+Display system information.
+"Batch mode, keep updating."
+Command line show.
+Delay between updates.
+create empty file
+create empty directory
+change file access time
+change file modification time
+Display directory tree
+Display hidden files
+Display directories only
+Display one level of directories
